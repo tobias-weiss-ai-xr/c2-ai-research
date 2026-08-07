@@ -1,0 +1,278 @@
+papers:
+- title: 'Deep Reinforcement Learning: An Overview'
+  date: 2017-01
+  url: https://arxiv.org/abs/1701.07274
+  category: deep-reinforcement-learning
+  subcategory: review
+  arxiv_id: '1701.07274'
+  authors:
+  - Yuxi Li
+  abstract: We give an overview of recent exciting achievements of deep reinforcement
+    learning (RL). We discuss six core elements, six important mechanisms, and twelve
+    applications. We start with background of machine learning, deep learning and
+    reinforcement learning. Next we discuss core RL elements, including value function,
+    in particular, Deep Q-Network (DQN), policy, reward, model, planning, and exploration.
+    After that, we discuss important mechanisms for RL, including attention and memory,
+    unsupervised learning, transfer learning, multi-agent RL, hierarchical RL, and
+    learning to learn. Then we discuss various applications of RL, including games,
+    in particular, AlphaGo, robotics, natural language processing, including dialogue
+    systems, machine translation, and text generation, computer vision, neural architecture
+    design, business management, finance, healthcare, Industry 4.0, smart grid, intelligent
+    transportation systems, and computer systems. We mention topics not reviewed yet,
+    and list a collection of RL resources. After presenting a brief summary, we close
+    with discussions. Please see Deep Reinforcement Learning, arXiv:1810.06339, for
+    a significant update.
+- title: Proximal Policy Optimization Algorithms
+  date: 2017-07
+  url: https://arxiv.org/abs/1707.06347
+  category: deep-reinforcement-learning
+  subcategory: method
+  arxiv_id: '1707.06347'
+  authors:
+  - John Schulman
+  - Filip Wolski
+  - Prafulla Dhariwal
+  - Alec Radford
+  - Oleg Klimov
+  abstract: We propose a new family of policy gradient methods for reinforcement learning,
+    which alternate between sampling data through interaction with the environment,
+    and optimizing a "surrogate" objective function using stochastic gradient ascent.
+    Whereas standard policy gradient methods perform one gradient update per data
+    sample, we propose a novel objective function that enables multiple epochs of
+    minibatch updates. The new methods, which we call proximal policy optimization
+    (PPO), have some of the benefits of trust region policy optimization (TRPO), but
+    they are much simpler to implement, more general, and have better sample complexity
+    (empirically). Our experiments test PPO on a collection of benchmark tasks, including
+    simulated robotic locomotion and Atari game playing, and we show that PPO outperforms
+    other online policy gradient methods, and overall strikes a favorable balance
+    between sample complexity, simplicity, and wall-time.
+- title: 'Rainbow: Combining Improvements in Deep Reinforcement Learning'
+  date: 2017-10
+  url: https://arxiv.org/abs/1710.02298
+  category: deep-reinforcement-learning
+  subcategory: systems
+  arxiv_id: '1710.02298'
+  authors:
+  - Matteo Hessel
+  - Joseph Modayil
+  - Hado van Hasselt
+  - Tom Schaul
+  - Georg Ostrovski
+  - Will Dabney
+  - Dan Horgan
+  - Bilal Piot
+  - Mohammad Azar
+  - David Silver
+  abstract: The deep reinforcement learning community has made several independent
+    improvements to the DQN algorithm. However, it is unclear which of these extensions
+    are complementary and can be fruitfully combined. This paper examines six extensions
+    to the DQN algorithm and empirically studies their combination. Our experiments
+    show that the combination provides state-of-the-art performance on the Atari 2600
+    benchmark, both in terms of data efficiency and final performance. We also provide
+    results from a detailed ablation study that shows the contribution of each component
+    to overall performance.
+- title: Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous
+    Control
+  date: 2017-11
+  url: https://arxiv.org/abs/1712.00006
+  category: deep-reinforcement-learning
+  subcategory: evaluation
+  arxiv_id: '1712.00006'
+  authors:
+  - Shangtong Zhang
+  - Osmar R. Zaiane
+  abstract: Reinforcement Learning and the Evolutionary Strategy are two major approaches
+    in addressing complicated control problems. Both are strong contenders and have
+    their own devotee communities. Both groups have been very active in developing
+    new advances in their own domain and devising, in recent years, leading-edge techniques
+    to address complex continuous control tasks. Here, in the context of Deep Reinforcement
+    Learning, we formulate a parallelized version of the Proximal Policy Optimization
+    method and a Deep Deterministic Policy Gradient method. Moreover, we conduct a
+    thorough comparison between the state-of-the-art techniques in both camps fro
+    continuous control; evolutionary methods and Deep Reinforcement Learning methods.
+    The results show there is no consistent winner.
+- title: Emergent Tool Use From Multi-Agent Autocurricula
+  date: 2019-09
+  url: https://arxiv.org/abs/1909.07528
+  category: multi-agent-rl
+  subcategory: mechanism
+  arxiv_id: '1909.07528'
+  authors:
+  - Bowen Baker
+  - Ingmar Kanitscheider
+  - Todor Markov
+  - Yi Wu
+  - Glenn Powell
+  - Bob McGrew
+  - Igor Mordatch
+  abstract: Through multi-agent competition, the simple objective of hide-and-seek,
+    and standard reinforcement learning algorithms at scale, we find that agents create
+    a self-supervised autocurriculum inducing multiple distinct rounds of emergent
+    strategy, many of which require sophisticated tool use and coordination. We find
+    clear evidence of six emergent phases in agent strategy in our environment, each
+    of which creates a new pressure for the opposing team to adapt; for instance,
+    agents learn to build multi-object shelters using moveable boxes which in turn
+    leads to agents discovering that they can overcome obstacles using ramps. We further
+    provide evidence that multi-agent competition may scale better with increasing
+    environment complexity and leads to behavior that centers around far more human-relevant
+    skills than other self-supervised reinforcement learning methods such as intrinsic
+    motivation. Finally, we propose transfer and fine-tuning as a way to quantitatively
+    evaluate targeted capabilities, and we compare hide-and-seek agents to both intrinsic
+    motivation and random initialization baselines in a suite of domain-specific intelligence
+    tests.
+- title: A Survey of Multi-Agent Deep Reinforcement Learning with Communication
+  date: 2022-03
+  url: https://arxiv.org/abs/2203.08975
+  category: multi-agent-rl
+  subcategory: review
+  arxiv_id: '2203.08975'
+  authors:
+  - Changxi Zhu
+  - Mehdi Dastani
+  - Shihan Wang
+  abstract: Communication is an effective mechanism for coordinating the behaviors
+    of multiple agents, broadening their views of the environment, and to support
+    their collaborations. In the field of multi-agent deep reinforcement learning
+    (MADRL), agents can improve the overall learning performance and achieve their
+    objectives by communication. Agents can communicate various types of messages,
+    either to all agents or to specific agent groups, or conditioned on specific constraints.
+    With the growing body of research work in MADRL with communication (Comm-MADRL),
+    there is a lack of a systematic and structural approach to distinguish and classify
+    existing Comm-MADRL approaches. In this paper, we survey recent works in the Comm-MADRL
+    field and consider various aspects of communication that can play a role in designing
+    and developing multi-agent reinforcement learning systems. With these aspects
+    in mind, we propose 9 dimensions along which Comm-MADRL approaches can be analyzed,
+    developed, and compared. By projecting existing works into the multi-dimensional
+    space, we discover interesting trends. We also propose some novel directions for
+    designing future Comm-MADRL systems through exploring possible combinations of
+    the dimensions.
+- title: Hierarchical Reinforcement Learning with Abductive Planning
+  date: 2018-06
+  url: https://arxiv.org/abs/1806.10792
+  category: hierarchical-planning
+  subcategory: method
+  arxiv_id: '1806.10792'
+  authors:
+  - Kazeto Yamamoto
+  - Takashi Onishi
+  - Yoshimasa Tsuruoka
+  abstract: One of the key challenges in applying reinforcement learning to real-life
+    problems is that the amount of train-and-error required to learn a good policy
+    increases drastically as the task becomes complex. One potential solution to this
+    problem is to combine reinforcement learning with automated symbol planning and
+    utilize prior knowledge on the domain. However, existing methods have limitations
+    in their applicability and expressiveness. In this paper we propose a hierarchical
+    reinforcement learning method based on abductive symbolic planning. The planner
+    can deal with user-defined evaluation functions and is not based on the Herbrand
+    theorem. Therefore it can utilize prior knowledge of the rewards and can work
+    in a domain where the state space is unknown. We demonstrate empirically that
+    our architecture significantly improves learning efficiency with respect to the
+    amount of training examples on the evaluation domain, in which the state space
+    is unknown and there exist multiple goals.
+- title: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model
+  date: 2019-11
+  url: https://arxiv.org/abs/1911.08265
+  category: autonomous-decision-making
+  subcategory: theory
+  arxiv_id: '1911.08265'
+  authors:
+  - Julian Schrittwieser
+  - Ioannis Antonoglou
+  - Thomas Hubert
+  - Karen Simonyan
+  - Laurent Sifre
+  - Simon Schmitt
+  - Arthur Guez
+  - Edward Lockhart
+  - Demis Hassabis
+  - Thore Graepel
+  - Timothy Lillicrap
+  - David Silver
+  abstract: 'Constructing agents with planning capabilities has long been one of the
+    main challenges in the pursuit of artificial intelligence. Tree-based planning
+    methods have enjoyed huge success in challenging domains, such as chess and Go,
+    where a perfect simulator is available. However, in real-world problems the dynamics
+    governing the environment are often complex and unknown. In this work we present
+    the MuZero algorithm which, by combining a tree-based search with a learned model,
+    achieves superhuman performance in a range of challenging and visually complex
+    domains, without any knowledge of their underlying dynamics. MuZero learns a model
+    that, when applied iteratively, predicts the quantities most directly relevant
+    to planning: the reward, the action-selection policy, and the value function.
+    When evaluated on 57 different Atari games - the canonical video game environment
+    for testing AI techniques, in which model-based planning approaches have historically
+    struggled - our new algorithm achieved a new state of the art. When evaluated
+    on Go, chess and shogi, without any knowledge of the game rules, MuZero matched
+    the superhuman performance of the AlphaZero algorithm that was supplied with the
+    game rules.'
+- title: Adaptive Game-Theoretic Decision Making for Autonomous Vehicle Control at
+    Roundabouts
+  date: 2018-10
+  url: https://arxiv.org/abs/1810.00829
+  category: decision-support
+  subcategory: application
+  arxiv_id: '1810.00829'
+  authors:
+  - Ran Tian
+  - Sisi Li
+  - Nan Li
+  - Ilya Kolmanovsky
+  - Anouck Girard
+  - Yildiray Yildiz
+  abstract: In this paper, we propose a decision making algorithm for autonomous vehicle
+    control at a roundabout intersection. The algorithm is based on a game-theoretic
+    model representing the interactions between the ego vehicle and an opponent vehicle,
+    and adapts to an online estimated driver type of the opponent vehicle. Simulation
+    results are reported.
+- title: 'On the Evaluation of Military Simulations: Towards A Taxonomy of Assessment
+    Criteria'
+  date: 2020-04
+  url: https://arxiv.org/abs/2004.09340
+  category: military-simulation
+  subcategory: evaluation
+  arxiv_id: '2004.09340'
+  authors:
+  - Mario Golling
+  - Robert Koch
+  - Peter Hillmann
+  - Volker Eiseler
+  - Lars Stiemert
+  - Andres Rekker
+  abstract: In the area of military simulations, a multitude of different approaches
+    is available. Close Combat Tactical Trainer, Joint Tactical Combat Training System,
+    Battle Force Tactical Training or Warfighter's Simulation 2000 are just some examples
+    within the history of the large DoD Development Program in Modelling and Simulation,
+    representing just a small piece of the variety of diverse solutions. Very often,
+    individual simulators are very unique and so it is often difficult to classify
+    military simulations even for experienced users. This circumstance is further
+    boosted due to the fact that in the field of military simulations - unlike in
+    other areas - no general classification for military simulations exists. To address
+    this shortcoming, this publication is dedicated to the idea of providing a first
+    contribution to the development of a commonly accepted taxonomy in the area of
+    military simulations. To this end, the problem field is structured into three
+    main categories (general functional requirements for simulators, special military
+    requirements for simulators and non-functional requirements for simulators). Based
+    upon that, individual categories are provided with appropriate classes. For a
+    better understanding, the taxonomy is also applied to a concrete example (NetLogo
+    Rebellion).
+- title: On Connections between Constrained Optimization and Reinforcement Learning
+  date: 2019-10
+  url: https://arxiv.org/abs/1910.08476
+  category: mathematical-optimization
+  subcategory: theory
+  arxiv_id: '1910.08476'
+  authors:
+  - Nino Vieillard
+  - Olivier Pietquin
+  - Matthieu Geist
+  abstract: Dynamic Programming (DP) provides standard algorithms to solve Markov
+    Decision Processes. However, these algorithms generally do not optimize a scalar
+    objective function. In this paper, we draw connections between DP and (constrained)
+    convex optimization. Specifically, we show clear links in the algorithmic structure
+    between three DP schemes and optimization algorithms. We link Conservative Policy
+    Iteration to Frank-Wolfe, Mirror-Descent Modified Policy Iteration to Mirror Descent,
+    and Politex (Policy Iteration Using Expert Prediction) to Dual Averaging. These
+    abstract DP schemes are representative of a number of (deep) Reinforcement Learning
+    (RL) algorithms. By highlighting these connections (most of which have been noticed
+    earlier, but in a scattered way), we would like to encourage further studies linking
+    RL and convex optimization, that could lead to the design of new, more efficient,
+    and better understood RL algorithms.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research corpus, please cite it as follows."
+title: "C2-AI Research Corpus — Autonomous Decision-Making & Deep RL in Military Simulations"
+type: software
+authors:
+  - family-names: "Weiss"
+    given-names: "Tobias"
+    email: "weissto@hrz.uni-marburg.de"
+keywords:
+  - deep-reinforcement-learning
+  - autonomous-decision-making
+  - military-simulation
+  - decision-support
+  - multi-agent-rl
+license: MIT
+date-released: "2026-08-07"
+version: "0.1.0"

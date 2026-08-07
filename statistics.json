@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "topic": "Autonomous Decision-Making & Deep Reinforcement Learning for Military Simulations",
+    "total_papers": 11,
+    "categories": 14,
+    "aspects": 8,
+    "taxonomy": {
+      "total_cells": 112,
+      "filled_cells": 11,
+      "saturation": 9.8
+    },
+    "time_span": "2017-2022"
+  },
+  "by_category": {
+    "deep-reinforcement-learning": 4,
+    "multi-agent-rl": 2,
+    "hierarchical-planning": 1,
+    "autonomous-decision-making": 1,
+    "decision-support": 1,
+    "military-simulation": 1,
+    "mathematical-optimization": 1
+  },
+  "by_subcategory": {
+    "review": 2,
+    "method": 2,
+    "systems": 1,
+    "evaluation": 2,
+    "mechanism": 1,
+    "theory": 2,
+    "application": 1
+  },
+  "by_year": {
+    "2017": 4,
+    "2019": 3,
+    "2022": 1,
+    "2018": 2,
+    "2020": 1
+  },
+  "by_category_last_12m": {
+    "multi-agent-rl": 1
+  },
+  "cells": [
+    {
+      "category": "autonomous-decision-making",
+      "subcategory": "theory",
+      "count": 1
+    },
+    {
+      "category": "decision-support",
+      "subcategory": "application",
+      "count": 1
+    },
+    {
+      "category": "deep-reinforcement-learning",
+      "subcategory": "evaluation",
+      "count": 1
+    },
+    {
+      "category": "deep-reinforcement-learning",
+      "subcategory": "method",
+      "count": 1
+    },
+    {
+      "category": "deep-reinforcement-learning",
+      "subcategory": "review",
+      "count": 1
+    },
+    {
+      "category": "deep-reinforcement-learning",
+      "subcategory": "systems",
+      "count": 1
+    },
+    {
+      "category": "hierarchical-planning",
+      "subcategory": "method",
+      "count": 1
+    },
+    {
+      "category": "mathematical-optimization",
+      "subcategory": "theory",
+      "count": 1
+    },
+    {
+      "category": "military-simulation",
+      "subcategory": "evaluation",
+      "count": 1
+    },
+    {
+      "category": "multi-agent-rl",
+      "subcategory": "mechanism",
+      "count": 1
+    },
+    {
+      "category": "multi-agent-rl",
+      "subcategory": "review",
+      "count": 1
+    }
+  ]
+}

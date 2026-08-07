@@ -1,0 +1,10 @@
+# Article Brief: adaptive decision-making in simulation
+
+- **Adaptive Game-Theoretic Decision Making for Autonomous Vehicle Control at Roundabouts** (Decision Support / application) — 2018-10 — [1810.00829](https://arxiv.org/abs/1810.00829)
+  In this paper, we propose a decision making algorithm for autonomous vehicle control at a roundabout intersection. The algorithm is based on a game-theoretic model representing the interactions between the ego vehicle and an opponent vehicle, and adapts to an online estimated driver type of the opponent vehicle. Simulation results are…
+
+- **Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model** (Autonomous Decision-Making / theory) — 2019-11 — [1911.08265](https://arxiv.org/abs/1911.08265)
+  Constructing agents with planning capabilities has long been one of the main challenges in the pursuit of artificial intelligence. Tree-based planning methods have enjoyed huge success in challenging domains, such as chess and Go, where a perfect simulator is available. However, in real-world problems the dynamics governing the environment are often complex and unknown. In this work we present the MuZero algorithm which, by combining a tree-based search with a learned model, achieves superhuman performance in a range of challenging and visually complex domains, without any knowledge of their…
+
+- **On the Evaluation of Military Simulations: Towards A Taxonomy of Assessment Criteria** (Military Simulation / evaluation) — 2020-04 — [2004.09340](https://arxiv.org/abs/2004.09340)
+  In the area of military simulations, a multitude of different approaches is available. Close Combat Tactical Trainer, Joint Tactical Combat Training System, Battle Force Tactical Training or Warfighter's Simulation 2000 are just some examples within the history of the large DoD Development Program in Modelling and Simulation, representing just a small piece of the variety of diverse solutions. Very often, individual simulators are very unique and so it is often difficult to classify military simulations even for experienced users. This circumstance is further boosted due to the fact that in…
