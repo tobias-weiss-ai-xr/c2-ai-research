@@ -1,16 +1,25 @@
 #!/usr/bin/env python3
-"""Compute statistics.json and rewrite papers.json from papers.yaml.
+"""Generate statistics.json, papers.json and D3.js visualization data from
+papers.yaml — the enhanced analysis engine adopted from graph-research.
 
-Produces machine-readable statistics used by generate_readme.py and the
-reporting tools.
+Adds, beyond baseline counts:
+  - category momentum (12-month velocity, YoY growth, recent share + score)
+  - category trajectories (per-year counts)
+  - keyword bursts (recent share vs corpus share)
+  - venue & source analytics (arXiv / DOI / other, top publishing venues)
+  - research gaps (thinnest cells + white-space "fast-growing, thin" cells)
+  - top authors
 
 Usage:
     python3 scripts/analysis/generate_analysis.py
 """
 
-import collections
 import json
+import os
+import re
 import sys
+from collections import Counter, defaultdict
+from datetime import datetime
 from pathlib import Path
 
 import yaml
@@ -20,67 +29,298 @@ sys.path.insert(0, str(BASE / "scripts"))
 
 import domain  # noqa: E402
 
+CATEGORY_DISPLAY = domain.CATEGORY_DISPLAY
+CATEGORY_ORDER = list(domain.CATEGORIES)
+SUBCATEGORY_ORDER = list(domain.SUBCATEGORIES)
+SUBCATEGORY_DISPLAY = domain.SUBCATEGORY_DISPLAY
+
+CAT_COLORS = [
+    "#58a6ff", "#3fb950", "#d29922", "#f0883e", "#db6d8a", "#7ee787",
+    "#a5d6ff", "#79c0ff", "#ffa657", "#ff7b72", "#d2a8ff", "#56d4dd",
+    "#b392f0", "#ffc680",
+]
+
+# Keywords tracked for emerging-theme analysis (recent-vs-corpus burst).
+BURST_KEYWORDS = [
+    "agentic", "agent", "reinforcement learning", "deep reinforcement", "rl",
+    "policy gradient", "ppo", "multi-agent", "opponent", "adversarial",
+    "hierarchical", "planning", "mcts", "monte carlo tree search", "wargame",
+    "wargaming", "military", "simulation", "simulator", "command and control",
+    "decision support", "decision-making", "game theory", "optimization",
+    "constrained", "bayesian", "pomdp", "uncertainty", "explainab", "trust",
+    "human", "teaming", "sim-to-real", "domain randomization", "transfer",
+    "offline", "imitation", "benchmark", "real-time", "autonomous",
+]
+
+# Cutoff for "last 12 months" relative to today.
+def _twelve_months_ago(now):
+    y, m = now.year, now.month - 12
+    while m <= 0:
+        y -= 1
+        m += 12
+    return (y, m)
+
+
+def _date_in(datestring, lo, end):
+    """Return True if lo <= date < end (tuple cutoffs)."""
+    if not datestring:
+        return False
+    try:
+        y, m = int(datestring[:4]), int(datestring[5:7])
+        return (y, m) >= lo and (y, m) < end
+    except (ValueError, AttributeError):
+        return False
+
 
 def main():
-    papers = yaml.safe_load((BASE / "papers.yaml").read_text(encoding="utf-8"))["papers"]
+    with open(BASE / "papers.yaml", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    entries = data.get("papers", [])
+    print(f"Parsed {len(entries)} papers")
 
-    by_cat = collections.Counter(p["category"] for p in papers)
-    by_sub = collections.Counter(p["subcategory"] for p in papers)
-    by_year = collections.Counter(p["date"][:4] for p in papers)
-    cells = collections.Counter((p["category"], p["subcategory"]) for p in papers)
+    cat_counter = Counter()
+    subcat_counter = Counter()
+    cell_counter = Counter()
+    year_counter = Counter()
+    pub_dates = []
 
-    years = sorted(by_year)
-    time_span = (years[0] + "-" + years[-1]) if years else ""
+    for e in entries:
+        cat = e.get("category", "unknown")
+        sub = e.get("subcategory", "unknown")
+        cat_counter[cat] += 1
+        subcat_counter[sub] += 1
+        cell = f"{cat}/{sub}"
+        cell_counter[cell] += 1
+        d = e.get("date", "")
+        if d and len(d) >= 7:
+            year_counter[d[:4]] += 1
+            pub_dates.append((d[:7], cat, sub))
+        else:
+            year_counter["unknown"] += 1
 
-    # Last-12-months window (relative to the most recent published date).
-    latest = sorted({p["date"] for p in papers})[-1] if papers else "0000-00"
-    cut = str(int(latest[:4]) - 1)  # include the previous calendar year
-    by_cat_12m = collections.Counter(
-        p["category"] for p in papers if p["date"][:4] >= cut
-    )
+    total = len(entries)
+    total_cells = len(CATEGORY_ORDER) * len(SUBCATEGORY_ORDER)
+    filled_cells = len(cell_counter)
+    saturation = round(filled_cells / total_cells * 100, 1)
 
-    n_cats = len(domain.CATEGORIES)
-    n_subs = len(domain.SUBCATEGORIES)
-    total_cells = n_cats * n_subs
-    filled_cells = len(cells)
+    # ---- Enhanced analysis -------------------------------------------------
+    now = datetime.now()
+    cur_lo = _twelve_months_ago(now)
+    py, pm = cur_lo[0], cur_lo[1] - 12
+    while pm <= 0:
+        py -= 1
+        pm += 12
+    prev_lo = (py, pm)
 
-    # Saturation per aspect-cell depth for reporting
-    depth = {
-        "dense": filled_cells,
-        "saturation": round(filled_cells / total_cells * 100, 1) if total_cells else 0.0,
+    def is_recent(p):
+        return _date_in(p.get("date", ""), cur_lo, (9999, 1))
+
+    def is_prior(p):
+        return _date_in(p.get("date", ""), prev_lo, cur_lo)
+
+    # category momentum
+    cat_traj = {c: Counter() for c in CATEGORY_ORDER}
+    cat_recent = Counter()
+    cat_total = Counter()
+    for e in entries:
+        c = e.get("category", "unknown")
+        if c not in cat_traj:
+            continue
+        d = e.get("date", "")
+        y = d[:4] if d and len(d) >= 4 else "unknown"
+        cat_traj[c][y] += 1
+        cat_total[c] += 1
+        if is_recent(e):
+            cat_recent[c] += 1
+
+    momentum = []
+    for c in CATEGORY_ORDER:
+        t = cat_total[c]
+        r = cat_recent[c]
+        prior = sum(1 for e in entries if e.get("category") == c and is_prior(e))
+        growth_pct = round((r - prior) / prior * 100, 1) if prior > 0 else None
+        recent_share = round(r / t, 3) if t else 0
+        velocity = round(r / 12.0, 1)
+        momentum.append({
+            "id": c,
+            "name": CATEGORY_DISPLAY[c],
+            "total": t,
+            "recent": r,
+            "prior": prior,
+            "growth_pct": growth_pct,
+            "recent_share": recent_share,
+            "papers_per_month": velocity,
+            "score": round(recent_share * 100 + (growth_pct or 0), 1),
+        })
+    momentum.sort(key=lambda m: -m["score"])
+
+    trajectory = {
+        c: {y: cat_traj[c][y] for y in sorted(y for y in cat_traj[c] if y != "unknown")}
+        for c in CATEGORY_ORDER
     }
 
+    # --- keyword bursts (12-month recent vs corpus share) ---
+    def text(p):
+        return f"{p.get('title', '')} {p.get('abstract', '')}".lower()
+
+    kw_total = Counter()
+    kw_recent = Counter()
+    for e in entries:
+        t = text(e)
+        for kw in BURST_KEYWORDS:
+            if kw in t:
+                kw_total[kw] += 1
+                if is_recent(e):
+                    kw_recent[kw] += 1
+    recent_n = sum(1 for e in entries if is_recent(e))
+    bursts = []
+    for kw in BURST_KEYWORDS:
+        r = kw_recent[kw]
+        if r == 0:
+            continue
+        corpus_share = kw_total[kw] / total if total else 0
+        recent_share = r / recent_n if recent_n else 0
+        burst = round(recent_share / corpus_share, 2) if corpus_share > 0 else 99
+        bursts.append({
+            "keyword": kw, "recent": r, "total": kw_total[kw],
+            "burst_score": burst, "recent_share": round(recent_share, 4),
+        })
+    bursts.sort(key=lambda b: (-b["burst_score"], -b["recent"]))
+
+    # --- venue & source analytics ---
+    venue_counter = Counter()
+    for e in entries:
+        v = _url_venue(e.get("venue", ""))
+        if v:
+            venue_counter[v] += 1
+    top_venues = [{"name": v, "papers": n} for v, n in venue_counter.most_common(15)]
+    arxiv_n = sum(1 for e in entries if "arxiv" in e.get("url", ""))
+    doi_n = sum(1 for e in entries if "doi.org" in e.get("url", "") or e.get("url", "").startswith("10."))
+    other_n = total - arxiv_n - doi_n
+    source_breakdown = {"arxiv": arxiv_n, "doi": doi_n, "other": other_n}
+
+    # --- research gaps ---
+    thin = sorted(cell_counter.items(), key=lambda kv: kv[1])[:10]
+    cell_recent = Counter()
+    for e in entries:
+        cell = f"{e.get('category', '')}/{e.get('subcategory', '')}"
+        if is_recent(e):
+            cell_recent[cell] += 1
+    whitespace = []
+    for cell, ct in cell_counter.items():
+        rc = cell_recent[cell]
+        if ct <= 25 and rc >= 3:
+            whitespace.append({
+                "cell": cell, "total": ct, "recent": rc,
+                "recent_share": round(rc / ct, 2),
+            })
+    whitespace.sort(key=lambda w: (-w["recent_share"], -w["recent"]))
+
+    # --- top authors ---
+    author_counter = Counter()
+    for e in entries:
+        for a in e.get("authors", []) or []:
+            if a:
+                author_counter[a] += 1
+    top_authors = [{"name": a, "papers": n} for a, n in author_counter.most_common(15)]
+
+    # ---- statistics.json ---------------------------------------------------
     stats = {
         "metadata": {
             "topic": "Autonomous Decision-Making & Deep Reinforcement Learning "
                      "for Military Simulations",
-            "total_papers": len(papers),
-            "categories": n_cats,
-            "aspects": n_subs,
+            "total_papers": total,
+            "generated_date": max((e.get("date", "") for e in entries if e.get("date")), default=""),
             "taxonomy": {
+                "categories": len(CATEGORY_ORDER),
+                "subcategories": len(SUBCATEGORY_ORDER),
                 "total_cells": total_cells,
                 "filled_cells": filled_cells,
-                "saturation": depth["saturation"],
+                "saturation": saturation,
+                "empty_cells": total_cells - filled_cells,
             },
+            "analysis_window": {"last_12m_start": f"{cur_lo[0]:04d}-{cur_lo[1]:02d}"},
         },
-        "by_category": dict(by_cat),
-        "by_subcategory": dict(by_sub),
-        "by_year": dict(by_year),
-        "by_category_last_12m": dict(by_cat_12m),
-        "cells": [{"category": c, "subcategory": s, "count": n}
-                  for (c, s), n in sorted(cells.items())],
+        "by_category": {c: cat_counter.get(c, 0) for c in CATEGORY_ORDER},
+        "by_subcategory": {s: subcat_counter.get(s, 0) for s in SUBCATEGORY_ORDER},
+        "by_year": {y: year_counter[y] for y in sorted(year_counter, key=lambda x: (x == "unknown", x))},
+        "by_cell": {cell: cell_counter[cell] for cell in sorted(cell_counter, key=lambda c: -cell_counter[c])},
+        "emerging_themes_12m": [{"keyword": b["keyword"], "papers": b["recent"]} for b in bursts[:10]],
+        "momentum": momentum,
+        "category_trajectory": trajectory,
+        "keyword_bursts": bursts[:15],
+        "source_breakdown": source_breakdown,
+        "venues": top_venues,
+        "gaps": {
+            "thinnest_cells": [{"cell": c, "papers": n} for c, n in thin],
+            "white_space": whitespace[:10],
+        },
+        "top_authors": top_authors,
     }
-    stats["metadata"]["time_span"] = time_span
 
-    (BASE / "statistics.json").write_text(
-        json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    # papers.json is rebuilt from papers.yaml to stay in sync.
-    (BASE / "papers.json").write_text(
-        json.dumps({"papers": papers}, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    print(f"stats written: {len(papers)} papers, {filled_cells}/{total_cells} cells "
-          f"({depth['saturation']}% saturated)")
+    with open(BASE / "statistics.json", "w", encoding="utf-8") as f:
+        json.dump(stats, f, indent=2)
+    print(f"Wrote statistics.json ({total} papers, {saturation}% saturation)")
+
+    # ---- papers.json export (newest first) ---------------------------------
+    export = []
+    for e in entries:
+        export.append({
+            "title": e.get("title", ""),
+            "date": e.get("date", ""),
+            "url": e.get("url", ""),
+            "category": e.get("category", ""),
+            "subcategory": e.get("subcategory", ""),
+            "authors": e.get("authors", []),
+            "abstract": e.get("abstract", ""),
+            "tags": e.get("tags", []),
+            "venue": e.get("venue", ""),
+        })
+    export.sort(key=lambda p: p.get("date", ""), reverse=True)
+    with open(BASE / "papers.json", "w", encoding="utf-8") as f:
+        json.dump(export, f, indent=1)
+    print(f"Wrote papers.json ({len(export)} papers)")
+
+    # ---- D3 visualization data ----------------------------------------------
+    cir = defaultdict(int)
+    for date_s, cat, sub in pub_dates:
+        cir[(cat, sub)] += 1
+    viz = {
+        "categories": [
+            {
+                "id": c,
+                "name": CATEGORY_DISPLAY[c],
+                "color": CAT_COLORS[i % len(CAT_COLORS)],
+                "count": cat_counter.get(c, 0),
+                "subcategories": [
+                    {"id": s, "name": SUBCATEGORY_DISPLAY[s], "count": cell_counter.get(f"{c}/{s}", 0)}
+                    for s in SUBCATEGORY_ORDER
+                ],
+                "trajectory": trajectory.get(c, {}),
+                "momentum": next((m for m in momentum if m["id"] == c), None),
+            }
+            for i, c in enumerate(CATEGORY_ORDER)
+        ],
+        "subcategories": [
+            {"id": s, "name": SUBCATEGORY_DISPLAY[s], "count": subcat_counter.get(s, 0)}
+            for s in SUBCATEGORY_ORDER
+        ],
+        "timeline": sorted(pub_dates),
+        "venues": top_venues,
+        "source_breakdown": source_breakdown,
+        "keyword_bursts": bursts[:15],
+    }
+    (BASE / "assets").mkdir(exist_ok=True)
+    with open(BASE / "assets" / "graph_analysis.json", "w", encoding="utf-8") as f:
+        json.dump(viz, f, indent=1)
+    print("Wrote assets/graph_analysis.json")
+
+
+def _url_venue(name):
+    """Normalise a venue string for grouping."""
+    if not name:
+        return ""
+    return re.sub(r" \(Cornell University\)| CERN European Organization for Nuclear", "", name.strip())
 
 
 if __name__ == "__main__":

@@ -1,68 +1,159 @@
-# Literature Review
+# C2-AI Research — Literature Review
 
-Evidence synthesis from the curated seed corpus of autonomous decision-making & deep RL in military simulation environments.
+**Generated:** 2026-08-07  
+**Corpus:** 11 papers across 14 categories
+
+> Synthesis of the autonomous decision-making & deep-RL research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
+
+---
+
+## Corpus Overview
+
+| Rank | Category | Papers |
+|------|----------|--------|
+| 1 | Deep Reinforcement Learning | 4 |
+| 2 | Multi-Agent Reinforcement Learning | 2 |
+| 3 | Hierarchical Planning | 1 |
+| 4 | Autonomous Decision-Making | 1 |
+| 5 | Decision Support | 1 |
+
+**Time span:** 2017–2022 (median year 2019)
+**Dominant aspects:** Reviews & Surveys (2), Method (2), Evaluation & Benchmarks (2)
+
+---
+
+## 📈 Research Momentum (Last 12 Months)
+
+Categories ranked by a momentum score combining recent output density with year-over-year growth.
+
+| Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
+|----------|------:|---------:|----------:|-------:|----------:|----------:|
+| Autonomous Decision-Making | 1 | 0 | 0 | — | 0% | 0.0 |
+| Deep Reinforcement Learning | 4 | 0 | 0 | — | 0% | 0.0 |
+| Multi-Agent Reinforcement Learning | 2 | 0 | 0 | — | 0% | 0.0 |
+| Opponent & Cognitive Modeling | 0 | 0 | 0 | — | 0% | 0.0 |
+| Hierarchical Planning | 1 | 0 | 0 | — | 0% | 0.0 |
+| Military Simulation | 1 | 0 | 0 | — | 0% | 0.0 |
+| Wargaming | 0 | 0 | 0 | — | 0% | 0.0 |
+| Command & Control (C2) | 0 | 0 | 0 | — | 0% | 0.0 |
+| Decision Support | 1 | 0 | 0 | — | 0% | 0.0 |
+| Mathematical Optimization | 1 | 0 | 0 | — | 0% | 0.0 |
+| Probabilistic & Uncertainty Reasoning | 0 | 0 | 0 | — | 0% | 0.0 |
+| Mission Planning | 0 | 0 | 0 | — | 0% | 0.0 |
+| Human–AI Teaming | 0 | 0 | 0 | — | 0% | 0.0 |
+| Simulation-to-Reality Transfer | 0 | 0 | 0 | — | 0% | 0.0 |
+
+---
+
+## 🕳️ Research Gaps & White Space
+
+**Thinnest taxonomy cells:**
+
+| Cell | Papers |
+|------|--------|
+| `deep-reinforcement-learning/review` | 1 |
+| `deep-reinforcement-learning/method` | 1 |
+| `deep-reinforcement-learning/systems` | 1 |
+| `deep-reinforcement-learning/evaluation` | 1 |
+| `multi-agent-rl/mechanism` | 1 |
+| `multi-agent-rl/review` | 1 |
+| `hierarchical-planning/method` | 1 |
+| `autonomous-decision-making/theory` | 1 |
+
+---
 
 
-## Deep Reinforcement Learning
+## Category Insights
 
-- **Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous Control** — 2017-11 — [arXiv](https://arxiv.org/abs/1712.00006) · Shangtong Zhang, Osmar R. Zaiane
+### Deep Reinforcement Learning (`deep-reinforcement-learning`)
 
-  Reinforcement Learning and the Evolutionary Strategy are two major approaches in addressing complicated control problems. Both are strong contenders and have their own devotee communities. Both groups have been very active in developing new advances in their own domain and devising, in recent years, leading-edge …
+DRL is the methodological core of the corpus: value/policy gradients, benchmark algorithms (PPO, DQN/Rainbow) and sample-efficiency methods form the substrate every downstream planning/decision task builds on.
 
-- **Rainbow: Combining Improvements in Deep Reinforcement Learning** — 2017-10 — [arXiv](https://arxiv.org/abs/1710.02298) · Matteo Hessel, Joseph Modayil, Hado van Hasselt, Tom Schaul, Georg Ostrovski, Will Dabney, Dan Horgan, Bilal Piot, Mohammad Azar, David Silver
+**Corpus size:** 4 papers
 
-  The deep reinforcement learning community has made several independent improvements to the DQN algorithm. However, it is unclear which of these extensions are complementary and can be fruitfully combined. This paper examines six extensions to the DQN algorithm and empirically studies their combination. Our experiments …
+**Papers:**
 
-- **Proximal Policy Optimization Algorithms** — 2017-07 — [arXiv](https://arxiv.org/abs/1707.06347) · John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov
+- [2017-11] Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous Control — https://arxiv.org/abs/1712.00006
+- [2017-10] Rainbow: Combining Improvements in Deep Reinforcement Learning — https://arxiv.org/abs/1710.02298
+- [2017-07] Proximal Policy Optimization Algorithms — https://arxiv.org/abs/1707.06347
 
-  We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data …
+---
 
-- **Deep Reinforcement Learning: An Overview** — 2017-01 — [arXiv](https://arxiv.org/abs/1701.07274) · Yuxi Li
+### Multi-Agent Reinforcement Learning (`multi-agent-rl`)
 
-  We give an overview of recent exciting achievements of deep reinforcement learning (RL). We discuss six core elements, six important mechanisms, and twelve applications. We start with background of machine learning, deep learning and reinforcement learning. Next we discuss core RL elements, including value function, …
+Cooperative/competitive multi-agent RL is the bridge from single-agent learning to unit/force-level coordination — the core of adversarial and maneuver scenarios in simulation.
 
+**Corpus size:** 2 papers
 
-## Multi-Agent Reinforcement Learning
+**Papers:**
 
-- **A Survey of Multi-Agent Deep Reinforcement Learning with Communication** — 2022-03 — [arXiv](https://arxiv.org/abs/2203.08975) · Changxi Zhu, Mehdi Dastani, Shihan Wang
+- [2022-03] A Survey of Multi-Agent Deep Reinforcement Learning with Communication — https://arxiv.org/abs/2203.08975
+- [2019-09] Emergent Tool Use From Multi-Agent Autocurricula — https://arxiv.org/abs/1909.07528
 
-  Communication is an effective mechanism for coordinating the behaviors of multiple agents, broadening their views of the environment, and to support their collaborations. In the field of multi-agent deep reinforcement learning (MADRL), agents can improve the overall learning performance and achieve their objectives by …
+---
 
-- **Emergent Tool Use From Multi-Agent Autocurricula** — 2019-09 — [arXiv](https://arxiv.org/abs/1909.07528) · Bowen Baker, Ingmar Kanitscheider, Todor Markov, Yi Wu, Glenn Powell, Bob McGrew, Igor Mordatch
+### Hierarchical Planning (`hierarchical-planning`)
 
-  Through multi-agent competition, the simple objective of hide-and-seek, and standard reinforcement learning algorithms at scale, we find that agents create a self-supervised autocurriculum inducing multiple distinct rounds of emergent strategy, many of which require sophisticated tool use and coordination. We find …
+Hierarchical and abductive planning tackles the combinatorial depth of complex operational tasks by decomposing goals into options and sub-plans.
 
+**Corpus size:** 1 papers
 
-## Hierarchical Planning
+**Papers:**
 
-- **Hierarchical Reinforcement Learning with Abductive Planning** — 2018-06 — [arXiv](https://arxiv.org/abs/1806.10792) · Kazeto Yamamoto, Takashi Onishi, Yoshimasa Tsuruoka
+- [2018-06] Hierarchical Reinforcement Learning with Abductive Planning — https://arxiv.org/abs/1806.10792
 
-  One of the key challenges in applying reinforcement learning to real-life problems is that the amount of train-and-error required to learn a good policy increases drastically as the task becomes complex. One potential solution to this problem is to combine reinforcement learning with automated symbol planning and …
+---
 
+### Autonomous Decision-Making (`autonomous-decision-making`)
 
-## Autonomous Decision-Making
+End-to-end perception-then-action pipelines (e.g. decision transformers, MCTS planners) encode the target capability for autonomous planning and decision-making in high-stakes, partially structured environments.
 
-- **Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model** — 2019-11 — [arXiv](https://arxiv.org/abs/1911.08265) · Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, Timothy Lillicrap, David Silver
+**Corpus size:** 1 papers
 
-  Constructing agents with planning capabilities has long been one of the main challenges in the pursuit of artificial intelligence. Tree-based planning methods have enjoyed huge success in challenging domains, such as chess and Go, where a perfect simulator is available. However, in real-world problems the dynamics …
+**Papers:**
 
+- [2019-11] Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model — https://arxiv.org/abs/1911.08265
 
-## Decision Support
+---
 
-- **Adaptive Game-Theoretic Decision Making for Autonomous Vehicle Control at Roundabouts** — 2018-10 — [arXiv](https://arxiv.org/abs/1810.00829) · Ran Tian, Sisi Li, Nan Li, Ilya Kolmanovsky, Anouck Girard, Yildiray Yildiz
+### Decision Support (`decision-support`)
 
-  In this paper, we propose a decision making algorithm for autonomous vehicle control at a roundabout intersection. The algorithm is based on a game-theoretic model representing the interactions between the ego vehicle and an opponent vehicle, and adapts to an online estimated driver type of the opponent vehicle. …
+Decision support fuses statistics, ML and optimization to augment human decisions — explicitly including recommendation and interpretability for warfighters and operators.
 
+**Corpus size:** 1 papers
 
-## Military Simulation
+**Papers:**
 
-- **On the Evaluation of Military Simulations: Towards A Taxonomy of Assessment Criteria** — 2020-04 — [arXiv](https://arxiv.org/abs/2004.09340) · Mario Golling, Robert Koch, Peter Hillmann, Volker Eiseler, Lars Stiemert, Andres Rekker
+- [2018-10] Adaptive Game-Theoretic Decision Making for Autonomous Vehicle Control at Roundabouts — https://arxiv.org/abs/1810.00829
 
-  In the area of military simulations, a multitude of different approaches is available. Close Combat Tactical Trainer, Joint Tactical Combat Training System, Battle Force Tactical Training or Warfighter's Simulation 2000 are just some examples within the history of the large DoD Development Program in Modelling and …
+---
 
+### Military Simulation (`military-simulation`)
 
-## Mathematical Optimization
+Simulation environments (constructive, game-engine, entity-level) are the training and test bed for RL in military settings; assessment and fidelity criteria matter as much as the learners themselves.
 
-- **On Connections between Constrained Optimization and Reinforcement Learning** — 2019-10 — [arXiv](https://arxiv.org/abs/1910.08476) · Nino Vieillard, Olivier Pietquin, Matthieu Geist
+**Corpus size:** 1 papers
 
-  Dynamic Programming (DP) provides standard algorithms to solve Markov Decision Processes. However, these algorithms generally do not optimize a scalar objective function. In this paper, we draw connections between DP and (constrained) convex optimization. Specifically, we show clear links in the algorithmic structure …
+**Papers:**
+
+- [2020-04] On the Evaluation of Military Simulations: Towards A Taxonomy of Assessment Criteria — https://arxiv.org/abs/2004.09340
+
+---
+
+### Mathematical Optimization (`mathematical-optimization`)
+
+Constrained/convex/DP optimization is the formal bridge between RL objectives and provable mission-planning guarantees.
+
+**Corpus size:** 1 papers
+
+**Papers:**
+
+- [2019-10] On Connections between Constrained Optimization and Reinforcement Learning — https://arxiv.org/abs/1910.08476
+
+---
+
+## Methodology
+
+1. Papers are discovered via taxonomy-aware arXiv/OpenAlex queries and auto-classified into the 14×8 taxonomy.
+2. Category insights above are editorially curated but grounded in corpus statistics.
+3. Regenerate this document with `scripts/analysis/generate_reports.py`.

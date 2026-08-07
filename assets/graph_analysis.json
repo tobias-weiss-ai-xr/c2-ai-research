@@ -1,0 +1,965 @@
+{
+ "categories": [
+  {
+   "id": "autonomous-decision-making",
+   "name": "Autonomous Decision-Making",
+   "color": "#58a6ff",
+   "count": 1,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 1
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {
+    "2019": 1
+   },
+   "momentum": {
+    "id": "autonomous-decision-making",
+    "name": "Autonomous Decision-Making",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "deep-reinforcement-learning",
+   "name": "Deep Reinforcement Learning",
+   "color": "#3fb950",
+   "count": 4,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 1
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 1
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 1
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 1
+    }
+   ],
+   "trajectory": {
+    "2017": 4
+   },
+   "momentum": {
+    "id": "deep-reinforcement-learning",
+    "name": "Deep Reinforcement Learning",
+    "total": 4,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "multi-agent-rl",
+   "name": "Multi-Agent Reinforcement Learning",
+   "color": "#d29922",
+   "count": 2,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 1
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 1
+    }
+   ],
+   "trajectory": {
+    "2019": 1,
+    "2022": 1
+   },
+   "momentum": {
+    "id": "multi-agent-rl",
+    "name": "Multi-Agent Reinforcement Learning",
+    "total": 2,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "opponent-modeling",
+   "name": "Opponent & Cognitive Modeling",
+   "color": "#f0883e",
+   "count": 0,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {},
+   "momentum": {
+    "id": "opponent-modeling",
+    "name": "Opponent & Cognitive Modeling",
+    "total": 0,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0,
+    "papers_per_month": 0.0,
+    "score": 0
+   }
+  },
+  {
+   "id": "hierarchical-planning",
+   "name": "Hierarchical Planning",
+   "color": "#db6d8a",
+   "count": 1,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 1
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {
+    "2018": 1
+   },
+   "momentum": {
+    "id": "hierarchical-planning",
+    "name": "Hierarchical Planning",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "military-simulation",
+   "name": "Military Simulation",
+   "color": "#7ee787",
+   "count": 1,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 1
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {
+    "2020": 1
+   },
+   "momentum": {
+    "id": "military-simulation",
+    "name": "Military Simulation",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "wargaming",
+   "name": "Wargaming",
+   "color": "#a5d6ff",
+   "count": 0,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {},
+   "momentum": {
+    "id": "wargaming",
+    "name": "Wargaming",
+    "total": 0,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0,
+    "papers_per_month": 0.0,
+    "score": 0
+   }
+  },
+  {
+   "id": "command-and-control",
+   "name": "Command & Control (C2)",
+   "color": "#79c0ff",
+   "count": 0,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {},
+   "momentum": {
+    "id": "command-and-control",
+    "name": "Command & Control (C2)",
+    "total": 0,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0,
+    "papers_per_month": 0.0,
+    "score": 0
+   }
+  },
+  {
+   "id": "decision-support",
+   "name": "Decision Support",
+   "color": "#ffa657",
+   "count": 1,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 1
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {
+    "2018": 1
+   },
+   "momentum": {
+    "id": "decision-support",
+    "name": "Decision Support",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "mathematical-optimization",
+   "name": "Mathematical Optimization",
+   "color": "#ff7b72",
+   "count": 1,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 1
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {
+    "2019": 1
+   },
+   "momentum": {
+    "id": "mathematical-optimization",
+    "name": "Mathematical Optimization",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "probabilistic-uncertainty",
+   "name": "Probabilistic & Uncertainty Reasoning",
+   "color": "#d2a8ff",
+   "count": 0,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {},
+   "momentum": {
+    "id": "probabilistic-uncertainty",
+    "name": "Probabilistic & Uncertainty Reasoning",
+    "total": 0,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0,
+    "papers_per_month": 0.0,
+    "score": 0
+   }
+  },
+  {
+   "id": "mission-planning",
+   "name": "Mission Planning",
+   "color": "#56d4dd",
+   "count": 0,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {},
+   "momentum": {
+    "id": "mission-planning",
+    "name": "Mission Planning",
+    "total": 0,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0,
+    "papers_per_month": 0.0,
+    "score": 0
+   }
+  },
+  {
+   "id": "human-ai-teaming",
+   "name": "Human\u2013AI Teaming",
+   "color": "#b392f0",
+   "count": 0,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {},
+   "momentum": {
+    "id": "human-ai-teaming",
+    "name": "Human\u2013AI Teaming",
+    "total": 0,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0,
+    "papers_per_month": 0.0,
+    "score": 0
+   }
+  },
+  {
+   "id": "sim-to-real",
+   "name": "Simulation-to-Reality Transfer",
+   "color": "#ffc680",
+   "count": 0,
+   "subcategories": [
+    {
+     "id": "theory",
+     "name": "Theory",
+     "count": 0
+    },
+    {
+     "id": "mechanism",
+     "name": "Mechanism",
+     "count": 0
+    },
+    {
+     "id": "method",
+     "name": "Method",
+     "count": 0
+    },
+    {
+     "id": "application",
+     "name": "Application",
+     "count": 0
+    },
+    {
+     "id": "development",
+     "name": "Development",
+     "count": 0
+    },
+    {
+     "id": "systems",
+     "name": "Systems & Technology",
+     "count": 0
+    },
+    {
+     "id": "evaluation",
+     "name": "Evaluation & Benchmarks",
+     "count": 0
+    },
+    {
+     "id": "review",
+     "name": "Reviews & Surveys",
+     "count": 0
+    }
+   ],
+   "trajectory": {},
+   "momentum": {
+    "id": "sim-to-real",
+    "name": "Simulation-to-Reality Transfer",
+    "total": 0,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0,
+    "papers_per_month": 0.0,
+    "score": 0
+   }
+  }
+ ],
+ "subcategories": [
+  {
+   "id": "theory",
+   "name": "Theory",
+   "count": 2
+  },
+  {
+   "id": "mechanism",
+   "name": "Mechanism",
+   "count": 1
+  },
+  {
+   "id": "method",
+   "name": "Method",
+   "count": 2
+  },
+  {
+   "id": "application",
+   "name": "Application",
+   "count": 1
+  },
+  {
+   "id": "development",
+   "name": "Development",
+   "count": 0
+  },
+  {
+   "id": "systems",
+   "name": "Systems & Technology",
+   "count": 1
+  },
+  {
+   "id": "evaluation",
+   "name": "Evaluation & Benchmarks",
+   "count": 2
+  },
+  {
+   "id": "review",
+   "name": "Reviews & Surveys",
+   "count": 2
+  }
+ ],
+ "timeline": [
+  [
+   "2017-01",
+   "deep-reinforcement-learning",
+   "review"
+  ],
+  [
+   "2017-07",
+   "deep-reinforcement-learning",
+   "method"
+  ],
+  [
+   "2017-10",
+   "deep-reinforcement-learning",
+   "systems"
+  ],
+  [
+   "2017-11",
+   "deep-reinforcement-learning",
+   "evaluation"
+  ],
+  [
+   "2018-06",
+   "hierarchical-planning",
+   "method"
+  ],
+  [
+   "2018-10",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2019-09",
+   "multi-agent-rl",
+   "mechanism"
+  ],
+  [
+   "2019-10",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2019-11",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2020-04",
+   "military-simulation",
+   "evaluation"
+  ],
+  [
+   "2022-03",
+   "multi-agent-rl",
+   "review"
+  ]
+ ],
+ "venues": [],
+ "source_breakdown": {
+  "arxiv": 11,
+  "doi": 0,
+  "other": 0
+ },
+ "keyword_bursts": []
+}
