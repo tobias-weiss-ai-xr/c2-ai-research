@@ -1,7 +1,7 @@
 # C2-AI Research Corpus
 
 **Evidence base for autonomous decision-making & deep reinforcement learning in
-military simulations** — 11 papers across 14 categories
+military simulations** — 4159 papers across 14 categories
 and 8 research aspects.
 
 **Author:** Tobias Weiss · **License:** MIT (tools) / proprietary (corpus)
@@ -21,11 +21,11 @@ established `*-research` corpora:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 11 |
+| **Papers Analyzed** | 4159 |
 | **Categories** | 14 |
 | **Research Aspects** | 8 |
 | **Taxonomy Cells** | 112 |
-| **Saturation** | 9.8% (11/112 cells) |
+| **Saturation** | 94.6% (106/112 cells) |
 | **Time Span** | – |
 
 ---
@@ -34,33 +34,33 @@ established `*-research` corpora:
 
 | Category | Papers |
 |----------|-------:|
-| Deep Reinforcement Learning | 4 |
-| Multi-Agent Reinforcement Learning | 2 |
-| Autonomous Decision-Making | 1 |
-| Hierarchical Planning | 1 |
-| Military Simulation | 1 |
-| Decision Support | 1 |
-| Mathematical Optimization | 1 |
-| Opponent & Cognitive Modeling | 0 |
-| Wargaming | 0 |
-| Command & Control (C2) | 0 |
-| Probabilistic & Uncertainty Reasoning | 0 |
-| Mission Planning | 0 |
-| Human–AI Teaming | 0 |
-| Simulation-to-Reality Transfer | 0 |
+| Deep Reinforcement Learning | 988 |
+| Autonomous Decision-Making | 582 |
+| Multi-Agent Reinforcement Learning | 448 |
+| Simulation-to-Reality Transfer | 425 |
+| Decision Support | 403 |
+| Probabilistic & Uncertainty Reasoning | 328 |
+| Mathematical Optimization | 259 |
+| Opponent & Cognitive Modeling | 165 |
+| Mission Planning | 145 |
+| Hierarchical Planning | 127 |
+| Military Simulation | 125 |
+| Human–AI Teaming | 96 |
+| Command & Control (C2) | 64 |
+| Wargaming | 4 |
 
 ### Research Aspects (Subcategories)
 
 | Aspect | Papers |
 |--------|-------:|
-| Theory | 2 |
-| Method | 2 |
-| Evaluation & Benchmarks | 2 |
-| Reviews & Surveys | 2 |
-| Mechanism | 1 |
-| Application | 1 |
-| Systems & Technology | 1 |
-| Development | 0 |
+| Application | 1181 |
+| Development | 1115 |
+| Theory | 856 |
+| Systems & Technology | 434 |
+| Mechanism | 243 |
+| Method | 138 |
+| Evaluation & Benchmarks | 105 |
+| Reviews & Surveys | 87 |
 
 ### Distribution by Year
 
@@ -71,6 +71,8 @@ established `*-research` corpora:
 | 2019 | 3 |
 | 2020 | 1 |
 | 2022 | 1 |
+| 2025 | 1228 |
+| 2026 | 2920 |
 
 
 ---
