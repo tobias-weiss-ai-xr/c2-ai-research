@@ -1,7 +1,7 @@
 # C2-AI Research Corpus
 
 **Evidence base for autonomous decision-making & deep reinforcement learning in
-military simulations** — 6081 papers across 14 categories
+military simulations** — 6277 papers across 14 categories
 and 8 research aspects.
 
 **Author:** Tobias Weiss · **License:** MIT (tools) / proprietary (corpus)
@@ -21,11 +21,11 @@ established `*-research` corpora:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 6081 |
+| **Papers Analyzed** | 6277 |
 | **Categories** | 14 |
 | **Research Aspects** | 8 |
 | **Taxonomy Cells** | 112 |
-| **Saturation** | 94.6% (106/112 cells) |
+| **Saturation** | 99.1% (111/112 cells) |
 | **Time Span** | – |
 
 ---
@@ -40,42 +40,62 @@ established `*-research` corpora:
 | Multi-Agent Reinforcement Learning | 448 |
 | Simulation-to-Reality Transfer | 425 |
 | Decision Support | 403 |
-| Command & Control (C2) | 361 |
+| Command & Control (C2) | 401 |
 | Probabilistic & Uncertainty Reasoning | 328 |
 | Mathematical Optimization | 259 |
-| Opponent & Cognitive Modeling | 165 |
+| Opponent & Cognitive Modeling | 176 |
+| Wargaming | 149 |
 | Mission Planning | 145 |
 | Hierarchical Planning | 127 |
 | Military Simulation | 125 |
-| Wargaming | 4 |
 
 ### Research Aspects (Subcategories)
 
 | Aspect | Papers |
 |--------|-------:|
-| Application | 1692 |
-| Development | 1526 |
-| Theory | 1106 |
-| Systems & Technology | 678 |
-| Mechanism | 521 |
-| Reviews & Surveys | 223 |
-| Method | 203 |
-| Evaluation & Benchmarks | 132 |
+| Application | 1769 |
+| Development | 1533 |
+| Theory | 1110 |
+| Systems & Technology | 701 |
+| Mechanism | 524 |
+| Method | 270 |
+| Reviews & Surveys | 237 |
+| Evaluation & Benchmarks | 133 |
 
 ### Distribution by Year
 
 | Year | Papers |
 |------|-------:|
-| 2017 | 4 |
-| 2018 | 2 |
-| 2019 | 3 |
-| 2020 | 1 |
-| 2021 | 60 |
-| 2022 | 179 |
-| 2023 | 280 |
-| 2024 | 365 |
-| 2025 | 1839 |
-| 2026 | 3348 |
+| 1978 | 2 |
+| 1985 | 1 |
+| 1989 | 1 |
+| 1997 | 1 |
+| 1999 | 2 |
+| 2000 | 1 |
+| 2001 | 1 |
+| 2002 | 3 |
+| 2003 | 1 |
+| 2004 | 1 |
+| 2005 | 1 |
+| 2007 | 1 |
+| 2008 | 2 |
+| 2009 | 5 |
+| 2010 | 4 |
+| 2012 | 3 |
+| 2013 | 1 |
+| 2014 | 2 |
+| 2015 | 3 |
+| 2016 | 11 |
+| 2017 | 7 |
+| 2018 | 6 |
+| 2019 | 6 |
+| 2020 | 12 |
+| 2021 | 73 |
+| 2022 | 194 |
+| 2023 | 298 |
+| 2024 | 397 |
+| 2025 | 1866 |
+| 2026 | 3371 |
 
 
 ---

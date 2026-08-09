@@ -1,27 +1,27 @@
 # C2-AI Research Trends (12-Month View)
 
 **Generated:** 2026-08-10  
-**Window:** since 2025-08 — 4826 of 6081 papers
+**Window:** since 2025-08 — 4853 of 6277 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
+| sim-to-real | 270 | 275 | 1.3× |
+| policy gradient | 212 | 217 | 1.3× |
+| combinatorial | 169 | 171 | 1.3× |
+| domain randomization | 104 | 105 | 1.3× |
+| monte carlo tree search | 86 | 88 | 1.3× |
 | mcts | 70 | 70 | 1.3× |
-| wargame | 4 | 4 | 1.3× |
-| reinforcement learning | 2552 | 2788 | 1.2× |
-| optimization | 1247 | 1351 | 1.2× |
-| multi-agent | 801 | 873 | 1.2× |
-| constrained | 502 | 531 | 1.2× |
+| reinforcement learning | 2558 | 2822 | 1.2× |
+| optimization | 1248 | 1356 | 1.2× |
+| benchmark | 1106 | 1212 | 1.2× |
+| multi-agent | 805 | 883 | 1.2× |
+| uncertainty | 524 | 576 | 1.2× |
+| constrained | 502 | 532 | 1.2× |
 | transfer | 464 | 503 | 1.2× |
-| deep reinforcement | 343 | 375 | 1.2× |
-| agentic | 326 | 348 | 1.2× |
-| hierarchical | 322 | 351 | 1.2× |
-| offline | 283 | 301 | 1.2× |
-| sim-to-real | 270 | 275 | 1.2× |
-| model-based | 221 | 236 | 1.2× |
-| policy gradient | 212 | 217 | 1.2× |
-| combinatorial | 169 | 171 | 1.2× |
+| deep reinforcement | 346 | 388 | 1.2× |
+| agentic | 328 | 350 | 1.2× |
 
 ## 📈 Fastest-Growing Cells
 

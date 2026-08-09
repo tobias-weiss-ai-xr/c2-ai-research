@@ -197,7 +197,7 @@
    "id": "opponent-modeling",
    "name": "Opponent & Cognitive Modeling",
    "color": "#f0883e",
-   "count": 165,
+   "count": 176,
    "subcategories": [
     {
      "id": "theory",
@@ -212,12 +212,12 @@
     {
      "id": "method",
      "name": "Method",
-     "count": 7
+     "count": 10
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 23
+     "count": 24
     },
     {
      "id": "development",
@@ -237,23 +237,29 @@
     {
      "id": "review",
      "name": "Reviews & Surveys",
-     "count": 2
+     "count": 9
     }
    ],
    "trajectory": {
-    "2025": 47,
+    "2008": 1,
+    "2009": 1,
+    "2014": 1,
+    "2016": 4,
+    "2022": 2,
+    "2024": 1,
+    "2025": 48,
     "2026": 118
    },
    "momentum": {
     "id": "opponent-modeling",
     "name": "Opponent & Cognitive Modeling",
-    "total": 165,
+    "total": 176,
     "recent": 165,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 1.0,
+    "prior": 1,
+    "growth_pct": 16400.0,
+    "recent_share": 0.938,
     "papers_per_month": 13.8,
-    "score": 100.0
+    "score": 16493.8
    }
   },
   {
@@ -388,70 +394,94 @@
    "id": "wargaming",
    "name": "Wargaming",
    "color": "#a5d6ff",
-   "count": 4,
+   "count": 149,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 1
+     "count": 5
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 0
+     "count": 1
     },
     {
      "id": "method",
      "name": "Method",
-     "count": 0
+     "count": 50
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 2
+     "count": 73
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 0
+     "count": 2
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 0
+     "count": 13
     },
     {
      "id": "evaluation",
      "name": "Evaluation & Benchmarks",
-     "count": 0
+     "count": 1
     },
     {
      "id": "review",
      "name": "Reviews & Surveys",
-     "count": 1
+     "count": 4
     }
    ],
    "trajectory": {
-    "2025": 2,
-    "2026": 2
+    "1978": 2,
+    "1999": 1,
+    "2000": 1,
+    "2002": 1,
+    "2003": 1,
+    "2004": 1,
+    "2005": 1,
+    "2007": 1,
+    "2008": 1,
+    "2009": 3,
+    "2010": 2,
+    "2012": 2,
+    "2013": 1,
+    "2014": 1,
+    "2015": 1,
+    "2016": 6,
+    "2017": 3,
+    "2018": 1,
+    "2019": 3,
+    "2020": 10,
+    "2021": 13,
+    "2022": 9,
+    "2023": 12,
+    "2024": 26,
+    "2025": 25,
+    "2026": 21
    },
    "momentum": {
     "id": "wargaming",
     "name": "Wargaming",
-    "total": 4,
-    "recent": 4,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 1.0,
-    "papers_per_month": 0.3,
-    "score": 100.0
+    "total": 149,
+    "recent": 27,
+    "prior": 22,
+    "growth_pct": 22.7,
+    "recent_share": 0.181,
+    "papers_per_month": 2.2,
+    "score": 40.8
    }
   },
   {
    "id": "command-and-control",
    "name": "Command & Control (C2)",
    "color": "#79c0ff",
-   "count": 361,
+   "count": 401,
    "subcategories": [
     {
      "id": "theory",
@@ -461,27 +491,27 @@
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 27
+     "count": 29
     },
     {
      "id": "method",
      "name": "Method",
-     "count": 13
+     "count": 27
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 112
+     "count": 117
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 86
+     "count": 91
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 68
+     "count": 78
     },
     {
      "id": "evaluation",
@@ -491,27 +521,40 @@
     {
      "id": "review",
      "name": "Reviews & Surveys",
-     "count": 9
+     "count": 13
     }
    ],
    "trajectory": {
+    "1985": 1,
+    "1989": 1,
+    "1997": 1,
+    "1999": 1,
+    "2001": 1,
+    "2002": 2,
+    "2009": 1,
+    "2010": 2,
+    "2012": 1,
+    "2015": 2,
+    "2016": 1,
+    "2018": 3,
+    "2020": 1,
     "2021": 17,
-    "2022": 35,
-    "2023": 53,
-    "2024": 52,
-    "2025": 90,
-    "2026": 114
+    "2022": 39,
+    "2023": 59,
+    "2024": 57,
+    "2025": 93,
+    "2026": 118
    },
    "momentum": {
     "id": "command-and-control",
     "name": "Command & Control (C2)",
-    "total": 361,
-    "recent": 165,
-    "prior": 58,
-    "growth_pct": 184.5,
-    "recent_share": 0.457,
-    "papers_per_month": 13.8,
-    "score": 230.2
+    "total": 401,
+    "recent": 169,
+    "prior": 61,
+    "growth_pct": 177.0,
+    "recent_share": 0.421,
+    "papers_per_month": 14.1,
+    "score": 219.1
    }
   },
   {
@@ -903,49 +946,294 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 1106
+   "count": 1110
   },
   {
    "id": "mechanism",
    "name": "Mechanism",
-   "count": 521
+   "count": 524
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 203
+   "count": 270
   },
   {
    "id": "application",
    "name": "Application",
-   "count": 1692
+   "count": 1769
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 1526
+   "count": 1533
   },
   {
    "id": "systems",
    "name": "Systems & Technology",
-   "count": 678
+   "count": 701
   },
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 132
+   "count": 133
   },
   {
    "id": "review",
    "name": "Reviews & Surveys",
-   "count": 223
+   "count": 237
   }
  ],
  "timeline": [
   [
+   "1978-02",
+   "wargaming",
+   "method"
+  ],
+  [
+   "1978-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "1985-05",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "1989-11",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "1997-04",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "1999-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "1999-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2000-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2001-04",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2002-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2002-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2002-05",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2003-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2004-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2005-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2007-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2008-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2008-04",
+   "opponent-modeling",
+   "application"
+  ],
+  [
+   "2009-01",
+   "command-and-control",
+   "review"
+  ],
+  [
+   "2009-01",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2009-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2009-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2009-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2010-01",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2010-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2010-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2010-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2012-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2012-06",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2012-12",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2013-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2014-01",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2014-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2015-01",
+   "command-and-control",
+   "review"
+  ],
+  [
+   "2015-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2015-06",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2016-01",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2016-01",
+   "opponent-modeling",
+   "review"
+  ],
+  [
+   "2016-01",
+   "opponent-modeling",
+   "review"
+  ],
+  [
+   "2016-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2016-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2016-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2016-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2016-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2016-04",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2016-05",
+   "opponent-modeling",
+   "review"
+  ],
+  [
+   "2016-09",
+   "opponent-modeling",
+   "review"
+  ],
+  [
    "2017-01",
    "deep-reinforcement-learning",
    "review"
+  ],
+  [
+   "2017-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2017-01",
+   "wargaming",
+   "application"
   ],
   [
    "2017-07",
@@ -958,9 +1246,29 @@
    "systems"
   ],
   [
+   "2017-10",
+   "wargaming",
+   "application"
+  ],
+  [
    "2017-11",
    "deep-reinforcement-learning",
    "evaluation"
+  ],
+  [
+   "2018-01",
+   "command-and-control",
+   "mechanism"
+  ],
+  [
+   "2018-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2018-01",
+   "command-and-control",
+   "systems"
   ],
   [
    "2018-06",
@@ -968,8 +1276,28 @@
    "method"
   ],
   [
+   "2018-06",
+   "wargaming",
+   "method"
+  ],
+  [
    "2018-10",
    "decision-support",
+   "application"
+  ],
+  [
+   "2019-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2019-02",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2019-07",
+   "wargaming",
    "application"
   ],
   [
@@ -988,11 +1316,91 @@
    "theory"
   ],
   [
+   "2020-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2020-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2020-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2020-01",
+   "wargaming",
+   "method"
+  ],
+  [
    "2020-04",
    "military-simulation",
    "evaluation"
   ],
   [
+   "2020-08",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2020-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2020-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2020-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2020-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2020-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2020-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2021-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2021-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2021-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2021-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2021-01",
+   "wargaming",
+   "systems"
+  ],
+  [
    "2021-09",
    "command-and-control",
    "application"
@@ -1293,6 +1701,51 @@
    "systems"
   ],
   [
+   "2021-12",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2021-12",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2021-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2021-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2021-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2021-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2021-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2021-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2022-01",
+   "command-and-control",
+   "application"
+  ],
+  [
    "2022-01",
    "command-and-control",
    "application"
@@ -1306,6 +1759,21 @@
    "2022-01",
    "command-and-control",
    "application"
+  ],
+  [
+   "2022-01",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2022-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2022-01",
+   "command-and-control",
+   "systems"
   ],
   [
    "2022-01",
@@ -1356,6 +1824,56 @@
    "2022-01",
    "human-ai-teaming",
    "theory"
+  ],
+  [
+   "2022-01",
+   "opponent-modeling",
+   "review"
+  ],
+  [
+   "2022-01",
+   "opponent-modeling",
+   "review"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2022-01",
+   "wargaming",
+   "systems"
   ],
   [
    "2022-02",
@@ -1508,6 +2026,11 @@
    "review"
   ],
   [
+   "2022-03",
+   "wargaming",
+   "systems"
+  ],
+  [
    "2022-04",
    "command-and-control",
    "application"
@@ -2189,6 +2712,31 @@
   ],
   [
    "2023-01",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2023-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2023-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2023-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2023-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2023-01",
    "human-ai-teaming",
    "application"
   ],
@@ -2276,6 +2824,41 @@
    "2023-01",
    "human-ai-teaming",
    "theory"
+  ],
+  [
+   "2023-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2023-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2023-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2023-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2023-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-01",
+   "wargaming",
+   "systems"
   ],
   [
    "2023-02",
@@ -2366,6 +2949,11 @@
    "2023-02",
    "human-ai-teaming",
    "systems"
+  ],
+  [
+   "2023-02",
+   "wargaming",
+   "method"
   ],
   [
    "2023-03",
@@ -2733,6 +3321,11 @@
    "theory"
   ],
   [
+   "2023-05",
+   "wargaming",
+   "application"
+  ],
+  [
    "2023-06",
    "command-and-control",
    "application"
@@ -2981,6 +3574,11 @@
    "2023-08",
    "command-and-control",
    "review"
+  ],
+  [
+   "2023-08",
+   "command-and-control",
+   "systems"
   ],
   [
    "2023-08",
@@ -3413,6 +4011,11 @@
    "systems"
   ],
   [
+   "2023-11",
+   "wargaming",
+   "method"
+  ],
+  [
    "2023-12",
    "command-and-control",
    "application"
@@ -3588,6 +4191,26 @@
    "theory"
   ],
   [
+   "2023-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2024-01",
+   "command-and-control",
+   "development"
+  ],
+  [
    "2024-01",
    "command-and-control",
    "mechanism"
@@ -3596,6 +4219,16 @@
    "2024-01",
    "command-and-control",
    "mechanism"
+  ],
+  [
+   "2024-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2024-01",
+   "command-and-control",
+   "review"
   ],
   [
    "2024-01",
@@ -3700,6 +4333,81 @@
   [
    "2024-01",
    "human-ai-teaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "mechanism"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "review"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2024-01",
+   "wargaming",
    "theory"
   ],
   [
@@ -4028,6 +4736,11 @@
    "theory"
   ],
   [
+   "2024-03",
+   "wargaming",
+   "development"
+  ],
+  [
    "2024-04",
    "command-and-control",
    "development"
@@ -4168,6 +4881,21 @@
    "theory"
   ],
   [
+   "2024-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "command-and-control",
+   "application"
+  ],
+  [
    "2024-05",
    "command-and-control",
    "application"
@@ -4356,6 +5084,31 @@
    "2024-05",
    "human-ai-teaming",
    "theory"
+  ],
+  [
+   "2024-05",
+   "opponent-modeling",
+   "review"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "method"
   ],
   [
    "2024-06",
@@ -4698,6 +5451,11 @@
    "theory"
   ],
   [
+   "2024-07",
+   "wargaming",
+   "application"
+  ],
+  [
    "2024-08",
    "command-and-control",
    "review"
@@ -5153,6 +5911,11 @@
    "theory"
   ],
   [
+   "2024-10",
+   "wargaming",
+   "method"
+  ],
+  [
    "2024-11",
    "command-and-control",
    "application"
@@ -5413,6 +6176,16 @@
    "theory"
   ],
   [
+   "2024-12",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "method"
+  ],
+  [
    "2025-01",
    "command-and-control",
    "application"
@@ -5431,6 +6204,21 @@
    "2025-01",
    "command-and-control",
    "method"
+  ],
+  [
+   "2025-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2025-01",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2025-01",
+   "command-and-control",
+   "systems"
   ],
   [
    "2025-01",
@@ -5598,6 +6386,76 @@
    "theory"
   ],
   [
+   "2025-01",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "systems"
+  ],
+  [
    "2025-02",
    "command-and-control",
    "application"
@@ -6343,6 +7201,21 @@
    "theory"
   ],
   [
+   "2025-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-04",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2025-05",
    "command-and-control",
    "application"
@@ -6708,6 +7581,16 @@
    "theory"
   ],
   [
+   "2025-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-05",
+   "wargaming",
+   "application"
+  ],
+  [
    "2025-06",
    "command-and-control",
    "application"
@@ -6966,6 +7849,11 @@
    "2025-06",
    "human-ai-teaming",
    "theory"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "application"
   ],
   [
    "2025-07",
@@ -9670,6 +10558,16 @@
   [
    "2025-09",
    "wargaming",
+   "application"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-09",
+   "wargaming",
    "review"
   ],
   [
@@ -11541,6 +12439,11 @@
    "2025-10",
    "sim-to-real",
    "theory"
+  ],
+  [
+   "2025-10",
+   "wargaming",
+   "application"
   ],
   [
    "2025-11",
@@ -14608,6 +15511,11 @@
    "theory"
   ],
   [
+   "2025-12",
+   "wargaming",
+   "method"
+  ],
+  [
    "2026-01",
    "autonomous-decision-making",
    "application"
@@ -14826,6 +15734,21 @@
    "2026-01",
    "command-and-control",
    "mechanism"
+  ],
+  [
+   "2026-01",
+   "command-and-control",
+   "mechanism"
+  ],
+  [
+   "2026-01",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-01",
+   "command-and-control",
+   "review"
   ],
   [
    "2026-01",
@@ -16123,6 +17046,81 @@
    "theory"
   ],
   [
+   "2026-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "evaluation"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "review"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-02",
    "autonomous-decision-making",
    "application"
@@ -17998,6 +18996,11 @@
    "theory"
   ],
   [
+   "2026-02",
+   "wargaming",
+   "review"
+  ],
+  [
    "2026-03",
    "autonomous-decision-making",
    "application"
@@ -19798,6 +20801,11 @@
    "theory"
   ],
   [
+   "2026-03",
+   "wargaming",
+   "method"
+  ],
+  [
    "2026-04",
    "autonomous-decision-making",
    "application"
@@ -25098,6 +26106,16 @@
    "theory"
   ],
   [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "systems"
+  ],
+  [
    "2026-06",
    "autonomous-decision-making",
    "application"
@@ -28676,6 +29694,11 @@
    "2026-07",
    "command-and-control",
    "mechanism"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "systems"
   ],
   [
    "2026-07",
@@ -31348,117 +32371,178 @@
    "theory"
   ]
  ],
- "venues": [],
+ "venues": [
+  {
+   "name": "MED",
+   "papers": 18
+  },
+  {
+   "name": "CoRR",
+   "papers": 9
+  },
+  {
+   "name": "Simulation and Wargaming",
+   "papers": 8
+  },
+  {
+   "name": "Zones of Control",
+   "papers": 6
+  },
+  {
+   "name": "Winning the Uncertainty Game",
+   "papers": 6
+  },
+  {
+   "name": "IEEE Access",
+   "papers": 4
+  },
+  {
+   "name": "PPR",
+   "papers": 3
+  },
+  {
+   "name": "CoG",
+   "papers": 2
+  },
+  {
+   "name": "WSC",
+   "papers": 2
+  },
+  {
+   "name": "KES",
+   "papers": 2
+  },
+  {
+   "name": "Military Affairs",
+   "papers": 2
+  },
+  {
+   "name": "Business Wargaming",
+   "papers": 2
+  },
+  {
+   "name": "Oxford English Dictionary",
+   "papers": 2
+  },
+  {
+   "name": "Technol. Anal. Strateg. Manag.",
+   "papers": 2
+  },
+  {
+   "name": "Int. J. Hum. Comput. Interact.",
+   "papers": 2
+  }
+ ],
  "source_breakdown": {
-  "arxiv": 6081,
-  "doi": 0,
-  "other": 0
+  "arxiv": 6082,
+  "doi": 137,
+  "other": 58
  },
  "keyword_bursts": [
   {
    "keyword": "mcts",
    "recent": 70,
    "total": 70,
-   "burst_score": 1.26,
-   "recent_share": 0.0145
-  },
-  {
-   "keyword": "wargame",
-   "recent": 4,
-   "total": 4,
-   "burst_score": 1.26,
-   "recent_share": 0.0008
+   "burst_score": 1.29,
+   "recent_share": 0.0144
   },
   {
    "keyword": "domain randomization",
    "recent": 104,
    "total": 105,
-   "burst_score": 1.25,
-   "recent_share": 0.0215
+   "burst_score": 1.28,
+   "recent_share": 0.0214
   },
   {
    "keyword": "sim-to-real",
    "recent": 270,
    "total": 275,
-   "burst_score": 1.24,
-   "recent_share": 0.0559
+   "burst_score": 1.27,
+   "recent_share": 0.0556
   },
   {
    "keyword": "policy gradient",
    "recent": 212,
    "total": 217,
-   "burst_score": 1.23,
-   "recent_share": 0.0439
+   "burst_score": 1.26,
+   "recent_share": 0.0437
   },
   {
    "keyword": "monte carlo tree search",
    "recent": 86,
    "total": 88,
-   "burst_score": 1.23,
-   "recent_share": 0.0178
+   "burst_score": 1.26,
+   "recent_share": 0.0177
   },
   {
    "keyword": "pomdp",
    "recent": 129,
    "total": 134,
-   "burst_score": 1.21,
-   "recent_share": 0.0267
-  },
-  {
-   "keyword": "opponent",
-   "recent": 51,
-   "total": 53,
-   "burst_score": 1.21,
-   "recent_share": 0.0106
+   "burst_score": 1.25,
+   "recent_share": 0.0266
   },
   {
    "keyword": "constrained",
    "recent": 502,
-   "total": 531,
-   "burst_score": 1.19,
-   "recent_share": 0.104
+   "total": 532,
+   "burst_score": 1.22,
+   "recent_share": 0.1034
   },
   {
    "keyword": "agentic",
-   "recent": 326,
-   "total": 348,
-   "burst_score": 1.18,
+   "recent": 328,
+   "total": 350,
+   "burst_score": 1.21,
    "recent_share": 0.0676
   },
   {
    "keyword": "offline",
-   "recent": 283,
-   "total": 301,
-   "burst_score": 1.18,
-   "recent_share": 0.0586
+   "recent": 284,
+   "total": 303,
+   "burst_score": 1.21,
+   "recent_share": 0.0585
   },
   {
    "keyword": "optimization",
-   "recent": 1247,
-   "total": 1351,
-   "burst_score": 1.16,
-   "recent_share": 0.2584
-  },
-  {
-   "keyword": "multi-agent",
-   "recent": 801,
-   "total": 873,
-   "burst_score": 1.16,
-   "recent_share": 0.166
+   "recent": 1248,
+   "total": 1356,
+   "burst_score": 1.19,
+   "recent_share": 0.2572
   },
   {
    "keyword": "transfer",
    "recent": 464,
    "total": 503,
-   "burst_score": 1.16,
-   "recent_share": 0.0961
+   "burst_score": 1.19,
+   "recent_share": 0.0956
+  },
+  {
+   "keyword": "benchmark",
+   "recent": 1106,
+   "total": 1212,
+   "burst_score": 1.18,
+   "recent_share": 0.2279
+  },
+  {
+   "keyword": "multi-agent",
+   "recent": 805,
+   "total": 883,
+   "burst_score": 1.18,
+   "recent_share": 0.1659
+  },
+  {
+   "keyword": "uncertainty",
+   "recent": 524,
+   "total": 576,
+   "burst_score": 1.18,
+   "recent_share": 0.108
   },
   {
    "keyword": "hierarchical",
    "recent": 322,
-   "total": 351,
-   "burst_score": 1.16,
-   "recent_share": 0.0667
+   "total": 352,
+   "burst_score": 1.18,
+   "recent_share": 0.0664
   }
  ]
 }

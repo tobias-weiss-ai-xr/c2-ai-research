@@ -33,7 +33,7 @@ Evidence-based topic: 403 curated papers, 402 in the last 12 months.
 
 ## Command And Control
 
-Evidence-based topic: 361 curated papers, 204 in the last 12 months.
+Evidence-based topic: 401 curated papers, 211 in the last 12 months.
 
 
 ## Probabilistic Uncertainty
@@ -48,4 +48,4 @@ Evidence-based topic: 259 curated papers, 258 in the last 12 months.
 
 ## Opponent Modeling
 
-Evidence-based topic: 165 curated papers, 165 in the last 12 months.
+Evidence-based topic: 176 curated papers, 166 in the last 12 months.

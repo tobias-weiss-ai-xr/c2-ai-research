@@ -9028,6 +9028,19 @@
   "venue": ""
  },
  {
+  "title": "Smart Evidence Management: Concept, Design and Evaluation of an AI-Assisted Approach for Automotive SPICE Assessments",
+  "date": "2026-07",
+  "url": "https://doi.org/10.3390/ai7070270",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "R\u00fcdiger Heimg\u00e4rtner"
+  ],
+  "abstract": "Automotive SPICE\u00ae (ASPICE) conformance activities require systematic discovery and evaluation of project documentation against standardised process indicators, consuming an estimated 40\u201360% of assessment preparation time with high extraneous cognitive load. This paper presents Smart Evidence Managem",
+  "tags": [],
+  "venue": "AI"
+ },
+ {
   "title": "Deep RL for Fast Long-Horizon Operations Scheduling on NASA's Carruthers Geocorona Observatory Mission",
   "date": "2026-06",
   "url": "https://arxiv.org/abs/2606.22159v1",
@@ -29194,6 +29207,36 @@
   "venue": ""
  },
  {
+  "title": "Design of Intelligent Decision Agent for Air-Ground Cooperative Air Defense Wargaming Based on Deep Reinforcement Learning",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1109/ccdc69976.2026.11560721",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Pengsong Guo",
+   "Xiaojian Hao",
+   "Haoran Sun"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2026 38th Chinese Control and Decision Conference (CCDC)"
+ },
+ {
+  "title": "From Rules to Reasoning: Evolving Agentic AI for Strategy Synthesis in Multi-Agent Wargaming Environments",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1609/aaaiss.v8i1.42524",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "Amauri Straford",
+   "Anaiya Reliford",
+   "Charles Milligan"
+  ],
+  "abstract": "Contemporary conflict environments are increasingly\ncharacterized by autonomy, decentralization, and rapid\nadaptation. Traditional rule-based artificial intelligence\nsystems struggle to operate effectively in such settings\ndue to their reliance on pre-specified logic and static\nassumptions. Reinforc",
+  "tags": [],
+  "venue": "Proceedings of the AAAI Symposium Series"
+ },
+ {
   "title": "Safe Deep Reinforcement Learning for Building Heating Control and Demand-side Flexibility",
   "date": "2026-04",
   "url": "https://arxiv.org/abs/2604.16033v1",
@@ -39246,6 +39289,20 @@
   "venue": ""
  },
  {
+  "title": "Editors\u2019 introduction: artificial intelligence and strategy\u2014charting new frontiers",
+  "date": "2026-03",
+  "url": "https://doi.org/10.4337/9781035345885.00005",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Felipe A. Csaszar",
+   "Nan Jia"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Handbook of Artificial Intelligence and Strategy"
+ },
+ {
   "title": "ExO-PPO: an Extended Off-policy Proximal Policy Optimization Algorithm",
   "date": "2026-02",
   "url": "https://arxiv.org/abs/2602.09726v1",
@@ -44773,6 +44830,19 @@
   "venue": ""
  },
  {
+  "title": "Evidence-Traceable Systematic Reviews via Adversarial Multi-Agent Reviewers for Ageing Drug Repurposing",
+  "date": "2026-02",
+  "url": "https://doi.org/10.55277/researchhub.1phrr810",
+  "category": "wargaming",
+  "subcategory": "review",
+  "authors": [
+   "Susan (Jiepei) He"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
   "title": "Reinforcement Learning Methods for Neighborhood Selection in Local Search",
   "date": "2026-01",
   "url": "https://arxiv.org/abs/2601.07948v1",
@@ -49229,6 +49299,268 @@
   "venue": ""
  },
  {
+  "title": "Multiobjective Competitive Co-Evolutionary Optimization and Regularity-Based Decision-Making for Two-Agent Wargame Strategy Optimization.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1109/TEVC.2025.3565675",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Evol. Comput."
+ },
+ {
+  "title": "Analog Simulation and the Indian Wars: Encountering the Other Through Board Wargames.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1177/15554120241261513",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Games Cult."
+ },
+ {
+  "title": "Several perspectives on explainable AI in medicine: game theory integrated learning",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/b978-0-44-343852-3.00016-4",
+  "category": "wargaming",
+  "subcategory": "theory",
+  "authors": [
+   "Ali Hamido\u011flu",
+   "Parisa Khaleghi"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Learning-Driven Game Theory for AI"
+ },
+ {
+  "title": "A framework of large language model commander agent for spatial reasoning in combat simulation.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1038/s41598-026-43365-3",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Chen YB",
+   "Ping Y",
+   "Zhou S"
+  ],
+  "abstract": "Large language models (LLMs) demonstrate strong reasoning and planning capabilities in static textual contexts, yet they struggle significantly with dynamic decision-making tasks involving spatial elements, such as point selection in military simulations. These limitations arise from their reduced c",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Mapping the Dissonance Delta: A Diachronic Analysis of Cognitive Friction and Constraint Adherence in Large Language Models",
+  "date": "2026-01",
+  "url": "https://doi.org/10.21203/rs.3.rs-9487834/v1",
+  "category": "wargaming",
+  "subcategory": "development",
+  "authors": [
+   "Fassbender P"
+  ],
+  "abstract": "<title>Abstract</title>  <p>As Large Language Models (LLMs) are increasingly deployed in autonomous, high-stakes environments, the fragility of current Reinforcement Learning from Human Feedback (RLHF) alignment protocols remains under-examined. This study introduces a novel framework within \"Machin",
+  "tags": [],
+  "venue": "PPR"
+ },
+ {
+  "title": "A Systematic Review and Taxonomy of Human-Agent Teaming Testbeds.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1177/00187208251376898",
+  "category": "wargaming",
+  "subcategory": "review",
+  "authors": [
+   "Chung H",
+   "Holder T",
+   "Shah JA"
+  ],
+  "abstract": "ObjectiveWe developed a taxonomy for human-agent teams (HATs) and conducted a literature review of existing HAT testbeds using our proposed taxonomy.BackgroundWith the increasing interest in HATs, numerous research studies in this field have utilized different testbeds. Despite this, there is a lack",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Toward shared situational awareness in human-AI hybrid intelligence: A survey in high-risk aviation environments.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/J.RESS.2026.112363",
+  "category": "command-and-control",
+  "subcategory": "review",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Reliab. Eng. Syst. Saf."
+ },
+ {
+  "title": "Deep Reinforcement Learning in Wargaming.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/jacic/RioSAPSR26",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "J. Aerosp. Inf. Syst."
+ },
+ {
+  "title": "Design of Experiments in Analytical Wargaming: Exploring Agent-Based Simulation Models with Nonlinear Dynamics.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/qre/HotchkissDTF26",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Qual. Reliab. Eng. Int."
+ },
+ {
+  "title": "On the role of intelligence and business wargaming in developing foresight.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/taasm/WerroNB26",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Technol. Anal. Strateg. Manag."
+ },
+ {
+  "title": "From Rules to Reasoning: Evolving Agentic AI for Strategy Synthesis in Multi-Agent Wargaming Environments.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/aaaiss/StrafordRM26",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AAAI Spring Symposia"
+ },
+ {
+  "title": "Research on Methods for Empowering Wargaming System with Large Language Models.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/icic/CuiLZZBZ26",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ICIC"
+ },
+ {
+  "title": "EWACS as a Backbone for Wargaming and Decision Support in the Information Environment.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/itasec/OlivieriGSR26",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ITASEC/SERICS"
+ },
+ {
+  "title": "Architecting the Geopolitical Sandbox: Heterogeneous Multi-Agent Pipelines for Simulating Geopolitical Crisis",
+  "date": "2026-01",
+  "url": "https://doi.org/10.21203/rs.3.rs-9735048/v1",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "Mehmetcik H"
+  ],
+  "abstract": "<title>Abstract</title>  <p>Large Language Models (LLMs) are increasingly deployed in generative wargaming and computational diplomacy, yet current simulations rely predominantly on homogeneous, US-aligned APIs, implicitly treating safety alignment as geopolitically neutral. This study introduces ju",
+  "tags": [],
+  "venue": "PPR"
+ },
+ {
+  "title": "Wargaming for Aircraft Manufacturer Product and Industrial Strategy.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1177/10468781251401426",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "Camelia F",
+   "Smith J",
+   "Marr I"
+  ],
+  "abstract": "<h4>Purpose</h4>Air Transport Systems (ATS) are complex sociotechnical systems with dynamic stakeholder interactions and non-linear relationships. Traditional analytical planning methods often oversimplify these complexities, limiting decision-makers' ability to understand system dynamics. This stud",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Guarding against malicious biased threats (GAMBiT) datasets: Revealing cognitive bias in human-subjects red-team cyber range operations.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/j.dib.2026.112476",
+  "category": "wargaming",
+  "subcategory": "evaluation",
+  "authors": [
+   "Beltz B",
+   "Doty J",
+   "Fonken Y"
+  ],
+  "abstract": "We present datasets from three large-scale human-subject experiments involving red-team hacking in a cyber range in the Guarding Against Malicious Biased Threats (GAMBiT) project. Across Experiments 1-3 (July 2024-March 2025), 19-20 skilled attackers per experiment conducted two 8-hour days of self-",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Causal Learning &amp; Explainable AI for Situational Awareness in Unmanned Aerial Systems.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/cogsima/RawalA26",
+  "category": "command-and-control",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CogSIMA"
+ },
+ {
+  "title": "Digital Twin-based Situation Awareness with AI Agent in Wireless Computing Power Networks.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/icc/FengLWDZZ26",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ICC"
+ },
+ {
   "title": "Hybrid Motion Planning with Deep Reinforcement Learning for Mobile Robot Navigation",
   "date": "2025-12",
   "url": "https://arxiv.org/abs/2512.24651v1",
@@ -53663,6 +53995,17 @@
   "abstract": "People use large language models (LLMs) when they should not. This is partly because they see LLMs compose poems and answer intricate questions, so they understandably, but incorrectly, assume LLMs won't stumble on basic tasks like simple arithmetic. Prior work has tried to address this by clustering instance embeddings into regions where an LLM is likely to fail and automatically describing patterns in these regions. The found failure patterns are taught to users to mitigate their overreliance. Yet, this approach has not fully succeeded. In this analysis paper, we aim to understand why. We first examine whether the negative result stems from the absence of failure patterns. We group instances in two datasets by their meta-labels and evaluate an LLM's predictions on these groups. We then define criteria to flag groups that are sizable and where the LLM is error-prone, and find meta-label groups that meet these criteria. Their meta-labels are the LLM's failure patterns that could be taught to users, so they do exist. We next test whether prompting and embedding-based approaches can surface these known failures. Without this, users cannot be taught about them to reduce their overreliance. We find mixed results across methods, which could explain the negative result. Finally, we revisit the final metric that measures teaching effectiveness. We propose to assess a user's ability to effectively use the given failure patterns to anticipate when an LLM is error-prone. A user study shows a positive effect from teaching with this metric, unlike the human-AI team accuracy. Our findings show that teaching failure patterns could be a viable approach to mitigating overreliance, but success depends on better automated failure-discovery methods and using metrics like ours.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "SocraSynth: Adversarial Multi-LLM Reasoning",
+  "date": "2025-12",
+  "url": "https://doi.org/10.1145/3749421.3749430",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Multi-LLM Agent Collaborative Intelligence"
  },
  {
   "title": "NFQ2.0: The CartPole Benchmark Revisited",
@@ -63730,6 +64073,21 @@
   "venue": ""
  },
  {
+  "title": "Human-Agent Collaborative Wargame Decision-Making Via Reinforcement Learning",
+  "date": "2025-10",
+  "url": "https://doi.org/10.1109/icnsc66229.2025.00020",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Sirui Li",
+   "Xuan Yang",
+   "Zizhuo Xuan"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2025 International Conference on Networking, Sensing and Control (ICNSC)"
+ },
+ {
   "title": "AutoGrid AI: Deep Reinforcement Learning Framework for Autonomous Microgrid Management",
   "date": "2025-09",
   "url": "https://arxiv.org/abs/2509.03666v1",
@@ -68417,6 +68775,36 @@
   "venue": ""
  },
  {
+  "title": "Agent Decision-Making Through Human Visual Attention Prediction and Deep Reinforcement Learning in a Competitive Wargame: An Experimental Study",
+  "date": "2025-09",
+  "url": "https://doi.org/10.1109/jsyst.2025.3603993",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Jiahui Yu",
+   "Yusheng Sun",
+   "Wenting Hu"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Systems Journal"
+ },
+ {
+  "title": "Research on the Adaptability of Offline Reinforcement Learning Algorithms to Wargaming Tasks in a Dual-Operator Scenario",
+  "date": "2025-09",
+  "url": "https://doi.org/10.1109/aivrv67401.2025.11350651",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Rui Hu",
+   "Qingxin Gao",
+   "Zijian Hua"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2025 5th International Conference on Artificial Intelligence, Virtual Reality and Visualization (AIVRV)"
+ },
+ {
   "title": "Learning Game-Playing Agents with Generative Code Optimization",
   "date": "2025-08",
   "url": "https://arxiv.org/abs/2508.19506v1",
@@ -72459,6 +72847,20 @@
   "venue": ""
  },
  {
+  "title": "A Wargame Agent Model Based on Multi-Agent Proximal Policy Optimization Algorithm",
+  "date": "2025-06",
+  "url": "https://doi.org/10.1109/caibda65784.2025.11183301",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Haoyang Su",
+   "Xilu Peng"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2025 5th International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)"
+ },
+ {
   "title": "Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications",
   "date": "2025-05",
   "url": "https://arxiv.org/abs/2505.18371v2",
@@ -73529,6 +73931,34 @@
   "venue": ""
  },
  {
+  "title": "Exploration of Wargaming and AI Applications in Military Decision-Making",
+  "date": "2025-05",
+  "url": "https://doi.org/10.1109/icmt65201.2025.11061360",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Hung-Xin Li"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2025 International Conference on Military Technologies (ICMT)"
+ },
+ {
+  "title": "Design and Application of Intelligent Logistics Wargame System for Teaching",
+  "date": "2025-05",
+  "url": "https://doi.org/10.1145/3756423.3756531",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Wenzheng Wang",
+   "Qi Cao",
+   "Hui Dong"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Proceedings of the 2025 International Conference on Artificial Intelligence and Smart Manufacturing"
+ },
+ {
   "title": "Symbiotic AI: Augmenting Human Cognition from PCs to Cars",
   "date": "2025-04",
   "url": "https://arxiv.org/abs/2504.03105v1",
@@ -74319,6 +74749,43 @@
   "abstract": "Large-scale Language Models (LLMs) have revolutionized human-AI interaction and achieved significant success in the generation of novel ideas. However, current assessments of idea generation overlook crucial factors such as knowledge leakage in LLMs, the absence of open-ended benchmarks with grounded truth, and the limited scope of feasibility analysis constrained by prompt design. These limitations hinder the potential of uncovering groundbreaking research ideas. In this paper, we present AI Idea Bench 2025, a framework designed to quantitatively evaluate and compare the ideas generated by LLMs within the domain of AI research from diverse perspectives. The framework comprises a comprehensive dataset of 3,495 AI papers and their associated inspired works, along with a robust evaluation methodology. This evaluation system gauges idea quality in two dimensions: alignment with the ground-truth content of the original papers and judgment based on general reference material. AI Idea Bench 2025's benchmarking system stands to be an invaluable resource for assessing and comparing idea-generation techniques, thereby facilitating the automation of scientific discovery.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "wargaming, n.",
+  "date": "2025-04",
+  "url": "https://doi.org/10.1093/oed/2254054035",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Oxford English Dictionary"
+ },
+ {
+  "title": "Collaborative decision modeling of multi-agent based on BC-QMIX for air mission wargaming",
+  "date": "2025-04",
+  "url": "https://doi.org/10.1142/s1793962325500321",
+  "category": "wargaming",
+  "subcategory": "theory",
+  "authors": [
+   "Ze Wang",
+   "Ni Li",
+   "Guanghong Gong"
+  ],
+  "abstract": "The existing methods for air mission wargaming autonomous decision-making, such as optimization theory-based and expert systems, often suffer from insufficient real-time performance and high modeling workload. The application of multi-agent reinforcement learning (RL) in autonomous decision-making f",
+  "tags": [],
+  "venue": "International Journal of Modeling, Simulation, and Scientific Computing"
+ },
+ {
+  "title": "wargame, v.",
+  "date": "2025-04",
+  "url": "https://doi.org/10.1093/oed/1098239789",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Oxford English Dictionary"
  },
  {
   "title": "\"New\" Challenges for Future C2: Commanding Soldier-Machine Partnerships",
@@ -76274,6 +76741,253 @@
   "venue": ""
  },
  {
+  "title": "Agent Decision-Making Through Human Visual Attention Prediction and Deep Reinforcement Learning in a Competitive Wargame: An Experimental Study.",
+  "date": "2025-01",
+  "url": "https://doi.org/10.1109/JSYST.2025.3603993",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Syst. J."
+ },
+ {
+  "title": "Human-Agent Collaborative Wargame Decision-Making Via Reinforcement Learning.",
+  "date": "2025-01",
+  "url": "https://doi.org/10.1109/ICNSC66229.2025.00020",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ICNSC"
+ },
+ {
+  "title": "Horizon Scan of Emerging Issues at the Intersection of National Security, Artificial Intelligence, and Human Performance Enhancement.",
+  "date": "2025-01",
+  "url": "https://doi.org/10.1007/s11948-025-00546-z",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Hereth B",
+   "de Boisboissel G",
+   "Bricknell MC"
+  ],
+  "abstract": "Horizon scanning is intended to identify opportunities and threats associated with technology, regulatory, and social change. Here, we report the results of a new horizon scan based on inputs of an international group of 33 participants, focusing on future issues arising from the military use of art",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Modelling Cascading Failure in Complex CPSS to Inform Resilient Mission Assurance: An Intelligent Transport System Case Study.",
+  "date": "2025-01",
+  "url": "https://doi.org/10.3390/e27080793",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Sobb T",
+   "Turnbull B"
+  ],
+  "abstract": "Intelligent transport systems are revolutionising all aspects of modern life, increasing the efficiency of commerce, modern living, and international travel. Intelligent transport systems are systems of systems comprised of cyber, physical, and social nodes. They represent unique opportunities but a",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Towards an AI-enabled Space Battle Management System on Space Protocol's Quantum Resilient Blockchain",
+  "date": "2025-01",
+  "url": "https://doi.org/10.64861/cepu7718",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "Yasir Latif",
+   "Samya Bagchi",
+   "Latha Madhuri Pratti"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AMOS 2025 Technical Papers"
+ },
+ {
+  "title": "Reviewer #2 (Public review): Cortico-striatal action control inherent of opponent cognitive-motivational styles",
+  "date": "2025-01",
+  "url": "https://doi.org/10.7554/elife.100988.2.sa2",
+  "category": "opponent-modeling",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Collaborative decision modeling of multi-agent based on BC-QMIX for air mission wargaming.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/ijmssc/WangLG25",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Int. J. Model. Simul. Sci. Comput."
+ },
+ {
+  "title": "A novel deep cognitive network for battlefield situation awareness in wargaming.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/kbs/PanXMRN25",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Knowl. Based Syst."
+ },
+ {
+  "title": "Work in Progress: Effects of Enforcing International Law on Cyber Conflict Using Wargaming.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/eurosp/MarchildonKG25",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "EuroS&amp;P"
+ },
+ {
+  "title": "Next-generation readiness: applying AI to military simulators and wargaming in Finland.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/kes/SaastamoinenN25",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "KES"
+ },
+ {
+  "title": "Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/metacom/LiuSA25",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "MetaCom"
+ },
+ {
+  "title": "A large-scale distributed parallel discrete event simulation engines based on Warped2 for Wargaming simulation.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2507-18050",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Playing Hex and Counter Wargames using Reinforcement Learning and Recurrent Neural Networks.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2502-13918",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Achievement Motivation and Performance in Wargames: Creativity as a Mediator.",
+  "date": "2025-01",
+  "url": "https://doi.org/10.3390/bs15040557",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Xu W",
+   "Ge S",
+   "Ding D"
+  ],
+  "abstract": "Computer-based wargames provide an experimental platform for studying cognitive antecedents and behavioral outcomes in dynamic scenarios. Our study examines how achievement motivation influence wargame players' performance through the mechanism of creativity. In Study 1, we simplified the achievemen",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Intelligent decision for joint operations based on improved proximal policy optimization.",
+  "date": "2025-01",
+  "url": "https://doi.org/10.1038/s41598-025-86229-y",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Li C",
+   "Dong W",
+   "He L"
+  ],
+  "abstract": "To tackle challenges such as convergence difficulties and suboptimal performance in the application of reinforcement learning to intelligent decision-making for joint operations, this study introduces an enhanced decision-making approach for joint operations utilizing an improved Proximal Policy Opt",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Social botnets and the challenges of cyber situation awareness.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/aiethics/Yadav25",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AI Ethics"
+ },
+ {
+  "title": "Exploring the role of judgement and shared situation awareness when working with AI recommender systems.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/ctw/SrivastavaLF25",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Cogn. Technol. Work."
+ },
+ {
   "title": "Linear Equations with Min and Max Operators: Computational Complexity",
   "date": "2024-12",
   "url": "https://arxiv.org/abs/2412.12228v1",
@@ -76667,6 +77381,36 @@
   "abstract": "This study builds on person perception and human AI interaction (HAII) theories to investigate how content and source cues, specifically race, ethnicity, and nationality, affect judgments of AI-generated content in a high-stakes self-presentation context: college applications. Results of a pre-registered experiment with a nationally representative U.S. sample (N = 644) show that content heuristics, such as linguistic style, played a dominant role in AI detection. Source heuristics, such as nationality, also emerged as a significant factor, with international students more likely to be perceived as using AI, especially when their statements included AI-sounding features. Interestingly, Asian and Hispanic applicants were more likely to be judged as AI users when labeled as domestic students, suggesting interactions between racial stereotypes and AI detection. AI attribution led to lower perceptions of personal statement quality and authenticity, as well as negative evaluations of the applicant's competence, sociability, morality, and future success.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "DS-PPO: A Reinforcement Learning Method for Wargaming",
+  "date": "2024-12",
+  "url": "https://doi.org/10.1109/iccc62609.2024.10942113",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Bo Yu",
+   "Shun Li",
+   "Wei Wang"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2024 10th International Conference on Computer and Communications (ICCC)"
+ },
+ {
+  "title": "Deep Learning Model for Wargame Direct Attack Damage Effect Prediction",
+  "date": "2024-12",
+  "url": "https://doi.org/10.1109/cait64506.2024.10962819",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Lei Xu",
+   "Yang Shi",
+   "Pan Xiong"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2024 5th International Conference on Computers and Artificial Intelligence Technology (CAIT)"
  },
  {
   "title": "Data-Driven Distributed Common Operational Picture from Heterogeneous Platforms using Multi-Agent Reinforcement Learning",
@@ -77605,6 +78349,21 @@
   "abstract": "Memories, encompassing past inputs in context window and retrieval-augmented generation (RAG), frequently surface during human-LLM interactions, yet users are often unaware of their presence and the associated privacy risks. To address this, we propose MemoAnalyzer, a system for identifying, visualizing, and managing private information within memories. A semi-structured interview (N=40) revealed that low privacy awareness was the primary challenge, while proactive privacy control emerged as the most common user need. MemoAnalyzer uses a prompt-based method to infer and identify sensitive information from aggregated past inputs, allowing users to easily modify sensitive content. Background color temperature and transparency are mapped to inference confidence and sensitivity, streamlining privacy adjustments. A 5-day evaluation (N=36) comparing MemoAnalyzer with the default GPT setting and a manual modification baseline showed MemoAnalyzer significantly improved privacy awareness and protection without compromising interaction speed. Our study contributes to privacy-conscious LLM design, offering insights into privacy protection for Human-AI interactions.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Offline Reinforcement Learning with Constrained Hybrid Action Implicit Representation Towards Wargaming Decision-Making",
+  "date": "2024-10",
+  "url": "https://doi.org/10.26599/tst.2023.9010100",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Liwei Dong",
+   "Ni Li",
+   "Guanghong Gong"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Tsinghua Science and Technology"
  },
  {
   "title": "KALIE: Fine-Tuning Vision-Language Models for Open-World Manipulation without Robot Data",
@@ -78937,6 +79696,21 @@
   "venue": ""
  },
  {
+  "title": "A Human-Machine Agent Based on Active Reinforcement Learning for Target Classification in Wargame",
+  "date": "2024-07",
+  "url": "https://doi.org/10.1109/tnnls.2023.3236944",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Li Chen",
+   "Yulong Zhang",
+   "Yanghe Feng"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Transactions on Neural Networks and Learning Systems"
+ },
+ {
   "title": "Expansion of situations theory for exploring shared awareness in human-intelligent autonomous systems",
   "date": "2024-06",
   "url": "https://arxiv.org/abs/2406.04956v1",
@@ -79942,6 +80716,87 @@
   "venue": ""
  },
  {
+  "title": "Conceptualizing Wargaming",
+  "date": "2024-05",
+  "url": "https://doi.org/10.1093/oso/9780197629192.003.0002",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Aggie Hirst"
+  ],
+  "abstract": "Abstract\n               This chapter charts a course through the conceptual quagmire surrounding what a wargame is and can do. It situates wargames in relation to simulations and exercises, showing that important practical, methodological, and epistemological differences are at work. From there, it ",
+  "tags": [],
+  "venue": "Politics of Play"
+ },
+ {
+  "title": "Politics of Play",
+  "date": "2024-05",
+  "url": "https://doi.org/10.1093/oso/9780197629192.001.0001",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Aggie Hirst"
+  ],
+  "abstract": "Abstract\n               Politics of Play: Wargaming with the US Military is the first book in international relations to examine the use of wargames in the world\u2019s most powerful fighting forces. Since 2014, a wargaming renaissance has been under way in which a small but committed wargames community ",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Research on the Construction of Damage Effect Dataset and Data Analysis Based on Wargame Replay Big Data",
+  "date": "2024-05",
+  "url": "https://doi.org/10.1109/icaibd62003.2024.10604521",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Yang Shi"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2024 7th International Conference on Artificial Intelligence and Big Data (ICAIBD)"
+ },
+ {
+  "title": "Space Wargaming",
+  "date": "2024-05",
+  "url": "https://doi.org/10.1201/9781003321811-11",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Larry B. Rainey"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Space System Architecture Analysis and Wargaming"
+ },
+ {
+  "title": "Enhancing Tactical Military Mission Execution through Human-AI Collaboration: A View on Air Battle Management Systems",
+  "date": "2024-05",
+  "url": "https://doi.org/10.1109/ichms59971.2024.10555606",
+  "category": "command-and-control",
+  "subcategory": "application",
+  "authors": [
+   "Lindner Sebastian",
+   "Schulte Axel"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2024 IEEE 4th International Conference on Human-Machine Systems (ICHMS)"
+ },
+ {
+  "title": "Survey of Opponent Modeling: from Game AI to Combat Deduction",
+  "date": "2024-05",
+  "url": "https://doi.org/10.1109/ccdc62350.2024.10588019",
+  "category": "opponent-modeling",
+  "subcategory": "review",
+  "authors": [
+   "Furong Liu",
+   "Tingting Wei",
+   "Zhiheng Zhang"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2024 36th Chinese Control and Decision Conference (CCDC)"
+ },
+ {
   "title": "Empowering Mobility: Brain-Computer Interface for Enhancing Wheelchair Control for Individuals with Physical Disabilities",
   "date": "2024-04",
   "url": "https://arxiv.org/abs/2404.17895v1",
@@ -80352,6 +81207,36 @@
    "Aitziber Atutxa Salazar"
   ],
   "abstract": "Research on language technology for the development of medical applications is currently a hot topic in Natural Language Understanding and Generation. Thus, a number of large language models (LLMs) have recently been adapted to the medical domain, so that they can be used as a tool for mediating in human-AI interaction. While these LLMs display competitive performance on automated medical texts benchmarks, they have been pre-trained and evaluated with a focus on a single language (English mostly). This is particularly true of text-to-text models, which typically require large amounts of domain-specific pre-training data, often not easily accessible for many languages. In this paper, we address these shortcomings by compiling, to the best of our knowledge, the largest multilingual corpus for the medical domain in four languages, namely English, French, Italian and Spanish. This new corpus has been used to train Medical mT5, the first open-source text-to-text multilingual model for the medical domain. Additionally, we present two new evaluation benchmarks for all four languages with the aim of facilitating multilingual research in this domain. A comprehensive evaluation shows that Medical mT5 outperforms both encoders and similarly sized text-to-text models for the Spanish, French, and Italian benchmarks, while being competitive with current state-of-the-art LLMs in English.",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Artificial intelligence (AI)\u2013enabled wargaming agent training",
+  "date": "2024-04",
+  "url": "https://doi.org/10.21079/11681/48419",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Christina Rinuado",
+   "William Leonard",
+   "Christopher Morey"
+  ],
+  "abstract": "Fiscal Year 2021 (FY21) work from the Engineer Research and Development Center Institute for Systems Engineering Research lever-aged deep reinforcement learning to develop intelligent systems (red team agents) capable of exhibiting credible behavior within a military course of action wargaming marit",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Enabling understanding of artificial intelligence (AI) agent wargaming decisions through visualizations",
+  "date": "2024-04",
+  "url": "https://doi.org/10.21079/11681/48418",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Christina Rinaudo",
+   "William Leonard",
+   "Jaylen Hopson"
+  ],
+  "abstract": "The process to develop options for military planning course of action (COA) development and analysis relies on human subject matter expertise. Analyzing COAs requires examining several factors and understanding complex interactions and dependencies associated with actions, reactions, proposed counte",
   "tags": [],
   "venue": ""
  },
@@ -80807,6 +81692,21 @@
   "abstract": "Modern language models, while sophisticated, exhibit some inherent shortcomings, particularly in conversational settings. We claim that many of the observed shortcomings can be attributed to violation of one or more conversational principles. By drawing upon extensive research from both the social science and AI communities, we propose a set of maxims -- quantity, quality, relevance, manner, benevolence, and transparency -- for describing effective human-AI conversation. We first justify the applicability of the first four maxims (from Grice) in the context of human-AI interactions. We then argue that two new maxims, benevolence (concerning the generation of, and engagement with, harmful content) and transparency (concerning recognition of one's knowledge boundaries, operational constraints, and intents), are necessary for addressing behavior unique to modern human-AI interactions. We evaluate the degree to which various language models are able to understand these maxims and find that models possess an internal prioritization of principles that can significantly impact their ability to interpret the maxims accurately.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Applying Deep Reinforcement Learning to Train AI Agents in a Wargaming Framework",
+  "date": "2024-03",
+  "url": "https://doi.org/10.1109/southeastcon52093.2024.10500249",
+  "category": "wargaming",
+  "subcategory": "development",
+  "authors": [
+   "Christina H. Rinaudo",
+   "William B. Leonard",
+   "Jaylen E. Hopson"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "SoutheastCon 2024"
  },
  {
   "title": "Re-Envisioning Command and Control",
@@ -81646,6 +82546,278 @@
   "venue": ""
  },
  {
+  "title": "A Human-Machine Agent Based on Active Reinforcement Learning for Target Classification in Wargame.",
+  "date": "2024-01",
+  "url": "https://doi.org/10.1109/TNNLS.2023.3236944",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Neural Networks Learn. Syst."
+ },
+ {
+  "title": "Human vs. Machine: Behavioral Differences between Expert Humans and Language Models in Wargame Simulations.",
+  "date": "2024-01",
+  "url": "https://doi.org/10.1609/AIES.V7I1.31681",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AIES"
+ },
+ {
+  "title": "Wargaming Climate Change: A Structure for Incorporating Physical and Social Effects into Strategic Military Planning",
+  "date": "2024-01",
+  "url": "https://doi.org/10.7249/pea470-1",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "An adaptive operation planning and EBO-BPNN optimization method for decision support systems.",
+  "date": "2024-01",
+  "url": "https://doi.org/10.1038/s41598-024-72808-y",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Liu Y",
+   "Wang Y",
+   "Li H"
+  ],
+  "abstract": "Formulating a course of action (COA) before a combat is crucial for operational command. Research in command and control (C2) artificial intelligence is currently focused on using intelligent auxiliary decision-making methods to implement COA. This paper proposes a COA planning method based on line ",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Cyber-biological convergence: a systematic review and future outlook.",
+  "date": "2024-01",
+  "url": "https://doi.org/10.3389/fbioe.2024.1456354",
+  "category": "wargaming",
+  "subcategory": "review",
+  "authors": [
+   "Elgabry M",
+   "Johnson S"
+  ],
+  "abstract": "The introduction of the capability to \"program\" a biological system is referred to as Engineered biology and can be compared to the introduction of the internet and the capability of programming a computer. Engineered biology is supported by a digital infrastructure that includes data, data storage,",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Data analysis of tactical wargaming based on data mining.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/jcmse/Wu24a",
+  "category": "wargaming",
+  "subcategory": "mechanism",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "J. Comput. Methods Sci. Eng."
+ },
+ {
+  "title": "Multimodal Threat Evaluation in Simulated Wargaming Environments.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/conf/bigdataconf/VanvolsemBN24",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Big Data"
+ },
+ {
+  "title": "A Tabletop Game to Study Business Wargaming in the P-LEO SATCOM Marketplace.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/conf/cig/QureshiGRMTG24",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoG"
+ },
+ {
+  "title": "Large Language Models in Wargaming: Methodology, Application, and Robustness.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/conf/cvpr/ChenC22a",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CVPR Workshops"
+ },
+ {
+  "title": "Scaling Artificial Intelligence for Digital Wargaming in Support of Decision-Making.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2402-06075",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Scaling Intelligent Agents in Combat Simulations for Wargaming.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2402-06694",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Mastering the Digital Art of War: Developing Intelligent Combat Simulation Agents for Wargaming Using Hierarchical Reinforcement Learning.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2408-13333",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Multiattribute Decision-Making in Wargames Leveraging the Entropy-Weight Method in Conjunction With Deep Reinforcement Learning.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/tciaig/XueSZPZ24",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Games"
+ },
+ {
+  "title": "Intuitionistic Fuzzy MADM in Wargame Leveraging With Deep Reinforcement Learning.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/tfs/SunLLLZ24",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Fuzzy Syst."
+ },
+ {
+  "title": "Might Wargaming be Another Instance Where \u201cAnything You Can Do, AI Can Do Better\u201d?",
+  "date": "2024-01",
+  "url": "https://doi.org/10.20944/preprints202401.1311.v1",
+  "category": "wargaming",
+  "subcategory": "theory",
+  "authors": [
+   "Ellison G",
+   "Shepherd A"
+  ],
+  "abstract": "This article offers a pragmatic &lsquo;epistemology of wargaming&rsquo; which views wargames as immersive &lsquo;thought experiments&rsquo; in which the human players involved use their experiential, empirical, and theoretical knowledge &ndash; together with whatever cognitive models they are able t",
+  "tags": [],
+  "venue": "PPR"
+ },
+ {
+  "title": "Surveying Emerging Network Approaches for Military Command and Control Systems.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/csur/GomesEBLSBWFAF24",
+  "category": "command-and-control",
+  "subcategory": "review",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ACM Comput. Surv."
+ },
+ {
+  "title": "The Effect of AR-HUD Takeover Assistance Types on Driver Situation Awareness in Highly Automated Driving: A 360-Degree Panorama Experiment.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/ijhci/WuZLCHA24",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Int. J. Hum. Comput. Interact."
+ },
+ {
+  "title": "Redefinition of Digital Twin and Its Situation Awareness Framework Designing Toward Fourth Paradigm for Energy Internet of Things.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/tsmc/HeTMATQ24",
+  "category": "command-and-control",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Syst. Man Cybern. Syst."
+ },
+ {
+  "title": "Redefinition of Digital Twin and its Situation Awareness Framework Designing Towards Fourth Paradigm for Energy Internet of Things.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2407-08919",
+  "category": "command-and-control",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
   "title": "LLM-MARS: Large Language Model for Behavior Tree Generation and NLP-enhanced Dialogue in Multi-Agent Robot Systems",
   "date": "2023-12",
   "url": "https://arxiv.org/abs/2312.09348v1",
@@ -82165,6 +83337,35 @@
   "venue": ""
  },
  {
+  "title": "Reinforcement Learning in Cyber Wargaming Defense",
+  "date": "2023-12",
+  "url": "https://doi.org/10.37266/iser.2023v11i1-2.pp60-66",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "D\u2019Andre Tobias",
+   "Joseph Chedzoy",
+   "Joseph Miller"
+  ],
+  "abstract": "In recent decades the necessity for cyber security has grown for both private companies as well as government agencies. This growth is the result of increasing ability for organizations to mount cyber-attacks. As a response, organizations have been developing cyber defense artificial intelligence (A",
+  "tags": [],
+  "venue": "Industrial and Systems Engineering Review"
+ },
+ {
+  "title": "Multi-Robot Heterogeneous Adversarial Coverage",
+  "date": "2023-12",
+  "url": "https://doi.org/10.1109/mrs60187.2023.10416778",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Yair Korngut",
+   "Noa Agmon"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2023 International Symposium on Multi-Robot and Multi-Agent Systems (MRS)"
+ },
+ {
   "title": "Enabling In-Situ Resources Utilisation by leveraging collaborative robotics and astronaut-robot interaction",
   "date": "2023-11",
   "url": "https://arxiv.org/abs/2311.03146v1",
@@ -82440,6 +83641,21 @@
   "abstract": "Human-robot interaction (HRI) has become a crucial enabler in houses and industries for facilitating operational flexibility. When it comes to mobile collaborative robots, this flexibility can be further increased due to the autonomous mobility and navigation capacity of the robotic agents, expanding their workspace and consequently, the personalizable assistance they can provide to the human operators. This however requires that the robot is capable of detecting and identifying the human counterpart in all stages of the collaborative task, and in particular while following a human in crowded workplaces. To respond to this need, we developed a unified perception and navigation framework, which enables the robot to identify and follow a target person using a combination of visual Re-Identification (Re-ID), hand gestures detection, and collision-free navigation. The Re-ID module can autonomously learn the features of a target person and use the acquired knowledge to visually re-identify the target. The navigation stack is used to follow the target avoiding obstacles and other individuals in the environment. Experiments are conducted with few subjects in a laboratory setting where some unknown dynamic obstacles are introduced.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Accelerating wargaming reinforcement learning by dynamic multi-demonstrator ensemble",
+  "date": "2023-11",
+  "url": "https://doi.org/10.1016/j.ins.2023.119534",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Liwei Dong",
+   "Ni Li",
+   "Haitao Yuan"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Information Sciences"
  },
  {
   "title": "An introduction to radar Automatic Target Recognition (ATR) technology in ground-based radar systems",
@@ -83491,6 +84707,21 @@
   "venue": ""
  },
  {
+  "title": "Command and Control Decision Aids for Robotic Autonomous Systems at\n                    the Edge",
+  "date": "2023-08",
+  "url": "https://doi.org/10.4271/2024-01-4092",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "Jonathan Smith",
+   "Derek Warter",
+   "Manuel Aguas"
+  ],
+  "abstract": "&lt;div class=\"section abstract\"&gt;\n                &lt;div class=\"htmlview paragraph\"&gt;Autonomous and robotic platforms have the capability to dramatically increase the\n                    forward soldier\u2019s ability to gather data and project lethal force across\n                    the battlefiel",
+  "tags": [],
+  "venue": "SAE Technical Paper Series"
+ },
+ {
   "title": "Can A Single Human Supervise A Swarm of 100 Heterogeneous Robots?",
   "date": "2023-07",
   "url": "https://arxiv.org/abs/2308.00102v1",
@@ -84509,6 +85740,21 @@
   "venue": ""
  },
  {
+  "title": "A PathFinding Method in Hexagonal Tactical Wargame",
+  "date": "2023-05",
+  "url": "https://doi.org/10.1109/iciba56860.2023.10165503",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Yang Zhang",
+   "Junfeng Zhang",
+   "Juan Wang"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2023 IEEE 3rd International Conference on Information Technology, Big Data and Artificial Intelligence (ICIBA)"
+ },
+ {
   "title": "Regulatory Markets: The Future of AI Governance",
   "date": "2023-04",
   "url": "https://arxiv.org/abs/2304.04914v5",
@@ -85496,6 +86742,21 @@
   "venue": ""
  },
  {
+  "title": "Experimental Wargaming at Sandia National Laboratories",
+  "date": "2023-02",
+  "url": "https://doi.org/10.2172/2431880",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Jason Reinhardt",
+   "Kiran Lakkaraju",
+   "Mikaela Armenta"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Military Operations Research Society Pacific Partners Wargaming Workshop - Honolulu, Hawaii, United States of America - February - 2023"
+ },
+ {
   "title": "Learning Coordination Policies over Heterogeneous Graphs for Human-Robot Teams via Recurrent Neural Schedule Propagation",
   "date": "2023-01",
   "url": "https://arxiv.org/abs/2301.13279v1",
@@ -85755,6 +87016,179 @@
   "abstract": "The conversational nature of chatbots poses challenges to designers since their development is different from other software and requires investigating new practices in the context of human-AI interaction and their impact on user experience. Therefore, this work aims to unveil chatbot conversational practices alongside their impacts on users to build a web guide to support designers while conceiving conversations for chatbots. We have carried out a Systematic Literature Review (SLR) to identify linguist, visual, and interactive elements used in chatbot conversational design. The SLR resulted in 40 selected studies that were reviewed and coded into a set of conversational guidelines that were evaluated through a survey. Respondents strongly agreed that applying the proposed guidelines in chatbot development would induce greater user satisfaction and user engagement and the guide is usable, flexible, clear, and understandable, making it a great ally in building chatbots with an improved user experience.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Self Generated Wargame AI: Double Layer Agent Task Planning Based on Large Language Model.",
+  "date": "2023-01",
+  "url": "https://doi.org/10.48550/ARXIV.2312.01090",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Deep Decision Tree",
+  "date": "2023-01",
+  "url": "https://doi.org/10.1007/978-3-031-32879-4_7",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Taeho Jo"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Deep Learning Foundations"
+ },
+ {
+  "title": "Heterodox modeling: practicing well-tuned provisioning or commoning with networked multi-agent environments.",
+  "date": "2023-01",
+  "url": "https://doi.org/10.1007/s43253-023-00109-7",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "Miyazaki S"
+  ],
+  "abstract": "Market-driven, profit-oriented, mainstream neoclassical economics is increasingly being challenged by alternative approaches such as heterodox economics. This article contributes to broader discussions in this field, especially of social provisioning, and suggests that integrating perspectives from ",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Casualty care implications of large-scale combat operations.",
+  "date": "2023-01",
+  "url": "https://doi.org/10.1097/ta.0000000000004063",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Remondelli MH",
+   "Remick KN",
+   "Shackelford SA"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Correction to: AI Battle Royale",
+  "date": "2023-01",
+  "url": "https://doi.org/10.1007/978-3-031-19278-4_10",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "Ashley Marc Recanati"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Copernicus Books"
+ },
+ {
+  "title": "Accelerating wargaming reinforcement learning by dynamic multi-demonstrator ensemble.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/isci/DongLYG23",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Inf. Sci."
+ },
+ {
+  "title": "Intelligent Decision-Making and Human Language Communication Based on Deep Reinforcement Learning in a Wargame Environment.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/thms/SunYXZYDZ23",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Hum. Mach. Syst."
+ },
+ {
+  "title": "Editorial: Human decision-making in combat situations involving traditional and immersive visual technologies.",
+  "date": "2023-01",
+  "url": "https://doi.org/10.3389/fpsyg.2023.1166115",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Dutt V",
+   "Chandra S"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Agent Teaming Situation Awareness (ATSA): A Situation Awareness Framework for Human-AI Teaming.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2308-16785",
+  "category": "command-and-control",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Situation Awareness of Energy Internet of Things in Smart City Based on Digital Twin: From Digitization to Informatization.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/iotj/HeAWTPQY23",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Internet Things J."
+ },
+ {
+  "title": "Spectrum Situation Awareness for Future Railway IoT: Challenges, Opportunities and Key Technologies.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/network/WuSWCA23",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Netw."
+ },
+ {
+  "title": "Electromagnetic Situation Awareness Based on Improved STFrFT.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/conf/icnc/MingqiuPHP23",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ICNC-FSKD"
  },
  {
   "title": "RL and Fingerprinting to Select Moving Target Defense Mechanisms for Zero-day Attacks in IoT",
@@ -87985,6 +89419,21 @@
   "venue": ""
  },
  {
+  "title": "Research on a Wargaming System for Deep Reinforcement Learning",
+  "date": "2022-03",
+  "url": "https://doi.org/10.1109/icitbs55627.2022.00159",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "Zelong Sun",
+   "Yanfang Fu",
+   "Zijian Cao"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2022 International Conference on Intelligent Transportation, Big Data &amp; Smart City (ICITBS)"
+ },
+ {
   "title": "Robust, Deep, and Reinforcement Learning for Management of Communication and Power Networks",
   "date": "2022-02",
   "url": "https://arxiv.org/abs/2202.05395v1",
@@ -88402,6 +89851,211 @@
   "venue": ""
  },
  {
+  "title": "Modeling of Information Communication Wargame Behavior System Based on Agent Interaction.",
+  "date": "2022-01",
+  "url": "https://doi.org/10.1109/ICISCAE55891.2022.9927653",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ICISCAE"
+ },
+ {
+  "title": "MFSCD* Lite: A situation-based path planning algorithm for agent in wargame.",
+  "date": "2022-01",
+  "url": "https://doi.org/10.1109/ISCSIC57216.2022.00058",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ISCSIC"
+ },
+ {
+  "title": "A Training Model of\u00a0Wargaming Based on\u00a0Imitation Learning and\u00a0Deep Reinforcement Learning",
+  "date": "2022-01",
+  "url": "https://doi.org/10.1007/978-981-19-6203-5_78",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Kangyu Wu",
+   "Mingyu Liu",
+   "Peng Cui"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Lecture Notes in Electrical Engineering"
+ },
+ {
+  "title": "An Expanded Framework for Situation Control.",
+  "date": "2022-01",
+  "url": "https://doi.org/10.3389/fnsys.2022.796100",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Llinas J",
+   "Malhotra R"
+  ],
+  "abstract": "There is an extensive body of literature on the topic of estimating situational states, in applications ranging from cyber-defense to military operations to traffic situations and autonomous cars. In the military/defense/intelligence literature, situation assessment seems to be the <i>sine qua non</",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "The Future of Collaborative Human-Artificial Intelligence Decision-Making for Mission Planning.",
+  "date": "2022-01",
+  "url": "https://doi.org/10.3389/fpsyg.2022.850628",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Kase SE",
+   "Hung CP",
+   "Krayzman T"
+  ],
+  "abstract": "In an increasingly complex military operating environment, next generation wargaming platforms can reduce risk, decrease operating costs, and improve overall outcomes. Novel Artificial Intelligence (AI) enabled wargaming approaches, based on software platforms with multimodal interaction and visuali",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "D-CEWS: DEVS-Based Cyber-Electronic Warfare M&S Framework for Enhanced Communication Effectiveness Analysis in Battlefield.",
+  "date": "2022-01",
+  "url": "https://doi.org/10.3390/s22093147",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Seo S",
+   "Han S",
+   "Kim D"
+  ],
+  "abstract": "Currently, in the field of military modernization, tactical networks using advanced unmanned aerial vehicle systems, such as drones, place an emphasis on proactively preventing operational limiting factors produced by cyber-electronic warfare threats and responding to them. This characteristic has r",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "A Survey of Opponent Modeling in Adversarial Domains.",
+  "date": "2022-01",
+  "url": "https://doi.org/10.1613/JAIR.1.12889",
+  "category": "opponent-modeling",
+  "subcategory": "review",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "J. Artif. Intell. Res."
+ },
+ {
+  "title": "A Survey of Opponent Modeling in Adversarial Domains",
+  "date": "2022-01",
+  "url": "https://doi.org/10.1613/jair.1.12889",
+  "category": "opponent-modeling",
+  "subcategory": "review",
+  "authors": [
+   "Samer Nashed",
+   "Shlomo Zilberstein"
+  ],
+  "abstract": "Opponent modeling is the ability to use prior knowledge and observations in order to predict the behavior of an opponent. This survey presents a comprehensive overview of existing opponent modeling techniques for adversarial domains, many of which must address stochastic, continuous, or concurrent a",
+  "tags": [],
+  "venue": "Journal of Artificial Intelligence Research"
+ },
+ {
+  "title": "Experimental and Computational Study on the Ground Forces CGF Automation of Wargame Models Using Reinforcement Learning.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/access/ChoiMHCLC22",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Access"
+ },
+ {
+  "title": "Review on visualization technology in simulation training system for major natural disasters.",
+  "date": "2022-01",
+  "url": "https://doi.org/10.1007/s11069-022-05277-z",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "Li N",
+   "Sun N",
+   "Cao C"
+  ],
+  "abstract": "Major natural disasters have occurred frequently in the last few years, resulting in increased loss of life and economic damage. Most emergency responders do not have first-hand experience with major natural disasters, and thus, there is an urgent need for pre-disaster training. Due to the scenes un",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "The Situation Awareness Framework for Explainable AI (SAFE-AI) and Human Factors Considerations for XAI Systems.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/ijhci/SannemanS22",
+  "category": "command-and-control",
+  "subcategory": "development",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Int. J. Hum. Comput. Interact."
+ },
+ {
+  "title": "Spectrum Situation Awareness Based on Time-Series Depth Networks for LTE-R Communication System.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/tits/CaiWSW022",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Intell. Transp. Syst."
+ },
+ {
+  "title": "Parameter Adaptation and Situation Awareness of LTE-R Handover for High-Speed Railway Communication.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/tits/WuCSTAW22",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Intell. Transp. Syst."
+ },
+ {
+  "title": "AI for Situational Awareness in Situations With High Uncertainty: An Explorative Case Study.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/conf/ecis/SkaugB22",
+  "category": "command-and-control",
+  "subcategory": "application",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ECIS"
+ },
+ {
   "title": "Learning multiple gaits of quadruped robot using hierarchical reinforcement learning",
   "date": "2021-12",
   "url": "https://arxiv.org/abs/2112.04741v1",
@@ -88666,6 +90320,113 @@
   "abstract": "We study real-time collaborative robot (cobot) handling, where the cobot maneuvers a workpiece under human commands. This is useful when it is risky for humans to directly handle the workpiece. However, it is hard to make the cobot both easy to command and flexible in possible operations. In this work, we propose a Real-Time Collaborative Robot Handling (RTCoHand) framework that allows the control of cobot via user-customized dynamic gestures. This is hard due to variations among users, human motion uncertainties, and noisy human input. We model the task as a probabilistic generative process, referred to as Conditional Collaborative Handling Process (CCHP), and learn from human-human collaboration. We thoroughly evaluate the adaptability and robustness of CCHP and apply our approach to a real-time cobot handling task with Kinova Gen3 robot arm. We achieve seamless human-robot collaboration with both experienced and new users. Compared to classical controllers, RTCoHand allows significantly more complex maneuvers and lower user cognitive burden. It also eliminates the need for trial-and-error, rendering it advantageous in safety-critical tasks.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Combining Wargaming and Simulation Analysis",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch7",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Mark Sisson"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
+ },
+ {
+  "title": "Simulation\u2010Based Cyber Wargaming",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch10",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Ambrose Kam"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
+ },
+ {
+  "title": "An Introduction to Wargaming and Modeling and Simulation",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch1",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Jeffrey Appleget"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
+ },
+ {
+  "title": "An Analysis\u2010Centric View of Wargaming, Modeling, Simulation, and Analysis",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch4",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Paul K. Davis"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
+ },
+ {
+  "title": "Simulation Support to Wargaming for Tactical Operations Planning",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch9",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Karsten Brathen",
+   "Rikke Amilde Seehuus",
+   "Ole Martin Mevassvik"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
+ },
+ {
+  "title": "Using Combat Models for Wargaming",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch3",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Joseph M. Saur"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
+ },
+ {
+  "title": "Wargaming, Automation, and Military Experimentation to Quantitatively and Qualitatively Inform Decision\u2010Making",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch5",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Jan Hodicky",
+   "Alejandro S. Hernandez"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
+ },
+ {
+  "title": "Agent\u2010Driven End Game Analysis for Air Defense",
+  "date": "2021-12",
+  "url": "https://doi.org/10.1002/9781119604815.ch15",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "M. Fatih Hocao\u011flu"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simulation and Wargaming"
  },
  {
   "title": "Smart Flood Resilience: Harnessing Community-Scale Big Data for Predictive Flood Risk Monitoring, Rapid Impact Assessment, and Situational Awareness",
@@ -89281,6 +91042,179 @@
   "venue": ""
  },
  {
+  "title": "Simulating a logistics enterprise using an asymmetrical wargame simulation with soar reinforcement learning and coevolutionary algorithms.",
+  "date": "2021-01",
+  "url": "https://doi.org/10.1145/3449726.3463172",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "GECCO Companion"
+ },
+ {
+  "title": "Development of UCAV Fleet Autonomy by Reinforcement Learning in a Wargame Simulation Environment",
+  "date": "2021-01",
+  "url": "https://doi.org/10.2514/6.2021-0175",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Burak Yuksek",
+   "Umut M. Demirezen",
+   "Gokhan Inalhan"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AIAA Scitech 2021 Forum"
+ },
+ {
+  "title": "Combining Wargaming With Modeling and Simulation to Project Future Military Technology Requirements.",
+  "date": "2021-01",
+  "url": "https://dblp.org/rec/journals/tem/MittalD21",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Trans. Engineering Management"
+ },
+ {
+  "title": "Utilizing the Maneuver Control System CZ in the Course of Wargaming Modelling and Simulation.",
+  "date": "2021-01",
+  "url": "https://dblp.org/rec/conf/mesas/NohelHFZK21",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "MESAS"
+ },
+ {
+  "title": "Method for making multi-attribute decisions in wargames by combining intuitionistic fuzzy numbers with reinforcement learning.",
+  "date": "2021-01",
+  "url": "https://arxiv.org/abs/2109.02354",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoRR"
+ },
+ {
+  "title": "Business Wargaming Methodology",
+  "date": "2020-12",
+  "url": "https://doi.org/10.4324/9780367853594-6",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Daniel F. Oriesek",
+   "Jan Oliver Schwarz"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Winning the Uncertainty Game"
+ },
+ {
+  "title": "Strategic Wargaming",
+  "date": "2020-12",
+  "url": "https://doi.org/10.4324/9780367853594-9",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Daniel F. Oriesek",
+   "Jan Oliver Schwarz"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Winning the Uncertainty Game"
+ },
+ {
+  "title": "Tactical Wargaming",
+  "date": "2020-12",
+  "url": "https://doi.org/10.4324/9780367853594-7",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Daniel F. Oriesek",
+   "Jan Oliver Schwarz"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Winning the Uncertainty Game"
+ },
+ {
+  "title": "The History of Wargaming",
+  "date": "2020-12",
+  "url": "https://doi.org/10.4324/9780367853594-5",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Daniel F. Oriesek",
+   "Jan Oliver Schwarz"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Winning the Uncertainty Game"
+ },
+ {
+  "title": "Operational Wargaming",
+  "date": "2020-12",
+  "url": "https://doi.org/10.4324/9780367853594-8",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Daniel F. Oriesek",
+   "Jan Oliver Schwarz"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Winning the Uncertainty Game"
+ },
+ {
+  "title": "Reflection on Applying Business Wargaming in The Classroom",
+  "date": "2020-12",
+  "url": "https://doi.org/10.4324/9780367853594-12",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Daniel F. Oriesek",
+   "Jan Oliver Schwarz"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Winning the Uncertainty Game"
+ },
+ {
+  "title": "Application of Agent-Based Modeling and Simulation in Command and Control: A review",
+  "date": "2020-08",
+  "url": "https://doi.org/10.1109/ccdc49329.2020.9164412",
+  "category": "command-and-control",
+  "subcategory": "application",
+  "authors": [
+   "ZhaoLiang Zhu",
+   "JianJing Shen",
+   "XiaoFeng Guo"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "2020 Chinese Control And Decision Conference (CCDC)"
+ },
+ {
   "title": "On the Evaluation of Military Simulations: Towards A Taxonomy of Assessment Criteria",
   "date": "2020-04",
   "url": "https://arxiv.org/abs/2004.09340",
@@ -89297,6 +91231,63 @@
   "abstract": "In the area of military simulations, a multitude of different approaches is available. Close Combat Tactical Trainer, Joint Tactical Combat Training System, Battle Force Tactical Training or Warfighter's Simulation 2000 are just some examples within the history of the large DoD Development Program in Modelling and Simulation, representing just a small piece of the variety of diverse solutions. Very often, individual simulators are very unique and so it is often difficult to classify military simulations even for experienced users. This circumstance is further boosted due to the fact that in the field of military simulations - unlike in other areas - no general classification for military simulations exists. To address this shortcoming, this publication is dedicated to the idea of providing a first contribution to the development of a commonly accepted taxonomy in the area of military simulations. To this end, the problem field is structured into three main categories (general functional requirements for simulators, special military requirements for simulators and non-functional requirements for simulators). Based upon that, individual categories are provided with appropriate classes. For a better understanding, the taxonomy is also applied to a concrete example (NetLogo Rebellion).",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Coordinating Multi-Agent Deep Reinforcement Learning in Wargame.",
+  "date": "2020-01",
+  "url": "https://doi.org/10.1145/3446132.3446137",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ACAI"
+ },
+ {
+  "title": "Developing Combat Behavior through Reinforcement Learning in Wargames and Simulations.",
+  "date": "2020-01",
+  "url": "https://doi.org/10.1109/COG47356.2020.9231609",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CoG"
+ },
+ {
+  "title": "Computer Assisted Wargame for Military Capability-Based Planning.",
+  "date": "2020-01",
+  "url": "https://doi.org/10.3390/e22080861",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Hodick\u00fd J",
+   "Proch\u00e1zka D",
+   "Baxa F"
+  ],
+  "abstract": "Capability-based planning as an approach to defense planning is an almost infinitely complex engineered system with countless nodes and layers of interdependency, influenced by state and non-state diplomatic activities, information, military and economic actions creating secondary and third order ef",
+  "tags": [],
+  "venue": "MED"
+ },
+ {
+  "title": "Ist maschinelles Lernen in der Planung einsetzbar?",
+  "date": "2020-01",
+  "url": "https://europepmc.org/article/pmc/PMC7941368",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Oehler K"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "PMC"
  },
  {
   "title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
@@ -89357,6 +91348,46 @@
   "venue": ""
  },
  {
+  "title": "Research on Self-Gaming Training Method of Wargame Based on Deep Reinforcement Learning",
+  "date": "2019-07",
+  "url": "https://doi.org/10.1145/3349341.3349411",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Tongfei Shang",
+   "Kun Han",
+   "Jianfeng Ma"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Proceedings of the 2019 International Conference on Artificial Intelligence and Computer Science"
+ },
+ {
+  "title": "Mosaic wargame series",
+  "date": "2019-02",
+  "url": "https://doi.org/10.1287/orms.2019.01.15",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Volume\u00a046, Number\u00a01, February\u00a02019"
+ },
+ {
+  "title": "Closing the Gap Between Simulations for Training And Wargaming.",
+  "date": "2019-01",
+  "url": "https://dblp.org/rec/conf/wsc/EricksonH19",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "WSC"
+ },
+ {
   "title": "Adaptive Game-Theoretic Decision Making for Autonomous Vehicle Control at Roundabouts",
   "date": "2018-10",
   "url": "https://arxiv.org/abs/1810.00829",
@@ -89388,6 +91419,60 @@
   "abstract": "One of the key challenges in applying reinforcement learning to real-life problems is that the amount of train-and-error required to learn a good policy increases drastically as the task becomes complex. One potential solution to this problem is to combine reinforcement learning with automated symbol planning and utilize prior knowledge on the domain. However, existing methods have limitations in their applicability and expressiveness. In this paper we propose a hierarchical reinforcement learning method based on abductive symbolic planning. The planner can deal with user-defined evaluation functions and is not based on the Herbrand theorem. Therefore it can utilize prior knowledge of the rewards and can work in a domain where the state space is unknown. We demonstrate empirically that our architecture significantly improves learning efficiency with respect to the amount of training examples on the evaluation domain, in which the state space is unknown and there exist multiple goals.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Artificial General Intelligence Does Strategy",
+  "date": "2018-06",
+  "url": "https://doi.org/10.2307/j.ctvvngzd.11",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Strategy, Evolution, and War"
+ },
+ {
+  "title": "Trusted Autonomous Command and Control",
+  "date": "2018-01",
+  "url": "https://doi.org/10.1007/978-3-319-64816-3_18",
+  "category": "command-and-control",
+  "subcategory": "mechanism",
+  "authors": [
+   "Noel Derwort"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Studies in Systems, Decision and Control"
+ },
+ {
+  "title": "A Novel Data-Driven Situation Awareness Approach for Future Grids - Using Large Random Matrices for Big Data Modeling.",
+  "date": "2018-01",
+  "url": "https://dblp.org/rec/journals/access/HeCQAL18",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Access"
+ },
+ {
+  "title": "Situational Awareness System in the Smart Campus.",
+  "date": "2018-01",
+  "url": "https://dblp.org/rec/journals/access/YangLRLHL18",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Access"
  },
  {
   "title": "Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous Control",
@@ -89426,6 +91511,21 @@
   "venue": ""
  },
  {
+  "title": "Dante Agent Architecture for Force-On-Force Wargame Simulation and Training",
+  "date": "2017-10",
+  "url": "https://doi.org/10.1609/aiide.v13i1.12953",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Brian Hart",
+   "Derek Hart",
+   "Russell Gayle"
+  ],
+  "abstract": "Physical site security heavily relies on expert teams continually examining and testing security profiles for discovering potential vulnerabilities.  These experts hypothesize scenario(s) of interest and conduct \u201cred versus blue\u201d simulated exercises where they execute tactics that might reveal possi",
+  "tags": [],
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment"
+ },
+ {
   "title": "Proximal Policy Optimization Algorithms",
   "date": "2017-07",
   "url": "https://arxiv.org/abs/1707.06347",
@@ -89454,5 +91554,684 @@
   "abstract": "We give an overview of recent exciting achievements of deep reinforcement learning (RL). We discuss six core elements, six important mechanisms, and twelve applications. We start with background of machine learning, deep learning and reinforcement learning. Next we discuss core RL elements, including value function, in particular, Deep Q-Network (DQN), policy, reward, model, planning, and exploration. After that, we discuss important mechanisms for RL, including attention and memory, unsupervised learning, transfer learning, multi-agent RL, hierarchical RL, and learning to learn. Then we discuss various applications of RL, including games, in particular, AlphaGo, robotics, natural language processing, including dialogue systems, machine translation, and text generation, computer vision, neural architecture design, business management, finance, healthcare, Industry 4.0, smart grid, intelligent transportation systems, and computer systems. We mention topics not reviewed yet, and list a collection of RL resources. After presenting a brief summary, we close with discussions. Please see Deep Reinforcement Learning, arXiv:1810.06339, for a significant update.",
   "tags": [],
   "venue": ""
+ },
+ {
+  "title": "Dante Agent Architecture for Force-On-Force Wargame Simulation and Training.",
+  "date": "2017-01",
+  "url": "https://dblp.org/rec/conf/aiide/HartHGOXW17",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AIIDE"
+ },
+ {
+  "title": "An Analysis of Wargame Rules Simulation Based on Stochastic Lanchester Models.",
+  "date": "2017-01",
+  "url": "https://doi.org/10.1145/3171592.3171612",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "ICNCC"
+ },
+ {
+  "title": "Learning about the opponent in automated bilateral negotiation: a comprehensive survey of opponent modeling techniques",
+  "date": "2016-09",
+  "url": "https://doi.org/10.1007/s10458-015-9309-1",
+  "category": "opponent-modeling",
+  "subcategory": "review",
+  "authors": [
+   "Tim Baarslag",
+   "Mark J. C. Hendrikx",
+   "Koen V. Hindriks"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Autonomous Agents and Multi-Agent Systems"
+ },
+ {
+  "title": "A Survey of Opponent Modeling Techniques in Automated Negotiation",
+  "date": "2016-05",
+  "url": "https://doi.org/10.65109/wmkq1942",
+  "category": "opponent-modeling",
+  "subcategory": "review",
+  "authors": [
+   "Tim Baarslag",
+   "Mark J.C. Hendrikx",
+   "Koen V. Hindriks"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "International Joint Conference on Autonomous Agents and Multiagent Systems"
+ },
+ {
+  "title": "Wargaming the Cyber Frontier",
+  "date": "2016-04",
+  "url": "https://doi.org/10.7551/mitpress/10329.003.0068",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Joseph Miranda"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Zones of Control"
+ },
+ {
+  "title": "Wargaming (as) Literature",
+  "date": "2016-04",
+  "url": "https://doi.org/10.7551/mitpress/10329.003.0058",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Esther MacCallum-Stewart"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Zones of Control"
+ },
+ {
+  "title": "Cultural Wargaming: Understanding Cross-Cultural Communications Using Wargames",
+  "date": "2016-04",
+  "url": "https://doi.org/10.7551/mitpress/10329.003.0056",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Jim Wallman"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Zones of Control"
+ },
+ {
+  "title": "The Engine of Wargaming",
+  "date": "2016-04",
+  "url": "https://doi.org/10.7551/mitpress/10329.003.0014",
+  "category": "wargaming",
+  "subcategory": "systems",
+  "authors": [
+   "Matthew B. Caffrey"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Zones of Control"
+ },
+ {
+  "title": "The History of Wargaming Project",
+  "date": "2016-04",
+  "url": "https://doi.org/10.7551/mitpress/10329.003.0006",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "John Curry"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Zones of Control"
+ },
+ {
+  "title": "Struggling with Deep Play: Utilizing Twilight Struggle for Historical Inquiry",
+  "date": "2016-04",
+  "url": "https://doi.org/10.7551/mitpress/10329.003.0048",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Jeremy Antley"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Zones of Control"
+ },
+ {
+  "title": "Learning about the opponent in automated bilateral negotiation: a comprehensive survey of opponent modeling techniques.",
+  "date": "2016-01",
+  "url": "https://doi.org/10.1007/S10458-015-9309-1",
+  "category": "opponent-modeling",
+  "subcategory": "review",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Auton. Agents Multi Agent Syst."
+ },
+ {
+  "title": "A Survey of Opponent Modeling Techniques in Automated Negotiation.",
+  "date": "2016-01",
+  "url": "https://dblp.org/rec/conf/atal/BaarslagHHJ16",
+  "category": "opponent-modeling",
+  "subcategory": "review",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AAMAS"
+ },
+ {
+  "title": "Designing for Situation Awareness of Future Power Grids: An Indicator System Based on Linear Eigenvalue Statistics of Large Random Matrices.",
+  "date": "2016-01",
+  "url": "https://dblp.org/rec/journals/access/HeQACXL16",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "IEEE Access"
+ },
+ {
+  "title": "Decision letter: A neural command circuit for grooming movement control",
+  "date": "2015-06",
+  "url": "https://doi.org/10.7554/elife.08758.035",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Integrating simulation-driven decisions and business wargames to shape fiscal policies.",
+  "date": "2015-01",
+  "url": "https://dblp.org/rec/conf/springsim/Hernandez15",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "SpringSim"
+ },
+ {
+  "title": "A Survey of Botnet Detection Techniques by Command and Control Infrastructure.",
+  "date": "2015-01",
+  "url": "https://dblp.org/rec/journals/jdfsl/HyslipP15",
+  "category": "command-and-control",
+  "subcategory": "review",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "J. Digit. Forensics Secur. Law"
+ },
+ {
+  "title": "Single\u2010Agent Reinforcement Learning",
+  "date": "2014-05",
+  "url": "https://doi.org/10.1002/9781118884614.ch2",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Multi\u2010Agent Machine Learning"
+ },
+ {
+  "title": "Containing Opponent Drill",
+  "date": "2014-01",
+  "url": "https://doi.org/10.5040/9781350870659",
+  "category": "opponent-modeling",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Containing Opponent Drill"
+ },
+ {
+  "title": "An Introduction to Utility Theory",
+  "date": "2013-09",
+  "url": "https://doi.org/10.1201/b16725-15",
+  "category": "wargaming",
+  "subcategory": "theory",
+  "authors": [],
+  "abstract": "",
+  "tags": [],
+  "venue": "Game AI Pro"
+ },
+ {
+  "title": "How to adapt a tactical board wargame for marketing strategy identification",
+  "date": "2012-12",
+  "url": "https://doi.org/10.37380/jisib.v2i3.45",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "St\u00e9phane Goria"
+  ],
+  "abstract": "This research paper investigates some fundamental principles of marketing warfare to see specifically what kinds of maneuvers can be used to defend or take control of a certain market. We present military war-games and its history to ease the understanding of the fundamentals in this area of study. ",
+  "tags": [],
+  "venue": "Journal of Intelligence Studies in Business"
+ },
+ {
+  "title": "Regulating Autonomous Agents Facing Conflicting Objectives: A Command and Control Example",
+  "date": "2012-06",
+  "url": "https://doi.org/10.1287/deca.1120.0240",
+  "category": "command-and-control",
+  "subcategory": "application",
+  "authors": [
+   "Jim Q. Smith",
+   "Lorraine Dodd"
+  ],
+  "abstract": "Military commanders in the United Kingdom have a degree of devolved decision authority delegated from command and control (C2) regulators and are trained and expected to act rationally and accountably. Recent experimental results suggest that experienced commanders usually appear to act as if they a",
+  "tags": [],
+  "venue": "Decision Analysis"
+ },
+ {
+  "title": "Framework of wargame CGF system based on multi-agent.",
+  "date": "2012-01",
+  "url": "https://doi.org/10.1109/ICSMC.2012.6378274",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "SMC"
+ },
+ {
+  "title": "Mission And Rule-Based Approach For Wargame Artificial Intelligence.",
+  "date": "2010-01",
+  "url": "https://dblp.org/rec/journals/ijigs/RushingT10",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Int. J. Intell. Games Simul."
+ },
+ {
+  "title": "Monte Carlo simulation-based supply chain disruption management for wargames.",
+  "date": "2010-01",
+  "url": "https://doi.org/10.1109/WSC.2010.5678964",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "WSC"
+ },
+ {
+  "title": "Architecture of a distributed framework for a fleet command and control system.",
+  "date": "2010-01",
+  "url": "https://doi.org/10.1109/CSCWD.2010.5471901",
+  "category": "command-and-control",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CSCWD"
+ },
+ {
+  "title": "A New Method of Data Preprocessing for Network Security Situational Awareness.",
+  "date": "2010-01",
+  "url": "https://dblp.org/rec/conf/dbta/LuLY10",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "DBTA"
+ },
+ {
+  "title": "Die Geschichte des Wargaming",
+  "date": "2009-01",
+  "url": "https://doi.org/10.1007/978-3-8349-8288-9_2",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Daniel F. Oriesek",
+   "Jan Oliver Schwarz"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Business Wargaming"
+ },
+ {
+  "title": "Ein alternativer Ansatz f\u00fcr Business Wargames: Wargaming in der Automobilindustrie",
+  "date": "2009-01",
+  "url": "https://doi.org/10.1007/978-3-8349-8288-9_11",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "Pero Mi\u0107i\u0107"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Business Wargaming"
+ },
+ {
+  "title": "OMBO: An opponent modeling approach",
+  "date": "2009-01",
+  "url": "https://doi.org/10.3233/aic-2009-0442",
+  "category": "opponent-modeling",
+  "subcategory": "method",
+  "authors": [
+   "Agapito Ledezma",
+   "Ricardo Aler",
+   "Araceli Sanchis"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "AI Communications"
+ },
+ {
+  "title": "Business wargaming: developing foresight within a strategic simulation.",
+  "date": "2009-01",
+  "url": "https://dblp.org/rec/journals/taasm/Schwarz09",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Technol. Anal. Strateg. Manag."
+ },
+ {
+  "title": "A Survey of UAS Technologies for Command, Control, and Communication (C3).",
+  "date": "2009-01",
+  "url": "https://dblp.org/rec/journals/jirs/StansburyVW09",
+  "category": "command-and-control",
+  "subcategory": "review",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "J. Intell. Robotic Syst."
+ },
+ {
+  "title": "Stochastic Opponent Modeling Agents: A Case Study with Hezbollah",
+  "date": "2008-04",
+  "url": "https://doi.org/10.21236/ada480608",
+  "category": "opponent-modeling",
+  "subcategory": "application",
+  "authors": [
+   "Aaron Mannes",
+   "Mary Michael",
+   "Amy Pate"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Distance-Learning for Advanced Military Education: Using Wargame Simulation Course as an Example.",
+  "date": "2008-01",
+  "url": "https://doi.org/10.4018/JDET.2008100104",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Int. J. Distance Educ. Technol."
+ },
+ {
+  "title": "Flexible State Update Mechanism for Large-Scale Distributed Wargame Simulations.",
+  "date": "2007-01",
+  "url": "https://doi.org/10.1177/0037549707085541",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Simul."
+ },
+ {
+  "title": "Distributed Object-Oriented Wargame Simulation on Access Grid.",
+  "date": "2005-01",
+  "url": "https://doi.org/10.1007/11428862_125",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "International Conference on Computational Science"
+ },
+ {
+  "title": "A Utility Model for Timely State Update in Distributed Wargame Simulations.",
+  "date": "2004-01",
+  "url": "https://doi.org/10.1109/PADS.2004.1301291",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "PADS"
+ },
+ {
+  "title": "The Wargame Infrastructure and Simulation Environment (Wise).",
+  "date": "2003-01",
+  "url": "https://doi.org/10.1007/978-3-540-45226-3_98",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "KES"
+ },
+ {
+  "title": "Training Program Review: Theater Battle Management Core Systems (TBMCS) Training Program Evaluation",
+  "date": "2002-05",
+  "url": "https://doi.org/10.21236/ada402336",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "Marcie E. Zaharee"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Steps toward Building of a Good AI for Complex Wargame-Type Simulation Games.",
+  "date": "2002-01",
+  "url": "https://dblp.org/rec/conf/gameon/CorrubleMR02",
+  "category": "wargaming",
+  "subcategory": "application",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "GAME-ON"
+ },
+ {
+  "title": "Optimal planning for autonomous air vehicle battle management.",
+  "date": "2002-01",
+  "url": "https://dblp.org/rec/conf/cdc/ArslanWSS02",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "CDC"
+ },
+ {
+  "title": "Command and Control Architectures for Autonomous Micro-Robotic Forces - FY-2000 Project Report",
+  "date": "2001-04",
+  "url": "https://doi.org/10.2172/911031",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "Donald Dean Dudenhoeffer"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Asymmetric Wargaming: Toward a Game Theoretic Perspective",
+  "date": "2000-09",
+  "url": "https://doi.org/10.21236/ada460215",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "G. M. Whittaker"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Decision Aids and Wargaming for Information Operations",
+  "date": "1999-04",
+  "url": "https://doi.org/10.21236/ada363158",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Charles R. Ball"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Command decision making in command and control",
+  "date": "1999-01",
+  "url": "https://doi.org/10.1109/idc.1999.754188",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "C. Wood",
+   "T. Webb",
+   "M. Cross"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "1999 Information, Decision and Control. Data and Information Fusion Symposium, Signal Processing and Communications Symposium and Decision and Control Symposium. Proceedings (Cat. No.99EX251)"
+ },
+ {
+  "title": "Decision Support Systems for Command and Control: The Need For a Commander's Strategic Decision Aid.",
+  "date": "1997-04",
+  "url": "https://doi.org/10.21236/ada326935",
+  "category": "command-and-control",
+  "subcategory": "systems",
+  "authors": [
+   "Eduardo Cardenas"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "The Battle Command Training Program: An Evaluation of BCTP and the Application of Airland Battle",
+  "date": "1989-11",
+  "url": "https://doi.org/10.21236/ada225464",
+  "category": "command-and-control",
+  "subcategory": "application",
+  "authors": [
+   "Bert Frandsen"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": ""
+ },
+ {
+  "title": "Training evaluation. Effectiveness of efficiency?",
+  "date": "1985-05",
+  "url": "https://doi.org/10.1002/pfi.4150240409",
+  "category": "command-and-control",
+  "subcategory": "method",
+  "authors": [
+   "Gerald G. Battle"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Performance + Instruction"
+ },
+ {
+  "title": "The Comprehensive Guide to Board Wargaming.",
+  "date": "1978-04",
+  "url": "https://doi.org/10.2307/1987413",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Martin C. Campion",
+   "Nicholas Palmer"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Military Affairs"
+ },
+ {
+  "title": "Wargaming: Pike-and-Shot.",
+  "date": "1978-02",
+  "url": "https://doi.org/10.2307/1986640",
+  "category": "wargaming",
+  "subcategory": "method",
+  "authors": [
+   "Martin C. Campion",
+   "Donald F. Featherstone"
+  ],
+  "abstract": "",
+  "tags": [],
+  "venue": "Military Affairs"
  }
 ]

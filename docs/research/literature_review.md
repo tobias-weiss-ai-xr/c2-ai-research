@@ -1,7 +1,7 @@
 # C2-AI Research — Literature Review
 
 **Generated:** 2026-08-10  
-**Corpus:** 6,081 papers across 14 categories
+**Corpus:** 6,277 papers across 14 categories
 
 > Synthesis of the autonomous decision-making & deep-RL research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
 
@@ -17,8 +17,8 @@
 | 4 | Multi-Agent Reinforcement Learning | 448 |
 | 5 | Simulation-to-Reality Transfer | 425 |
 
-**Time span:** 2017–2026 (median year 2022)
-**Dominant aspects:** Application (1692), Development (1526), Theory (1106)
+**Time span:** 1978–2026 (median year 2012)
+**Dominant aspects:** Application (1769), Development (1533), Theory (1110)
 
 ---
 
@@ -28,9 +28,8 @@ Categories ranked by a momentum score combining recent output density with year-
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Command & Control (C2) | 361 | 165 | 58 | +184.5% | 46% | 13.8 |
-| Opponent & Cognitive Modeling | 165 | 165 | 0 | — | 100% | 13.8 |
-| Wargaming | 4 | 4 | 0 | — | 100% | 0.3 |
+| Opponent & Cognitive Modeling | 176 | 165 | 1 | +16400.0% | 94% | 13.8 |
+| Command & Control (C2) | 401 | 169 | 61 | +177.0% | 42% | 14.1 |
 | Probabilistic & Uncertainty Reasoning | 328 | 328 | 0 | — | 100% | 27.3 |
 | Mission Planning | 145 | 145 | 0 | — | 100% | 12.1 |
 | Simulation-to-Reality Transfer | 425 | 425 | 0 | — | 100% | 35.4 |
@@ -42,6 +41,7 @@ Categories ranked by a momentum score combining recent output density with year-
 | Hierarchical Planning | 127 | 126 | 0 | — | 99% | 10.5 |
 | Military Simulation | 125 | 124 | 0 | — | 99% | 10.3 |
 | Human–AI Teaming | 1721 | 673 | 446 | +50.9% | 39% | 56.1 |
+| Wargaming | 149 | 27 | 22 | +22.7% | 18% | 2.2 |
 
 ---
 
@@ -51,27 +51,46 @@ Categories ranked by a momentum score combining recent output density with year-
 
 | Cell | Papers |
 |------|--------|
-| `wargaming/theory` | 1 |
-| `wargaming/review` | 1 |
 | `command-and-control/evaluation` | 1 |
 | `mission-planning/method` | 1 |
 | `mission-planning/evaluation` | 1 |
+| `wargaming/mechanism` | 1 |
+| `wargaming/evaluation` | 1 |
 | `multi-agent-rl/review` | 2 |
-| `wargaming/application` | 2 |
 | `mathematical-optimization/review` | 2 |
+| `hierarchical-planning/review` | 2 |
 
 **White-space cells** (low total but fast-growing):
 
 | Cell | Total | Last-12m | 12-m share |
 |------|-------:|---------:|-----------:|
 | `autonomous-decision-making/mechanism` | 24 | 24 | 100% |
-| `opponent-modeling/application` | 23 | 23 | 100% |
 | `hierarchical-planning/application` | 23 | 23 | 100% |
 | `mission-planning/development` | 23 | 23 | 100% |
 | `mathematical-optimization/systems` | 22 | 22 | 100% |
 | `autonomous-decision-making/method` | 21 | 21 | 100% |
 | `mission-planning/theory` | 20 | 20 | 100% |
 | `hierarchical-planning/theory` | 19 | 19 | 100% |
+| `military-simulation/systems` | 18 | 18 | 100% |
+
+---
+
+## Publishing Venues
+
+Top venues by paper count (where present in the metadata):
+
+| Venue | Papers |
+|-------|--------|
+| MED | 18 |
+| CoRR | 9 |
+| Simulation and Wargaming | 8 |
+| Zones of Control | 6 |
+| Winning the Uncertainty Game | 6 |
+| IEEE Access | 4 |
+| PPR | 3 |
+| CoG | 2 |
+| WSC | 2 |
+| KES | 2 |
 
 ---
 
@@ -166,7 +185,7 @@ Decision support fuses statistics, ML and optimization to augment human decision
 
 C2 research connects autonomy to human-machine teaming, situational awareness and decision support at the operational seam between computation and command.
 
-**Corpus size:** 361 papers
+**Corpus size:** 401 papers
 
 **Papers:**
 
@@ -208,13 +227,27 @@ Constrained/convex/DP optimization is the formal bridge between RL objectives an
 
 Inferring adversary intent and strategy (game theory, adversarial RL, counterfactual regret) is the differentiator for decision support that reasons about an opponent, not just the environment.
 
-**Corpus size:** 165 papers
+**Corpus size:** 176 papers
 
 **Papers:**
 
 - [2026-08] IFlowNets: Extending Generative Samplers to Learn Strategies in Incomplete Information Games — https://arxiv.org/abs/2608.05422v1
 - [2026-08] Reputation-driven Cooperation in Lattice-based Decentralized Federated Learning through Evolutionary — https://arxiv.org/abs/2608.01197v1
 - [2026-07] Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent  — https://arxiv.org/abs/2607.28520v1
+
+---
+
+### Wargaming (`wargaming`)
+
+Red-vs-blue wargaming is the canonical adversarial setting where RL, opponent modeling and optimization collide under realistic scenario constraints.
+
+**Corpus size:** 149 papers
+
+**Papers:**
+
+- [2026-08] No One Wins in Nuclear War: A Social Simulation of Military Decision-making — https://arxiv.org/abs/2608.01868v1
+- [2026-08] Steganalysis of Adaptive Covert Collusion in Tool-Using Agent Populations: A Black-Box, Cross-Princi — https://arxiv.org/abs/2608.02698v1
+- [2026-05] Design of Intelligent Decision Agent for Air-Ground Cooperative Air Defense Wargaming Based on Deep  — https://doi.org/10.1109/ccdc69976.2026.11560721
 
 ---
 
@@ -257,20 +290,6 @@ Simulation environments (constructive, game-engine, entity-level) are the traini
 - [2026-08] Training a Conditioned Video Game Agent on a VLM Annotated Dataset — https://arxiv.org/abs/2608.05954v1
 - [2026-07] Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds — https://arxiv.org/abs/2607.18135v1
 - [2026-07] Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models — https://arxiv.org/abs/2607.13172v1
-
----
-
-### Wargaming (`wargaming`)
-
-Red-vs-blue wargaming is the canonical adversarial setting where RL, opponent modeling and optimization collide under realistic scenario constraints.
-
-**Corpus size:** 4 papers
-
-**Papers:**
-
-- [2026-08] No One Wins in Nuclear War: A Social Simulation of Military Decision-making — https://arxiv.org/abs/2608.01868v1
-- [2026-08] Steganalysis of Adaptive Covert Collusion in Tool-Using Agent Populations: A Black-Box, Cross-Princi — https://arxiv.org/abs/2608.02698v1
-- [2025-11] Superhuman AI for Stratego Using Self-Play Reinforcement Learning and Test-Time Search — https://arxiv.org/abs/2511.07312v1
 
 ---
 

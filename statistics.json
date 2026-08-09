@@ -1,15 +1,15 @@
 {
   "metadata": {
     "topic": "Autonomous Decision-Making & Deep Reinforcement Learning for Military Simulations",
-    "total_papers": 6081,
+    "total_papers": 6277,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 14,
       "subcategories": 8,
       "total_cells": 112,
-      "filled_cells": 106,
-      "saturation": 94.6,
-      "empty_cells": 6
+      "filled_cells": 111,
+      "saturation": 99.1,
+      "empty_cells": 1
     },
     "analysis_window": {
       "last_12m_start": "2025-08"
@@ -19,11 +19,11 @@
     "autonomous-decision-making": 582,
     "deep-reinforcement-learning": 988,
     "multi-agent-rl": 448,
-    "opponent-modeling": 165,
+    "opponent-modeling": 176,
     "hierarchical-planning": 127,
     "military-simulation": 125,
-    "wargaming": 4,
-    "command-and-control": 361,
+    "wargaming": 149,
+    "command-and-control": 401,
     "decision-support": 403,
     "mathematical-optimization": 259,
     "probabilistic-uncertainty": 328,
@@ -32,26 +32,46 @@
     "sim-to-real": 425
   },
   "by_subcategory": {
-    "theory": 1106,
-    "mechanism": 521,
-    "method": 203,
-    "application": 1692,
-    "development": 1526,
-    "systems": 678,
-    "evaluation": 132,
-    "review": 223
+    "theory": 1110,
+    "mechanism": 524,
+    "method": 270,
+    "application": 1769,
+    "development": 1533,
+    "systems": 701,
+    "evaluation": 133,
+    "review": 237
   },
   "by_year": {
-    "2017": 4,
-    "2018": 2,
-    "2019": 3,
-    "2020": 1,
-    "2021": 60,
-    "2022": 179,
-    "2023": 280,
-    "2024": 365,
-    "2025": 1839,
-    "2026": 3348
+    "1978": 2,
+    "1985": 1,
+    "1989": 1,
+    "1997": 1,
+    "1999": 2,
+    "2000": 1,
+    "2001": 1,
+    "2002": 3,
+    "2003": 1,
+    "2004": 1,
+    "2005": 1,
+    "2007": 1,
+    "2008": 2,
+    "2009": 5,
+    "2010": 4,
+    "2012": 3,
+    "2013": 1,
+    "2014": 2,
+    "2015": 3,
+    "2016": 11,
+    "2017": 7,
+    "2018": 6,
+    "2019": 6,
+    "2020": 12,
+    "2021": 73,
+    "2022": 194,
+    "2023": 298,
+    "2024": 397,
+    "2025": 1866,
+    "2026": 3371
   },
   "by_cell": {
     "human-ai-teaming/application": 446,
@@ -71,17 +91,18 @@
     "decision-support/development": 128,
     "autonomous-decision-making/theory": 124,
     "deep-reinforcement-learning/systems": 119,
+    "command-and-control/application": 117,
     "multi-agent-rl/theory": 113,
-    "command-and-control/application": 112,
     "multi-agent-rl/application": 107,
     "probabilistic-uncertainty/theory": 93,
     "mathematical-optimization/theory": 91,
-    "command-and-control/development": 86,
+    "command-and-control/development": 91,
     "mission-planning/application": 82,
+    "command-and-control/systems": 78,
     "probabilistic-uncertainty/application": 76,
     "probabilistic-uncertainty/development": 76,
+    "wargaming/application": 73,
     "deep-reinforcement-learning/mechanism": 69,
-    "command-and-control/systems": 68,
     "autonomous-decision-making/systems": 64,
     "sim-to-real/development": 62,
     "mathematical-optimization/development": 60,
@@ -91,6 +112,7 @@
     "hierarchical-planning/development": 51,
     "sim-to-real/theory": 51,
     "mathematical-optimization/application": 50,
+    "wargaming/method": 50,
     "deep-reinforcement-learning/review": 49,
     "deep-reinforcement-learning/method": 49,
     "opponent-modeling/development": 49,
@@ -103,11 +125,12 @@
     "sim-to-real/systems": 38,
     "decision-support/systems": 34,
     "military-simulation/development": 31,
+    "command-and-control/mechanism": 29,
     "human-ai-teaming/evaluation": 29,
     "multi-agent-rl/mechanism": 27,
-    "command-and-control/mechanism": 27,
+    "command-and-control/method": 27,
     "autonomous-decision-making/mechanism": 24,
-    "opponent-modeling/application": 23,
+    "opponent-modeling/application": 24,
     "hierarchical-planning/application": 23,
     "mission-planning/development": 23,
     "mathematical-optimization/systems": 22,
@@ -119,19 +142,20 @@
     "hierarchical-planning/systems": 16,
     "mathematical-optimization/mechanism": 14,
     "mission-planning/systems": 13,
-    "command-and-control/method": 13,
+    "command-and-control/review": 13,
+    "wargaming/systems": 13,
     "probabilistic-uncertainty/evaluation": 12,
     "autonomous-decision-making/evaluation": 11,
     "opponent-modeling/systems": 11,
     "mathematical-optimization/method": 11,
     "multi-agent-rl/method": 10,
+    "opponent-modeling/method": 10,
     "military-simulation/theory": 10,
     "hierarchical-planning/method": 9,
     "opponent-modeling/mechanism": 9,
     "mathematical-optimization/evaluation": 9,
     "probabilistic-uncertainty/method": 9,
-    "command-and-control/review": 9,
-    "opponent-modeling/method": 7,
+    "opponent-modeling/review": 9,
     "sim-to-real/mechanism": 7,
     "sim-to-real/review": 7,
     "autonomous-decision-making/review": 6,
@@ -139,6 +163,7 @@
     "decision-support/method": 6,
     "military-simulation/evaluation": 5,
     "multi-agent-rl/evaluation": 5,
+    "wargaming/theory": 5,
     "decision-support/review": 5,
     "decision-support/evaluation": 5,
     "probabilistic-uncertainty/review": 5,
@@ -147,28 +172,24 @@
     "hierarchical-planning/evaluation": 4,
     "military-simulation/mechanism": 4,
     "military-simulation/method": 4,
+    "wargaming/review": 4,
     "mission-planning/mechanism": 3,
     "hierarchical-planning/mechanism": 3,
     "multi-agent-rl/review": 2,
-    "wargaming/application": 2,
     "mathematical-optimization/review": 2,
-    "opponent-modeling/review": 2,
     "hierarchical-planning/review": 2,
     "mission-planning/review": 2,
-    "wargaming/theory": 1,
-    "wargaming/review": 1,
+    "wargaming/development": 2,
     "command-and-control/evaluation": 1,
     "mission-planning/method": 1,
-    "mission-planning/evaluation": 1
+    "mission-planning/evaluation": 1,
+    "wargaming/mechanism": 1,
+    "wargaming/evaluation": 1
   },
   "emerging_themes_12m": [
     {
       "keyword": "mcts",
       "papers": 70
-    },
-    {
-      "keyword": "wargame",
-      "papers": 4
     },
     {
       "keyword": "domain randomization",
@@ -191,51 +212,44 @@
       "papers": 129
     },
     {
-      "keyword": "opponent",
-      "papers": 51
-    },
-    {
       "keyword": "constrained",
       "papers": 502
     },
     {
       "keyword": "agentic",
-      "papers": 326
+      "papers": 328
+    },
+    {
+      "keyword": "offline",
+      "papers": 284
+    },
+    {
+      "keyword": "optimization",
+      "papers": 1248
     }
   ],
   "momentum": [
     {
-      "id": "command-and-control",
-      "name": "Command & Control (C2)",
-      "total": 361,
-      "recent": 165,
-      "prior": 58,
-      "growth_pct": 184.5,
-      "recent_share": 0.457,
-      "papers_per_month": 13.8,
-      "score": 230.2
-    },
-    {
       "id": "opponent-modeling",
       "name": "Opponent & Cognitive Modeling",
-      "total": 165,
+      "total": 176,
       "recent": 165,
-      "prior": 0,
-      "growth_pct": null,
-      "recent_share": 1.0,
+      "prior": 1,
+      "growth_pct": 16400.0,
+      "recent_share": 0.938,
       "papers_per_month": 13.8,
-      "score": 100.0
+      "score": 16493.8
     },
     {
-      "id": "wargaming",
-      "name": "Wargaming",
-      "total": 4,
-      "recent": 4,
-      "prior": 0,
-      "growth_pct": null,
-      "recent_share": 1.0,
-      "papers_per_month": 0.3,
-      "score": 100.0
+      "id": "command-and-control",
+      "name": "Command & Control (C2)",
+      "total": 401,
+      "recent": 169,
+      "prior": 61,
+      "growth_pct": 177.0,
+      "recent_share": 0.421,
+      "papers_per_month": 14.1,
+      "score": 219.1
     },
     {
       "id": "probabilistic-uncertainty",
@@ -357,6 +371,17 @@
       "recent_share": 0.391,
       "papers_per_month": 56.1,
       "score": 90.0
+    },
+    {
+      "id": "wargaming",
+      "name": "Wargaming",
+      "total": 149,
+      "recent": 27,
+      "prior": 22,
+      "growth_pct": 22.7,
+      "recent_share": 0.181,
+      "papers_per_month": 2.2,
+      "score": 40.8
     }
   ],
   "category_trajectory": {
@@ -377,7 +402,13 @@
       "2026": 313
     },
     "opponent-modeling": {
-      "2025": 47,
+      "2008": 1,
+      "2009": 1,
+      "2014": 1,
+      "2016": 4,
+      "2022": 2,
+      "2024": 1,
+      "2025": 48,
       "2026": 118
     },
     "hierarchical-planning": {
@@ -391,16 +422,53 @@
       "2026": 90
     },
     "wargaming": {
-      "2025": 2,
-      "2026": 2
+      "1978": 2,
+      "1999": 1,
+      "2000": 1,
+      "2002": 1,
+      "2003": 1,
+      "2004": 1,
+      "2005": 1,
+      "2007": 1,
+      "2008": 1,
+      "2009": 3,
+      "2010": 2,
+      "2012": 2,
+      "2013": 1,
+      "2014": 1,
+      "2015": 1,
+      "2016": 6,
+      "2017": 3,
+      "2018": 1,
+      "2019": 3,
+      "2020": 10,
+      "2021": 13,
+      "2022": 9,
+      "2023": 12,
+      "2024": 26,
+      "2025": 25,
+      "2026": 21
     },
     "command-and-control": {
+      "1985": 1,
+      "1989": 1,
+      "1997": 1,
+      "1999": 1,
+      "2001": 1,
+      "2002": 2,
+      "2009": 1,
+      "2010": 2,
+      "2012": 1,
+      "2015": 2,
+      "2016": 1,
+      "2018": 3,
+      "2020": 1,
       "2021": 17,
-      "2022": 35,
-      "2023": 53,
-      "2024": 52,
-      "2025": 90,
-      "2026": 114
+      "2022": 39,
+      "2023": 59,
+      "2024": 57,
+      "2025": 93,
+      "2026": 118
     },
     "decision-support": {
       "2018": 1,
@@ -438,124 +506,177 @@
       "keyword": "mcts",
       "recent": 70,
       "total": 70,
-      "burst_score": 1.26,
-      "recent_share": 0.0145
-    },
-    {
-      "keyword": "wargame",
-      "recent": 4,
-      "total": 4,
-      "burst_score": 1.26,
-      "recent_share": 0.0008
+      "burst_score": 1.29,
+      "recent_share": 0.0144
     },
     {
       "keyword": "domain randomization",
       "recent": 104,
       "total": 105,
-      "burst_score": 1.25,
-      "recent_share": 0.0215
+      "burst_score": 1.28,
+      "recent_share": 0.0214
     },
     {
       "keyword": "sim-to-real",
       "recent": 270,
       "total": 275,
-      "burst_score": 1.24,
-      "recent_share": 0.0559
+      "burst_score": 1.27,
+      "recent_share": 0.0556
     },
     {
       "keyword": "policy gradient",
       "recent": 212,
       "total": 217,
-      "burst_score": 1.23,
-      "recent_share": 0.0439
+      "burst_score": 1.26,
+      "recent_share": 0.0437
     },
     {
       "keyword": "monte carlo tree search",
       "recent": 86,
       "total": 88,
-      "burst_score": 1.23,
-      "recent_share": 0.0178
+      "burst_score": 1.26,
+      "recent_share": 0.0177
     },
     {
       "keyword": "pomdp",
       "recent": 129,
       "total": 134,
-      "burst_score": 1.21,
-      "recent_share": 0.0267
-    },
-    {
-      "keyword": "opponent",
-      "recent": 51,
-      "total": 53,
-      "burst_score": 1.21,
-      "recent_share": 0.0106
+      "burst_score": 1.25,
+      "recent_share": 0.0266
     },
     {
       "keyword": "constrained",
       "recent": 502,
-      "total": 531,
-      "burst_score": 1.19,
-      "recent_share": 0.104
+      "total": 532,
+      "burst_score": 1.22,
+      "recent_share": 0.1034
     },
     {
       "keyword": "agentic",
-      "recent": 326,
-      "total": 348,
-      "burst_score": 1.18,
+      "recent": 328,
+      "total": 350,
+      "burst_score": 1.21,
       "recent_share": 0.0676
     },
     {
       "keyword": "offline",
-      "recent": 283,
-      "total": 301,
-      "burst_score": 1.18,
-      "recent_share": 0.0586
+      "recent": 284,
+      "total": 303,
+      "burst_score": 1.21,
+      "recent_share": 0.0585
     },
     {
       "keyword": "optimization",
-      "recent": 1247,
-      "total": 1351,
-      "burst_score": 1.16,
-      "recent_share": 0.2584
-    },
-    {
-      "keyword": "multi-agent",
-      "recent": 801,
-      "total": 873,
-      "burst_score": 1.16,
-      "recent_share": 0.166
+      "recent": 1248,
+      "total": 1356,
+      "burst_score": 1.19,
+      "recent_share": 0.2572
     },
     {
       "keyword": "transfer",
       "recent": 464,
       "total": 503,
-      "burst_score": 1.16,
-      "recent_share": 0.0961
+      "burst_score": 1.19,
+      "recent_share": 0.0956
+    },
+    {
+      "keyword": "benchmark",
+      "recent": 1106,
+      "total": 1212,
+      "burst_score": 1.18,
+      "recent_share": 0.2279
+    },
+    {
+      "keyword": "multi-agent",
+      "recent": 805,
+      "total": 883,
+      "burst_score": 1.18,
+      "recent_share": 0.1659
+    },
+    {
+      "keyword": "uncertainty",
+      "recent": 524,
+      "total": 576,
+      "burst_score": 1.18,
+      "recent_share": 0.108
     },
     {
       "keyword": "hierarchical",
       "recent": 322,
-      "total": 351,
-      "burst_score": 1.16,
-      "recent_share": 0.0667
+      "total": 352,
+      "burst_score": 1.18,
+      "recent_share": 0.0664
     }
   ],
   "source_breakdown": {
-    "arxiv": 6081,
-    "doi": 0,
-    "other": 0
+    "arxiv": 6082,
+    "doi": 137,
+    "other": 58
   },
-  "venues": [],
+  "venues": [
+    {
+      "name": "MED",
+      "papers": 18
+    },
+    {
+      "name": "CoRR",
+      "papers": 9
+    },
+    {
+      "name": "Simulation and Wargaming",
+      "papers": 8
+    },
+    {
+      "name": "Zones of Control",
+      "papers": 6
+    },
+    {
+      "name": "Winning the Uncertainty Game",
+      "papers": 6
+    },
+    {
+      "name": "IEEE Access",
+      "papers": 4
+    },
+    {
+      "name": "PPR",
+      "papers": 3
+    },
+    {
+      "name": "CoG",
+      "papers": 2
+    },
+    {
+      "name": "WSC",
+      "papers": 2
+    },
+    {
+      "name": "KES",
+      "papers": 2
+    },
+    {
+      "name": "Military Affairs",
+      "papers": 2
+    },
+    {
+      "name": "Business Wargaming",
+      "papers": 2
+    },
+    {
+      "name": "Oxford English Dictionary",
+      "papers": 2
+    },
+    {
+      "name": "Technol. Anal. Strateg. Manag.",
+      "papers": 2
+    },
+    {
+      "name": "Int. J. Hum. Comput. Interact.",
+      "papers": 2
+    }
+  ],
   "gaps": {
     "thinnest_cells": [
-      {
-        "cell": "wargaming/theory",
-        "papers": 1
-      },
-      {
-        "cell": "wargaming/review",
-        "papers": 1
-      },
       {
         "cell": "command-and-control/evaluation",
         "papers": 1
@@ -569,11 +690,15 @@
         "papers": 1
       },
       {
-        "cell": "multi-agent-rl/review",
-        "papers": 2
+        "cell": "wargaming/mechanism",
+        "papers": 1
       },
       {
-        "cell": "wargaming/application",
+        "cell": "wargaming/evaluation",
+        "papers": 1
+      },
+      {
+        "cell": "multi-agent-rl/review",
         "papers": 2
       },
       {
@@ -581,11 +706,15 @@
         "papers": 2
       },
       {
-        "cell": "opponent-modeling/review",
+        "cell": "hierarchical-planning/review",
         "papers": 2
       },
       {
-        "cell": "hierarchical-planning/review",
+        "cell": "mission-planning/review",
+        "papers": 2
+      },
+      {
+        "cell": "wargaming/development",
         "papers": 2
       }
     ],
@@ -594,12 +723,6 @@
         "cell": "autonomous-decision-making/mechanism",
         "total": 24,
         "recent": 24,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "opponent-modeling/application",
-        "total": 23,
-        "recent": 23,
         "recent_share": 1.0
       },
       {
@@ -649,6 +772,12 @@
         "total": 17,
         "recent": 17,
         "recent_share": 1.0
+      },
+      {
+        "cell": "hierarchical-planning/systems",
+        "total": 16,
+        "recent": 16,
+        "recent_share": 1.0
       }
     ]
   },
@@ -667,6 +796,14 @@
     },
     {
       "name": "Wei Xu",
+      "papers": 7
+    },
+    {
+      "name": "Daniel F. Oriesek",
+      "papers": 7
+    },
+    {
+      "name": "Jan Oliver Schwarz",
       "papers": 7
     },
     {
@@ -704,14 +841,6 @@
     {
       "name": "Jin Wang",
       "papers": 6
-    },
-    {
-      "name": "Yifan Zhang",
-      "papers": 5
-    },
-    {
-      "name": "Elias Bareinboim",
-      "papers": 5
     }
   ]
 }
