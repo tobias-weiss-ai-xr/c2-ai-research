@@ -1,88 +1,75 @@
 #!/usr/bin/env python3
-"""Generate evidence-weighted article topics from the research corpus.
+"""Standard topic planner for a *-research corpus.
 
-Topics are ranked by combining paper-author density in a category, the share of
-papers published in the recent window, and coverage of high-signal domain
-vocabulary.
+Ranks categories by paper count + recent (12-month) activity and writes
+docs/topics/ARTICLE_TOPICS.md. Self-contained taxonomy discovery.
+
+Standard pipeline mimic shared across all research repos.
 
 Usage:
-    tools/topic_planner.py --top 10
+    python3 tools/topic_planner.py --top 10
 """
 
 import argparse
 import collections
-import sys
 from pathlib import Path
 
 import yaml
 
-BASE = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(BASE / "scripts"))
-
-import domain  # noqa: E402
-
-TOPIC_HINTS = {
-    "autonomous-decision-making": ("autonomous", "decision", "planning", "fallback", "compression"),
-    "deep-reinforcement-learning": ("value", "policy", "reward", "gradient", "Q-network"),
-    "multi-agent-rl": ("multi-agent", "agent", "cooperation", "communication"),
-    "opponent-modeling": ("opponent", "adversa", "game-theory"),
-    "hierarchical-planning": ("hierarchical", "abduction", "abductive", "planning"),
-    "military-simulation": ("military", "simulation", "wargame", "evaluation", "theory"),
-    "wargaming": ("wargam", "game", "scenario"),
-    "command-and-control": ("command", "control", "decision-support", "C2"),
-    "decision-support": ("decision", "support", "recommend"),
-    "mathematical-optimization": ("optimization", "constrained", "programming"),
-    "probabilistic-uncertainty": ("probabilit", "bayesian", "uncertainty", "belief"),
-    "mission-planning": ("mission", "route", "task allocation"),
-    "human-ai-teaming": ("human", "team", "trust", "explanation", "XAI"),
-    "sim-to-real": ("sim-to-real", "transfer", "domain randomization"),
-}
+REPO = Path(__file__).resolve().parent.parent
 
 
-def score_category(name, count, total, recent, total_recent):
-    density = count / max(total, 1)
-    recency = recent / max(total_recent, 1)
-    return {"category": name,
-            "papers": count,
-            "score": round(density + recency, 3),
-            "recency": round(recency, 3)}
+def _display(kebab):
+    return kebab.replace("-", " ").replace("_", " ").title()
+
+
+def load_papers():
+    with open(REPO / "papers.yaml", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    return data.get("papers", [])
+
+
+def _year(p):
+    d = p.get("date", "")
+    return d[:4] if isinstance(d, str) and len(d) >= 4 and d[:4].isdigit() else ""
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Topic planner for the corpus")
-    parser.add_argument("--top", type=int, default=10)
-    args = parser.parse_args()
+    ap = argparse.ArgumentParser(description="Standard topic planner")
+    ap.add_argument("--top", type=int, default=10)
+    a = ap.parse_args()
 
-    papers = yaml.safe_load((BASE / "papers.yaml").read_text(encoding="utf-8"))["papers"]
-    by_cat = collections.Counter(p["category"] for p in papers)
-    latest = sorted({p["date"] for p in papers})[-1]
-    cut = str(int(latest[:4]) - 1)
-    by_cat_12m = collections.Counter(p["category"] for p in papers
-                                     if p["date"][:4] >= cut)
+    papers = load_papers()
+    by_cat = collections.Counter(p.get("category", "unknown") for p in papers)
+    years = sorted({y for y in (_year(p) for p in papers) if y})
+    latest = years[-1] if years else "0000"
+    cut = str(int(latest) - 1)
+    recent = collections.Counter(
+        p.get("category", "unknown") for p in papers if _year(p) >= cut
+    )
+    rn = sum(1 for p in papers if _year(p) >= cut)
 
-    total = len(papers)
-    total_recent = sum(1 for p in papers if p["date"][:4] >= cut)
+    rows = []
+    for c, n in by_cat.items():
+        r = recent.get(c, 0)
+        score = n + (r / max(rn, 1)) * 10
+        rows.append({"category": c, "papers": n, "recent": r, "score": round(score, 2)})
+    rows.sort(key=lambda x: -x["score"])
 
-    rows = sorted((score_category(c, n, total, by_cat_12m.get(c, 0), total_recent)
-                   for c, n in by_cat.items()), key=lambda r: -r["score"])[:args.top]
+    top = rows[: a.top]
+    print(f"Top {len(top)} evidence-ranked topics:\n")
+    for i, r in enumerate(top, 1):
+        print(f"{i:>2}. {_display(r['category'])} (papers={r['papers']}, recent={r['recent']}, score={r['score']})")
 
-    print(f"Top {len(rows)} article topics for the C2-AI corpus:\n")
-    for i, r in enumerate(rows, 1):
-        hints = ", ".join(TOPIC_HINTS.get(r["category"], [])[:3])
-        print(f"{i:>2}. {domain.CATEGORY_DISPLAY.get(r['category'], r['category'])} "
-              f"(papers={r['papers']}, score={r['score']})")
-        print(f"     angles: {hints}")
-
-    # write the generated topics doc
-    out = ["# Article Topics (auto-generated)\n"]
-    for r in rows:
-        out.append(f"\n## {domain.CATEGORY_DISPLAY.get(r['category'], r['category'])}\n")
-        out.append(f"Evidence-based topic with {r['papers']} curated papers.\n")
-        out.append(f"Suggested angles: {', '.join(TOPIC_HINTS.get(r['category'], []))}.\n")
-    out_path = BASE / "docs" / "topics" / "ARTICLE_TOPICS.md"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text("\n".join(out), encoding="utf-8")
-    print(f"\nWrote {out_path}")
+    md = ["# Article Topics (auto-generated)\n"]
+    for r in top:
+        md += [f"\n## {_display(r['category'])}\n",
+               f"Evidence-based topic: {r['papers']} curated papers, "
+               f"{r['recent']} in the last 12 months.\n"]
+    out = REPO / "docs" / "topics" / "ARTICLE_TOPICS.md"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text("\n".join(md), encoding="utf-8")
+    print(f"\nWrote {out}")
 
 
 if __name__ == "__main__":
