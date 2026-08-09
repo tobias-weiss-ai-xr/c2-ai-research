@@ -1,50 +1,51 @@
 # Article Topics (auto-generated)
 
 
-## Multi-Agent Reinforcement Learning
+## Human Ai Teaming
 
-Evidence-based topic with 2 curated papers.
-
-Suggested angles: multi-agent, agent, cooperation, communication.
+Evidence-based topic: 1721 curated papers, 995 in the last 12 months.
 
 
 ## Deep Reinforcement Learning
 
-Evidence-based topic with 4 curated papers.
-
-Suggested angles: value, policy, reward, gradient, Q-network.
+Evidence-based topic: 988 curated papers, 984 in the last 12 months.
 
 
-## Hierarchical Planning
+## Autonomous Decision Making
 
-Evidence-based topic with 1 curated papers.
-
-Suggested angles: hierarchical, abduction, abductive, planning.
+Evidence-based topic: 582 curated papers, 581 in the last 12 months.
 
 
-## Autonomous Decision-Making
+## Multi Agent Rl
 
-Evidence-based topic with 1 curated papers.
+Evidence-based topic: 448 curated papers, 446 in the last 12 months.
 
-Suggested angles: autonomous, decision, planning, fallback, compression.
+
+## Sim To Real
+
+Evidence-based topic: 425 curated papers, 425 in the last 12 months.
 
 
 ## Decision Support
 
-Evidence-based topic with 1 curated papers.
-
-Suggested angles: decision, support, recommend.
+Evidence-based topic: 403 curated papers, 402 in the last 12 months.
 
 
-## Military Simulation
+## Command And Control
 
-Evidence-based topic with 1 curated papers.
+Evidence-based topic: 361 curated papers, 204 in the last 12 months.
 
-Suggested angles: military, simulation, wargame, evaluation, theory.
+
+## Probabilistic Uncertainty
+
+Evidence-based topic: 328 curated papers, 328 in the last 12 months.
 
 
 ## Mathematical Optimization
 
-Evidence-based topic with 1 curated papers.
+Evidence-based topic: 259 curated papers, 258 in the last 12 months.
 
-Suggested angles: optimization, constrained, programming.
+
+## Opponent Modeling
+
+Evidence-based topic: 165 curated papers, 165 in the last 12 months.

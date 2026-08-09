@@ -1,27 +1,27 @@
 # C2-AI Research Trends (12-Month View)
 
-**Generated:** 2026-08-09  
-**Window:** since 2025-08 — 4148 of 4159 papers
+**Generated:** 2026-08-10  
+**Window:** since 2025-08 — 4826 of 6081 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| reinforcement learning | 2482 | 2490 | 1.0× |
-| optimization | 1185 | 1188 | 1.0× |
-| ppo | 1061 | 1065 | 1.0× |
-| benchmark | 1009 | 1011 | 1.0× |
-| decision-making | 835 | 835 | 1.0× |
-| simulation | 829 | 831 | 1.0× |
-| autonomous | 741 | 742 | 1.0× |
-| multi-agent | 733 | 736 | 1.0× |
-| planning | 612 | 615 | 1.0× |
-| uncertainty | 475 | 475 | 1.0× |
-| constrained | 449 | 450 | 1.0× |
-| transfer | 439 | 441 | 1.0× |
-| deep reinforcement | 340 | 344 | 1.0× |
-| engine | 290 | 290 | 1.0× |
-| hierarchical | 289 | 291 | 1.0× |
+| mcts | 70 | 70 | 1.3× |
+| wargame | 4 | 4 | 1.3× |
+| reinforcement learning | 2552 | 2788 | 1.2× |
+| optimization | 1247 | 1351 | 1.2× |
+| multi-agent | 801 | 873 | 1.2× |
+| constrained | 502 | 531 | 1.2× |
+| transfer | 464 | 503 | 1.2× |
+| deep reinforcement | 343 | 375 | 1.2× |
+| agentic | 326 | 348 | 1.2× |
+| hierarchical | 322 | 351 | 1.2× |
+| offline | 283 | 301 | 1.2× |
+| sim-to-real | 270 | 275 | 1.2× |
+| model-based | 221 | 236 | 1.2× |
+| policy gradient | 212 | 217 | 1.2× |
+| combinatorial | 169 | 171 | 1.2× |
 
 ## 📈 Fastest-Growing Cells
 

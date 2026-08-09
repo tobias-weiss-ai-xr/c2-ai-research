@@ -1,7 +1,7 @@
 # C2-AI Research — Literature Review
 
-**Generated:** 2026-08-09  
-**Corpus:** 4,159 papers across 14 categories
+**Generated:** 2026-08-10  
+**Corpus:** 6,081 papers across 14 categories
 
 > Synthesis of the autonomous decision-making & deep-RL research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
 
@@ -11,14 +11,14 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Deep Reinforcement Learning | 988 |
-| 2 | Autonomous Decision-Making | 582 |
-| 3 | Multi-Agent Reinforcement Learning | 448 |
-| 4 | Simulation-to-Reality Transfer | 425 |
-| 5 | Decision Support | 403 |
+| 1 | Human–AI Teaming | 1721 |
+| 2 | Deep Reinforcement Learning | 988 |
+| 3 | Autonomous Decision-Making | 582 |
+| 4 | Multi-Agent Reinforcement Learning | 448 |
+| 5 | Simulation-to-Reality Transfer | 425 |
 
-**Time span:** 2017–2026 (median year 2020)
-**Dominant aspects:** Application (1181), Development (1115), Theory (856)
+**Time span:** 2017–2026 (median year 2022)
+**Dominant aspects:** Application (1692), Development (1526), Theory (1106)
 
 ---
 
@@ -28,12 +28,11 @@ Categories ranked by a momentum score combining recent output density with year-
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
+| Command & Control (C2) | 361 | 165 | 58 | +184.5% | 46% | 13.8 |
 | Opponent & Cognitive Modeling | 165 | 165 | 0 | — | 100% | 13.8 |
 | Wargaming | 4 | 4 | 0 | — | 100% | 0.3 |
-| Command & Control (C2) | 64 | 64 | 0 | — | 100% | 5.3 |
 | Probabilistic & Uncertainty Reasoning | 328 | 328 | 0 | — | 100% | 27.3 |
 | Mission Planning | 145 | 145 | 0 | — | 100% | 12.1 |
-| Human–AI Teaming | 96 | 96 | 0 | — | 100% | 8.0 |
 | Simulation-to-Reality Transfer | 425 | 425 | 0 | — | 100% | 35.4 |
 | Autonomous Decision-Making | 582 | 581 | 0 | — | 100% | 48.4 |
 | Decision Support | 403 | 402 | 0 | — | 100% | 33.5 |
@@ -42,6 +41,7 @@ Categories ranked by a momentum score combining recent output density with year-
 | Mathematical Optimization | 259 | 258 | 0 | — | 100% | 21.5 |
 | Hierarchical Planning | 127 | 126 | 0 | — | 99% | 10.5 |
 | Military Simulation | 125 | 124 | 0 | — | 99% | 10.3 |
+| Human–AI Teaming | 1721 | 673 | 446 | +50.9% | 39% | 56.1 |
 
 ---
 
@@ -54,11 +54,11 @@ Categories ranked by a momentum score combining recent output density with year-
 | `wargaming/theory` | 1 |
 | `wargaming/review` | 1 |
 | `command-and-control/evaluation` | 1 |
-| `command-and-control/review` | 1 |
 | `mission-planning/method` | 1 |
 | `mission-planning/evaluation` | 1 |
 | `multi-agent-rl/review` | 2 |
 | `wargaming/application` | 2 |
+| `mathematical-optimization/review` | 2 |
 
 **White-space cells** (low total but fast-growing):
 
@@ -69,14 +69,28 @@ Categories ranked by a momentum score combining recent output density with year-
 | `hierarchical-planning/application` | 23 | 23 | 100% |
 | `mission-planning/development` | 23 | 23 | 100% |
 | `mathematical-optimization/systems` | 22 | 22 | 100% |
-| `human-ai-teaming/development` | 22 | 22 | 100% |
 | `autonomous-decision-making/method` | 21 | 21 | 100% |
 | `mission-planning/theory` | 20 | 20 | 100% |
+| `hierarchical-planning/theory` | 19 | 19 | 100% |
 
 ---
 
 
 ## Category Insights
+
+### Human–AI Teaming (`human-ai-teaming`)
+
+Trust, explainability and mixed-initiative control are the acceptance criteria — an autonomous system that no human trusts is not deployable.
+
+**Corpus size:** 1721 papers
+
+**Papers:**
+
+- [2026-08] Securing Agentic AI: From Per-Action Checks to Trajectory Assurance — https://arxiv.org/abs/2608.01558v1
+- [2026-08] Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent — https://arxiv.org/abs/2608.03979v1
+- [2026-08] SCP-NL2TL: Selective Conformal Prediction with Semantic Verification for Natural Language to Tempora — https://arxiv.org/abs/2608.05439v1
+
+---
 
 ### Deep Reinforcement Learning (`deep-reinforcement-learning`)
 
@@ -145,6 +159,20 @@ Decision support fuses statistics, ML and optimization to augment human decision
 - [2026-08] Neuro-Symbolic Participation Governance for Verifiable AI Agents in Open Digital Twin Ecosystems — https://arxiv.org/abs/2608.00937v1
 - [2026-08] Stability of Ranking-dependent Pair-wise Comparison Patterns in the Analytic Hierarchy Process — https://arxiv.org/abs/2608.05958v1
 - [2026-08] Predictive Maintenance: Deep Learning-Based Remaining Useful Life Prediction for Combat Aircraft Eng — https://arxiv.org/abs/2608.01819v1
+
+---
+
+### Command & Control (C2) (`command-and-control`)
+
+C2 research connects autonomy to human-machine teaming, situational awareness and decision support at the operational seam between computation and command.
+
+**Corpus size:** 361 papers
+
+**Papers:**
+
+- [2026-07] Cyber-Capable AI Agents: Vulnerabilities, Evaluation Containment, and Defensive Response — https://arxiv.org/abs/2607.25379v2
+- [2026-07] Clinical Translation of Brain-Computer Interface in China: A Landscape Analysis of Investigator-Init — https://arxiv.org/abs/2607.07185v3
+- [2026-07] FleetScape: A Mixed Reality Sandtable for Spatial Supervision and Control of Scalable Drone Fleets — https://arxiv.org/abs/2607.26423v1
 
 ---
 
@@ -229,34 +257,6 @@ Simulation environments (constructive, game-engine, entity-level) are the traini
 - [2026-08] Training a Conditioned Video Game Agent on a VLM Annotated Dataset — https://arxiv.org/abs/2608.05954v1
 - [2026-07] Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds — https://arxiv.org/abs/2607.18135v1
 - [2026-07] Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models — https://arxiv.org/abs/2607.13172v1
-
----
-
-### Human–AI Teaming (`human-ai-teaming`)
-
-Trust, explainability and mixed-initiative control are the acceptance criteria — an autonomous system that no human trusts is not deployable.
-
-**Corpus size:** 96 papers
-
-**Papers:**
-
-- [2026-08] Securing Agentic AI: From Per-Action Checks to Trajectory Assurance — https://arxiv.org/abs/2608.01558v1
-- [2026-07] What Types of Human-AI Teams Exist? — https://arxiv.org/abs/2607.02198v1
-- [2026-07] Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork — https://arxiv.org/abs/2607.27177v1
-
----
-
-### Command & Control (C2) (`command-and-control`)
-
-C2 research connects autonomy to human-machine teaming, situational awareness and decision support at the operational seam between computation and command.
-
-**Corpus size:** 64 papers
-
-**Papers:**
-
-- [2026-07] Cyber-Capable AI Agents: Vulnerabilities, Evaluation Containment, and Defensive Response — https://arxiv.org/abs/2607.25379v2
-- [2026-07] Clinical Translation of Brain-Computer Interface in China: A Landscape Analysis of Investigator-Init — https://arxiv.org/abs/2607.07185v3
-- [2026-07] FleetScape: A Mixed Reality Sandtable for Spatial Supervision and Control of Scalable Drone Fleets — https://arxiv.org/abs/2607.26423v1
 
 ---
 

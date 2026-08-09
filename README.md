@@ -1,7 +1,7 @@
 # C2-AI Research Corpus
 
 **Evidence base for autonomous decision-making & deep reinforcement learning in
-military simulations** — 4159 papers across 14 categories
+military simulations** — 6081 papers across 14 categories
 and 8 research aspects.
 
 **Author:** Tobias Weiss · **License:** MIT (tools) / proprietary (corpus)
@@ -21,7 +21,7 @@ established `*-research` corpora:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 4159 |
+| **Papers Analyzed** | 6081 |
 | **Categories** | 14 |
 | **Research Aspects** | 8 |
 | **Taxonomy Cells** | 112 |
@@ -34,33 +34,33 @@ established `*-research` corpora:
 
 | Category | Papers |
 |----------|-------:|
+| Human–AI Teaming | 1721 |
 | Deep Reinforcement Learning | 988 |
 | Autonomous Decision-Making | 582 |
 | Multi-Agent Reinforcement Learning | 448 |
 | Simulation-to-Reality Transfer | 425 |
 | Decision Support | 403 |
+| Command & Control (C2) | 361 |
 | Probabilistic & Uncertainty Reasoning | 328 |
 | Mathematical Optimization | 259 |
 | Opponent & Cognitive Modeling | 165 |
 | Mission Planning | 145 |
 | Hierarchical Planning | 127 |
 | Military Simulation | 125 |
-| Human–AI Teaming | 96 |
-| Command & Control (C2) | 64 |
 | Wargaming | 4 |
 
 ### Research Aspects (Subcategories)
 
 | Aspect | Papers |
 |--------|-------:|
-| Application | 1181 |
-| Development | 1115 |
-| Theory | 856 |
-| Systems & Technology | 434 |
-| Mechanism | 243 |
-| Method | 138 |
-| Evaluation & Benchmarks | 105 |
-| Reviews & Surveys | 87 |
+| Application | 1692 |
+| Development | 1526 |
+| Theory | 1106 |
+| Systems & Technology | 678 |
+| Mechanism | 521 |
+| Reviews & Surveys | 223 |
+| Method | 203 |
+| Evaluation & Benchmarks | 132 |
 
 ### Distribution by Year
 
@@ -70,9 +70,12 @@ established `*-research` corpora:
 | 2018 | 2 |
 | 2019 | 3 |
 | 2020 | 1 |
-| 2022 | 1 |
-| 2025 | 1228 |
-| 2026 | 2920 |
+| 2021 | 60 |
+| 2022 | 179 |
+| 2023 | 280 |
+| 2024 | 365 |
+| 2025 | 1839 |
+| 2026 | 3348 |
 
 
 ---
