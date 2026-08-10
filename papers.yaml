@@ -26,7 +26,7 @@ papers:
   date: 2017-07
   url: https://arxiv.org/abs/1707.06347
   category: deep-reinforcement-learning
-  subcategory: method
+  subcategory: theory
   arxiv_id: '1707.06347'
   authors:
   - John Schulman
@@ -50,7 +50,7 @@ papers:
   date: 2017-10
   url: https://arxiv.org/abs/1710.02298
   category: deep-reinforcement-learning
-  subcategory: systems
+  subcategory: evaluation
   arxiv_id: '1710.02298'
   authors:
   - Matteo Hessel
@@ -76,7 +76,7 @@ papers:
   date: 2017-11
   url: https://arxiv.org/abs/1712.00006
   category: deep-reinforcement-learning
-  subcategory: evaluation
+  subcategory: method
   arxiv_id: '1712.00006'
   authors:
   - Shangtong Zhang
@@ -95,7 +95,7 @@ papers:
   date: 2019-09
   url: https://arxiv.org/abs/1909.07528
   category: multi-agent-rl
-  subcategory: mechanism
+  subcategory: theory
   arxiv_id: '1909.07528'
   authors:
   - Bowen Baker
@@ -150,7 +150,7 @@ papers:
   date: 2018-06
   url: https://arxiv.org/abs/1806.10792
   category: hierarchical-planning
-  subcategory: method
+  subcategory: theory
   arxiv_id: '1806.10792'
   authors:
   - Kazeto Yamamoto
@@ -173,7 +173,7 @@ papers:
   date: 2019-11
   url: https://arxiv.org/abs/1911.08265
   category: autonomous-decision-making
-  subcategory: theory
+  subcategory: application
   arxiv_id: '1911.08265'
   authors:
   - Julian Schrittwieser
@@ -209,7 +209,7 @@ papers:
   date: 2018-10
   url: https://arxiv.org/abs/1810.00829
   category: decision-support
-  subcategory: application
+  subcategory: method
   arxiv_id: '1810.00829'
   authors:
   - Ran Tian
@@ -228,7 +228,7 @@ papers:
   date: 2020-04
   url: https://arxiv.org/abs/2004.09340
   category: military-simulation
-  subcategory: evaluation
+  subcategory: application
   arxiv_id: '2004.09340'
   authors:
   - Mario Golling
@@ -258,7 +258,7 @@ papers:
   date: 2019-10
   url: https://arxiv.org/abs/1910.08476
   category: mathematical-optimization
-  subcategory: theory
+  subcategory: method
   arxiv_id: '1910.08476'
   authors:
   - Nino Vieillard

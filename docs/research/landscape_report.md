@@ -1,6 +1,6 @@
 # C2-AI Paper Landscape Report
 
-**Generated:** 2026-08-10  
+**Generated:** 2026-08-11  
 **Corpus:** 6,277 papers (1978-2026) | 6,082 arXiv preprints · 195 journal/publisher records
 
 ## Category Landscape
@@ -24,13 +24,13 @@
 
 ## Research Aspects
 
-- **Theory** (theory): 1110 papers (18%) ########
-- **Mechanism** (mechanism): 524 papers (8%) ####
-- **Method** (method): 270 papers (4%) ##
-- **Application** (application): 1769 papers (28%) ##############
+- **Theory** (theory): 1111 papers (18%) ########
+- **Mechanism** (mechanism): 523 papers (8%) ####
+- **Method** (method): 271 papers (4%) ##
+- **Application** (application): 1770 papers (28%) ##############
 - **Development** (development): 1533 papers (24%) ############
-- **Systems & Technology** (systems): 701 papers (11%) #####
-- **Evaluation & Benchmarks** (evaluation): 133 papers (2%) #
+- **Systems & Technology** (systems): 700 papers (11%) #####
+- **Evaluation & Benchmarks** (evaluation): 132 papers (2%) #
 - **Reviews & Surveys** (review): 237 papers (4%) #
 
 ## Year Trend
@@ -123,7 +123,7 @@
 - `human-ai-teaming/mechanism` — 270
 - `sim-to-real/application` — 250
 - `human-ai-teaming/theory` — 229
-- `deep-reinforcement-learning/theory` — 210
+- `deep-reinforcement-learning/theory` — 211
 - `human-ai-teaming/systems` — 193
 - `deep-reinforcement-learning/application` — 178
 - `autonomous-decision-making/development` — 178

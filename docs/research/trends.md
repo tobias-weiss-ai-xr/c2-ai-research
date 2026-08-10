@@ -1,6 +1,6 @@
 # C2-AI Research Trends (12-Month View)
 
-**Generated:** 2026-08-10  
+**Generated:** 2026-08-11  
 **Window:** since 2025-08 — 4853 of 6277 papers
 
 ## 🔥 Keyword Bursts
@@ -27,12 +27,13 @@
 
 | Cell | Recent | Total | Recent Share |
 |------|--------|-------|--------------|
+| `deep-reinforcement-learning/theory` | 210 | 211 | 100% |
 | `deep-reinforcement-learning/application` | 178 | 178 | 100% |
-| `deep-reinforcement-learning/theory` | 210 | 210 | 100% |
 | `deep-reinforcement-learning/mechanism` | 69 | 69 | 100% |
+| `deep-reinforcement-learning/systems` | 118 | 118 | 100% |
 | `deep-reinforcement-learning/development` | 275 | 275 | 100% |
+| `autonomous-decision-making/theory` | 123 | 123 | 100% |
 | `autonomous-decision-making/systems` | 64 | 64 | 100% |
-| `autonomous-decision-making/application` | 154 | 154 | 100% |
 | `autonomous-decision-making/development` | 178 | 178 | 100% |
 | `autonomous-decision-making/review` | 6 | 6 | 100% |
 | `autonomous-decision-making/mechanism` | 24 | 24 | 100% |
@@ -40,7 +41,6 @@
 | `autonomous-decision-making/evaluation` | 11 | 11 | 100% |
 | `multi-agent-rl/method` | 10 | 10 | 100% |
 | `multi-agent-rl/development` | 142 | 142 | 100% |
-| `multi-agent-rl/theory` | 113 | 113 | 100% |
 | `multi-agent-rl/application` | 107 | 107 | 100% |
 
 Regenerate with `python3 tools/trend_scanner.py --months 12`.

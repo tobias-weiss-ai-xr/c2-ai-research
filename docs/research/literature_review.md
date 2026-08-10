@@ -1,6 +1,6 @@
 # C2-AI Research — Literature Review
 
-**Generated:** 2026-08-10  
+**Generated:** 2026-08-11  
 **Corpus:** 6,277 papers across 14 categories
 
 > Synthesis of the autonomous decision-making & deep-RL research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
@@ -18,7 +18,7 @@
 | 5 | Simulation-to-Reality Transfer | 425 |
 
 **Time span:** 1978–2026 (median year 2012)
-**Dominant aspects:** Application (1769), Development (1533), Theory (1110)
+**Dominant aspects:** Application (1770), Development (1533), Theory (1111)
 
 ---
 

@@ -9,7 +9,7 @@
     {
      "id": "theory",
      "name": "Theory",
-     "count": 124
+     "count": 123
     },
     {
      "id": "mechanism",
@@ -24,7 +24,7 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 154
+     "count": 155
     },
     {
      "id": "development",
@@ -73,7 +73,7 @@
     {
      "id": "theory",
      "name": "Theory",
-     "count": 210
+     "count": 211
     },
     {
      "id": "mechanism",
@@ -98,7 +98,7 @@
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 119
+     "count": 118
     },
     {
      "id": "evaluation",
@@ -137,12 +137,12 @@
     {
      "id": "theory",
      "name": "Theory",
-     "count": 113
+     "count": 114
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 27
+     "count": 26
     },
     {
      "id": "method",
@@ -271,7 +271,7 @@
     {
      "id": "theory",
      "name": "Theory",
-     "count": 19
+     "count": 20
     },
     {
      "id": "mechanism",
@@ -281,7 +281,7 @@
     {
      "id": "method",
      "name": "Method",
-     "count": 9
+     "count": 8
     },
     {
      "id": "application",
@@ -350,7 +350,7 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 53
+     "count": 54
     },
     {
      "id": "development",
@@ -365,7 +365,7 @@
     {
      "id": "evaluation",
      "name": "Evaluation & Benchmarks",
-     "count": 5
+     "count": 4
     },
     {
      "id": "review",
@@ -576,12 +576,12 @@
     {
      "id": "method",
      "name": "Method",
-     "count": 6
+     "count": 7
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 136
+     "count": 135
     },
     {
      "id": "development",
@@ -630,7 +630,7 @@
     {
      "id": "theory",
      "name": "Theory",
-     "count": 91
+     "count": 90
     },
     {
      "id": "mechanism",
@@ -640,7 +640,7 @@
     {
      "id": "method",
      "name": "Method",
-     "count": 11
+     "count": 12
     },
     {
      "id": "application",
@@ -946,22 +946,22 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 1110
+   "count": 1111
   },
   {
    "id": "mechanism",
    "name": "Mechanism",
-   "count": 524
+   "count": 523
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 270
+   "count": 271
   },
   {
    "id": "application",
    "name": "Application",
-   "count": 1769
+   "count": 1770
   },
   {
    "id": "development",
@@ -971,12 +971,12 @@
   {
    "id": "systems",
    "name": "Systems & Technology",
-   "count": 701
+   "count": 700
   },
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 133
+   "count": 132
   },
   {
    "id": "review",
@@ -1238,12 +1238,12 @@
   [
    "2017-07",
    "deep-reinforcement-learning",
-   "method"
+   "theory"
   ],
   [
    "2017-10",
    "deep-reinforcement-learning",
-   "systems"
+   "evaluation"
   ],
   [
    "2017-10",
@@ -1253,7 +1253,7 @@
   [
    "2017-11",
    "deep-reinforcement-learning",
-   "evaluation"
+   "method"
   ],
   [
    "2018-01",
@@ -1273,7 +1273,7 @@
   [
    "2018-06",
    "hierarchical-planning",
-   "method"
+   "theory"
   ],
   [
    "2018-06",
@@ -1283,7 +1283,7 @@
   [
    "2018-10",
    "decision-support",
-   "application"
+   "method"
   ],
   [
    "2019-01",
@@ -1303,17 +1303,17 @@
   [
    "2019-09",
    "multi-agent-rl",
-   "mechanism"
+   "theory"
   ],
   [
    "2019-10",
    "mathematical-optimization",
-   "theory"
+   "method"
   ],
   [
    "2019-11",
    "autonomous-decision-making",
-   "theory"
+   "application"
   ],
   [
    "2020-01",
@@ -1338,7 +1338,7 @@
   [
    "2020-04",
    "military-simulation",
-   "evaluation"
+   "application"
   ],
   [
    "2020-08",
