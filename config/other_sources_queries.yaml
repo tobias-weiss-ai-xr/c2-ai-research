@@ -1,0 +1,129 @@
+# Multi-source queries for C2-AI research
+# Format: {source, query, category, subcategory_hint?}
+# Sources: dblp, crossref, europepmc
+
+# ── Wargaming (DBLP) ──
+- source: dblp
+  query: wargaming
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargaming reinforcement learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming multi-agent
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargaming deep learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming game theory
+  category: wargaming
+  subcategory_hint: theory
+- source: dblp
+  query: wargaming simulation
+  category: wargaming
+  subcategory_hint: systems
+- source: dblp
+  query: wargaming machine learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming agent
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargame reinforcement learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargame agent
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargame artificial intelligence
+  category: wargaming
+  subcategory_hint: review
+- source: dblp
+  query: wargaming neural network
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming LLM
+  category: wargaming
+  subcategory_hint: development
+- source: dblp
+  query: wargaming survey
+  category: wargaming
+  subcategory_hint: review
+
+# ── Wargaming (CrossRef) ──
+- source: crossref
+  query: wargaming reinforcement learning
+  category: wargaming
+  subcategory_hint: method
+- source: crossref
+  query: wargaming deep learning
+  category: wargaming
+  subcategory_hint: method
+- source: crossref
+  query: wargaming multi-agent
+  category: wargaming
+  subcategory_hint: application
+- source: crossref
+  query: wargaming autonomous
+  category: wargaming
+  subcategory_hint: application
+- source: crossref
+  query: wargame artificial intelligence
+  category: wargaming
+  subcategory_hint: review
+- source: crossref
+  query: wargaming survey review
+  category: wargaming
+  subcategory_hint: review
+
+# ── Wargaming (Europe PMC) ──
+- source: europepmc
+  query: wargaming AI
+  category: wargaming
+  subcategory_hint: application
+- source: europepmc
+  query: wargaming reinforcement
+  category: wargaming
+  subcategory_hint: method
+
+# ── C2 reviews/evaluations (DBLP) ──
+- source: dblp
+  query: command control survey
+  category: command-and-control
+  subcategory_hint: review
+- source: dblp
+  query: command control benchmark evaluation
+  category: command-and-control
+  subcategory_hint: evaluation
+- source: dblp
+  query: battle management autonomous
+  category: command-and-control
+  subcategory_hint: systems
+- source: dblp
+  query: situation awareness AI
+  category: command-and-control
+  subcategory_hint: mechanism
+- source: dblp
+  query: command control framework
+  category: command-and-control
+  subcategory_hint: development
+
+# ── Opponent modeling reviews ──
+- source: dblp
+  query: opponent modeling survey
+  category: opponent-modeling
+  subcategory_hint: review
+- source: crossref
+  query: opponent modeling survey review
+  category: opponent-modeling
+  subcategory_hint: review
