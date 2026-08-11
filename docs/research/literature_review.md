@@ -1,7 +1,7 @@
 # C2-AI Research — Literature Review
 
 **Generated:** 2026-08-11  
-**Corpus:** 6,642 papers across 14 categories
+**Corpus:** 6,650 papers across 14 categories
 
 > Synthesis of the autonomous decision-making & deep-RL research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
 
@@ -11,14 +11,14 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Human–AI Teaming | 1724 |
+| 1 | Human–AI Teaming | 1725 |
 | 2 | Deep Reinforcement Learning | 1080 |
-| 3 | Autonomous Decision-Making | 637 |
+| 3 | Autonomous Decision-Making | 638 |
 | 4 | Multi-Agent Reinforcement Learning | 512 |
 | 5 | Decision Support | 452 |
 
 **Time span:** 1978–2026 (median year 2012)
-**Dominant aspects:** Application (1856), Development (1644), Theory (1188)
+**Dominant aspects:** Application (1859), Development (1647), Theory (1189)
 
 ---
 
@@ -28,19 +28,19 @@ Categories ranked by a momentum score combining recent output density with year-
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Opponent & Cognitive Modeling | 193 | 182 | 1 | +18100.0% | 94% | 15.2 |
+| Opponent & Cognitive Modeling | 194 | 183 | 1 | +18200.0% | 94% | 15.2 |
 | Command & Control (C2) | 402 | 170 | 61 | +178.7% | 42% | 14.2 |
 | Probabilistic & Uncertainty Reasoning | 366 | 366 | 0 | — | 100% | 30.5 |
 | Mission Planning | 146 | 146 | 0 | — | 100% | 12.2 |
-| Simulation-to-Reality Transfer | 425 | 425 | 0 | — | 100% | 35.4 |
-| Autonomous Decision-Making | 637 | 636 | 0 | — | 100% | 53.0 |
+| Simulation-to-Reality Transfer | 428 | 428 | 0 | — | 100% | 35.7 |
+| Autonomous Decision-Making | 638 | 637 | 0 | — | 100% | 53.1 |
 | Decision Support | 452 | 451 | 0 | — | 100% | 37.6 |
 | Deep Reinforcement Learning | 1080 | 1076 | 0 | — | 100% | 89.7 |
 | Multi-Agent Reinforcement Learning | 512 | 510 | 0 | — | 100% | 42.5 |
-| Mathematical Optimization | 284 | 283 | 0 | — | 100% | 23.6 |
-| Military Simulation | 145 | 144 | 0 | — | 99% | 12.0 |
+| Mathematical Optimization | 285 | 284 | 0 | — | 100% | 23.7 |
+| Military Simulation | 146 | 145 | 0 | — | 99% | 12.1 |
 | Hierarchical Planning | 127 | 126 | 0 | — | 99% | 10.5 |
-| Human–AI Teaming | 1724 | 676 | 446 | +51.6% | 39% | 56.3 |
+| Human–AI Teaming | 1725 | 677 | 446 | +51.8% | 39% | 56.4 |
 | Wargaming | 149 | 27 | 22 | +22.7% | 18% | 2.2 |
 
 ---
@@ -65,9 +65,9 @@ Categories ranked by a momentum score combining recent output density with year-
 | Cell | Total | Last-12m | 12-m share |
 |------|-------:|---------:|-----------:|
 | `mathematical-optimization/systems` | 25 | 25 | 100% |
+| `military-simulation/systems` | 24 | 24 | 100% |
 | `autonomous-decision-making/method` | 23 | 23 | 100% |
 | `hierarchical-planning/application` | 23 | 23 | 100% |
-| `military-simulation/systems` | 23 | 23 | 100% |
 | `mission-planning/development` | 23 | 23 | 100% |
 | `mission-planning/theory` | 20 | 20 | 100% |
 | `probabilistic-uncertainty/mechanism` | 19 | 19 | 100% |
@@ -101,7 +101,7 @@ Top venues by paper count (where present in the metadata):
 
 Trust, explainability and mixed-initiative control are the acceptance criteria — an autonomous system that no human trusts is not deployable.
 
-**Corpus size:** 1724 papers
+**Corpus size:** 1725 papers
 
 **Papers:**
 
@@ -129,7 +129,7 @@ DRL is the methodological core of the corpus: value/policy gradients, benchmark 
 
 End-to-end perception-then-action pipelines (e.g. decision transformers, MCTS planners) encode the target capability for autonomous planning and decision-making in high-stakes, partially structured environments.
 
-**Corpus size:** 637 papers
+**Corpus size:** 638 papers
 
 **Papers:**
 
@@ -171,7 +171,7 @@ Decision support fuses statistics, ML and optimization to augment human decision
 
 Domain randomization and sim-to-sim/sim-to-real transfer are the mechanisms that make policies learned in simulations usable on real systems.
 
-**Corpus size:** 425 papers
+**Corpus size:** 428 papers
 
 **Papers:**
 
@@ -213,7 +213,7 @@ Bayesian, POMDP and uncertainty-quantified reasoning is essential where observat
 
 Constrained/convex/DP optimization is the formal bridge between RL objectives and provable mission-planning guarantees.
 
-**Corpus size:** 284 papers
+**Corpus size:** 285 papers
 
 **Papers:**
 
@@ -227,7 +227,7 @@ Constrained/convex/DP optimization is the formal bridge between RL objectives an
 
 Inferring adversary intent and strategy (game theory, adversarial RL, counterfactual regret) is the differentiator for decision support that reasons about an opponent, not just the environment.
 
-**Corpus size:** 193 papers
+**Corpus size:** 194 papers
 
 **Papers:**
 
@@ -251,6 +251,20 @@ Red-vs-blue wargaming is the canonical adversarial setting where RL, opponent mo
 
 ---
 
+### Military Simulation (`military-simulation`)
+
+Simulation environments (constructive, game-engine, entity-level) are the training and test bed for RL in military settings; assessment and fidelity criteria matter as much as the learners themselves.
+
+**Corpus size:** 146 papers
+
+**Papers:**
+
+- [2026-08] Training a Conditioned Video Game Agent on a VLM Annotated Dataset — https://arxiv.org/abs/2608.05954v1
+- [2026-08] IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents — https://arxiv.org/abs/2608.06735v1
+- [2026-07] Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds — https://arxiv.org/abs/2607.18135v1
+
+---
+
 ### Mission Planning (`mission-planning`)
 
 Task allocation, routing, path planning and scheduling are the concrete optimization problems behind an autonomous mission plan.
@@ -262,20 +276,6 @@ Task allocation, routing, path planning and scheduling are the concrete optimiza
 - [2026-08] Passively Safe Convex Guidance for Cislunar Rendezvous and Proximity Operations — https://arxiv.org/abs/2608.03060v1
 - [2026-08] A Forward-Inverse Dynamic Game Framework for Enhanced Multi-Agent Trajectory Planning — https://arxiv.org/abs/2608.01636v1
 - [2026-08] Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection — https://arxiv.org/abs/2608.06434v1
-
----
-
-### Military Simulation (`military-simulation`)
-
-Simulation environments (constructive, game-engine, entity-level) are the training and test bed for RL in military settings; assessment and fidelity criteria matter as much as the learners themselves.
-
-**Corpus size:** 145 papers
-
-**Papers:**
-
-- [2026-08] Training a Conditioned Video Game Agent on a VLM Annotated Dataset — https://arxiv.org/abs/2608.05954v1
-- [2026-08] IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents — https://arxiv.org/abs/2608.06735v1
-- [2026-07] Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds — https://arxiv.org/abs/2607.18135v1
 
 ---
 

@@ -1,7 +1,7 @@
 # C2-AI Research Corpus
 
 **Evidence base for autonomous decision-making & deep reinforcement learning in
-military simulations** — 6642 papers across 14 categories
+military simulations** — 6650 papers across 14 categories
 and 8 research aspects.
 
 **Author:** Tobias Weiss · **License:** MIT (tools) / proprietary (corpus)
@@ -21,7 +21,7 @@ established `*-research` corpora:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 6642 |
+| **Papers Analyzed** | 6650 |
 | **Categories** | 14 |
 | **Research Aspects** | 8 |
 | **Taxonomy Cells** | 112 |
@@ -34,29 +34,29 @@ established `*-research` corpora:
 
 | Category | Papers |
 |----------|-------:|
-| Human–AI Teaming | 1724 |
+| Human–AI Teaming | 1725 |
 | Deep Reinforcement Learning | 1080 |
-| Autonomous Decision-Making | 637 |
+| Autonomous Decision-Making | 638 |
 | Multi-Agent Reinforcement Learning | 512 |
 | Decision Support | 452 |
-| Simulation-to-Reality Transfer | 425 |
+| Simulation-to-Reality Transfer | 428 |
 | Command & Control (C2) | 402 |
 | Probabilistic & Uncertainty Reasoning | 366 |
-| Mathematical Optimization | 284 |
-| Opponent & Cognitive Modeling | 193 |
+| Mathematical Optimization | 285 |
+| Opponent & Cognitive Modeling | 194 |
 | Wargaming | 149 |
+| Military Simulation | 146 |
 | Mission Planning | 146 |
-| Military Simulation | 145 |
 | Hierarchical Planning | 127 |
 
 ### Research Aspects (Subcategories)
 
 | Aspect | Papers |
 |--------|-------:|
-| Application | 1856 |
-| Development | 1644 |
-| Theory | 1188 |
-| Systems & Technology | 737 |
+| Application | 1859 |
+| Development | 1647 |
+| Theory | 1189 |
+| Systems & Technology | 738 |
 | Mechanism | 557 |
 | Method | 281 |
 | Reviews & Surveys | 237 |
@@ -94,8 +94,8 @@ established `*-research` corpora:
 | 2022 | 194 |
 | 2023 | 298 |
 | 2024 | 397 |
-| 2025 | 1866 |
-| 2026 | 3736 |
+| 2025 | 1870 |
+| 2026 | 3740 |
 
 
 ---

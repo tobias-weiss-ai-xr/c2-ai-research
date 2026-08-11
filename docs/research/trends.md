@@ -1,26 +1,26 @@
 # C2-AI Research Trends (12-Month View)
 
 **Generated:** 2026-08-11  
-**Window:** since 2025-08 — 5218 of 6642 papers
+**Window:** since 2025-08 — 5226 of 6650 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| sim-to-real | 274 | 279 | 1.3× |
-| combinatorial | 176 | 178 | 1.3× |
-| domain randomization | 105 | 106 | 1.3× |
+| combinatorial | 177 | 179 | 1.3× |
+| domain randomization | 106 | 107 | 1.3× |
 | mcts | 74 | 74 | 1.3× |
-| reinforcement learning | 2784 | 3048 | 1.2× |
-| optimization | 1359 | 1467 | 1.2× |
-| benchmark | 1214 | 1320 | 1.2× |
-| multi-agent | 887 | 965 | 1.2× |
+| reinforcement learning | 2787 | 3051 | 1.2× |
+| optimization | 1363 | 1471 | 1.2× |
+| benchmark | 1218 | 1324 | 1.2× |
+| multi-agent | 888 | 966 | 1.2× |
 | uncertainty | 566 | 618 | 1.2× |
-| constrained | 542 | 572 | 1.2× |
-| transfer | 487 | 526 | 1.2× |
+| constrained | 543 | 573 | 1.2× |
+| transfer | 490 | 529 | 1.2× |
 | agentic | 346 | 368 | 1.2× |
 | hierarchical | 341 | 371 | 1.2× |
-| offline | 300 | 319 | 1.2× |
+| offline | 303 | 322 | 1.2× |
+| sim-to-real | 277 | 282 | 1.2× |
 | policy gradient | 235 | 240 | 1.2× |
 
 ## 📈 Fastest-Growing Cells
@@ -34,7 +34,7 @@
 | `deep-reinforcement-learning/development` | 304 | 304 | 100% |
 | `autonomous-decision-making/theory` | 131 | 131 | 100% |
 | `autonomous-decision-making/systems` | 69 | 69 | 100% |
-| `autonomous-decision-making/development` | 196 | 196 | 100% |
+| `autonomous-decision-making/development` | 197 | 197 | 100% |
 | `autonomous-decision-making/review` | 6 | 6 | 100% |
 | `autonomous-decision-making/mechanism` | 30 | 30 | 100% |
 | `autonomous-decision-making/method` | 23 | 23 | 100% |

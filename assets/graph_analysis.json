@@ -4,7 +4,7 @@
    "id": "autonomous-decision-making",
    "name": "Autonomous Decision-Making",
    "color": "#58a6ff",
-   "count": 637,
+   "count": 638,
    "subcategories": [
     {
      "id": "theory",
@@ -29,7 +29,7 @@
     {
      "id": "development",
      "name": "Development",
-     "count": 196
+     "count": 197
     },
     {
      "id": "systems",
@@ -49,18 +49,18 @@
    ],
    "trajectory": {
     "2019": 1,
-    "2025": 178,
+    "2025": 179,
     "2026": 458
    },
    "momentum": {
     "id": "autonomous-decision-making",
     "name": "Autonomous Decision-Making",
-    "total": 637,
-    "recent": 636,
+    "total": 638,
+    "recent": 637,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.998,
-    "papers_per_month": 53.0,
+    "papers_per_month": 53.1,
     "score": 99.8
    }
   },
@@ -197,7 +197,7 @@
    "id": "opponent-modeling",
    "name": "Opponent & Cognitive Modeling",
    "color": "#f0883e",
-   "count": 193,
+   "count": 194,
    "subcategories": [
     {
      "id": "theory",
@@ -222,7 +222,7 @@
     {
      "id": "development",
      "name": "Development",
-     "count": 54
+     "count": 55
     },
     {
      "id": "systems",
@@ -247,19 +247,19 @@
     "2016": 4,
     "2022": 2,
     "2024": 1,
-    "2025": 48,
+    "2025": 49,
     "2026": 135
    },
    "momentum": {
     "id": "opponent-modeling",
     "name": "Opponent & Cognitive Modeling",
-    "total": 193,
-    "recent": 182,
+    "total": 194,
+    "recent": 183,
     "prior": 1,
-    "growth_pct": 18100.0,
+    "growth_pct": 18200.0,
     "recent_share": 0.943,
     "papers_per_month": 15.2,
-    "score": 18194.3
+    "score": 18294.3
    }
   },
   {
@@ -330,7 +330,7 @@
    "id": "military-simulation",
    "name": "Military Simulation",
    "color": "#7ee787",
-   "count": 145,
+   "count": 146,
    "subcategories": [
     {
      "id": "theory",
@@ -360,7 +360,7 @@
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 23
+     "count": 24
     },
     {
      "id": "evaluation",
@@ -375,18 +375,18 @@
    ],
    "trajectory": {
     "2020": 1,
-    "2025": 34,
+    "2025": 35,
     "2026": 110
    },
    "momentum": {
     "id": "military-simulation",
     "name": "Military Simulation",
-    "total": 145,
-    "recent": 144,
+    "total": 146,
+    "recent": 145,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.993,
-    "papers_per_month": 12.0,
+    "papers_per_month": 12.1,
     "score": 99.3
    }
   },
@@ -625,12 +625,12 @@
    "id": "mathematical-optimization",
    "name": "Mathematical Optimization",
    "color": "#ff7b72",
-   "count": 284,
+   "count": 285,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 101
+     "count": 102
     },
     {
      "id": "mechanism",
@@ -671,17 +671,17 @@
    "trajectory": {
     "2019": 1,
     "2025": 62,
-    "2026": 221
+    "2026": 222
    },
    "momentum": {
     "id": "mathematical-optimization",
     "name": "Mathematical Optimization",
-    "total": 284,
-    "recent": 283,
+    "total": 285,
+    "recent": 284,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.996,
-    "papers_per_month": 23.6,
+    "papers_per_month": 23.7,
     "score": 99.6
    }
   },
@@ -815,7 +815,7 @@
    "id": "human-ai-teaming",
    "name": "Human\u2013AI Teaming",
    "color": "#b392f0",
-   "count": 1724,
+   "count": 1725,
    "subcategories": [
     {
      "id": "theory",
@@ -840,7 +840,7 @@
     {
      "id": "development",
      "name": "Development",
-     "count": 366
+     "count": 367
     },
     {
      "id": "systems",
@@ -864,25 +864,25 @@
     "2023": 227,
     "2024": 313,
     "2025": 563,
-    "2026": 435
+    "2026": 436
    },
    "momentum": {
     "id": "human-ai-teaming",
     "name": "Human\u2013AI Teaming",
-    "total": 1724,
-    "recent": 676,
+    "total": 1725,
+    "recent": 677,
     "prior": 446,
-    "growth_pct": 51.6,
+    "growth_pct": 51.8,
     "recent_share": 0.392,
-    "papers_per_month": 56.3,
-    "score": 90.8
+    "papers_per_month": 56.4,
+    "score": 91.0
    }
   },
   {
    "id": "sim-to-real",
    "name": "Simulation-to-Reality Transfer",
    "color": "#ffc680",
-   "count": 425,
+   "count": 428,
    "subcategories": [
     {
      "id": "theory",
@@ -902,7 +902,7 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 250
+     "count": 253
     },
     {
      "id": "development",
@@ -926,18 +926,18 @@
     }
    ],
    "trajectory": {
-    "2025": 101,
-    "2026": 324
+    "2025": 102,
+    "2026": 326
    },
    "momentum": {
     "id": "sim-to-real",
     "name": "Simulation-to-Reality Transfer",
-    "total": 425,
-    "recent": 425,
+    "total": 428,
+    "recent": 428,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 35.4,
+    "papers_per_month": 35.7,
     "score": 100.0
    }
   }
@@ -946,7 +946,7 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 1188
+   "count": 1189
   },
   {
    "id": "mechanism",
@@ -961,17 +961,17 @@
   {
    "id": "application",
    "name": "Application",
-   "count": 1856
+   "count": 1859
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 1644
+   "count": 1647
   },
   {
    "id": "systems",
    "name": "Systems & Technology",
-   "count": 737
+   "count": 738
   },
   {
    "id": "evaluation",
@@ -8938,6 +8938,11 @@
   [
    "2025-08",
    "sim-to-real",
+   "application"
+  ],
+  [
+   "2025-08",
+   "sim-to-real",
    "development"
   ],
   [
@@ -9103,6 +9108,11 @@
   [
    "2025-09",
    "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2025-09",
+   "autonomous-decision-making",
    "evaluation"
   ],
   [
@@ -10304,6 +10314,11 @@
    "2025-09",
    "multi-agent-rl",
    "theory"
+  ],
+  [
+   "2025-09",
+   "opponent-modeling",
+   "development"
   ],
   [
    "2025-09",
@@ -15087,6 +15102,11 @@
   ],
   [
    "2025-12",
+   "military-simulation",
+   "systems"
+  ],
+  [
+   "2025-12",
    "mission-planning",
    "application"
   ],
@@ -18552,6 +18572,11 @@
   ],
   [
    "2026-02",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-02",
    "military-simulation",
    "application"
   ],
@@ -21673,6 +21698,11 @@
   [
    "2026-03",
    "sim-to-real",
+   "application"
+  ],
+  [
+   "2026-03",
+   "sim-to-real",
    "development"
   ],
   [
@@ -33928,6 +33958,11 @@
   [
    "2026-08",
    "human-ai-teaming",
+   "development"
+  ],
+  [
+   "2026-08",
+   "human-ai-teaming",
    "mechanism"
   ],
   [
@@ -34149,6 +34184,11 @@
    "2026-08",
    "probabilistic-uncertainty",
    "theory"
+  ],
+  [
+   "2026-08",
+   "sim-to-real",
+   "application"
   ],
   [
    "2026-08",
@@ -34259,7 +34299,7 @@
   }
  ],
  "source_breakdown": {
-  "arxiv": 6447,
+  "arxiv": 6455,
   "doi": 137,
   "other": 58
  },
@@ -34273,17 +34313,17 @@
   },
   {
    "keyword": "domain randomization",
-   "recent": 105,
-   "total": 106,
+   "recent": 106,
+   "total": 107,
    "burst_score": 1.26,
-   "recent_share": 0.0201
+   "recent_share": 0.0203
   },
   {
    "keyword": "sim-to-real",
-   "recent": 274,
-   "total": 279,
+   "recent": 277,
+   "total": 282,
    "burst_score": 1.25,
-   "recent_share": 0.0525
+   "recent_share": 0.053
   },
   {
    "keyword": "policy gradient",
@@ -34297,19 +34337,19 @@
    "recent": 89,
    "total": 91,
    "burst_score": 1.24,
-   "recent_share": 0.0171
+   "recent_share": 0.017
   },
   {
    "keyword": "pomdp",
    "recent": 148,
    "total": 153,
    "burst_score": 1.23,
-   "recent_share": 0.0284
+   "recent_share": 0.0283
   },
   {
    "keyword": "constrained",
-   "recent": 542,
-   "total": 572,
+   "recent": 543,
+   "total": 573,
    "burst_score": 1.21,
    "recent_share": 0.1039
   },
@@ -34318,56 +34358,56 @@
    "recent": 346,
    "total": 368,
    "burst_score": 1.2,
-   "recent_share": 0.0663
+   "recent_share": 0.0662
   },
   {
    "keyword": "offline",
-   "recent": 300,
-   "total": 319,
+   "recent": 303,
+   "total": 322,
    "burst_score": 1.2,
-   "recent_share": 0.0575
+   "recent_share": 0.058
   },
   {
    "keyword": "optimization",
-   "recent": 1359,
-   "total": 1467,
+   "recent": 1363,
+   "total": 1471,
    "burst_score": 1.18,
-   "recent_share": 0.2604
+   "recent_share": 0.2608
   },
   {
    "keyword": "transfer",
-   "recent": 487,
-   "total": 526,
+   "recent": 490,
+   "total": 529,
    "burst_score": 1.18,
-   "recent_share": 0.0933
+   "recent_share": 0.0938
   },
   {
    "keyword": "benchmark",
-   "recent": 1214,
-   "total": 1320,
+   "recent": 1218,
+   "total": 1324,
    "burst_score": 1.17,
-   "recent_share": 0.2327
+   "recent_share": 0.2331
   },
   {
    "keyword": "multi-agent",
-   "recent": 887,
-   "total": 965,
+   "recent": 888,
+   "total": 966,
    "burst_score": 1.17,
-   "recent_share": 0.17
+   "recent_share": 0.1699
   },
   {
    "keyword": "uncertainty",
    "recent": 566,
    "total": 618,
    "burst_score": 1.17,
-   "recent_share": 0.1085
+   "recent_share": 0.1083
   },
   {
    "keyword": "hierarchical",
    "recent": 341,
    "total": 371,
    "burst_score": 1.17,
-   "recent_share": 0.0654
+   "recent_share": 0.0653
   }
  ]
 }
