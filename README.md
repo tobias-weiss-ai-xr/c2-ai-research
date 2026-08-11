@@ -1,7 +1,7 @@
 # C2-AI Research Corpus
 
 **Evidence base for autonomous decision-making & deep reinforcement learning in
-military simulations** — 6277 papers across 14 categories
+military simulations** — 6642 papers across 14 categories
 and 8 research aspects.
 
 **Author:** Tobias Weiss · **License:** MIT (tools) / proprietary (corpus)
@@ -21,7 +21,7 @@ established `*-research` corpora:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 6277 |
+| **Papers Analyzed** | 6642 |
 | **Categories** | 14 |
 | **Research Aspects** | 8 |
 | **Taxonomy Cells** | 112 |
@@ -34,33 +34,33 @@ established `*-research` corpora:
 
 | Category | Papers |
 |----------|-------:|
-| Human–AI Teaming | 1721 |
-| Deep Reinforcement Learning | 988 |
-| Autonomous Decision-Making | 582 |
-| Multi-Agent Reinforcement Learning | 448 |
+| Human–AI Teaming | 1724 |
+| Deep Reinforcement Learning | 1080 |
+| Autonomous Decision-Making | 637 |
+| Multi-Agent Reinforcement Learning | 512 |
+| Decision Support | 452 |
 | Simulation-to-Reality Transfer | 425 |
-| Decision Support | 403 |
-| Command & Control (C2) | 401 |
-| Probabilistic & Uncertainty Reasoning | 328 |
-| Mathematical Optimization | 259 |
-| Opponent & Cognitive Modeling | 176 |
+| Command & Control (C2) | 402 |
+| Probabilistic & Uncertainty Reasoning | 366 |
+| Mathematical Optimization | 284 |
+| Opponent & Cognitive Modeling | 193 |
 | Wargaming | 149 |
-| Mission Planning | 145 |
+| Mission Planning | 146 |
+| Military Simulation | 145 |
 | Hierarchical Planning | 127 |
-| Military Simulation | 125 |
 
 ### Research Aspects (Subcategories)
 
 | Aspect | Papers |
 |--------|-------:|
-| Application | 1769 |
-| Development | 1533 |
-| Theory | 1110 |
-| Systems & Technology | 701 |
-| Mechanism | 524 |
-| Method | 270 |
+| Application | 1856 |
+| Development | 1644 |
+| Theory | 1188 |
+| Systems & Technology | 737 |
+| Mechanism | 557 |
+| Method | 281 |
 | Reviews & Surveys | 237 |
-| Evaluation & Benchmarks | 133 |
+| Evaluation & Benchmarks | 142 |
 
 ### Distribution by Year
 
@@ -95,7 +95,7 @@ established `*-research` corpora:
 | 2023 | 298 |
 | 2024 | 397 |
 | 2025 | 1866 |
-| 2026 | 3371 |
+| 2026 | 3736 |
 
 
 ---

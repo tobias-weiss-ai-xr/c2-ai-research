@@ -4,42 +4,42 @@
    "id": "autonomous-decision-making",
    "name": "Autonomous Decision-Making",
    "color": "#58a6ff",
-   "count": 582,
+   "count": 637,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 123
+     "count": 131
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 24
+     "count": 30
     },
     {
      "id": "method",
      "name": "Method",
-     "count": 21
+     "count": 23
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 155
+     "count": 170
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 178
+     "count": 196
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 64
+     "count": 69
     },
     {
      "id": "evaluation",
      "name": "Evaluation & Benchmarks",
-     "count": 11
+     "count": 12
     },
     {
      "id": "review",
@@ -50,17 +50,17 @@
    "trajectory": {
     "2019": 1,
     "2025": 178,
-    "2026": 403
+    "2026": 458
    },
    "momentum": {
     "id": "autonomous-decision-making",
     "name": "Autonomous Decision-Making",
-    "total": 582,
-    "recent": 581,
+    "total": 637,
+    "recent": 636,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.998,
-    "papers_per_month": 48.4,
+    "papers_per_month": 53.0,
     "score": 99.8
    }
   },
@@ -68,42 +68,42 @@
    "id": "deep-reinforcement-learning",
    "name": "Deep Reinforcement Learning",
    "color": "#3fb950",
-   "count": 988,
+   "count": 1080,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 211
+     "count": 231
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 69
+     "count": 77
     },
     {
      "id": "method",
      "name": "Method",
-     "count": 49
+     "count": 54
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 178
+     "count": 196
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 275
+     "count": 304
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 118
+     "count": 125
     },
     {
      "id": "evaluation",
      "name": "Evaluation & Benchmarks",
-     "count": 39
+     "count": 44
     },
     {
      "id": "review",
@@ -114,17 +114,17 @@
    "trajectory": {
     "2017": 4,
     "2025": 293,
-    "2026": 691
+    "2026": 783
    },
    "momentum": {
     "id": "deep-reinforcement-learning",
     "name": "Deep Reinforcement Learning",
-    "total": 988,
-    "recent": 984,
+    "total": 1080,
+    "recent": 1076,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.996,
-    "papers_per_month": 82.0,
+    "papers_per_month": 89.7,
     "score": 99.6
    }
   },
@@ -132,17 +132,17 @@
    "id": "multi-agent-rl",
    "name": "Multi-Agent Reinforcement Learning",
    "color": "#d29922",
-   "count": 448,
+   "count": 512,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 114
+     "count": 129
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 26
+     "count": 32
     },
     {
      "id": "method",
@@ -152,17 +152,17 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 107
+     "count": 124
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 142
+     "count": 160
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 42
+     "count": 50
     },
     {
      "id": "evaluation",
@@ -179,17 +179,17 @@
     "2019": 1,
     "2022": 1,
     "2025": 133,
-    "2026": 313
+    "2026": 377
    },
    "momentum": {
     "id": "multi-agent-rl",
     "name": "Multi-Agent Reinforcement Learning",
-    "total": 448,
-    "recent": 446,
+    "total": 512,
+    "recent": 510,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.996,
-    "papers_per_month": 37.2,
+    "papers_per_month": 42.5,
     "score": 99.6
    }
   },
@@ -197,37 +197,37 @@
    "id": "opponent-modeling",
    "name": "Opponent & Cognitive Modeling",
    "color": "#f0883e",
-   "count": 176,
+   "count": 193,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 58
+     "count": 62
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 9
+     "count": 11
     },
     {
      "id": "method",
      "name": "Method",
-     "count": 10
+     "count": 12
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 24
+     "count": 27
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 49
+     "count": 54
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 11
+     "count": 12
     },
     {
      "id": "evaluation",
@@ -248,18 +248,18 @@
     "2022": 2,
     "2024": 1,
     "2025": 48,
-    "2026": 118
+    "2026": 135
    },
    "momentum": {
     "id": "opponent-modeling",
     "name": "Opponent & Cognitive Modeling",
-    "total": 176,
-    "recent": 165,
+    "total": 193,
+    "recent": 182,
     "prior": 1,
-    "growth_pct": 16400.0,
-    "recent_share": 0.938,
-    "papers_per_month": 13.8,
-    "score": 16493.8
+    "growth_pct": 18100.0,
+    "recent_share": 0.943,
+    "papers_per_month": 15.2,
+    "score": 18194.3
    }
   },
   {
@@ -330,12 +330,12 @@
    "id": "military-simulation",
    "name": "Military Simulation",
    "color": "#7ee787",
-   "count": 125,
+   "count": 145,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 10
+     "count": 13
     },
     {
      "id": "mechanism",
@@ -345,22 +345,22 @@
     {
      "id": "method",
      "name": "Method",
-     "count": 4
+     "count": 5
     },
     {
      "id": "application",
      "name": "Application",
-     "count": 54
+     "count": 58
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 31
+     "count": 38
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 18
+     "count": 23
     },
     {
      "id": "evaluation",
@@ -376,18 +376,18 @@
    "trajectory": {
     "2020": 1,
     "2025": 34,
-    "2026": 90
+    "2026": 110
    },
    "momentum": {
     "id": "military-simulation",
     "name": "Military Simulation",
-    "total": 125,
-    "recent": 124,
+    "total": 145,
+    "recent": 144,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.992,
-    "papers_per_month": 10.3,
-    "score": 99.2
+    "recent_share": 0.993,
+    "papers_per_month": 12.0,
+    "score": 99.3
    }
   },
   {
@@ -481,7 +481,7 @@
    "id": "command-and-control",
    "name": "Command & Control (C2)",
    "color": "#79c0ff",
-   "count": 401,
+   "count": 402,
    "subcategories": [
     {
      "id": "theory",
@@ -501,7 +501,7 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 117
+     "count": 118
     },
     {
      "id": "development",
@@ -543,35 +543,35 @@
     "2023": 59,
     "2024": 57,
     "2025": 93,
-    "2026": 118
+    "2026": 119
    },
    "momentum": {
     "id": "command-and-control",
     "name": "Command & Control (C2)",
-    "total": 401,
-    "recent": 169,
+    "total": 402,
+    "recent": 170,
     "prior": 61,
-    "growth_pct": 177.0,
-    "recent_share": 0.421,
-    "papers_per_month": 14.1,
-    "score": 219.1
+    "growth_pct": 178.7,
+    "recent_share": 0.423,
+    "papers_per_month": 14.2,
+    "score": 221.0
    }
   },
   {
    "id": "decision-support",
    "name": "Decision Support",
    "color": "#ffa657",
-   "count": 403,
+   "count": 452,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 42
+     "count": 49
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 47
+     "count": 54
     },
     {
      "id": "method",
@@ -581,17 +581,17 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 135
+     "count": 149
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 128
+     "count": 146
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 34
+     "count": 37
     },
     {
      "id": "evaluation",
@@ -607,17 +607,17 @@
    "trajectory": {
     "2018": 1,
     "2025": 117,
-    "2026": 285
+    "2026": 334
    },
    "momentum": {
     "id": "decision-support",
     "name": "Decision Support",
-    "total": 403,
-    "recent": 402,
+    "total": 452,
+    "recent": 451,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.998,
-    "papers_per_month": 33.5,
+    "papers_per_month": 37.6,
     "score": 99.8
    }
   },
@@ -625,17 +625,17 @@
    "id": "mathematical-optimization",
    "name": "Mathematical Optimization",
    "color": "#ff7b72",
-   "count": 259,
+   "count": 284,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 90
+     "count": 101
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 14
+     "count": 15
     },
     {
      "id": "method",
@@ -645,22 +645,22 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 50
+     "count": 51
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 60
+     "count": 68
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 22
+     "count": 25
     },
     {
      "id": "evaluation",
      "name": "Evaluation & Benchmarks",
-     "count": 9
+     "count": 10
     },
     {
      "id": "review",
@@ -671,17 +671,17 @@
    "trajectory": {
     "2019": 1,
     "2025": 62,
-    "2026": 196
+    "2026": 221
    },
    "momentum": {
     "id": "mathematical-optimization",
     "name": "Mathematical Optimization",
-    "total": 259,
-    "recent": 258,
+    "total": 284,
+    "recent": 283,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.996,
-    "papers_per_month": 21.5,
+    "papers_per_month": 23.6,
     "score": 99.6
    }
   },
@@ -689,17 +689,17 @@
    "id": "probabilistic-uncertainty",
    "name": "Probabilistic & Uncertainty Reasoning",
    "color": "#d2a8ff",
-   "count": 328,
+   "count": 366,
    "subcategories": [
     {
      "id": "theory",
      "name": "Theory",
-     "count": 93
+     "count": 102
     },
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 17
+     "count": 19
     },
     {
      "id": "method",
@@ -709,22 +709,22 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 76
+     "count": 88
     },
     {
      "id": "development",
      "name": "Development",
-     "count": 76
+     "count": 83
     },
     {
      "id": "systems",
      "name": "Systems & Technology",
-     "count": 40
+     "count": 45
     },
     {
      "id": "evaluation",
      "name": "Evaluation & Benchmarks",
-     "count": 12
+     "count": 15
     },
     {
      "id": "review",
@@ -734,17 +734,17 @@
    ],
    "trajectory": {
     "2025": 104,
-    "2026": 224
+    "2026": 262
    },
    "momentum": {
     "id": "probabilistic-uncertainty",
     "name": "Probabilistic & Uncertainty Reasoning",
-    "total": 328,
-    "recent": 328,
+    "total": 366,
+    "recent": 366,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 27.3,
+    "papers_per_month": 30.5,
     "score": 100.0
    }
   },
@@ -752,7 +752,7 @@
    "id": "mission-planning",
    "name": "Mission Planning",
    "color": "#56d4dd",
-   "count": 145,
+   "count": 146,
    "subcategories": [
     {
      "id": "theory",
@@ -772,7 +772,7 @@
     {
      "id": "application",
      "name": "Application",
-     "count": 82
+     "count": 83
     },
     {
      "id": "development",
@@ -797,17 +797,17 @@
    ],
    "trajectory": {
     "2025": 66,
-    "2026": 79
+    "2026": 80
    },
    "momentum": {
     "id": "mission-planning",
     "name": "Mission Planning",
-    "total": 145,
-    "recent": 145,
+    "total": 146,
+    "recent": 146,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 12.1,
+    "papers_per_month": 12.2,
     "score": 100.0
    }
   },
@@ -815,7 +815,7 @@
    "id": "human-ai-teaming",
    "name": "Human\u2013AI Teaming",
    "color": "#b392f0",
-   "count": 1721,
+   "count": 1724,
    "subcategories": [
     {
      "id": "theory",
@@ -825,7 +825,7 @@
     {
      "id": "mechanism",
      "name": "Mechanism",
-     "count": 270
+     "count": 272
     },
     {
      "id": "method",
@@ -840,7 +840,7 @@
     {
      "id": "development",
      "name": "Development",
-     "count": 365
+     "count": 366
     },
     {
      "id": "systems",
@@ -864,18 +864,18 @@
     "2023": 227,
     "2024": 313,
     "2025": 563,
-    "2026": 432
+    "2026": 435
    },
    "momentum": {
     "id": "human-ai-teaming",
     "name": "Human\u2013AI Teaming",
-    "total": 1721,
-    "recent": 673,
+    "total": 1724,
+    "recent": 676,
     "prior": 446,
-    "growth_pct": 50.9,
-    "recent_share": 0.391,
-    "papers_per_month": 56.1,
-    "score": 90.0
+    "growth_pct": 51.6,
+    "recent_share": 0.392,
+    "papers_per_month": 56.3,
+    "score": 90.8
    }
   },
   {
@@ -946,37 +946,37 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 1111
+   "count": 1188
   },
   {
    "id": "mechanism",
    "name": "Mechanism",
-   "count": 523
+   "count": 557
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 271
+   "count": 281
   },
   {
    "id": "application",
    "name": "Application",
-   "count": 1770
+   "count": 1856
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 1533
+   "count": 1644
   },
   {
    "id": "systems",
    "name": "Systems & Technology",
-   "count": 700
+   "count": 737
   },
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 132
+   "count": 142
   },
   {
    "id": "review",
@@ -17253,6 +17253,31 @@
   [
    "2026-02",
    "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-02",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-02",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-02",
+   "autonomous-decision-making",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "autonomous-decision-making",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "autonomous-decision-making",
    "mechanism"
   ],
   [
@@ -17269,6 +17294,11 @@
    "2026-02",
    "autonomous-decision-making",
    "systems"
+  ],
+  [
+   "2026-02",
+   "autonomous-decision-making",
+   "theory"
   ],
   [
    "2026-02",
@@ -17423,6 +17453,46 @@
   [
    "2026-02",
    "decision-support",
+   "application"
+  ],
+  [
+   "2026-02",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-02",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-02",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-02",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-02",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-02",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-02",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-02",
+   "decision-support",
    "development"
   ],
   [
@@ -17492,8 +17562,8 @@
   ],
   [
    "2026-02",
-   "deep-reinforcement-learning",
-   "application"
+   "decision-support",
+   "theory"
   ],
   [
    "2026-02",
@@ -17559,6 +17629,51 @@
    "2026-02",
    "deep-reinforcement-learning",
    "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "development"
   ],
   [
    "2026-02",
@@ -17649,6 +17764,21 @@
    "2026-02",
    "deep-reinforcement-learning",
    "evaluation"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "mechanism"
   ],
   [
    "2026-02",
@@ -17768,6 +17898,31 @@
   [
    "2026-02",
    "deep-reinforcement-learning",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "deep-reinforcement-learning",
    "theory"
   ],
   [
@@ -18138,7 +18293,7 @@
   [
    "2026-02",
    "human-ai-teaming",
-   "systems"
+   "mechanism"
   ],
   [
    "2026-02",
@@ -18163,7 +18318,7 @@
   [
    "2026-02",
    "human-ai-teaming",
-   "theory"
+   "systems"
   ],
   [
    "2026-02",
@@ -18209,6 +18364,16 @@
    "2026-02",
    "human-ai-teaming",
    "theory"
+  ],
+  [
+   "2026-02",
+   "human-ai-teaming",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "mathematical-optimization",
+   "application"
   ],
   [
    "2026-02",
@@ -18284,6 +18449,21 @@
    "2026-02",
    "mathematical-optimization",
    "development"
+  ],
+  [
+   "2026-02",
+   "mathematical-optimization",
+   "development"
+  ],
+  [
+   "2026-02",
+   "mathematical-optimization",
+   "development"
+  ],
+  [
+   "2026-02",
+   "mathematical-optimization",
+   "evaluation"
   ],
   [
    "2026-02",
@@ -18304,6 +18484,21 @@
    "2026-02",
    "mathematical-optimization",
    "mechanism"
+  ],
+  [
+   "2026-02",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "mathematical-optimization",
+   "theory"
   ],
   [
    "2026-02",
@@ -18363,7 +18558,32 @@
   [
    "2026-02",
    "military-simulation",
+   "application"
+  ],
+  [
+   "2026-02",
+   "military-simulation",
+   "application"
+  ],
+  [
+   "2026-02",
+   "military-simulation",
    "development"
+  ],
+  [
+   "2026-02",
+   "military-simulation",
+   "development"
+  ],
+  [
+   "2026-02",
+   "military-simulation",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "military-simulation",
+   "systems"
   ],
   [
    "2026-02",
@@ -18473,6 +18693,51 @@
   [
    "2026-02",
    "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
    "development"
   ],
   [
@@ -18549,6 +18814,31 @@
    "2026-02",
    "multi-agent-rl",
    "systems"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "multi-agent-rl",
+   "theory"
   ],
   [
    "2026-02",
@@ -18682,8 +18972,13 @@
   ],
   [
    "2026-02",
-   "probabilistic-uncertainty",
-   "application"
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
+   "theory"
   ],
   [
    "2026-02",
@@ -18699,6 +18994,16 @@
    "2026-02",
    "probabilistic-uncertainty",
    "application"
+  ],
+  [
+   "2026-02",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-02",
+   "probabilistic-uncertainty",
+   "development"
   ],
   [
    "2026-02",
@@ -18749,6 +19054,11 @@
    "2026-02",
    "probabilistic-uncertainty",
    "evaluation"
+  ],
+  [
+   "2026-02",
+   "probabilistic-uncertainty",
+   "mechanism"
   ],
   [
    "2026-02",
@@ -19063,6 +19373,81 @@
   [
    "2026-03",
    "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
    "development"
   ],
   [
@@ -19183,7 +19568,7 @@
   [
    "2026-03",
    "autonomous-decision-making",
-   "systems"
+   "mechanism"
   ],
   [
    "2026-03",
@@ -19199,6 +19584,31 @@
    "2026-03",
    "autonomous-decision-making",
    "systems"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "autonomous-decision-making",
+   "theory"
   ],
   [
    "2026-03",
@@ -19343,7 +19753,22 @@
   [
    "2026-03",
    "decision-support",
-   "development"
+   "application"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "application"
   ],
   [
    "2026-03",
@@ -19384,6 +19809,26 @@
    "2026-03",
    "decision-support",
    "development"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "mechanism"
   ],
   [
    "2026-03",
@@ -19423,6 +19868,31 @@
   [
    "2026-03",
    "decision-support",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "decision-support",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "decision-support",
    "theory"
   ],
   [
@@ -19473,6 +19943,101 @@
   [
    "2026-03",
    "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
    "development"
   ],
   [
@@ -19608,7 +20173,7 @@
   [
    "2026-03",
    "deep-reinforcement-learning",
-   "mechanism"
+   "evaluation"
   ],
   [
    "2026-03",
@@ -19639,6 +20204,31 @@
    "2026-03",
    "deep-reinforcement-learning",
    "mechanism"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "method"
   ],
   [
    "2026-03",
@@ -19693,6 +20283,56 @@
   [
    "2026-03",
    "deep-reinforcement-learning",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "deep-reinforcement-learning",
    "theory"
   ],
   [
@@ -20213,7 +20853,52 @@
   [
    "2026-03",
    "mathematical-optimization",
+   "development"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "development"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
    "method"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "mathematical-optimization",
+   "theory"
   ],
   [
    "2026-03",
@@ -20273,12 +20958,37 @@
   [
    "2026-03",
    "military-simulation",
+   "application"
+  ],
+  [
+   "2026-03",
+   "military-simulation",
    "development"
   ],
   [
    "2026-03",
    "military-simulation",
    "development"
+  ],
+  [
+   "2026-03",
+   "military-simulation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "military-simulation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "military-simulation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "military-simulation",
+   "systems"
   ],
   [
    "2026-03",
@@ -20369,6 +21079,71 @@
    "2026-03",
    "multi-agent-rl",
    "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "development"
   ],
   [
    "2026-03",
@@ -20408,6 +21183,26 @@
   [
    "2026-03",
    "multi-agent-rl",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
    "systems"
   ],
   [
@@ -20454,6 +21249,61 @@
    "2026-03",
    "multi-agent-rl",
    "theory"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
   ],
   [
    "2026-03",
@@ -20488,6 +21338,31 @@
   [
    "2026-03",
    "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
    "systems"
   ],
   [
@@ -20537,6 +21412,26 @@
   ],
   [
    "2026-03",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-03",
    "probabilistic-uncertainty",
    "application"
   ],
@@ -20553,7 +21448,7 @@
   [
    "2026-03",
    "probabilistic-uncertainty",
-   "development"
+   "application"
   ],
   [
    "2026-03",
@@ -20589,6 +21484,26 @@
    "2026-03",
    "probabilistic-uncertainty",
    "development"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "evaluation"
   ],
   [
    "2026-03",
@@ -20619,6 +21534,41 @@
    "2026-03",
    "probabilistic-uncertainty",
    "systems"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "probabilistic-uncertainty",
+   "theory"
   ],
   [
    "2026-03",
@@ -20848,7 +21798,22 @@
   [
    "2026-04",
    "autonomous-decision-making",
-   "development"
+   "application"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "application"
   ],
   [
    "2026-04",
@@ -20924,6 +21889,51 @@
    "2026-04",
    "autonomous-decision-making",
    "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "evaluation"
   ],
   [
    "2026-04",
@@ -20934,6 +21944,21 @@
    "2026-04",
    "autonomous-decision-making",
    "mechanism"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "method"
   ],
   [
    "2026-04",
@@ -20958,6 +21983,31 @@
   [
    "2026-04",
    "autonomous-decision-making",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "autonomous-decision-making",
    "theory"
   ],
   [
@@ -21118,6 +22168,41 @@
   [
    "2026-04",
    "decision-support",
+   "application"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-04",
+   "decision-support",
    "development"
   ],
   [
@@ -21184,6 +22269,26 @@
    "2026-04",
    "decision-support",
    "mechanism"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "systems"
   ],
   [
    "2026-04",
@@ -21202,8 +22307,18 @@
   ],
   [
    "2026-04",
-   "deep-reinforcement-learning",
-   "application"
+   "decision-support",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "decision-support",
+   "theory"
   ],
   [
    "2026-04",
@@ -21239,6 +22354,61 @@
    "2026-04",
    "deep-reinforcement-learning",
    "application"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "development"
   ],
   [
    "2026-04",
@@ -21358,6 +22528,26 @@
   [
    "2026-04",
    "deep-reinforcement-learning",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
    "mechanism"
   ],
   [
@@ -21369,6 +22559,21 @@
    "2026-04",
    "deep-reinforcement-learning",
    "mechanism"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "method"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "method"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "method"
   ],
   [
    "2026-04",
@@ -21438,6 +22643,51 @@
   [
    "2026-04",
    "deep-reinforcement-learning",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "deep-reinforcement-learning",
    "theory"
   ],
   [
@@ -21913,6 +23163,16 @@
   [
    "2026-04",
    "mathematical-optimization",
+   "development"
+  ],
+  [
+   "2026-04",
+   "mathematical-optimization",
+   "development"
+  ],
+  [
+   "2026-04",
+   "mathematical-optimization",
    "systems"
   ],
   [
@@ -21962,6 +23222,26 @@
   ],
   [
    "2026-04",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-04",
    "military-simulation",
    "application"
   ],
@@ -21969,6 +23249,16 @@
    "2026-04",
    "military-simulation",
    "application"
+  ],
+  [
+   "2026-04",
+   "military-simulation",
+   "application"
+  ],
+  [
+   "2026-04",
+   "military-simulation",
+   "development"
   ],
   [
    "2026-04",
@@ -21997,6 +23287,21 @@
   ],
   [
    "2026-04",
+   "military-simulation",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "military-simulation",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "military-simulation",
+   "theory"
+  ],
+  [
+   "2026-04",
    "mission-planning",
    "application"
   ],
@@ -22059,6 +23364,51 @@
    "2026-04",
    "multi-agent-rl",
    "application"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "development"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "development"
   ],
   [
    "2026-04",
@@ -22128,6 +23478,31 @@
   [
    "2026-04",
    "multi-agent-rl",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
    "systems"
   ],
   [
@@ -22157,6 +23532,41 @@
   ],
   [
    "2026-04",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-04",
    "opponent-modeling",
    "application"
   ],
@@ -22248,7 +23658,37 @@
   [
    "2026-04",
    "probabilistic-uncertainty",
-   "development"
+   "application"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "application"
   ],
   [
    "2026-04",
@@ -22264,6 +23704,21 @@
    "2026-04",
    "probabilistic-uncertainty",
    "development"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "evaluation"
   ],
   [
    "2026-04",
@@ -22352,6 +23807,21 @@
   ],
   [
    "2026-04",
+   "probabilistic-uncertainty",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "probabilistic-uncertainty",
+   "theory"
+  ],
+  [
+   "2026-04",
    "sim-to-real",
    "application"
   ],
@@ -22689,6 +24159,11 @@
    "2026-05",
    "autonomous-decision-making",
    "mechanism"
+  ],
+  [
+   "2026-05",
+   "autonomous-decision-making",
+   "method"
   ],
   [
    "2026-05",
@@ -22857,6 +24332,16 @@
   ],
   [
    "2026-05",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2026-05",
    "command-and-control",
    "application"
   ],
@@ -23033,6 +24518,36 @@
   [
    "2026-05",
    "decision-support",
+   "application"
+  ],
+  [
+   "2026-05",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-05",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-05",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-05",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-05",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-05",
+   "decision-support",
    "development"
   ],
   [
@@ -23109,6 +24624,11 @@
    "2026-05",
    "decision-support",
    "evaluation"
+  ],
+  [
+   "2026-05",
+   "decision-support",
+   "mechanism"
   ],
   [
    "2026-05",
@@ -23398,6 +24918,36 @@
   [
    "2026-05",
    "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
    "development"
   ],
   [
@@ -23654,6 +25204,16 @@
    "2026-05",
    "deep-reinforcement-learning",
    "evaluation"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "mechanism"
   ],
   [
    "2026-05",
@@ -24082,6 +25642,16 @@
   ],
   [
    "2026-05",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "deep-reinforcement-learning",
+   "theory"
+  ],
+  [
+   "2026-05",
    "hierarchical-planning",
    "application"
   ],
@@ -24568,7 +26138,7 @@
   [
    "2026-05",
    "mathematical-optimization",
-   "evaluation"
+   "development"
   ],
   [
    "2026-05",
@@ -24578,6 +26148,11 @@
   [
    "2026-05",
    "mathematical-optimization",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "mathematical-optimization",
    "mechanism"
   ],
   [
@@ -24712,6 +26287,16 @@
   ],
   [
    "2026-05",
+   "mathematical-optimization",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "military-simulation",
+   "application"
+  ],
+  [
+   "2026-05",
    "military-simulation",
    "application"
   ],
@@ -24723,7 +26308,12 @@
   [
    "2026-05",
    "military-simulation",
-   "application"
+   "development"
+  ],
+  [
+   "2026-05",
+   "military-simulation",
+   "development"
   ],
   [
    "2026-05",
@@ -24802,6 +26392,11 @@
   ],
   [
    "2026-05",
+   "military-simulation",
+   "theory"
+  ],
+  [
+   "2026-05",
    "mission-planning",
    "application"
   ],
@@ -24869,6 +26464,16 @@
    "2026-05",
    "mission-planning",
    "theory"
+  ],
+  [
+   "2026-05",
+   "multi-agent-rl",
+   "application"
+  ],
+  [
+   "2026-05",
+   "multi-agent-rl",
+   "application"
   ],
   [
    "2026-05",
@@ -25183,7 +26788,7 @@
   [
    "2026-05",
    "multi-agent-rl",
-   "method"
+   "mechanism"
   ],
   [
    "2026-05",
@@ -25193,7 +26798,7 @@
   [
    "2026-05",
    "multi-agent-rl",
-   "systems"
+   "method"
   ],
   [
    "2026-05",
@@ -25214,6 +26819,21 @@
    "2026-05",
    "multi-agent-rl",
    "systems"
+  ],
+  [
+   "2026-05",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "multi-agent-rl",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "multi-agent-rl",
+   "theory"
   ],
   [
    "2026-05",
@@ -25573,7 +27193,7 @@
   [
    "2026-05",
    "probabilistic-uncertainty",
-   "development"
+   "application"
   ],
   [
    "2026-05",
@@ -25634,6 +27254,26 @@
    "2026-05",
    "probabilistic-uncertainty",
    "development"
+  ],
+  [
+   "2026-05",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-05",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-05",
+   "probabilistic-uncertainty",
+   "development"
+  ],
+  [
+   "2026-05",
+   "probabilistic-uncertainty",
+   "evaluation"
   ],
   [
    "2026-05",
@@ -25699,6 +27339,21 @@
    "2026-05",
    "probabilistic-uncertainty",
    "systems"
+  ],
+  [
+   "2026-05",
+   "probabilistic-uncertainty",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "probabilistic-uncertainty",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "probabilistic-uncertainty",
+   "theory"
   ],
   [
    "2026-05",
@@ -26318,6 +27973,11 @@
   [
    "2026-06",
    "autonomous-decision-making",
+   "development"
+  ],
+  [
+   "2026-06",
+   "autonomous-decision-making",
    "evaluation"
   ],
   [
@@ -27783,6 +29443,11 @@
   [
    "2026-06",
    "human-ai-teaming",
+   "mechanism"
+  ],
+  [
+   "2026-06",
+   "human-ai-teaming",
    "review"
   ],
   [
@@ -30109,6 +31774,11 @@
    "2026-07",
    "deep-reinforcement-learning",
    "application"
+  ],
+  [
+   "2026-07",
+   "deep-reinforcement-learning",
+   "development"
   ],
   [
    "2026-07",
@@ -31048,6 +32718,11 @@
   [
    "2026-07",
    "military-simulation",
+   "method"
+  ],
+  [
+   "2026-07",
+   "military-simulation",
    "systems"
   ],
   [
@@ -31124,6 +32799,11 @@
    "2026-07",
    "mission-planning",
    "theory"
+  ],
+  [
+   "2026-07",
+   "multi-agent-rl",
+   "application"
   ],
   [
    "2026-07",
@@ -31838,6 +33518,21 @@
   [
    "2026-08",
    "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-08",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-08",
+   "autonomous-decision-making",
+   "application"
+  ],
+  [
+   "2026-08",
+   "autonomous-decision-making",
    "development"
   ],
   [
@@ -31859,6 +33554,11 @@
    "2026-08",
    "autonomous-decision-making",
    "evaluation"
+  ],
+  [
+   "2026-08",
+   "autonomous-decision-making",
+   "mechanism"
   ],
   [
    "2026-08",
@@ -31893,7 +33593,7 @@
   [
    "2026-08",
    "autonomous-decision-making",
-   "theory"
+   "systems"
   ],
   [
    "2026-08",
@@ -31914,6 +33614,31 @@
    "2026-08",
    "autonomous-decision-making",
    "theory"
+  ],
+  [
+   "2026-08",
+   "autonomous-decision-making",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-08",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-08",
+   "decision-support",
+   "application"
+  ],
+  [
+   "2026-08",
+   "decision-support",
+   "application"
   ],
   [
    "2026-08",
@@ -31954,6 +33679,26 @@
    "2026-08",
    "decision-support",
    "development"
+  ],
+  [
+   "2026-08",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-08",
+   "decision-support",
+   "development"
+  ],
+  [
+   "2026-08",
+   "decision-support",
+   "mechanism"
+  ],
+  [
+   "2026-08",
+   "decision-support",
+   "mechanism"
   ],
   [
    "2026-08",
@@ -32004,6 +33749,21 @@
    "2026-08",
    "deep-reinforcement-learning",
    "application"
+  ],
+  [
+   "2026-08",
+   "deep-reinforcement-learning",
+   "application"
+  ],
+  [
+   "2026-08",
+   "deep-reinforcement-learning",
+   "development"
+  ],
+  [
+   "2026-08",
+   "deep-reinforcement-learning",
+   "development"
   ],
   [
    "2026-08",
@@ -32063,7 +33823,17 @@
   [
    "2026-08",
    "deep-reinforcement-learning",
+   "method"
+  ],
+  [
+   "2026-08",
+   "deep-reinforcement-learning",
    "review"
+  ],
+  [
+   "2026-08",
+   "deep-reinforcement-learning",
+   "systems"
   ],
   [
    "2026-08",
@@ -32153,6 +33923,11 @@
   [
    "2026-08",
    "human-ai-teaming",
+   "development"
+  ],
+  [
+   "2026-08",
+   "human-ai-teaming",
    "mechanism"
   ],
   [
@@ -32174,6 +33949,11 @@
    "2026-08",
    "mathematical-optimization",
    "application"
+  ],
+  [
+   "2026-08",
+   "mathematical-optimization",
+   "development"
   ],
   [
    "2026-08",
@@ -32212,6 +33992,16 @@
   ],
   [
    "2026-08",
+   "military-simulation",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "mission-planning",
+   "application"
+  ],
+  [
+   "2026-08",
    "mission-planning",
    "application"
   ],
@@ -32219,6 +34009,11 @@
    "2026-08",
    "mission-planning",
    "theory"
+  ],
+  [
+   "2026-08",
+   "multi-agent-rl",
+   "application"
   ],
   [
    "2026-08",
@@ -32282,6 +34077,16 @@
   ],
   [
    "2026-08",
+   "multi-agent-rl",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-08",
    "opponent-modeling",
    "development"
   ],
@@ -32289,6 +34094,16 @@
    "2026-08",
    "opponent-modeling",
    "theory"
+  ],
+  [
+   "2026-08",
+   "probabilistic-uncertainty",
+   "application"
+  ],
+  [
+   "2026-08",
+   "probabilistic-uncertainty",
+   "development"
   ],
   [
    "2026-08",
@@ -32318,12 +34133,22 @@
   [
    "2026-08",
    "probabilistic-uncertainty",
+   "mechanism"
+  ],
+  [
+   "2026-08",
+   "probabilistic-uncertainty",
    "method"
   ],
   [
    "2026-08",
    "probabilistic-uncertainty",
    "systems"
+  ],
+  [
+   "2026-08",
+   "probabilistic-uncertainty",
+   "theory"
   ],
   [
    "2026-08",
@@ -32434,115 +34259,115 @@
   }
  ],
  "source_breakdown": {
-  "arxiv": 6082,
+  "arxiv": 6447,
   "doi": 137,
   "other": 58
  },
  "keyword_bursts": [
   {
    "keyword": "mcts",
-   "recent": 70,
-   "total": 70,
-   "burst_score": 1.29,
-   "recent_share": 0.0144
+   "recent": 74,
+   "total": 74,
+   "burst_score": 1.27,
+   "recent_share": 0.0142
   },
   {
    "keyword": "domain randomization",
-   "recent": 104,
-   "total": 105,
-   "burst_score": 1.28,
-   "recent_share": 0.0214
+   "recent": 105,
+   "total": 106,
+   "burst_score": 1.26,
+   "recent_share": 0.0201
   },
   {
    "keyword": "sim-to-real",
-   "recent": 270,
-   "total": 275,
-   "burst_score": 1.27,
-   "recent_share": 0.0556
+   "recent": 274,
+   "total": 279,
+   "burst_score": 1.25,
+   "recent_share": 0.0525
   },
   {
    "keyword": "policy gradient",
-   "recent": 212,
-   "total": 217,
-   "burst_score": 1.26,
-   "recent_share": 0.0437
+   "recent": 235,
+   "total": 240,
+   "burst_score": 1.25,
+   "recent_share": 0.045
   },
   {
    "keyword": "monte carlo tree search",
-   "recent": 86,
-   "total": 88,
-   "burst_score": 1.26,
-   "recent_share": 0.0177
+   "recent": 89,
+   "total": 91,
+   "burst_score": 1.24,
+   "recent_share": 0.0171
   },
   {
    "keyword": "pomdp",
-   "recent": 129,
-   "total": 134,
-   "burst_score": 1.25,
-   "recent_share": 0.0266
+   "recent": 148,
+   "total": 153,
+   "burst_score": 1.23,
+   "recent_share": 0.0284
   },
   {
    "keyword": "constrained",
-   "recent": 502,
-   "total": 532,
-   "burst_score": 1.22,
-   "recent_share": 0.1034
+   "recent": 542,
+   "total": 572,
+   "burst_score": 1.21,
+   "recent_share": 0.1039
   },
   {
    "keyword": "agentic",
-   "recent": 328,
-   "total": 350,
-   "burst_score": 1.21,
-   "recent_share": 0.0676
+   "recent": 346,
+   "total": 368,
+   "burst_score": 1.2,
+   "recent_share": 0.0663
   },
   {
    "keyword": "offline",
-   "recent": 284,
-   "total": 303,
-   "burst_score": 1.21,
-   "recent_share": 0.0585
+   "recent": 300,
+   "total": 319,
+   "burst_score": 1.2,
+   "recent_share": 0.0575
   },
   {
    "keyword": "optimization",
-   "recent": 1248,
-   "total": 1356,
-   "burst_score": 1.19,
-   "recent_share": 0.2572
+   "recent": 1359,
+   "total": 1467,
+   "burst_score": 1.18,
+   "recent_share": 0.2604
   },
   {
    "keyword": "transfer",
-   "recent": 464,
-   "total": 503,
-   "burst_score": 1.19,
-   "recent_share": 0.0956
+   "recent": 487,
+   "total": 526,
+   "burst_score": 1.18,
+   "recent_share": 0.0933
   },
   {
    "keyword": "benchmark",
-   "recent": 1106,
-   "total": 1212,
-   "burst_score": 1.18,
-   "recent_share": 0.2279
+   "recent": 1214,
+   "total": 1320,
+   "burst_score": 1.17,
+   "recent_share": 0.2327
   },
   {
    "keyword": "multi-agent",
-   "recent": 805,
-   "total": 883,
-   "burst_score": 1.18,
-   "recent_share": 0.1659
+   "recent": 887,
+   "total": 965,
+   "burst_score": 1.17,
+   "recent_share": 0.17
   },
   {
    "keyword": "uncertainty",
-   "recent": 524,
-   "total": 576,
-   "burst_score": 1.18,
-   "recent_share": 0.108
+   "recent": 566,
+   "total": 618,
+   "burst_score": 1.17,
+   "recent_share": 0.1085
   },
   {
    "keyword": "hierarchical",
-   "recent": 322,
-   "total": 352,
-   "burst_score": 1.18,
-   "recent_share": 0.0664
+   "recent": 341,
+   "total": 371,
+   "burst_score": 1.17,
+   "recent_share": 0.0654
   }
  ]
 }

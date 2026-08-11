@@ -1,7 +1,7 @@
 # C2-AI Research — Literature Review
 
 **Generated:** 2026-08-11  
-**Corpus:** 6,277 papers across 14 categories
+**Corpus:** 6,642 papers across 14 categories
 
 > Synthesis of the autonomous decision-making & deep-RL research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
 
@@ -11,14 +11,14 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Human–AI Teaming | 1721 |
-| 2 | Deep Reinforcement Learning | 988 |
-| 3 | Autonomous Decision-Making | 582 |
-| 4 | Multi-Agent Reinforcement Learning | 448 |
-| 5 | Simulation-to-Reality Transfer | 425 |
+| 1 | Human–AI Teaming | 1724 |
+| 2 | Deep Reinforcement Learning | 1080 |
+| 3 | Autonomous Decision-Making | 637 |
+| 4 | Multi-Agent Reinforcement Learning | 512 |
+| 5 | Decision Support | 452 |
 
 **Time span:** 1978–2026 (median year 2012)
-**Dominant aspects:** Application (1770), Development (1533), Theory (1111)
+**Dominant aspects:** Application (1856), Development (1644), Theory (1188)
 
 ---
 
@@ -28,19 +28,19 @@ Categories ranked by a momentum score combining recent output density with year-
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Opponent & Cognitive Modeling | 176 | 165 | 1 | +16400.0% | 94% | 13.8 |
-| Command & Control (C2) | 401 | 169 | 61 | +177.0% | 42% | 14.1 |
-| Probabilistic & Uncertainty Reasoning | 328 | 328 | 0 | — | 100% | 27.3 |
-| Mission Planning | 145 | 145 | 0 | — | 100% | 12.1 |
+| Opponent & Cognitive Modeling | 193 | 182 | 1 | +18100.0% | 94% | 15.2 |
+| Command & Control (C2) | 402 | 170 | 61 | +178.7% | 42% | 14.2 |
+| Probabilistic & Uncertainty Reasoning | 366 | 366 | 0 | — | 100% | 30.5 |
+| Mission Planning | 146 | 146 | 0 | — | 100% | 12.2 |
 | Simulation-to-Reality Transfer | 425 | 425 | 0 | — | 100% | 35.4 |
-| Autonomous Decision-Making | 582 | 581 | 0 | — | 100% | 48.4 |
-| Decision Support | 403 | 402 | 0 | — | 100% | 33.5 |
-| Deep Reinforcement Learning | 988 | 984 | 0 | — | 100% | 82.0 |
-| Multi-Agent Reinforcement Learning | 448 | 446 | 0 | — | 100% | 37.2 |
-| Mathematical Optimization | 259 | 258 | 0 | — | 100% | 21.5 |
+| Autonomous Decision-Making | 637 | 636 | 0 | — | 100% | 53.0 |
+| Decision Support | 452 | 451 | 0 | — | 100% | 37.6 |
+| Deep Reinforcement Learning | 1080 | 1076 | 0 | — | 100% | 89.7 |
+| Multi-Agent Reinforcement Learning | 512 | 510 | 0 | — | 100% | 42.5 |
+| Mathematical Optimization | 284 | 283 | 0 | — | 100% | 23.6 |
+| Military Simulation | 145 | 144 | 0 | — | 99% | 12.0 |
 | Hierarchical Planning | 127 | 126 | 0 | — | 99% | 10.5 |
-| Military Simulation | 125 | 124 | 0 | — | 99% | 10.3 |
-| Human–AI Teaming | 1721 | 673 | 446 | +50.9% | 39% | 56.1 |
+| Human–AI Teaming | 1724 | 676 | 446 | +51.6% | 39% | 56.3 |
 | Wargaming | 149 | 27 | 22 | +22.7% | 18% | 2.2 |
 
 ---
@@ -64,14 +64,14 @@ Categories ranked by a momentum score combining recent output density with year-
 
 | Cell | Total | Last-12m | 12-m share |
 |------|-------:|---------:|-----------:|
-| `autonomous-decision-making/mechanism` | 24 | 24 | 100% |
+| `mathematical-optimization/systems` | 25 | 25 | 100% |
+| `autonomous-decision-making/method` | 23 | 23 | 100% |
 | `hierarchical-planning/application` | 23 | 23 | 100% |
+| `military-simulation/systems` | 23 | 23 | 100% |
 | `mission-planning/development` | 23 | 23 | 100% |
-| `mathematical-optimization/systems` | 22 | 22 | 100% |
-| `autonomous-decision-making/method` | 21 | 21 | 100% |
 | `mission-planning/theory` | 20 | 20 | 100% |
-| `hierarchical-planning/theory` | 19 | 19 | 100% |
-| `military-simulation/systems` | 18 | 18 | 100% |
+| `probabilistic-uncertainty/mechanism` | 19 | 19 | 100% |
+| `hierarchical-planning/systems` | 16 | 16 | 100% |
 
 ---
 
@@ -101,7 +101,7 @@ Top venues by paper count (where present in the metadata):
 
 Trust, explainability and mixed-initiative control are the acceptance criteria — an autonomous system that no human trusts is not deployable.
 
-**Corpus size:** 1721 papers
+**Corpus size:** 1724 papers
 
 **Papers:**
 
@@ -115,7 +115,7 @@ Trust, explainability and mixed-initiative control are the acceptance criteria �
 
 DRL is the methodological core of the corpus: value/policy gradients, benchmark algorithms (PPO, DQN/Rainbow) and sample-efficiency methods form the substrate every downstream planning/decision task builds on.
 
-**Corpus size:** 988 papers
+**Corpus size:** 1080 papers
 
 **Papers:**
 
@@ -129,7 +129,7 @@ DRL is the methodological core of the corpus: value/policy gradients, benchmark 
 
 End-to-end perception-then-action pipelines (e.g. decision transformers, MCTS planners) encode the target capability for autonomous planning and decision-making in high-stakes, partially structured environments.
 
-**Corpus size:** 582 papers
+**Corpus size:** 637 papers
 
 **Papers:**
 
@@ -143,13 +143,27 @@ End-to-end perception-then-action pipelines (e.g. decision transformers, MCTS pl
 
 Cooperative/competitive multi-agent RL is the bridge from single-agent learning to unit/force-level coordination — the core of adversarial and maneuver scenarios in simulation.
 
-**Corpus size:** 448 papers
+**Corpus size:** 512 papers
 
 **Papers:**
 
 - [2026-08] History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning — https://arxiv.org/abs/2608.03833v1
 - [2026-08] Is Inter-Seed Cross-Play Enough? Evaluating the Robustness of Zero-Shot Coordination Algorithms to I — https://arxiv.org/abs/2608.03644v1
 - [2026-08] Group Perspective Matters: Regulating Debate Relationships Can Mitigate Blind Conformity in Multi-Ag — https://arxiv.org/abs/2608.03648v1
+
+---
+
+### Decision Support (`decision-support`)
+
+Decision support fuses statistics, ML and optimization to augment human decisions — explicitly including recommendation and interpretability for warfighters and operators.
+
+**Corpus size:** 452 papers
+
+**Papers:**
+
+- [2026-08] Neuro-Symbolic Participation Governance for Verifiable AI Agents in Open Digital Twin Ecosystems — https://arxiv.org/abs/2608.00937v1
+- [2026-08] Stability of Ranking-dependent Pair-wise Comparison Patterns in the Analytic Hierarchy Process — https://arxiv.org/abs/2608.05958v1
+- [2026-08] Predictive Maintenance: Deep Learning-Based Remaining Useful Life Prediction for Combat Aircraft Eng — https://arxiv.org/abs/2608.01819v1
 
 ---
 
@@ -167,31 +181,17 @@ Domain randomization and sim-to-sim/sim-to-real transfer are the mechanisms that
 
 ---
 
-### Decision Support (`decision-support`)
-
-Decision support fuses statistics, ML and optimization to augment human decisions — explicitly including recommendation and interpretability for warfighters and operators.
-
-**Corpus size:** 403 papers
-
-**Papers:**
-
-- [2026-08] Neuro-Symbolic Participation Governance for Verifiable AI Agents in Open Digital Twin Ecosystems — https://arxiv.org/abs/2608.00937v1
-- [2026-08] Stability of Ranking-dependent Pair-wise Comparison Patterns in the Analytic Hierarchy Process — https://arxiv.org/abs/2608.05958v1
-- [2026-08] Predictive Maintenance: Deep Learning-Based Remaining Useful Life Prediction for Combat Aircraft Eng — https://arxiv.org/abs/2608.01819v1
-
----
-
 ### Command & Control (C2) (`command-and-control`)
 
 C2 research connects autonomy to human-machine teaming, situational awareness and decision support at the operational seam between computation and command.
 
-**Corpus size:** 401 papers
+**Corpus size:** 402 papers
 
 **Papers:**
 
+- [2026-08] FZ-VIS: A Visual Analytics Framework for Quantities-of-Interest-Aware Scientific Lossy Compression — https://arxiv.org/abs/2608.08386v1
 - [2026-07] Cyber-Capable AI Agents: Vulnerabilities, Evaluation Containment, and Defensive Response — https://arxiv.org/abs/2607.25379v2
 - [2026-07] Clinical Translation of Brain-Computer Interface in China: A Landscape Analysis of Investigator-Init — https://arxiv.org/abs/2607.07185v3
-- [2026-07] FleetScape: A Mixed Reality Sandtable for Spatial Supervision and Control of Scalable Drone Fleets — https://arxiv.org/abs/2607.26423v1
 
 ---
 
@@ -199,7 +199,7 @@ C2 research connects autonomy to human-machine teaming, situational awareness an
 
 Bayesian, POMDP and uncertainty-quantified reasoning is essential where observation is partial and risk must be quantified before committing to an action.
 
-**Corpus size:** 328 papers
+**Corpus size:** 366 papers
 
 **Papers:**
 
@@ -213,7 +213,7 @@ Bayesian, POMDP and uncertainty-quantified reasoning is essential where observat
 
 Constrained/convex/DP optimization is the formal bridge between RL objectives and provable mission-planning guarantees.
 
-**Corpus size:** 259 papers
+**Corpus size:** 284 papers
 
 **Papers:**
 
@@ -227,13 +227,13 @@ Constrained/convex/DP optimization is the formal bridge between RL objectives an
 
 Inferring adversary intent and strategy (game theory, adversarial RL, counterfactual regret) is the differentiator for decision support that reasons about an opponent, not just the environment.
 
-**Corpus size:** 176 papers
+**Corpus size:** 193 papers
 
 **Papers:**
 
 - [2026-08] IFlowNets: Extending Generative Samplers to Learn Strategies in Incomplete Information Games — https://arxiv.org/abs/2608.05422v1
 - [2026-08] Reputation-driven Cooperation in Lattice-based Decentralized Federated Learning through Evolutionary — https://arxiv.org/abs/2608.01197v1
-- [2026-07] Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent  — https://arxiv.org/abs/2607.28520v1
+- [2026-08] ResidencyRL: Reinforcement Learning in Simulated Clinical Environments — https://arxiv.org/abs/2608.07418v1
 
 ---
 
@@ -255,13 +255,27 @@ Red-vs-blue wargaming is the canonical adversarial setting where RL, opponent mo
 
 Task allocation, routing, path planning and scheduling are the concrete optimization problems behind an autonomous mission plan.
 
-**Corpus size:** 145 papers
+**Corpus size:** 146 papers
 
 **Papers:**
 
 - [2026-08] Passively Safe Convex Guidance for Cislunar Rendezvous and Proximity Operations — https://arxiv.org/abs/2608.03060v1
 - [2026-08] A Forward-Inverse Dynamic Game Framework for Enhanced Multi-Agent Trajectory Planning — https://arxiv.org/abs/2608.01636v1
-- [2026-07] End-to-End LLM Flight Planning with RAG-based Memory and Multi-modal Coach Agent — https://arxiv.org/abs/2607.06964v1
+- [2026-08] Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection — https://arxiv.org/abs/2608.06434v1
+
+---
+
+### Military Simulation (`military-simulation`)
+
+Simulation environments (constructive, game-engine, entity-level) are the training and test bed for RL in military settings; assessment and fidelity criteria matter as much as the learners themselves.
+
+**Corpus size:** 145 papers
+
+**Papers:**
+
+- [2026-08] Training a Conditioned Video Game Agent on a VLM Annotated Dataset — https://arxiv.org/abs/2608.05954v1
+- [2026-08] IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents — https://arxiv.org/abs/2608.06735v1
+- [2026-07] Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds — https://arxiv.org/abs/2607.18135v1
 
 ---
 
@@ -276,20 +290,6 @@ Hierarchical and abductive planning tackles the combinatorial depth of complex o
 - [2026-08] Beyond Flat Policies: Hierarchical Post-Training for Embodied Agents in Robotic Manipulation — https://arxiv.org/abs/2608.05999v1
 - [2026-07] Two-Timescale Hierarchical Reinforcement Learning for Resilient Operations — https://arxiv.org/abs/2607.23434v1
 - [2026-07] Hierarchical Soft Actor-Critic for Sparse-Reward Long-Horizon Reinforcement Learning — https://arxiv.org/abs/2607.23726v1
-
----
-
-### Military Simulation (`military-simulation`)
-
-Simulation environments (constructive, game-engine, entity-level) are the training and test bed for RL in military settings; assessment and fidelity criteria matter as much as the learners themselves.
-
-**Corpus size:** 125 papers
-
-**Papers:**
-
-- [2026-08] Training a Conditioned Video Game Agent on a VLM Annotated Dataset — https://arxiv.org/abs/2608.05954v1
-- [2026-07] Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds — https://arxiv.org/abs/2607.18135v1
-- [2026-07] Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models — https://arxiv.org/abs/2607.13172v1
 
 ---
 
