@@ -1,7 +1,7 @@
 # C2-AI Research — Literature Review
 
-**Generated:** 2026-08-11  
-**Corpus:** 6,650 papers across 14 categories
+**Generated:** 2026-08-13  
+**Corpus:** 9,131 papers across 14 categories
 
 > Synthesis of the autonomous decision-making & deep-RL research corpus. Category insights are drawn from title/abstract analysis of the papers themselves.
 
@@ -11,14 +11,14 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Human–AI Teaming | 1725 |
-| 2 | Deep Reinforcement Learning | 1080 |
-| 3 | Autonomous Decision-Making | 638 |
-| 4 | Multi-Agent Reinforcement Learning | 512 |
-| 5 | Decision Support | 452 |
+| 1 | Human–AI Teaming | 1937 |
+| 2 | Deep Reinforcement Learning | 1262 |
+| 3 | Autonomous Decision-Making | 832 |
+| 4 | Multi-Agent Reinforcement Learning | 689 |
+| 5 | Decision Support | 628 |
 
 **Time span:** 1978–2026 (median year 2012)
-**Dominant aspects:** Application (1859), Development (1647), Theory (1189)
+**Dominant aspects:** Application (2688), Development (1913), Theory (1555)
 
 ---
 
@@ -101,7 +101,7 @@ Top venues by paper count (where present in the metadata):
 
 Trust, explainability and mixed-initiative control are the acceptance criteria — an autonomous system that no human trusts is not deployable.
 
-**Corpus size:** 1725 papers
+**Corpus size:** 1937 papers
 
 **Papers:**
 
@@ -115,7 +115,7 @@ Trust, explainability and mixed-initiative control are the acceptance criteria �
 
 DRL is the methodological core of the corpus: value/policy gradients, benchmark algorithms (PPO, DQN/Rainbow) and sample-efficiency methods form the substrate every downstream planning/decision task builds on.
 
-**Corpus size:** 1080 papers
+**Corpus size:** 1262 papers
 
 **Papers:**
 
@@ -129,7 +129,7 @@ DRL is the methodological core of the corpus: value/policy gradients, benchmark 
 
 End-to-end perception-then-action pipelines (e.g. decision transformers, MCTS planners) encode the target capability for autonomous planning and decision-making in high-stakes, partially structured environments.
 
-**Corpus size:** 638 papers
+**Corpus size:** 832 papers
 
 **Papers:**
 
@@ -143,7 +143,7 @@ End-to-end perception-then-action pipelines (e.g. decision transformers, MCTS pl
 
 Cooperative/competitive multi-agent RL is the bridge from single-agent learning to unit/force-level coordination — the core of adversarial and maneuver scenarios in simulation.
 
-**Corpus size:** 512 papers
+**Corpus size:** 689 papers
 
 **Papers:**
 
@@ -157,7 +157,7 @@ Cooperative/competitive multi-agent RL is the bridge from single-agent learning 
 
 Decision support fuses statistics, ML and optimization to augment human decisions — explicitly including recommendation and interpretability for warfighters and operators.
 
-**Corpus size:** 452 papers
+**Corpus size:** 628 papers
 
 **Papers:**
 
@@ -167,25 +167,11 @@ Decision support fuses statistics, ML and optimization to augment human decision
 
 ---
 
-### Simulation-to-Reality Transfer (`sim-to-real`)
-
-Domain randomization and sim-to-sim/sim-to-real transfer are the mechanisms that make policies learned in simulations usable on real systems.
-
-**Corpus size:** 428 papers
-
-**Papers:**
-
-- [2026-08] Bridging the Sim-to-Real Gap in Parallel-Link Leg Mechanisms via Simulator-Side Dynamics Normalizati — https://arxiv.org/abs/2608.01697v2
-- [2026-08] TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions — https://arxiv.org/abs/2608.05975v1
-- [2026-08] RORA: Realistic Object Reconstruction with Articulation — https://arxiv.org/abs/2608.04842v1
-
----
-
 ### Command & Control (C2) (`command-and-control`)
 
 C2 research connects autonomy to human-machine teaming, situational awareness and decision support at the operational seam between computation and command.
 
-**Corpus size:** 402 papers
+**Corpus size:** 586 papers
 
 **Papers:**
 
@@ -195,11 +181,25 @@ C2 research connects autonomy to human-machine teaming, situational awareness an
 
 ---
 
+### Simulation-to-Reality Transfer (`sim-to-real`)
+
+Domain randomization and sim-to-sim/sim-to-real transfer are the mechanisms that make policies learned in simulations usable on real systems.
+
+**Corpus size:** 568 papers
+
+**Papers:**
+
+- [2026-08] Bridging the Sim-to-Real Gap in Parallel-Link Leg Mechanisms via Simulator-Side Dynamics Normalizati — https://arxiv.org/abs/2608.01697v2
+- [2026-08] TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions — https://arxiv.org/abs/2608.05975v1
+- [2026-08] RORA: Realistic Object Reconstruction with Articulation — https://arxiv.org/abs/2608.04842v1
+
+---
+
 ### Probabilistic & Uncertainty Reasoning (`probabilistic-uncertainty`)
 
 Bayesian, POMDP and uncertainty-quantified reasoning is essential where observation is partial and risk must be quantified before committing to an action.
 
-**Corpus size:** 366 papers
+**Corpus size:** 533 papers
 
 **Papers:**
 
@@ -213,7 +213,7 @@ Bayesian, POMDP and uncertainty-quantified reasoning is essential where observat
 
 Constrained/convex/DP optimization is the formal bridge between RL objectives and provable mission-planning guarantees.
 
-**Corpus size:** 285 papers
+**Corpus size:** 459 papers
 
 **Papers:**
 
@@ -227,7 +227,7 @@ Constrained/convex/DP optimization is the formal bridge between RL objectives an
 
 Inferring adversary intent and strategy (game theory, adversarial RL, counterfactual regret) is the differentiator for decision support that reasons about an opponent, not just the environment.
 
-**Corpus size:** 194 papers
+**Corpus size:** 357 papers
 
 **Papers:**
 
@@ -237,25 +237,11 @@ Inferring adversary intent and strategy (game theory, adversarial RL, counterfac
 
 ---
 
-### Wargaming (`wargaming`)
-
-Red-vs-blue wargaming is the canonical adversarial setting where RL, opponent modeling and optimization collide under realistic scenario constraints.
-
-**Corpus size:** 149 papers
-
-**Papers:**
-
-- [2026-08] No One Wins in Nuclear War: A Social Simulation of Military Decision-making — https://arxiv.org/abs/2608.01868v1
-- [2026-08] Steganalysis of Adaptive Covert Collusion in Tool-Using Agent Populations: A Black-Box, Cross-Princi — https://arxiv.org/abs/2608.02698v1
-- [2026-05] Design of Intelligent Decision Agent for Air-Ground Cooperative Air Defense Wargaming Based on Deep  — https://doi.org/10.1109/ccdc69976.2026.11560721
-
----
-
 ### Military Simulation (`military-simulation`)
 
 Simulation environments (constructive, game-engine, entity-level) are the training and test bed for RL in military settings; assessment and fidelity criteria matter as much as the learners themselves.
 
-**Corpus size:** 146 papers
+**Corpus size:** 340 papers
 
 **Papers:**
 
@@ -269,7 +255,7 @@ Simulation environments (constructive, game-engine, entity-level) are the traini
 
 Task allocation, routing, path planning and scheduling are the concrete optimization problems behind an autonomous mission plan.
 
-**Corpus size:** 146 papers
+**Corpus size:** 325 papers
 
 **Papers:**
 
@@ -283,13 +269,27 @@ Task allocation, routing, path planning and scheduling are the concrete optimiza
 
 Hierarchical and abductive planning tackles the combinatorial depth of complex operational tasks by decomposing goals into options and sub-plans.
 
-**Corpus size:** 127 papers
+**Corpus size:** 309 papers
 
 **Papers:**
 
 - [2026-08] Beyond Flat Policies: Hierarchical Post-Training for Embodied Agents in Robotic Manipulation — https://arxiv.org/abs/2608.05999v1
 - [2026-07] Two-Timescale Hierarchical Reinforcement Learning for Resilient Operations — https://arxiv.org/abs/2607.23434v1
 - [2026-07] Hierarchical Soft Actor-Critic for Sparse-Reward Long-Horizon Reinforcement Learning — https://arxiv.org/abs/2607.23726v1
+
+---
+
+### Wargaming (`wargaming`)
+
+Red-vs-blue wargaming is the canonical adversarial setting where RL, opponent modeling and optimization collide under realistic scenario constraints.
+
+**Corpus size:** 306 papers
+
+**Papers:**
+
+- [2026-08] No One Wins in Nuclear War: A Social Simulation of Military Decision-making — https://arxiv.org/abs/2608.01868v1
+- [2026-08] Steganalysis of Adaptive Covert Collusion in Tool-Using Agent Populations: A Black-Box, Cross-Princi — https://arxiv.org/abs/2608.02698v1
+- [2026-07] Wargames Are Experiments: Wargames as Experimental Methods in International Relations — https://doi.org/10.1007/s12399-026-01107-3
 
 ---
 

@@ -1,37 +1,37 @@
 # C2-AI Paper Landscape Report
 
-**Generated:** 2026-08-11  
-**Corpus:** 6,650 papers (1978-2026) | 6,455 arXiv preprints · 195 journal/publisher records
+**Generated:** 2026-08-13  
+**Corpus:** 9,131 papers (1978-2026) | 6,628 arXiv preprints · 2,503 journal/publisher records
 
 ## Category Landscape
 
 | Category | Total | Prev Yr | This Yr | YoY | 12m Share |
 |----------|------:|--------:|--------:|----:|----------:|
-| Human–AI Teaming | 1725 | 563 | 436 | -23% | 13% |
-| Deep Reinforcement Learning | 1080 | 293 | 783 | +167% | 21% |
-| Autonomous Decision-Making | 638 | 179 | 458 | +156% | 12% |
-| Multi-Agent Reinforcement Learning | 512 | 133 | 377 | +183% | 10% |
-| Decision Support | 452 | 117 | 334 | +185% | 9% |
-| Simulation-to-Reality Transfer | 428 | 102 | 326 | +220% | 8% |
-| Command & Control (C2) | 402 | 93 | 119 | +28% | 3% |
-| Probabilistic & Uncertainty Reasoning | 366 | 104 | 262 | +152% | 7% |
-| Mathematical Optimization | 285 | 62 | 222 | +258% | 5% |
-| Opponent & Cognitive Modeling | 194 | 49 | 135 | +176% | 4% |
-| Wargaming | 149 | 25 | 21 | -16% | 0% |
-| Military Simulation | 146 | 35 | 110 | +214% | 3% |
-| Mission Planning | 146 | 66 | 80 | +21% | 3% |
-| Hierarchical Planning | 127 | 49 | 77 | +57% | 2% |
+| Human–AI Teaming | 1937 | 621 | 524 | -16% | 15% |
+| Deep Reinforcement Learning | 1262 | 294 | 788 | +168% | 20% |
+| Autonomous Decision-Making | 832 | 202 | 462 | +129% | 12% |
+| Multi-Agent Reinforcement Learning | 689 | 141 | 377 | +167% | 9% |
+| Decision Support | 628 | 140 | 335 | +139% | 8% |
+| Command & Control (C2) | 586 | 103 | 121 | +17% | 3% |
+| Simulation-to-Reality Transfer | 568 | 122 | 332 | +172% | 8% |
+| Probabilistic & Uncertainty Reasoning | 533 | 141 | 267 | +89% | 7% |
+| Mathematical Optimization | 459 | 83 | 227 | +173% | 6% |
+| Opponent & Cognitive Modeling | 357 | 78 | 143 | +83% | 4% |
+| Military Simulation | 340 | 50 | 114 | +128% | 3% |
+| Mission Planning | 325 | 107 | 82 | -23% | 3% |
+| Hierarchical Planning | 309 | 67 | 78 | +16% | 2% |
+| Wargaming | 306 | 43 | 31 | -28% | 1% |
 
 ## Research Aspects
 
-- **Theory** (theory): 1189 papers (18%) ########
-- **Mechanism** (mechanism): 557 papers (8%) ####
-- **Method** (method): 281 papers (4%) ##
-- **Application** (application): 1859 papers (28%) #############
-- **Development** (development): 1647 papers (25%) ############
-- **Systems & Technology** (systems): 738 papers (11%) #####
-- **Evaluation & Benchmarks** (evaluation): 142 papers (2%) #
-- **Reviews & Surveys** (review): 237 papers (4%) #
+- **Theory** (theory): 1555 papers (17%) ########
+- **Mechanism** (mechanism): 646 papers (7%) ###
+- **Method** (method): 700 papers (8%) ###
+- **Application** (application): 2688 papers (29%) ##############
+- **Development** (development): 1913 papers (21%) ##########
+- **Systems & Technology** (systems): 1092 papers (12%) #####
+- **Evaluation & Benchmarks** (evaluation): 164 papers (2%) 
+- **Reviews & Surveys** (review): 373 papers (4%) ##
 
 ## Year Trend
 
@@ -56,87 +56,87 @@
 | 2013 | 1 |
 | 2014 | 2 |
 | 2015 | 3 |
-| 2016 | 11 |
+| 2016 | 10 |
 | 2017 | 7 |
 | 2018 | 6 |
 | 2019 | 6 |
 | 2020 | 12 |
-| 2021 | 73 |
-| 2022 | 194 |
-| 2023 | 298 |
-| 2024 | 397 |
-| 2025 | 1870 |
-| 2026 | 3740 |
+| 2021 | 287 |
+| 2022 | 869 |
+| 2023 | 928 |
+| 2024 | 897 |
+| 2025 | 2192 |
+| 2026 | 3881 |
 
 ## Emerging Themes (12-Month Bursts)
 
 | Keyword | Recent | Total | Burst |
 |---------|-------:|------:|------:|
-| mcts | 74 | 74 | 1.27× |
-| domain randomization | 106 | 107 | 1.26× |
-| sim-to-real | 277 | 282 | 1.25× |
-| pomdp | 148 | 153 | 1.23× |
-| agentic | 346 | 368 | 1.2× |
-| offline | 303 | 322 | 1.2× |
-| optimization | 1363 | 1471 | 1.18× |
-| transfer | 490 | 529 | 1.18× |
-| benchmark | 1218 | 1324 | 1.17× |
-| multi-agent | 888 | 966 | 1.17× |
-| uncertainty | 566 | 618 | 1.17× |
-| hierarchical | 341 | 371 | 1.17× |
+| mcts | 74 | 74 | 1.67× |
+| domain randomization | 107 | 115 | 1.55× |
+| agentic | 356 | 385 | 1.54× |
+| benchmark | 1222 | 1335 | 1.53× |
+| offline | 306 | 340 | 1.5× |
+| pomdp | 151 | 172 | 1.47× |
+| uncertainty | 574 | 663 | 1.45× |
+| bayesian | 248 | 287 | 1.44× |
+| optimization | 1392 | 1668 | 1.39× |
+| transfer | 497 | 621 | 1.34× |
+| sim-to-real | 283 | 370 | 1.28× |
+| simulation | 964 | 1283 | 1.25× |
 
 ## Venue Landscape (Top Publishers)
 
 | Venue | Papers |
 |-------|-------:|
-| MED | 18 |
-| CoRR | 9 |
-| Simulation and Wargaming | 8 |
-| Zones of Control | 6 |
-| Winning the Uncertainty Game | 6 |
-| IEEE Access | 4 |
-| PPR | 3 |
-| CoG | 2 |
-| WSC | 2 |
-| KES | 2 |
+| arXiv (Cornell University) | 91 |
+| IEEE Transactions on Vehicular Technology | 50 |
+| IEEE Access | 49 |
+| IEEE Transactions on Intelligent Transportation Systems | 46 |
+| IEEE Internet of Things Journal | 37 |
+| Lecture notes in computer science | 36 |
+| IEEE Robotics and Automation Letters | 31 |
+| Zenodo (CERN European Organization for Nuclear Research) | 29 |
+| IEEE Transactions on Neural Networks and Learning Systems | 28 |
+| Expert Systems with Applications | 27 |
 
 ## Top Authors
 
 | Author | Papers |
 |--------|-------:|
-| Yang Liu | 10 |
-| Yang Li | 8 |
-| Subbarao Kambhampati | 8 |
-| Wei Xu | 7 |
-| Eranga Bandara | 7 |
-| Ross Gore | 7 |
-| Daniel F. Oriesek | 7 |
-| Jan Oliver Schwarz | 7 |
-| Wei Zhang | 6 |
-| Vaneet Aggarwal | 6 |
+| Yang Liu | 14 |
+| Yang Li | 12 |
+| Hao Chen | 12 |
+| Qi Wang | 10 |
+| Huanqing Wang | 10 |
+| Qi Liu | 9 |
+| Kai Li | 9 |
+| Yi Wang | 8 |
+| Yu Wang | 8 |
+| Yu Zhang | 8 |
 
 ## Hottest Cells
 
-- `human-ai-teaming/application` — 446
-- `human-ai-teaming/development` — 367
-- `deep-reinforcement-learning/development` — 304
-- `human-ai-teaming/mechanism` — 272
-- `sim-to-real/application` — 253
-- `deep-reinforcement-learning/theory` — 231
-- `human-ai-teaming/theory` — 229
-- `autonomous-decision-making/development` — 197
-- `deep-reinforcement-learning/application` — 196
-- `human-ai-teaming/systems` — 193
+- `human-ai-teaming/application` — 494
+- `human-ai-teaming/development` — 397
+- `deep-reinforcement-learning/development` — 333
+- `sim-to-real/application` — 309
+- `human-ai-teaming/mechanism` — 288
+- `human-ai-teaming/theory` — 272
+- `deep-reinforcement-learning/theory` — 245
+- `autonomous-decision-making/development` — 232
+- `deep-reinforcement-learning/application` — 230
+- `human-ai-teaming/systems` — 218
 
 ## Thin Cells (White Space)
 
-- `command-and-control/evaluation` — 1
-- `mission-planning/method` — 1
 - `mission-planning/evaluation` — 1
 - `wargaming/mechanism` — 1
 - `wargaming/evaluation` — 1
-- `multi-agent-rl/review` — 2
-- `mathematical-optimization/review` — 2
-- `hierarchical-planning/review` — 2
-- `mission-planning/review` — 2
-- `wargaming/development` — 2
+- `command-and-control/evaluation` — 2
+- `mission-planning/mechanism` — 3
+- `military-simulation/evaluation` — 4
+- `military-simulation/mechanism` — 4
+- `mathematical-optimization/review` — 4
+- `hierarchical-planning/review` — 4
+- `mission-planning/review` — 4
