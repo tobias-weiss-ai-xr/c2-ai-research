@@ -1,7 +1,7 @@
 {
   "metadata": {
     "topic": "Autonomous Decision-Making & Deep Reinforcement Learning for Military Simulations",
-    "total_papers": 10827,
+    "total_papers": 11596,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 14,
@@ -16,30 +16,30 @@
     }
   },
   "by_category": {
-    "autonomous-decision-making": 1084,
-    "deep-reinforcement-learning": 1657,
-    "multi-agent-rl": 871,
-    "opponent-modeling": 429,
-    "hierarchical-planning": 397,
-    "military-simulation": 398,
-    "wargaming": 310,
-    "command-and-control": 613,
-    "decision-support": 744,
-    "mathematical-optimization": 526,
-    "probabilistic-uncertainty": 668,
-    "mission-planning": 451,
+    "autonomous-decision-making": 1141,
+    "deep-reinforcement-learning": 1737,
+    "multi-agent-rl": 946,
+    "opponent-modeling": 461,
+    "hierarchical-planning": 453,
+    "military-simulation": 464,
+    "wargaming": 433,
+    "command-and-control": 684,
+    "decision-support": 801,
+    "mathematical-optimization": 578,
+    "probabilistic-uncertainty": 694,
+    "mission-planning": 490,
     "human-ai-teaming": 1972,
-    "sim-to-real": 707
+    "sim-to-real": 742
   },
   "by_subcategory": {
-    "theory": 1931,
-    "mechanism": 762,
-    "method": 777,
-    "application": 3164,
-    "development": 2241,
-    "systems": 1301,
-    "evaluation": 196,
-    "review": 455
+    "theory": 2051,
+    "mechanism": 795,
+    "method": 920,
+    "application": 3427,
+    "development": 2314,
+    "systems": 1395,
+    "evaluation": 202,
+    "review": 492
   },
   "by_year": {
     "1978": 2,
@@ -69,120 +69,120 @@
     "2021": 287,
     "2022": 869,
     "2023": 928,
-    "2024": 1421,
-    "2025": 3361,
-    "2026": 3884
+    "2024": 1650,
+    "2025": 3798,
+    "2026": 3987
   },
   "by_cell": {
     "human-ai-teaming/application": 502,
+    "sim-to-real/application": 417,
     "human-ai-teaming/development": 402,
-    "sim-to-real/application": 401,
-    "deep-reinforcement-learning/development": 396,
-    "deep-reinforcement-learning/theory": 330,
-    "deep-reinforcement-learning/application": 296,
+    "deep-reinforcement-learning/development": 400,
+    "deep-reinforcement-learning/theory": 336,
+    "deep-reinforcement-learning/application": 316,
+    "mission-planning/application": 307,
     "human-ai-teaming/mechanism": 295,
-    "autonomous-decision-making/development": 280,
-    "mission-planning/application": 280,
+    "autonomous-decision-making/development": 293,
+    "autonomous-decision-making/application": 285,
     "human-ai-teaming/theory": 279,
-    "autonomous-decision-making/application": 273,
-    "multi-agent-rl/development": 242,
-    "military-simulation/application": 235,
-    "deep-reinforcement-learning/systems": 224,
-    "decision-support/application": 221,
+    "military-simulation/application": 276,
+    "multi-agent-rl/development": 258,
+    "wargaming/application": 254,
+    "deep-reinforcement-learning/systems": 239,
+    "decision-support/application": 235,
+    "autonomous-decision-making/theory": 231,
     "human-ai-teaming/systems": 221,
-    "autonomous-decision-making/theory": 220,
-    "multi-agent-rl/theory": 204,
-    "multi-agent-rl/application": 202,
-    "decision-support/development": 199,
-    "wargaming/application": 183,
-    "probabilistic-uncertainty/theory": 175,
-    "command-and-control/application": 166,
+    "multi-agent-rl/theory": 217,
+    "multi-agent-rl/application": 214,
+    "decision-support/development": 208,
+    "command-and-control/application": 180,
+    "probabilistic-uncertainty/theory": 180,
+    "mathematical-optimization/theory": 166,
+    "probabilistic-uncertainty/application": 166,
     "human-ai-teaming/review": 165,
-    "probabilistic-uncertainty/application": 157,
-    "mathematical-optimization/theory": 156,
-    "command-and-control/systems": 139,
-    "probabilistic-uncertainty/development": 137,
-    "deep-reinforcement-learning/method": 132,
-    "autonomous-decision-making/systems": 128,
-    "deep-reinforcement-learning/review": 122,
-    "opponent-modeling/theory": 120,
-    "hierarchical-planning/development": 119,
-    "mathematical-optimization/application": 114,
-    "deep-reinforcement-learning/mechanism": 103,
-    "sim-to-real/development": 98,
-    "probabilistic-uncertainty/systems": 96,
-    "command-and-control/development": 95,
-    "multi-agent-rl/systems": 94,
-    "command-and-control/theory": 93,
-    "mathematical-optimization/development": 92,
-    "opponent-modeling/development": 86,
-    "decision-support/theory": 86,
-    "hierarchical-planning/application": 85,
-    "decision-support/systems": 81,
-    "decision-support/mechanism": 81,
+    "deep-reinforcement-learning/method": 155,
+    "command-and-control/systems": 155,
+    "probabilistic-uncertainty/development": 139,
+    "autonomous-decision-making/systems": 135,
+    "deep-reinforcement-learning/review": 131,
+    "hierarchical-planning/development": 128,
+    "mathematical-optimization/application": 128,
+    "opponent-modeling/theory": 127,
+    "command-and-control/theory": 108,
+    "deep-reinforcement-learning/mechanism": 106,
+    "sim-to-real/development": 103,
+    "multi-agent-rl/systems": 102,
+    "command-and-control/development": 101,
+    "probabilistic-uncertainty/systems": 101,
+    "hierarchical-planning/application": 98,
+    "decision-support/theory": 98,
+    "mathematical-optimization/development": 97,
+    "wargaming/method": 90,
+    "decision-support/systems": 89,
+    "opponent-modeling/development": 87,
+    "decision-support/mechanism": 86,
+    "opponent-modeling/method": 84,
+    "sim-to-real/systems": 79,
+    "sim-to-real/theory": 78,
     "human-ai-teaming/method": 77,
-    "sim-to-real/theory": 76,
-    "opponent-modeling/method": 74,
-    "sim-to-real/systems": 74,
-    "wargaming/method": 66,
-    "autonomous-decision-making/method": 63,
-    "autonomous-decision-making/mechanism": 62,
-    "mathematical-optimization/method": 61,
-    "mathematical-optimization/systems": 61,
-    "hierarchical-planning/theory": 58,
-    "hierarchical-planning/systems": 56,
+    "autonomous-decision-making/method": 74,
+    "mathematical-optimization/systems": 72,
+    "mathematical-optimization/method": 71,
+    "hierarchical-planning/systems": 70,
+    "command-and-control/method": 68,
+    "hierarchical-planning/theory": 66,
+    "multi-agent-rl/method": 64,
+    "autonomous-decision-making/mechanism": 63,
+    "hierarchical-planning/method": 61,
+    "military-simulation/theory": 60,
+    "mission-planning/theory": 57,
     "deep-reinforcement-learning/evaluation": 54,
-    "mission-planning/theory": 53,
-    "command-and-control/method": 53,
-    "hierarchical-planning/method": 51,
-    "opponent-modeling/systems": 50,
+    "multi-agent-rl/mechanism": 54,
+    "decision-support/method": 52,
+    "opponent-modeling/systems": 51,
+    "command-and-control/mechanism": 50,
     "opponent-modeling/application": 49,
-    "military-simulation/theory": 49,
-    "multi-agent-rl/method": 48,
-    "multi-agent-rl/mechanism": 48,
-    "command-and-control/mechanism": 48,
-    "decision-support/method": 47,
+    "wargaming/theory": 48,
     "military-simulation/development": 46,
     "mission-planning/development": 45,
-    "probabilistic-uncertainty/method": 40,
-    "autonomous-decision-making/review": 34,
-    "probabilistic-uncertainty/mechanism": 33,
-    "wargaming/theory": 32,
+    "probabilistic-uncertainty/method": 42,
+    "opponent-modeling/mechanism": 39,
+    "autonomous-decision-making/review": 35,
+    "probabilistic-uncertainty/mechanism": 35,
     "mission-planning/systems": 32,
+    "sim-to-real/method": 31,
     "human-ai-teaming/evaluation": 31,
-    "opponent-modeling/mechanism": 29,
     "military-simulation/systems": 29,
-    "sim-to-real/method": 28,
-    "multi-agent-rl/review": 24,
-    "autonomous-decision-making/evaluation": 24,
-    "mathematical-optimization/mechanism": 23,
-    "mission-planning/method": 23,
-    "decision-support/review": 19,
+    "mission-planning/method": 29,
+    "multi-agent-rl/review": 28,
+    "autonomous-decision-making/evaluation": 25,
+    "mathematical-optimization/mechanism": 24,
+    "decision-support/review": 23,
+    "military-simulation/method": 22,
+    "wargaming/systems": 20,
+    "military-simulation/review": 20,
     "probabilistic-uncertainty/evaluation": 17,
-    "hierarchical-planning/mechanism": 16,
-    "command-and-control/review": 16,
-    "wargaming/systems": 16,
+    "sim-to-real/review": 17,
+    "hierarchical-planning/mechanism": 17,
+    "command-and-control/review": 17,
     "mathematical-optimization/evaluation": 15,
-    "sim-to-real/review": 15,
-    "military-simulation/review": 15,
-    "military-simulation/method": 14,
-    "probabilistic-uncertainty/review": 13,
-    "opponent-modeling/evaluation": 11,
+    "probabilistic-uncertainty/review": 14,
+    "opponent-modeling/evaluation": 13,
+    "wargaming/review": 12,
+    "opponent-modeling/review": 11,
     "decision-support/evaluation": 10,
-    "opponent-modeling/review": 10,
+    "sim-to-real/mechanism": 10,
     "multi-agent-rl/evaluation": 9,
     "mission-planning/mechanism": 9,
-    "sim-to-real/mechanism": 9,
+    "mission-planning/review": 8,
     "hierarchical-planning/evaluation": 7,
-    "wargaming/review": 7,
-    "sim-to-real/evaluation": 6,
-    "mission-planning/review": 6,
+    "sim-to-real/evaluation": 7,
+    "wargaming/development": 7,
+    "military-simulation/mechanism": 6,
+    "hierarchical-planning/review": 6,
     "military-simulation/evaluation": 5,
-    "military-simulation/mechanism": 5,
-    "hierarchical-planning/review": 5,
-    "mathematical-optimization/review": 4,
-    "wargaming/development": 4,
-    "command-and-control/evaluation": 3,
+    "mathematical-optimization/review": 5,
+    "command-and-control/evaluation": 5,
     "mission-planning/evaluation": 3,
     "wargaming/mechanism": 1,
     "wargaming/evaluation": 1
@@ -190,27 +190,27 @@
   "emerging_themes_12m": [
     {
       "keyword": "agentic",
-      "papers": 358
+      "papers": 360
     },
     {
       "keyword": "benchmark",
-      "papers": 1232
+      "papers": 1233
     },
     {
       "keyword": "policy gradient",
-      "papers": 239
+      "papers": 240
     },
     {
       "keyword": "uncertainty",
-      "papers": 578
-    },
-    {
-      "keyword": "bayesian",
-      "papers": 250
+      "papers": 581
     },
     {
       "keyword": "simulator",
-      "papers": 242
+      "papers": 246
+    },
+    {
+      "keyword": "bayesian",
+      "papers": 252
     },
     {
       "keyword": "pomdp",
@@ -218,127 +218,105 @@
     },
     {
       "keyword": "optimization",
-      "papers": 1413
+      "papers": 1432
     },
     {
       "keyword": "constrained",
-      "papers": 565
+      "papers": 571
     },
     {
       "keyword": "transfer",
-      "papers": 500
+      "papers": 506
     }
   ],
   "momentum": [
     {
-      "id": "decision-support",
-      "name": "Decision Support",
-      "total": 744,
-      "recent": 468,
-      "prior": 131,
-      "growth_pct": 257.3,
-      "recent_share": 0.629,
-      "papers_per_month": 39.0,
-      "score": 320.2
+      "id": "sim-to-real",
+      "name": "Simulation-to-Reality Transfer",
+      "total": 742,
+      "recent": 462,
+      "prior": 178,
+      "growth_pct": 159.6,
+      "recent_share": 0.623,
+      "papers_per_month": 38.5,
+      "score": 221.9
     },
     {
-      "id": "mathematical-optimization",
-      "name": "Mathematical Optimization",
-      "total": 526,
-      "recent": 299,
-      "prior": 86,
-      "growth_pct": 247.7,
-      "recent_share": 0.568,
-      "papers_per_month": 24.9,
-      "score": 304.5
+      "id": "decision-support",
+      "name": "Decision Support",
+      "total": 801,
+      "recent": 475,
+      "prior": 181,
+      "growth_pct": 162.4,
+      "recent_share": 0.593,
+      "papers_per_month": 39.6,
+      "score": 221.7
     },
     {
       "id": "deep-reinforcement-learning",
       "name": "Deep Reinforcement Learning",
-      "total": 1657,
-      "recent": 1094,
-      "prior": 384,
-      "growth_pct": 184.9,
-      "recent_share": 0.66,
+      "total": 1737,
+      "recent": 1095,
+      "prior": 463,
+      "growth_pct": 136.5,
+      "recent_share": 0.63,
       "papers_per_month": 91.2,
-      "score": 250.9
+      "score": 199.5
     },
     {
-      "id": "sim-to-real",
-      "name": "Simulation-to-Reality Transfer",
-      "total": 707,
-      "recent": 443,
-      "prior": 162,
-      "growth_pct": 173.5,
-      "recent_share": 0.627,
-      "papers_per_month": 36.9,
-      "score": 236.2
-    },
-    {
-      "id": "multi-agent-rl",
-      "name": "Multi-Agent Reinforcement Learning",
-      "total": 871,
-      "recent": 517,
-      "prior": 191,
-      "growth_pct": 170.7,
-      "recent_share": 0.594,
-      "papers_per_month": 43.1,
-      "score": 230.1
+      "id": "mathematical-optimization",
+      "name": "Mathematical Optimization",
+      "total": 578,
+      "recent": 308,
+      "prior": 129,
+      "growth_pct": 138.8,
+      "recent_share": 0.533,
+      "papers_per_month": 25.7,
+      "score": 192.1
     },
     {
       "id": "probabilistic-uncertainty",
       "name": "Probabilistic & Uncertainty Reasoning",
-      "total": 668,
-      "recent": 388,
-      "prior": 167,
-      "growth_pct": 132.3,
-      "recent_share": 0.581,
-      "papers_per_month": 32.3,
-      "score": 190.4
+      "total": 694,
+      "recent": 404,
+      "prior": 177,
+      "growth_pct": 128.2,
+      "recent_share": 0.582,
+      "papers_per_month": 33.7,
+      "score": 186.4
     },
     {
       "id": "autonomous-decision-making",
       "name": "Autonomous Decision-Making",
-      "total": 1084,
-      "recent": 651,
-      "prior": 283,
-      "growth_pct": 130.0,
-      "recent_share": 0.601,
-      "papers_per_month": 54.2,
-      "score": 190.1
+      "total": 1141,
+      "recent": 662,
+      "prior": 329,
+      "growth_pct": 101.2,
+      "recent_share": 0.58,
+      "papers_per_month": 55.2,
+      "score": 159.2
+    },
+    {
+      "id": "multi-agent-rl",
+      "name": "Multi-Agent Reinforcement Learning",
+      "total": 946,
+      "recent": 522,
+      "prior": 261,
+      "growth_pct": 100.0,
+      "recent_share": 0.552,
+      "papers_per_month": 43.5,
+      "score": 155.2
     },
     {
       "id": "opponent-modeling",
       "name": "Opponent & Cognitive Modeling",
-      "total": 429,
-      "recent": 205,
-      "prior": 98,
-      "growth_pct": 109.2,
-      "recent_share": 0.478,
-      "papers_per_month": 17.1,
-      "score": 157.0
-    },
-    {
-      "id": "military-simulation",
-      "name": "Military Simulation",
-      "total": 398,
-      "recent": 155,
-      "prior": 80,
-      "growth_pct": 93.8,
-      "recent_share": 0.389,
-      "papers_per_month": 12.9,
-      "score": 132.7
-    },
-    {
-      "id": "command-and-control",
-      "name": "Command & Control (C2)",
-      "total": 613,
-      "recent": 177,
-      "prior": 107,
-      "growth_pct": 65.4,
-      "recent_share": 0.289,
-      "papers_per_month": 14.8,
-      "score": 94.3
+      "total": 461,
+      "recent": 218,
+      "prior": 117,
+      "growth_pct": 86.3,
+      "recent_share": 0.473,
+      "papers_per_month": 18.2,
+      "score": 133.6
     },
     {
       "id": "human-ai-teaming",
@@ -352,37 +330,59 @@
       "score": 94.0
     },
     {
-      "id": "hierarchical-planning",
-      "name": "Hierarchical Planning",
-      "total": 397,
-      "recent": 132,
-      "prior": 110,
-      "growth_pct": 20.0,
-      "recent_share": 0.332,
-      "papers_per_month": 11.0,
-      "score": 53.2
+      "id": "military-simulation",
+      "name": "Military Simulation",
+      "total": 464,
+      "recent": 170,
+      "prior": 131,
+      "growth_pct": 29.8,
+      "recent_share": 0.366,
+      "papers_per_month": 14.2,
+      "score": 66.4
+    },
+    {
+      "id": "command-and-control",
+      "name": "Command & Control (C2)",
+      "total": 684,
+      "recent": 195,
+      "prior": 160,
+      "growth_pct": 21.9,
+      "recent_share": 0.285,
+      "papers_per_month": 16.2,
+      "score": 50.4
     },
     {
       "id": "mission-planning",
       "name": "Mission Planning",
-      "total": 451,
-      "recent": 168,
-      "prior": 161,
-      "growth_pct": 4.3,
-      "recent_share": 0.373,
-      "papers_per_month": 14.0,
-      "score": 41.6
+      "total": 490,
+      "recent": 186,
+      "prior": 182,
+      "growth_pct": 2.2,
+      "recent_share": 0.38,
+      "papers_per_month": 15.5,
+      "score": 40.2
     },
     {
       "id": "wargaming",
       "name": "Wargaming",
-      "total": 310,
-      "recent": 39,
-      "prior": 48,
-      "growth_pct": -18.8,
-      "recent_share": 0.126,
-      "papers_per_month": 3.2,
-      "score": -6.2
+      "total": 433,
+      "recent": 109,
+      "prior": 101,
+      "growth_pct": 7.9,
+      "recent_share": 0.252,
+      "papers_per_month": 9.1,
+      "score": 33.1
+    },
+    {
+      "id": "hierarchical-planning",
+      "name": "Hierarchical Planning",
+      "total": 453,
+      "recent": 145,
+      "prior": 153,
+      "growth_pct": -5.2,
+      "recent_share": 0.32,
+      "papers_per_month": 12.1,
+      "score": 26.8
     }
   ],
   "category_trajectory": {
@@ -391,17 +391,17 @@
       "2021": 13,
       "2022": 50,
       "2023": 58,
-      "2024": 129,
-      "2025": 370,
-      "2026": 463
+      "2024": 146,
+      "2025": 404,
+      "2026": 469
     },
     "deep-reinforcement-learning": {
       "2017": 4,
       "2021": 43,
       "2022": 83,
       "2023": 39,
-      "2024": 131,
-      "2025": 569,
+      "2024": 180,
+      "2025": 600,
       "2026": 788
     },
     "multi-agent-rl": {
@@ -409,8 +409,8 @@
       "2021": 17,
       "2022": 61,
       "2023": 56,
-      "2024": 85,
-      "2025": 274,
+      "2024": 122,
+      "2025": 312,
       "2026": 377
     },
     "opponent-modeling": {
@@ -421,27 +421,27 @@
       "2021": 10,
       "2022": 53,
       "2023": 38,
-      "2024": 49,
-      "2025": 130,
-      "2026": 143
+      "2024": 53,
+      "2025": 150,
+      "2026": 151
     },
     "hierarchical-planning": {
       "2018": 1,
       "2021": 13,
       "2022": 53,
       "2023": 49,
-      "2024": 75,
-      "2025": 128,
-      "2026": 78
+      "2024": 88,
+      "2025": 168,
+      "2026": 81
     },
     "military-simulation": {
       "2020": 1,
       "2021": 22,
       "2022": 55,
       "2023": 56,
-      "2024": 65,
-      "2025": 84,
-      "2026": 115
+      "2024": 90,
+      "2025": 120,
+      "2026": 120
     },
     "wargaming": {
       "1978": 2,
@@ -467,9 +467,9 @@
       "2021": 32,
       "2022": 49,
       "2023": 45,
-      "2024": 63,
-      "2025": 47,
-      "2026": 31
+      "2024": 80,
+      "2025": 104,
+      "2026": 80
     },
     "command-and-control": {
       "1985": 1,
@@ -488,43 +488,43 @@
       "2021": 35,
       "2022": 107,
       "2023": 108,
-      "2024": 103,
-      "2025": 121,
-      "2026": 121
+      "2024": 122,
+      "2025": 166,
+      "2026": 128
     },
     "decision-support": {
       "2018": 1,
       "2021": 18,
       "2022": 51,
       "2023": 55,
-      "2024": 62,
-      "2025": 221,
-      "2026": 336
+      "2024": 81,
+      "2025": 258,
+      "2026": 337
     },
     "mathematical-optimization": {
       "2019": 1,
       "2021": 11,
       "2022": 47,
       "2023": 55,
-      "2024": 60,
-      "2025": 125,
-      "2026": 227
+      "2024": 77,
+      "2025": 158,
+      "2026": 229
     },
     "probabilistic-uncertainty": {
       "2021": 9,
       "2022": 40,
       "2023": 43,
-      "2024": 86,
-      "2025": 223,
-      "2026": 267
+      "2024": 87,
+      "2025": 238,
+      "2026": 277
     },
     "mission-planning": {
       "2021": 7,
       "2022": 29,
       "2023": 49,
-      "2024": 86,
-      "2025": 198,
-      "2026": 82
+      "2024": 92,
+      "2025": 226,
+      "2026": 87
     },
     "human-ai-teaming": {
       "2021": 47,
@@ -538,183 +538,183 @@
       "2021": 10,
       "2022": 37,
       "2023": 30,
-      "2024": 79,
-      "2025": 219,
-      "2026": 332
+      "2024": 84,
+      "2025": 242,
+      "2026": 339
     }
   },
   "keyword_bursts": [
     {
       "keyword": "agentic",
-      "recent": 358,
-      "total": 413,
-      "burst_score": 1.7,
-      "recent_share": 0.0647
+      "recent": 360,
+      "total": 416,
+      "burst_score": 1.75,
+      "recent_share": 0.0626
     },
     {
       "keyword": "benchmark",
-      "recent": 1232,
-      "total": 1623,
-      "burst_score": 1.49,
-      "recent_share": 0.2226
+      "recent": 1233,
+      "total": 1624,
+      "burst_score": 1.53,
+      "recent_share": 0.2145
     },
     {
       "keyword": "policy gradient",
-      "recent": 239,
-      "total": 318,
-      "burst_score": 1.47,
-      "recent_share": 0.0432
+      "recent": 240,
+      "total": 321,
+      "burst_score": 1.51,
+      "recent_share": 0.0417
     },
     {
       "keyword": "uncertainty",
-      "recent": 578,
-      "total": 826,
-      "burst_score": 1.37,
-      "recent_share": 0.1044
-    },
-    {
-      "keyword": "bayesian",
-      "recent": 250,
-      "total": 358,
-      "burst_score": 1.37,
-      "recent_share": 0.0452
+      "recent": 581,
+      "total": 832,
+      "burst_score": 1.41,
+      "recent_share": 0.1011
     },
     {
       "keyword": "simulator",
-      "recent": 242,
-      "total": 347,
-      "burst_score": 1.36,
-      "recent_share": 0.0437
+      "recent": 246,
+      "total": 353,
+      "burst_score": 1.41,
+      "recent_share": 0.0428
+    },
+    {
+      "keyword": "bayesian",
+      "recent": 252,
+      "total": 363,
+      "burst_score": 1.4,
+      "recent_share": 0.0438
     },
     {
       "keyword": "pomdp",
       "recent": 154,
-      "total": 222,
-      "burst_score": 1.36,
-      "recent_share": 0.0278
+      "total": 223,
+      "burst_score": 1.39,
+      "recent_share": 0.0268
     },
     {
       "keyword": "optimization",
-      "recent": 1413,
-      "total": 2060,
-      "burst_score": 1.34,
-      "recent_share": 0.2553
+      "recent": 1432,
+      "total": 2140,
+      "burst_score": 1.35,
+      "recent_share": 0.2491
     },
     {
       "keyword": "constrained",
-      "recent": 565,
-      "total": 827,
-      "burst_score": 1.34,
-      "recent_share": 0.1021
+      "recent": 571,
+      "total": 853,
+      "burst_score": 1.35,
+      "recent_share": 0.0993
     },
     {
       "keyword": "transfer",
-      "recent": 500,
-      "total": 749,
-      "burst_score": 1.31,
-      "recent_share": 0.0904
+      "recent": 506,
+      "total": 764,
+      "burst_score": 1.34,
+      "recent_share": 0.088
     },
     {
       "keyword": "offline",
-      "recent": 307,
-      "total": 460,
-      "burst_score": 1.31,
-      "recent_share": 0.0555
-    },
-    {
-      "keyword": "imitation",
-      "recent": 689,
-      "total": 1038,
-      "burst_score": 1.3,
-      "recent_share": 0.1245
+      "recent": 308,
+      "total": 465,
+      "burst_score": 1.34,
+      "recent_share": 0.0536
     },
     {
       "keyword": "domain randomization",
       "recent": 108,
       "total": 163,
-      "burst_score": 1.3,
-      "recent_share": 0.0195
+      "burst_score": 1.34,
+      "recent_share": 0.0188
+    },
+    {
+      "keyword": "imitation",
+      "recent": 692,
+      "total": 1050,
+      "burst_score": 1.33,
+      "recent_share": 0.1204
     },
     {
       "keyword": "mcts",
       "recent": 76,
       "total": 115,
-      "burst_score": 1.29,
-      "recent_share": 0.0137
+      "burst_score": 1.33,
+      "recent_share": 0.0132
     },
     {
       "keyword": "adversarial",
-      "recent": 322,
-      "total": 491,
-      "burst_score": 1.28,
-      "recent_share": 0.0582
+      "recent": 325,
+      "total": 497,
+      "burst_score": 1.32,
+      "recent_share": 0.0565
     }
   ],
   "source_breakdown": {
-    "arxiv": 8324,
-    "doi": 2409,
-    "other": 94
+    "arxiv": 8335,
+    "doi": 3138,
+    "other": 123
   },
   "venues": [
     {
       "name": "arXiv",
-      "papers": 91
+      "papers": 98
     },
     {
       "name": "IEEE Transactions on Vehicular Technology",
-      "papers": 50
-    },
-    {
-      "name": "IEEE Access",
-      "papers": 49
+      "papers": 61
     },
     {
       "name": "IEEE Transactions on Intelligent Transportation Systems",
-      "papers": 46
+      "papers": 59
+    },
+    {
+      "name": "IEEE Access",
+      "papers": 56
     },
     {
       "name": "IEEE Internet of Things Journal",
-      "papers": 37
-    },
-    {
-      "name": "Lecture notes in computer science",
-      "papers": 36
-    },
-    {
-      "name": "IEEE Robotics and Automation Letters",
-      "papers": 31
+      "papers": 44
     },
     {
       "name": "Zenodo (CERN European Organization for Nuclear Research)",
-      "papers": 29
+      "papers": 43
     },
     {
-      "name": "IEEE Transactions on Neural Networks and Learning Systems",
-      "papers": 28
+      "name": "IEEE Robotics and Automation Letters",
+      "papers": 41
+    },
+    {
+      "name": "Lecture notes in computer science",
+      "papers": 38
     },
     {
       "name": "Expert Systems with Applications",
-      "papers": 27
+      "papers": 37
     },
     {
       "name": "Applied Energy",
-      "papers": 26
+      "papers": 35
+    },
+    {
+      "name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "papers": 32
     },
     {
       "name": "Knowledge-Based Systems",
-      "papers": 25
+      "papers": 31
     },
     {
       "name": "Drones",
-      "papers": 20
+      "papers": 27
     },
     {
-      "name": "IEEE Transactions on Smart Grid",
-      "papers": 19
+      "name": "IEEE Transactions on Mobile Computing",
+      "papers": 26
     },
     {
-      "name": "MED",
-      "papers": 18
+      "name": "Scientific Reports",
+      "papers": 26
     }
   ],
   "gaps": {
@@ -728,36 +728,36 @@
         "papers": 1
       },
       {
-        "cell": "command-and-control/evaluation",
-        "papers": 3
-      },
-      {
         "cell": "mission-planning/evaluation",
         "papers": 3
-      },
-      {
-        "cell": "mathematical-optimization/review",
-        "papers": 4
-      },
-      {
-        "cell": "wargaming/development",
-        "papers": 4
       },
       {
         "cell": "military-simulation/evaluation",
         "papers": 5
       },
       {
-        "cell": "military-simulation/mechanism",
+        "cell": "mathematical-optimization/review",
         "papers": 5
+      },
+      {
+        "cell": "command-and-control/evaluation",
+        "papers": 5
+      },
+      {
+        "cell": "military-simulation/mechanism",
+        "papers": 6
       },
       {
         "cell": "hierarchical-planning/review",
-        "papers": 5
+        "papers": 6
+      },
+      {
+        "cell": "hierarchical-planning/evaluation",
+        "papers": 7
       },
       {
         "cell": "sim-to-real/evaluation",
-        "papers": 6
+        "papers": 7
       }
     ],
     "white_space": [
@@ -769,9 +769,9 @@
       },
       {
         "cell": "sim-to-real/evaluation",
-        "total": 6,
-        "recent": 5,
-        "recent_share": 0.83
+        "total": 7,
+        "recent": 6,
+        "recent_share": 0.86
       },
       {
         "cell": "military-simulation/evaluation",
@@ -780,22 +780,16 @@
         "recent_share": 0.8
       },
       {
-        "cell": "military-simulation/mechanism",
-        "total": 5,
-        "recent": 4,
-        "recent_share": 0.8
-      },
-      {
         "cell": "sim-to-real/mechanism",
-        "total": 9,
+        "total": 10,
         "recent": 7,
-        "recent_share": 0.78
+        "recent_share": 0.7
       },
       {
         "cell": "mathematical-optimization/mechanism",
-        "total": 23,
+        "total": 24,
         "recent": 16,
-        "recent_share": 0.7
+        "recent_share": 0.67
       },
       {
         "cell": "mathematical-optimization/evaluation",
@@ -804,10 +798,16 @@
         "recent_share": 0.67
       },
       {
-        "cell": "sim-to-real/review",
-        "total": 15,
-        "recent": 9,
-        "recent_share": 0.6
+        "cell": "military-simulation/mechanism",
+        "total": 6,
+        "recent": 4,
+        "recent_share": 0.67
+      },
+      {
+        "cell": "opponent-modeling/evaluation",
+        "total": 13,
+        "recent": 8,
+        "recent_share": 0.62
       },
       {
         "cell": "decision-support/evaluation",
@@ -816,36 +816,64 @@
         "recent_share": 0.6
       },
       {
-        "cell": "hierarchical-planning/evaluation",
-        "total": 7,
-        "recent": 4,
-        "recent_share": 0.57
+        "cell": "mathematical-optimization/review",
+        "total": 5,
+        "recent": 3,
+        "recent_share": 0.6
       }
     ]
   },
   "top_authors": [
     {
       "name": "Yang Li",
-      "papers": 17
+      "papers": 21
     },
     {
       "name": "Yang Liu",
       "papers": 16
     },
     {
+      "name": "Qi Wang",
+      "papers": 13
+    },
+    {
       "name": "Hao Chen",
       "papers": 13
     },
     {
-      "name": "Qi Wang",
+      "name": "Qi Liu",
       "papers": 12
     },
     {
-      "name": "Qi Liu",
-      "papers": 11
+      "name": "Daniel Rosehill",
+      "papers": 12
+    },
+    {
+      "name": "Gemini 3.1 (Flash)",
+      "papers": 12
+    },
+    {
+      "name": "Chatterbox TTS",
+      "papers": 12
+    },
+    {
+      "name": "Chao Wang",
+      "papers": 10
+    },
+    {
+      "name": "Qiong Wu",
+      "papers": 10
+    },
+    {
+      "name": "Jinpeng Yu",
+      "papers": 10
     },
     {
       "name": "Huanqing Wang",
+      "papers": 10
+    },
+    {
+      "name": "Philippe L\u00e9pinard",
       "papers": 10
     },
     {
@@ -855,34 +883,6 @@
     {
       "name": "Kai Li",
       "papers": 9
-    },
-    {
-      "name": "Xin Wang",
-      "papers": 9
-    },
-    {
-      "name": "Yu Wang",
-      "papers": 9
-    },
-    {
-      "name": "Yang Zhang",
-      "papers": 9
-    },
-    {
-      "name": "Hao Zhou",
-      "papers": 8
-    },
-    {
-      "name": "Vaneet Aggarwal",
-      "papers": 8
-    },
-    {
-      "name": "Quanyan Zhu",
-      "papers": 8
-    },
-    {
-      "name": "Vadim Indelman",
-      "papers": 8
     }
   ]
 }
