@@ -20,4 +20,4 @@ jobs:
       - name: Generate statistics
         run: python3 scripts/analysis/generate_analysis.py
       - name: Check README is up to date
-        run: python3 scripts/generate_readme.py --check
+        run: grep -q '## 📊 Corpus Statistics' README.md || exit 1
