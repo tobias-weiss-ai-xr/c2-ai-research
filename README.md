@@ -4,10 +4,10 @@
 <h3 align="center">Autonomous decision-making & deep reinforcement learning for military simulations</h3>
 
 <div align="center">
-  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/c2--ai--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/c2-ai-research)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/c2--ai--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/c2-ai-research/actions/workflows/validate.yml)
-  [![Decision-Making](https://img.shields.io/badge/Decision-Making-dm--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/dm-research) [![Robotics](https://img.shields.io/badge/Robotics-robotics--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/robotics-research) [![Bayesian Stats](https://img.shields.io/badge/Bayesian Stats-bayesian--statistics--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research)
+  [**GitHub**](https://github.com/tobias-weiss-ai-xr/c2-ai-research)
+  [**License**](LICENSE)
+  [**CI**](https://github.com/tobias-weiss-ai-xr/c2-ai-research/actions/workflows/validate.yml)
+  [**Decision-Making**](https://github.com/tobias-weiss-ai-xr/dm-research) [**Robotics**](https://github.com/tobias-weiss-ai-xr/robotics-research) [**Bayesian Stats**](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research)
 </div>
 
 > 🎯 **C2-AI research corpus:** command & control AI, autonomous decision-making,
