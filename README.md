@@ -3,12 +3,15 @@
 </h1>
 <h3 align="center">Autonomous decision-making & deep reinforcement learning for military simulations</h3>
 
-<div align="center">
-  [**GitHub**](https://github.com/tobias-weiss-ai-xr/c2-ai-research)
-  [**License**](LICENSE)
-  [**CI**](https://github.com/tobias-weiss-ai-xr/c2-ai-research/actions/workflows/validate.yml)
-  [**Decision-Making**](https://github.com/tobias-weiss-ai-xr/dm-research) [**Robotics**](https://github.com/tobias-weiss-ai-xr/robotics-research) [**Bayesian Stats**](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research)
-</div>
+### 🔗 Links
+
+- **GitHub**: https://github.com/tobias-weiss-ai-xr/c2-ai-research
+- **License**: https://github.com/tobias-weiss-ai-xr/c2-ai-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/c2-ai-research/actions/workflows/validate.yml
+- **Decision-Making**: https://github.com/tobias-weiss-ai-xr/dm-research
+- **Robotics**: https://github.com/tobias-weiss-ai-xr/robotics-research
+- **Bayesian Stats**: https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research
+
 
 > 🎯 **C2-AI research corpus:** command & control AI, autonomous decision-making,
 > deep reinforcement learning in military simulations — 14 categories across
