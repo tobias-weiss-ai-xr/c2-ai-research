@@ -9,9 +9,12 @@ Usage:
 import argparse
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import yaml
+
+TODAY = datetime.now()
 
 BASE = Path(__file__).resolve().parent.parent
 
@@ -58,6 +61,13 @@ def main():
             errors.append(f"{label} '{title}': bad subcategory {p.get('subcategory')!r}")
         if not DATE_RE.match(p.get("date", "")):
             errors.append(f"{label} '{title}': bad date {p.get('date')!r}")
+        else:
+            _d = p.get("date", "")
+            _y, _m = int(_d[:4]), int(_d[5:7])
+            if (_y, _m) > (TODAY.year, TODAY.month):
+                errors.append(
+                    f"{label} '{title}': future date {_d!r} — cannot be after today ({TODAY:%Y-%m})"
+                )
         url = p.get("url", "")
         if not ARXIV_RE.match(url):
             warnings.append(f"{label} '{title}': url is not an arXiv abs link: {url!r}")
