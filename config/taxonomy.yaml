@@ -1,0 +1,405 @@
+topic:
+  name: C2 Ai
+  short: c2-ai
+  description: '- GitHub: https://github.com/tobias-weiss-ai-xr/c2-ai-research'
+  openalex_mailto: research@tobias-weiss-ai-xr.de
+taxonomy:
+  categories:
+  - id: wargaming
+    display: Wargaming
+  - id: command-and-control
+    display: Command And Control
+  - id: opponent-modeling
+    display: Opponent Modeling
+  - id: survey
+    display: Survey
+  - id: method
+    display: Method
+  subcategories:
+  - id: method
+    display: Method
+  - id: theory
+    display: Theory
+  - id: application
+    display: Application
+  - id: survey
+    display: Survey
+  - id: experiment
+    display: Experiment
+  - id: systems
+    display: Systems
+  - id: development
+    display: Development
+arxiv_queries:
+- query: abs:"wargaming"
+  category: wargaming
+  subcategory_hint: application
+- query: abs:"wargaming reinforcement learning"
+  category: wargaming
+  subcategory_hint: method
+- query: abs:"wargaming multi-agent"
+  category: wargaming
+  subcategory_hint: application
+- query: abs:"wargaming deep learning"
+  category: wargaming
+  subcategory_hint: method
+- query: abs:"wargaming game theory"
+  category: wargaming
+  subcategory_hint: theory
+- query: abs:"wargaming simulation"
+  category: wargaming
+  subcategory_hint: systems
+- query: abs:"wargaming machine learning"
+  category: wargaming
+  subcategory_hint: method
+- query: abs:"wargaming agent"
+  category: wargaming
+  subcategory_hint: application
+- query: abs:"wargame reinforcement learning"
+  category: wargaming
+  subcategory_hint: method
+- query: abs:"wargame agent"
+  category: wargaming
+  subcategory_hint: application
+- query: abs:"wargame artificial intelligence"
+  category: wargaming
+  subcategory_hint: review
+- query: abs:"wargaming neural network"
+  category: wargaming
+  subcategory_hint: method
+- query: abs:"wargaming LLM"
+  category: wargaming
+  subcategory_hint: development
+- query: abs:"wargaming survey"
+  category: wargaming
+  subcategory_hint: review
+- query: abs:"wargaming autonomous"
+  category: wargaming
+  subcategory_hint: application
+- query: abs:"wargaming survey review"
+  category: wargaming
+  subcategory_hint: review
+- query: abs:"wargaming AI"
+  category: wargaming
+  subcategory_hint: application
+- query: abs:"wargaming reinforcement"
+  category: wargaming
+  subcategory_hint: method
+- query: abs:"command control survey"
+  category: command-and-control
+  subcategory_hint: review
+- query: abs:"command control benchmark evaluation"
+  category: command-and-control
+  subcategory_hint: evaluation
+- query: abs:"battle management autonomous"
+  category: command-and-control
+  subcategory_hint: systems
+- query: abs:"situation awareness AI"
+  category: command-and-control
+  subcategory_hint: mechanism
+- query: abs:"command control framework"
+  category: command-and-control
+  subcategory_hint: development
+- query: abs:"opponent modeling survey"
+  category: opponent-modeling
+  subcategory_hint: review
+- query: abs:"opponent modeling survey review"
+  category: opponent-modeling
+  subcategory_hint: review
+other_sources_queries:
+- source: dblp
+  query: wargaming
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargaming reinforcement learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming multi-agent
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargaming deep learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming game theory
+  category: wargaming
+  subcategory_hint: theory
+- source: dblp
+  query: wargaming simulation
+  category: wargaming
+  subcategory_hint: systems
+- source: dblp
+  query: wargaming machine learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming agent
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargame reinforcement learning
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargame agent
+  category: wargaming
+  subcategory_hint: application
+- source: dblp
+  query: wargame artificial intelligence
+  category: wargaming
+  subcategory_hint: review
+- source: dblp
+  query: wargaming neural network
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: wargaming LLM
+  category: wargaming
+  subcategory_hint: development
+- source: dblp
+  query: wargaming survey
+  category: wargaming
+  subcategory_hint: review
+- source: crossref
+  query: wargaming reinforcement learning
+  category: wargaming
+  subcategory_hint: method
+- source: crossref
+  query: wargaming deep learning
+  category: wargaming
+  subcategory_hint: method
+- source: crossref
+  query: wargaming multi-agent
+  category: wargaming
+  subcategory_hint: application
+- source: crossref
+  query: wargaming autonomous
+  category: wargaming
+  subcategory_hint: application
+- source: crossref
+  query: wargame artificial intelligence
+  category: wargaming
+  subcategory_hint: review
+- source: crossref
+  query: wargaming survey review
+  category: wargaming
+  subcategory_hint: review
+- source: europepmc
+  query: wargaming AI
+  category: wargaming
+  subcategory_hint: application
+- source: europepmc
+  query: wargaming reinforcement
+  category: wargaming
+  subcategory_hint: method
+- source: dblp
+  query: command control survey
+  category: command-and-control
+  subcategory_hint: review
+- source: dblp
+  query: command control benchmark evaluation
+  category: command-and-control
+  subcategory_hint: evaluation
+- source: dblp
+  query: battle management autonomous
+  category: command-and-control
+  subcategory_hint: systems
+- source: dblp
+  query: situation awareness AI
+  category: command-and-control
+  subcategory_hint: mechanism
+- source: dblp
+  query: command control framework
+  category: command-and-control
+  subcategory_hint: development
+- source: dblp
+  query: opponent modeling survey
+  category: opponent-modeling
+  subcategory_hint: review
+- source: crossref
+  query: opponent modeling survey review
+  category: opponent-modeling
+  subcategory_hint: review
+openalex_queries:
+- category: wargaming
+  query: wargaming
+- category: wargaming
+  query: wargaming reinforcement learning
+- category: wargaming
+  query: wargaming multi-agent
+- category: wargaming
+  query: wargaming deep learning
+- category: wargaming
+  query: wargaming game theory
+- category: wargaming
+  query: wargaming simulation
+- category: wargaming
+  query: wargaming machine learning
+- category: wargaming
+  query: wargaming agent
+- category: wargaming
+  query: wargame reinforcement learning
+- category: wargaming
+  query: wargame agent
+- category: wargaming
+  query: wargame artificial intelligence
+- category: wargaming
+  query: wargaming neural network
+- category: wargaming
+  query: wargaming LLM
+- category: wargaming
+  query: wargaming survey
+- category: wargaming
+  query: wargaming autonomous
+- category: wargaming
+  query: wargaming survey review
+- category: wargaming
+  query: wargaming AI
+- category: wargaming
+  query: wargaming reinforcement
+- category: command-and-control
+  query: command control survey
+- category: command-and-control
+  query: command control benchmark evaluation
+- category: command-and-control
+  query: battle management autonomous
+- category: command-and-control
+  query: situation awareness AI
+- category: command-and-control
+  query: command control framework
+- category: opponent-modeling
+  query: opponent modeling survey
+- category: opponent-modeling
+  query: opponent modeling survey review
+subcategory_keywords:
+- id: theory
+  keywords:
+  - theory
+  - theoretical
+  - proof
+  - convergence
+  - bound
+  - consistency
+  - asymptotic
+- id: method
+  keywords:
+  - method
+  - algorithm
+  - approach
+  - technique
+  - framework
+  - novel
+  - scheme
+- id: application
+  keywords:
+  - application
+  - applied
+  - real-world
+  - case study
+  - empirical
+- id: evaluation
+  keywords:
+  - benchmark
+  - evaluation
+  - comparison
+  - baseline
+  - empirical study
+- id: development
+  keywords:
+  - implementation
+  - software
+  - package
+  - library
+  - toolkit
+  - open-source
+- id: systems
+  keywords:
+  - system
+  - framework
+  - platform
+  - scalable
+  - distributed
+  - GPU
+  - parallel
+- id: survey
+  keywords:
+  - survey
+  - review
+  - literature
+  - tutorial
+  - overview
+  - taxonomy
+- id: experiment
+  keywords:
+  - experiment
+  - experimental
+  - simulation study
+  - numerical study
+  - synthetic
+relevance_keywords:
+- agent
+- artificial
+- autonomous
+- awareness
+- battle
+- benchmark
+- command
+- command and control
+- control
+- deep
+- evaluation
+- framework
+- game
+- intelligence
+- learning
+- machine
+- management
+- modeling
+- multi-agent
+- network
+- neural
+- opponent
+- opponent modeling
+- reinforcement
+- review
+- simulation
+- situation
+- survey
+- theory
+- wargame
+- wargaming
+trend_keywords:
+- agent
+- artificial
+- autonomous
+- awareness
+- battle
+- benchmark
+- command
+- command and control
+- control
+- deep
+- evaluation
+- framework
+- game
+- intelligence
+- learning
+- machine
+- management
+- modeling
+- multi-agent
+- network
+- neural
+- opponent
+- opponent modeling
+- reinforcement
+- review
+- simulation
+- situation
+- survey
+- theory
+- wargame
+- wargaming
