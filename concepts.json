@@ -1,0 +1,1974 @@
+{
+  "count": 105,
+  "concepts": [
+    {
+      "term": "large language",
+      "kind": "emergent",
+      "seed": false,
+      "df": 1508,
+      "match": {
+        "type": "text",
+        "forms": [
+          "large language"
+        ]
+      },
+      "papers": 1508,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "human-ai-teaming/application",
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/development"
+      ]
+    },
+    {
+      "term": "language models",
+      "kind": "emergent",
+      "seed": false,
+      "df": 1365,
+      "match": {
+        "type": "text",
+        "forms": [
+          "language models"
+        ]
+      },
+      "papers": 1365,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "human-ai-teaming/application",
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/development"
+      ]
+    },
+    {
+      "term": "multi-agent reinforcement",
+      "kind": "emergent",
+      "seed": false,
+      "df": 854,
+      "match": {
+        "type": "text",
+        "forms": [
+          "multi-agent reinforcement"
+        ]
+      },
+      "papers": 854,
+      "top_cells": [
+        "multi-agent-rl/development",
+        "multi-agent-rl/application",
+        "multi-agent-rl/theory",
+        "multi-agent-rl/systems"
+      ]
+    },
+    {
+      "term": "Command And Control",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 752,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "command-and-control"
+      },
+      "top_cells": [
+        "command-and-control/application",
+        "command-and-control/systems",
+        "command-and-control/theory",
+        "command-and-control/development"
+      ],
+      "papers": 752
+    },
+    {
+      "term": "policy optimization",
+      "kind": "emergent",
+      "seed": false,
+      "df": 706,
+      "match": {
+        "type": "text",
+        "forms": [
+          "policy optimization"
+        ]
+      },
+      "papers": 706,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/systems"
+      ]
+    },
+    {
+      "term": "Opponent Modeling",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 514,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "opponent-modeling"
+      },
+      "top_cells": [
+        "opponent-modeling/theory",
+        "opponent-modeling/development",
+        "opponent-modeling/method",
+        "opponent-modeling/application"
+      ],
+      "papers": 514
+    },
+    {
+      "term": "markov decision",
+      "kind": "emergent",
+      "seed": false,
+      "df": 477,
+      "match": {
+        "type": "text",
+        "forms": [
+          "markov decision"
+        ]
+      },
+      "papers": 477,
+      "top_cells": [
+        "probabilistic-uncertainty/theory",
+        "probabilistic-uncertainty/application",
+        "deep-reinforcement-learning/theory",
+        "probabilistic-uncertainty/development"
+      ]
+    },
+    {
+      "term": "Wargaming",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 465,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "wargaming"
+      },
+      "top_cells": [
+        "wargaming/application",
+        "wargaming/method",
+        "wargaming/theory",
+        "wargaming/systems"
+      ],
+      "papers": 465
+    },
+    {
+      "term": "decision support",
+      "kind": "emergent",
+      "seed": false,
+      "df": 413,
+      "match": {
+        "type": "text",
+        "forms": [
+          "decision support"
+        ]
+      },
+      "papers": 413,
+      "top_cells": [
+        "decision-support/application",
+        "decision-support/development",
+        "decision-support/systems",
+        "decision-support/theory"
+      ]
+    },
+    {
+      "term": "decision making",
+      "kind": "emergent",
+      "seed": false,
+      "df": 391,
+      "match": {
+        "type": "text",
+        "forms": [
+          "decision making"
+        ]
+      },
+      "papers": 391,
+      "top_cells": [
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/systems"
+      ]
+    },
+    {
+      "term": "extensive experiments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 380,
+      "match": {
+        "type": "text",
+        "forms": [
+          "extensive experiments"
+        ]
+      },
+      "papers": 380,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "sim-to-real/application",
+        "deep-reinforcement-learning/theory",
+        "autonomous-decision-making/development"
+      ]
+    },
+    {
+      "term": "proximal policy",
+      "kind": "emergent",
+      "seed": false,
+      "df": 360,
+      "match": {
+        "type": "text",
+        "forms": [
+          "proximal policy"
+        ]
+      },
+      "papers": 360,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/systems"
+      ]
+    },
+    {
+      "term": "decision process",
+      "kind": "emergent",
+      "seed": false,
+      "df": 347,
+      "match": {
+        "type": "text",
+        "forms": [
+          "decision process"
+        ]
+      },
+      "papers": 347,
+      "top_cells": [
+        "probabilistic-uncertainty/application",
+        "probabilistic-uncertainty/theory",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/theory"
+      ]
+    },
+    {
+      "term": "while maintaining",
+      "kind": "emergent",
+      "seed": false,
+      "df": 345,
+      "match": {
+        "type": "text",
+        "forms": [
+          "while maintaining"
+        ]
+      },
+      "papers": 345,
+      "top_cells": [
+        "sim-to-real/application",
+        "deep-reinforcement-learning/application",
+        "human-ai-teaming/development",
+        "deep-reinforcement-learning/development"
+      ]
+    },
+    {
+      "term": "hierarchical reinforcement",
+      "kind": "emergent",
+      "seed": false,
+      "df": 339,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hierarchical reinforcement"
+        ]
+      },
+      "papers": 339,
+      "top_cells": [
+        "hierarchical-planning/development",
+        "hierarchical-planning/application",
+        "hierarchical-planning/method",
+        "hierarchical-planning/systems"
+      ]
+    },
+    {
+      "term": "existing methods",
+      "kind": "emergent",
+      "seed": false,
+      "df": 317,
+      "match": {
+        "type": "text",
+        "forms": [
+          "existing methods"
+        ]
+      },
+      "papers": 317,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/theory",
+        "sim-to-real/application",
+        "autonomous-decision-making/application"
+      ]
+    },
+    {
+      "term": "partially observable",
+      "kind": "emergent",
+      "seed": false,
+      "df": 317,
+      "match": {
+        "type": "text",
+        "forms": [
+          "partially observable"
+        ]
+      },
+      "papers": 317,
+      "top_cells": [
+        "probabilistic-uncertainty/theory",
+        "probabilistic-uncertainty/application",
+        "probabilistic-uncertainty/development",
+        "probabilistic-uncertainty/systems"
+      ]
+    },
+    {
+      "term": "autonomous driving",
+      "kind": "emergent",
+      "seed": false,
+      "df": 307,
+      "match": {
+        "type": "text",
+        "forms": [
+          "autonomous driving"
+        ]
+      },
+      "papers": 307,
+      "top_cells": [
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/application",
+        "human-ai-teaming/development",
+        "autonomous-decision-making/theory"
+      ]
+    },
+    {
+      "term": "sequential decision-making",
+      "kind": "emergent",
+      "seed": false,
+      "df": 288,
+      "match": {
+        "type": "text",
+        "forms": [
+          "sequential decision-making"
+        ]
+      },
+      "papers": 288,
+      "top_cells": [
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/systems"
+      ]
+    },
+    {
+      "term": "unmanned aerial",
+      "kind": "emergent",
+      "seed": false,
+      "df": 283,
+      "match": {
+        "type": "text",
+        "forms": [
+          "unmanned aerial"
+        ]
+      },
+      "papers": 283,
+      "top_cells": [
+        "mission-planning/application",
+        "multi-agent-rl/application",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/systems"
+      ]
+    },
+    {
+      "term": "existing approaches",
+      "kind": "emergent",
+      "seed": false,
+      "df": 280,
+      "match": {
+        "type": "text",
+        "forms": [
+          "existing approaches"
+        ]
+      },
+      "papers": 280,
+      "top_cells": [
+        "sim-to-real/application",
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/development",
+        "multi-agent-rl/development"
+      ]
+    },
+    {
+      "term": "policy gradient",
+      "kind": "emergent",
+      "seed": false,
+      "df": 275,
+      "match": {
+        "type": "text",
+        "forms": [
+          "policy gradient"
+        ]
+      },
+      "papers": 275,
+      "top_cells": [
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/systems"
+      ]
+    },
+    {
+      "term": "autonomous agents",
+      "kind": "emergent",
+      "seed": false,
+      "df": 274,
+      "match": {
+        "type": "text",
+        "forms": [
+          "autonomous agents"
+        ]
+      },
+      "papers": 274,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "human-ai-teaming/mechanism",
+        "human-ai-teaming/theory"
+      ]
+    },
+    {
+      "term": "sample efficiency",
+      "kind": "emergent",
+      "seed": false,
+      "df": 269,
+      "match": {
+        "type": "text",
+        "forms": [
+          "sample efficiency"
+        ]
+      },
+      "papers": 269,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/systems",
+        "deep-reinforcement-learning/application"
+      ]
+    },
+    {
+      "term": "sim-to-real transfer",
+      "kind": "emergent",
+      "seed": false,
+      "df": 244,
+      "match": {
+        "type": "text",
+        "forms": [
+          "sim-to-real transfer"
+        ]
+      },
+      "papers": 244,
+      "top_cells": [
+        "sim-to-real/application",
+        "sim-to-real/development",
+        "sim-to-real/systems",
+        "sim-to-real/theory"
+      ]
+    },
+    {
+      "term": "success rate",
+      "kind": "emergent",
+      "seed": false,
+      "df": 244,
+      "match": {
+        "type": "text",
+        "forms": [
+          "success rate"
+        ]
+      },
+      "papers": 244,
+      "top_cells": [
+        "sim-to-real/application",
+        "human-ai-teaming/application",
+        "sim-to-real/development",
+        "mission-planning/application"
+      ]
+    },
+    {
+      "term": "natural language",
+      "kind": "emergent",
+      "seed": false,
+      "df": 244,
+      "match": {
+        "type": "text",
+        "forms": [
+          "natural language"
+        ]
+      },
+      "papers": 244,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "human-ai-teaming/theory",
+        "decision-support/development"
+      ]
+    },
+    {
+      "term": "path planning",
+      "kind": "emergent",
+      "seed": false,
+      "df": 242,
+      "match": {
+        "type": "text",
+        "forms": [
+          "path planning"
+        ]
+      },
+      "papers": 242,
+      "top_cells": [
+        "mission-planning/application",
+        "mission-planning/development",
+        "mission-planning/theory",
+        "mission-planning/systems"
+      ]
+    },
+    {
+      "term": "autonomous vehicles",
+      "kind": "emergent",
+      "seed": false,
+      "df": 234,
+      "match": {
+        "type": "text",
+        "forms": [
+          "autonomous vehicles"
+        ]
+      },
+      "papers": 234,
+      "top_cells": [
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/method"
+      ]
+    },
+    {
+      "term": "reinforcement learning-based",
+      "kind": "emergent",
+      "seed": false,
+      "df": 230,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reinforcement learning-based"
+        ]
+      },
+      "papers": 230,
+      "top_cells": [
+        "mission-planning/application",
+        "decision-support/systems",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/development"
+      ]
+    },
+    {
+      "term": "human feedback",
+      "kind": "emergent",
+      "seed": false,
+      "df": 229,
+      "match": {
+        "type": "text",
+        "forms": [
+          "human feedback"
+        ]
+      },
+      "papers": 229,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "human-ai-teaming/application",
+        "human-ai-teaming/theory",
+        "human-ai-teaming/method"
+      ]
+    },
+    {
+      "term": "partial observability",
+      "kind": "emergent",
+      "seed": false,
+      "df": 229,
+      "match": {
+        "type": "text",
+        "forms": [
+          "partial observability"
+        ]
+      },
+      "papers": 229,
+      "top_cells": [
+        "probabilistic-uncertainty/application",
+        "probabilistic-uncertainty/theory",
+        "probabilistic-uncertainty/development",
+        "probabilistic-uncertainty/systems"
+      ]
+    },
+    {
+      "term": "monte carlo",
+      "kind": "emergent",
+      "seed": false,
+      "df": 227,
+      "match": {
+        "type": "text",
+        "forms": [
+          "monte carlo"
+        ]
+      },
+      "papers": 227,
+      "top_cells": [
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/systems"
+      ]
+    },
+    {
+      "term": "consistently outperforms",
+      "kind": "emergent",
+      "seed": false,
+      "df": 214,
+      "match": {
+        "type": "text",
+        "forms": [
+          "consistently outperforms"
+        ]
+      },
+      "papers": 214,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/development",
+        "multi-agent-rl/development",
+        "deep-reinforcement-learning/theory"
+      ]
+    },
+    {
+      "term": "while preserving",
+      "kind": "emergent",
+      "seed": false,
+      "df": 212,
+      "match": {
+        "type": "text",
+        "forms": [
+          "while preserving"
+        ]
+      },
+      "papers": 212,
+      "top_cells": [
+        "deep-reinforcement-learning/theory",
+        "decision-support/application",
+        "deep-reinforcement-learning/development",
+        "human-ai-teaming/application"
+      ]
+    },
+    {
+      "term": "aerial vehicles",
+      "kind": "emergent",
+      "seed": false,
+      "df": 209,
+      "match": {
+        "type": "text",
+        "forms": [
+          "aerial vehicles"
+        ]
+      },
+      "papers": 209,
+      "top_cells": [
+        "mission-planning/application",
+        "multi-agent-rl/application",
+        "deep-reinforcement-learning/application",
+        "mission-planning/theory"
+      ]
+    },
+    {
+      "term": "decision processes",
+      "kind": "emergent",
+      "seed": false,
+      "df": 206,
+      "match": {
+        "type": "text",
+        "forms": [
+          "decision processes"
+        ]
+      },
+      "papers": 206,
+      "top_cells": [
+        "probabilistic-uncertainty/theory",
+        "deep-reinforcement-learning/theory",
+        "mathematical-optimization/theory",
+        "autonomous-decision-making/theory"
+      ]
+    },
+    {
+      "term": "experiments demonstrate",
+      "kind": "emergent",
+      "seed": false,
+      "df": 205,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experiments demonstrate"
+        ]
+      },
+      "papers": 205,
+      "top_cells": [
+        "sim-to-real/application",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application"
+      ]
+    },
+    {
+      "term": "during training",
+      "kind": "emergent",
+      "seed": false,
+      "df": 203,
+      "match": {
+        "type": "text",
+        "forms": [
+          "during training"
+        ]
+      },
+      "papers": 203,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/systems",
+        "deep-reinforcement-learning/theory"
+      ]
+    },
+    {
+      "term": "uncertainty quantification",
+      "kind": "emergent",
+      "seed": false,
+      "df": 203,
+      "match": {
+        "type": "text",
+        "forms": [
+          "uncertainty quantification"
+        ]
+      },
+      "papers": 203,
+      "top_cells": [
+        "probabilistic-uncertainty/development",
+        "probabilistic-uncertainty/application",
+        "probabilistic-uncertainty/theory",
+        "probabilistic-uncertainty/systems"
+      ]
+    },
+    {
+      "term": "reward function",
+      "kind": "emergent",
+      "seed": false,
+      "df": 201,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reward function"
+        ]
+      },
+      "papers": 201,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/systems",
+        "deep-reinforcement-learning/theory"
+      ]
+    },
+    {
+      "term": "autonomous decision-making",
+      "kind": "emergent",
+      "seed": false,
+      "df": 177,
+      "match": {
+        "type": "text",
+        "forms": [
+          "autonomous decision-making"
+        ]
+      },
+      "papers": 177,
+      "top_cells": [
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/systems"
+      ]
+    },
+    {
+      "term": "observable markov",
+      "kind": "emergent",
+      "seed": false,
+      "df": 177,
+      "match": {
+        "type": "text",
+        "forms": [
+          "observable markov"
+        ]
+      },
+      "papers": 177,
+      "top_cells": [
+        "probabilistic-uncertainty/theory",
+        "probabilistic-uncertainty/application",
+        "probabilistic-uncertainty/development",
+        "probabilistic-uncertainty/systems"
+      ]
+    },
+    {
+      "term": "trajectory planning",
+      "kind": "emergent",
+      "seed": false,
+      "df": 172,
+      "match": {
+        "type": "text",
+        "forms": [
+          "trajectory planning"
+        ]
+      },
+      "papers": 172,
+      "top_cells": [
+        "mission-planning/application",
+        "mission-planning/development",
+        "mission-planning/theory",
+        "mission-planning/systems"
+      ]
+    },
+    {
+      "term": "superior performance",
+      "kind": "emergent",
+      "seed": false,
+      "df": 167,
+      "match": {
+        "type": "text",
+        "forms": [
+          "superior performance"
+        ]
+      },
+      "papers": 167,
+      "top_cells": [
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application",
+        "autonomous-decision-making/application"
+      ]
+    },
+    {
+      "term": "tree search",
+      "kind": "emergent",
+      "seed": false,
+      "df": 164,
+      "match": {
+        "type": "text",
+        "forms": [
+          "tree search"
+        ]
+      },
+      "papers": 164,
+      "top_cells": [
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/systems"
+      ]
+    },
+    {
+      "term": "model-based reinforcement",
+      "kind": "emergent",
+      "seed": false,
+      "df": 164,
+      "match": {
+        "type": "text",
+        "forms": [
+          "model-based reinforcement"
+        ]
+      },
+      "papers": 164,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/systems",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/application"
+      ]
+    },
+    {
+      "term": "situational awareness",
+      "kind": "emergent",
+      "seed": false,
+      "df": 164,
+      "match": {
+        "type": "text",
+        "forms": [
+          "situational awareness"
+        ]
+      },
+      "papers": 164,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "command-and-control/application",
+        "human-ai-teaming/development",
+        "command-and-control/development"
+      ]
+    },
+    {
+      "term": "real world",
+      "kind": "emergent",
+      "seed": false,
+      "df": 163,
+      "match": {
+        "type": "text",
+        "forms": [
+          "real world"
+        ]
+      },
+      "papers": 163,
+      "top_cells": [
+        "sim-to-real/application",
+        "sim-to-real/systems",
+        "sim-to-real/development",
+        "military-simulation/application"
+      ]
+    },
+    {
+      "term": "domain randomization",
+      "kind": "emergent",
+      "seed": false,
+      "df": 161,
+      "match": {
+        "type": "text",
+        "forms": [
+          "domain randomization"
+        ]
+      },
+      "papers": 161,
+      "top_cells": [
+        "sim-to-real/application",
+        "sim-to-real/systems",
+        "sim-to-real/development",
+        "sim-to-real/theory"
+      ]
+    },
+    {
+      "term": "significantly outperforms",
+      "kind": "emergent",
+      "seed": false,
+      "df": 161,
+      "match": {
+        "type": "text",
+        "forms": [
+          "significantly outperforms"
+        ]
+      },
+      "papers": 161,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/development",
+        "deep-reinforcement-learning/theory",
+        "multi-agent-rl/development"
+      ]
+    },
+    {
+      "term": "human-ai collaboration",
+      "kind": "emergent",
+      "seed": false,
+      "df": 151,
+      "match": {
+        "type": "text",
+        "forms": [
+          "human-ai collaboration"
+        ]
+      },
+      "papers": 151,
+      "top_cells": [
+        "human-ai-teaming/theory",
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "human-ai-teaming/mechanism"
+      ]
+    },
+    {
+      "term": "success rates",
+      "kind": "emergent",
+      "seed": false,
+      "df": 150,
+      "match": {
+        "type": "text",
+        "forms": [
+          "success rates"
+        ]
+      },
+      "papers": 150,
+      "top_cells": [
+        "sim-to-real/application",
+        "mission-planning/application",
+        "autonomous-decision-making/development",
+        "human-ai-teaming/application"
+      ]
+    },
+    {
+      "term": "resource allocation",
+      "kind": "emergent",
+      "seed": false,
+      "df": 147,
+      "match": {
+        "type": "text",
+        "forms": [
+          "resource allocation"
+        ]
+      },
+      "papers": 147,
+      "top_cells": [
+        "deep-reinforcement-learning/application",
+        "multi-agent-rl/application",
+        "deep-reinforcement-learning/development",
+        "multi-agent-rl/theory"
+      ]
+    },
+    {
+      "term": "supervised fine-tuning",
+      "kind": "emergent",
+      "seed": false,
+      "df": 146,
+      "match": {
+        "type": "text",
+        "forms": [
+          "supervised fine-tuning"
+        ]
+      },
+      "papers": 146,
+      "top_cells": [
+        "decision-support/application",
+        "deep-reinforcement-learning/development",
+        "human-ai-teaming/development",
+        "opponent-modeling/development"
+      ]
+    },
+    {
+      "term": "action space",
+      "kind": "emergent",
+      "seed": false,
+      "df": 144,
+      "match": {
+        "type": "text",
+        "forms": [
+          "action space"
+        ]
+      },
+      "papers": 144,
+      "top_cells": [
+        "multi-agent-rl/development",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application"
+      ]
+    },
+    {
+      "term": "remains challenging",
+      "kind": "emergent",
+      "seed": false,
+      "df": 142,
+      "match": {
+        "type": "text",
+        "forms": [
+          "remains challenging"
+        ]
+      },
+      "papers": 142,
+      "top_cells": [
+        "sim-to-real/application",
+        "deep-reinforcement-learning/development",
+        "multi-agent-rl/development",
+        "human-ai-teaming/application"
+      ]
+    },
+    {
+      "term": "real-world applications",
+      "kind": "emergent",
+      "seed": false,
+      "df": 141,
+      "match": {
+        "type": "text",
+        "forms": [
+          "real-world applications"
+        ]
+      },
+      "papers": 141,
+      "top_cells": [
+        "deep-reinforcement-learning/application",
+        "autonomous-decision-making/application",
+        "human-ai-teaming/application",
+        "multi-agent-rl/application"
+      ]
+    },
+    {
+      "term": "optimization problem",
+      "kind": "emergent",
+      "seed": false,
+      "df": 140,
+      "match": {
+        "type": "text",
+        "forms": [
+          "optimization problem"
+        ]
+      },
+      "papers": 140,
+      "top_cells": [
+        "mathematical-optimization/theory",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "mission-planning/application"
+      ]
+    },
+    {
+      "term": "carlo tree",
+      "kind": "emergent",
+      "seed": false,
+      "df": 139,
+      "match": {
+        "type": "text",
+        "forms": [
+          "carlo tree"
+        ]
+      },
+      "papers": 139,
+      "top_cells": [
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/systems"
+      ]
+    },
+    {
+      "term": "reasoning capabilities",
+      "kind": "emergent",
+      "seed": false,
+      "df": 137,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reasoning capabilities"
+        ]
+      },
+      "papers": 137,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/application",
+        "deep-reinforcement-learning/review",
+        "multi-agent-rl/development"
+      ]
+    },
+    {
+      "term": "combinatorial optimization",
+      "kind": "emergent",
+      "seed": false,
+      "df": 136,
+      "match": {
+        "type": "text",
+        "forms": [
+          "combinatorial optimization"
+        ]
+      },
+      "papers": 136,
+      "top_cells": [
+        "mathematical-optimization/development",
+        "mathematical-optimization/theory",
+        "mathematical-optimization/application",
+        "mathematical-optimization/systems"
+      ]
+    },
+    {
+      "term": "clinical decision",
+      "kind": "emergent",
+      "seed": false,
+      "df": 134,
+      "match": {
+        "type": "text",
+        "forms": [
+          "clinical decision"
+        ]
+      },
+      "papers": 134,
+      "top_cells": [
+        "decision-support/application",
+        "decision-support/development",
+        "decision-support/systems",
+        "decision-support/mechanism"
+      ]
+    },
+    {
+      "term": "offline reinforcement",
+      "kind": "emergent",
+      "seed": false,
+      "df": 133,
+      "match": {
+        "type": "text",
+        "forms": [
+          "offline reinforcement"
+        ]
+      },
+      "papers": 133,
+      "top_cells": [
+        "autonomous-decision-making/theory",
+        "deep-reinforcement-learning/theory",
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/application"
+      ]
+    },
+    {
+      "term": "wide range",
+      "kind": "emergent",
+      "seed": false,
+      "df": 133,
+      "match": {
+        "type": "text",
+        "forms": [
+          "wide range"
+        ]
+      },
+      "papers": 133,
+      "top_cells": [
+        "sim-to-real/application",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/theory"
+      ]
+    },
+    {
+      "term": "reward functions",
+      "kind": "emergent",
+      "seed": false,
+      "df": 133,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reward functions"
+        ]
+      },
+      "papers": 133,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application",
+        "multi-agent-rl/theory",
+        "human-ai-teaming/application"
+      ]
+    },
+    {
+      "term": "significant challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 131,
+      "match": {
+        "type": "text",
+        "forms": [
+          "significant challenges"
+        ]
+      },
+      "papers": 131,
+      "top_cells": [
+        "mission-planning/application",
+        "multi-agent-rl/development",
+        "multi-agent-rl/theory",
+        "autonomous-decision-making/application"
+      ]
+    },
+    {
+      "term": "world models",
+      "kind": "emergent",
+      "seed": false,
+      "df": 130,
+      "match": {
+        "type": "text",
+        "forms": [
+          "world models"
+        ]
+      },
+      "papers": 130,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/systems",
+        "deep-reinforcement-learning/application",
+        "sim-to-real/application"
+      ]
+    },
+    {
+      "term": "value function",
+      "kind": "emergent",
+      "seed": false,
+      "df": 127,
+      "match": {
+        "type": "text",
+        "forms": [
+          "value function"
+        ]
+      },
+      "papers": 127,
+      "top_cells": [
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "probabilistic-uncertainty/theory",
+        "deep-reinforcement-learning/systems"
+      ]
+    },
+    {
+      "term": "manipulation tasks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 125,
+      "match": {
+        "type": "text",
+        "forms": [
+          "manipulation tasks"
+        ]
+      },
+      "papers": 125,
+      "top_cells": [
+        "sim-to-real/application",
+        "human-ai-teaming/application",
+        "sim-to-real/systems",
+        "human-ai-teaming/development"
+      ]
+    },
+    {
+      "term": "human-ai interaction",
+      "kind": "emergent",
+      "seed": false,
+      "df": 124,
+      "match": {
+        "type": "text",
+        "forms": [
+          "human-ai interaction"
+        ]
+      },
+      "papers": 124,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "human-ai-teaming/application",
+        "human-ai-teaming/theory",
+        "human-ai-teaming/systems"
+      ]
+    },
+    {
+      "term": "action spaces",
+      "kind": "emergent",
+      "seed": false,
+      "df": 124,
+      "match": {
+        "type": "text",
+        "forms": [
+          "action spaces"
+        ]
+      },
+      "papers": 124,
+      "top_cells": [
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/development",
+        "deep-reinforcement-learning/systems"
+      ]
+    },
+    {
+      "term": "dynamic environments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 123,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dynamic environments"
+        ]
+      },
+      "papers": 123,
+      "top_cells": [
+        "sim-to-real/application",
+        "mission-planning/application",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/development"
+      ]
+    },
+    {
+      "term": "edge computing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 123,
+      "match": {
+        "type": "text",
+        "forms": [
+          "edge computing"
+        ]
+      },
+      "papers": 123,
+      "top_cells": [
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/development",
+        "multi-agent-rl/development",
+        "mathematical-optimization/systems"
+      ]
+    },
+    {
+      "term": "cognitive load",
+      "kind": "emergent",
+      "seed": false,
+      "df": 123,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cognitive load"
+        ]
+      },
+      "papers": 123,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "human-ai-teaming/systems",
+        "human-ai-teaming/theory",
+        "human-ai-teaming/application"
+      ]
+    },
+    {
+      "term": "task performance",
+      "kind": "emergent",
+      "seed": false,
+      "df": 122,
+      "match": {
+        "type": "text",
+        "forms": [
+          "task performance"
+        ]
+      },
+      "papers": 122,
+      "top_cells": [
+        "human-ai-teaming/mechanism",
+        "sim-to-real/application",
+        "deep-reinforcement-learning/development",
+        "multi-agent-rl/development"
+      ]
+    },
+    {
+      "term": "sim-to-real gap",
+      "kind": "emergent",
+      "seed": false,
+      "df": 121,
+      "match": {
+        "type": "text",
+        "forms": [
+          "sim-to-real gap"
+        ]
+      },
+      "papers": 121,
+      "top_cells": [
+        "sim-to-real/application",
+        "sim-to-real/development",
+        "sim-to-real/systems",
+        "military-simulation/application"
+      ]
+    },
+    {
+      "term": "complex tasks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 118,
+      "match": {
+        "type": "text",
+        "forms": [
+          "complex tasks"
+        ]
+      },
+      "papers": 118,
+      "top_cells": [
+        "multi-agent-rl/development",
+        "multi-agent-rl/theory",
+        "hierarchical-planning/development",
+        "human-ai-teaming/mechanism"
+      ]
+    },
+    {
+      "term": "without requiring",
+      "kind": "emergent",
+      "seed": false,
+      "df": 118,
+      "match": {
+        "type": "text",
+        "forms": [
+          "without requiring"
+        ]
+      },
+      "papers": 118,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "sim-to-real/application",
+        "deep-reinforcement-learning/theory",
+        "autonomous-decision-making/development"
+      ]
+    },
+    {
+      "term": "outperforms state-of-the-art",
+      "kind": "emergent",
+      "seed": false,
+      "df": 117,
+      "match": {
+        "type": "text",
+        "forms": [
+          "outperforms state-of-the-art"
+        ]
+      },
+      "papers": 117,
+      "top_cells": [
+        "autonomous-decision-making/development",
+        "deep-reinforcement-learning/development",
+        "multi-agent-rl/development",
+        "autonomous-decision-making/theory"
+      ]
+    },
+    {
+      "term": "continuous control",
+      "kind": "emergent",
+      "seed": false,
+      "df": 117,
+      "match": {
+        "type": "text",
+        "forms": [
+          "continuous control"
+        ]
+      },
+      "papers": 117,
+      "top_cells": [
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/mechanism"
+      ]
+    },
+    {
+      "term": "methods often",
+      "kind": "emergent",
+      "seed": false,
+      "df": 115,
+      "match": {
+        "type": "text",
+        "forms": [
+          "methods often"
+        ]
+      },
+      "papers": 115,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "sim-to-real/application",
+        "deep-reinforcement-learning/application",
+        "autonomous-decision-making/theory"
+      ]
+    },
+    {
+      "term": "aerial vehicle",
+      "kind": "emergent",
+      "seed": false,
+      "df": 115,
+      "match": {
+        "type": "text",
+        "forms": [
+          "aerial vehicle"
+        ]
+      },
+      "papers": 115,
+      "top_cells": [
+        "mission-planning/application",
+        "deep-reinforcement-learning/application",
+        "command-and-control/application",
+        "multi-agent-rl/application"
+      ]
+    },
+    {
+      "term": "publicly available",
+      "kind": "emergent",
+      "seed": false,
+      "df": 114,
+      "match": {
+        "type": "text",
+        "forms": [
+          "publicly available"
+        ]
+      },
+      "papers": 114,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "sim-to-real/application",
+        "human-ai-teaming/application",
+        "human-ai-teaming/development"
+      ]
+    },
+    {
+      "term": "foundation models",
+      "kind": "emergent",
+      "seed": false,
+      "df": 114,
+      "match": {
+        "type": "text",
+        "forms": [
+          "foundation models"
+        ]
+      },
+      "papers": 114,
+      "top_cells": [
+        "sim-to-real/application",
+        "decision-support/application",
+        "human-ai-teaming/application",
+        "autonomous-decision-making/development"
+      ]
+    },
+    {
+      "term": "credit assignment",
+      "kind": "emergent",
+      "seed": false,
+      "df": 113,
+      "match": {
+        "type": "text",
+        "forms": [
+          "credit assignment"
+        ]
+      },
+      "papers": 113,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "multi-agent-rl/development",
+        "multi-agent-rl/theory",
+        "multi-agent-rl/application"
+      ]
+    },
+    {
+      "term": "cooperative multi-agent",
+      "kind": "emergent",
+      "seed": false,
+      "df": 113,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cooperative multi-agent"
+        ]
+      },
+      "papers": 113,
+      "top_cells": [
+        "multi-agent-rl/development",
+        "multi-agent-rl/theory",
+        "multi-agent-rl/application",
+        "multi-agent-rl/systems"
+      ]
+    },
+    {
+      "term": "challenging due",
+      "kind": "emergent",
+      "seed": false,
+      "df": 112,
+      "match": {
+        "type": "text",
+        "forms": [
+          "challenging due"
+        ]
+      },
+      "papers": 112,
+      "top_cells": [
+        "sim-to-real/application",
+        "human-ai-teaming/application",
+        "hierarchical-planning/application",
+        "autonomous-decision-making/theory"
+      ]
+    },
+    {
+      "term": "strong performance",
+      "kind": "emergent",
+      "seed": false,
+      "df": 111,
+      "match": {
+        "type": "text",
+        "forms": [
+          "strong performance"
+        ]
+      },
+      "papers": 111,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "sim-to-real/application",
+        "deep-reinforcement-learning/theory",
+        "decision-support/development"
+      ]
+    },
+    {
+      "term": "significantly improves",
+      "kind": "emergent",
+      "seed": false,
+      "df": 111,
+      "match": {
+        "type": "text",
+        "forms": [
+          "significantly improves"
+        ]
+      },
+      "papers": 111,
+      "top_cells": [
+        "sim-to-real/application",
+        "autonomous-decision-making/theory",
+        "deep-reinforcement-learning/development",
+        "multi-agent-rl/development"
+      ]
+    },
+    {
+      "term": "often rely",
+      "kind": "emergent",
+      "seed": false,
+      "df": 111,
+      "match": {
+        "type": "text",
+        "forms": [
+          "often rely"
+        ]
+      },
+      "papers": 111,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "human-ai-teaming/development",
+        "multi-agent-rl/development",
+        "decision-support/development"
+      ]
+    },
+    {
+      "term": "complex environments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 110,
+      "match": {
+        "type": "text",
+        "forms": [
+          "complex environments"
+        ]
+      },
+      "papers": 110,
+      "top_cells": [
+        "mission-planning/application",
+        "deep-reinforcement-learning/systems",
+        "sim-to-real/application",
+        "deep-reinforcement-learning/theory"
+      ]
+    },
+    {
+      "term": "state-of-the-art methods",
+      "kind": "emergent",
+      "seed": false,
+      "df": 98,
+      "match": {
+        "type": "text",
+        "forms": [
+          "state-of-the-art methods"
+        ]
+      },
+      "papers": 98,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "sim-to-real/application",
+        "deep-reinforcement-learning/theory",
+        "autonomous-decision-making/development"
+      ]
+    },
+    {
+      "term": "future directions",
+      "kind": "emergent",
+      "seed": false,
+      "df": 71,
+      "match": {
+        "type": "text",
+        "forms": [
+          "future directions"
+        ]
+      },
+      "papers": 71,
+      "top_cells": [
+        "deep-reinforcement-learning/review",
+        "human-ai-teaming/review",
+        "multi-agent-rl/theory",
+        "human-ai-teaming/application"
+      ]
+    },
+    {
+      "term": "code available",
+      "kind": "emergent",
+      "seed": false,
+      "df": 10,
+      "match": {
+        "type": "text",
+        "forms": [
+          "code available"
+        ]
+      },
+      "papers": 10,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "autonomous-decision-making/theory",
+        "sim-to-real/application",
+        "human-ai-teaming/systems"
+      ]
+    },
+    {
+      "term": "address challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 8,
+      "match": {
+        "type": "text",
+        "forms": [
+          "address challenges"
+        ]
+      },
+      "papers": 8,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "autonomous-decision-making/review",
+        "human-ai-teaming/application",
+        "human-ai-teaming/review"
+      ]
+    },
+    {
+      "term": "propose novel",
+      "kind": "emergent",
+      "seed": false,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "propose novel"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "autonomous-decision-making/systems",
+        "decision-support/application",
+        "human-ai-teaming/development",
+        "mathematical-optimization/theory"
+      ]
+    },
+    {
+      "term": "introduce novel",
+      "kind": "emergent",
+      "seed": false,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "introduce novel"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/development",
+        "command-and-control/application"
+      ]
+    },
+    {
+      "term": "available https",
+      "kind": "emergent",
+      "seed": false,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "available https"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "hierarchical-planning/application",
+        "human-ai-teaming/development",
+        "multi-agent-rl/development"
+      ]
+    },
+    {
+      "term": "however existing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "however existing"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "sim-to-real/theory"
+      ]
+    },
+    {
+      "term": "reinforcement algorithms",
+      "kind": "emergent",
+      "seed": false,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reinforcement algorithms"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "sim-to-real/mechanism",
+        "deep-reinforcement-learning/development"
+      ]
+    },
+    {
+      "term": "demonstrate effectiveness",
+      "kind": "emergent",
+      "seed": false,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "demonstrate effectiveness"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "autonomous-decision-making/development"
+      ]
+    },
+    {
+      "term": "reinforcement agents",
+      "kind": "emergent",
+      "seed": false,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reinforcement agents"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "autonomous-decision-making/evaluation"
+      ]
+    },
+    {
+      "term": "Survey",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "survey"
+      },
+      "top_cells": [],
+      "papers": 0
+    },
+    {
+      "term": "Method",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "method"
+      },
+      "top_cells": [],
+      "papers": 0
+    }
+  ]
+}
