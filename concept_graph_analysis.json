@@ -1,41 +1,233 @@
 {
   "stats": {
-    "nodes": 5,
-    "edges": 0,
-    "components": 0,
-    "communities": 0,
-    "modularity": 0.0
+    "nodes": 25,
+    "edges": 86,
+    "components": 1,
+    "communities": 1,
+    "modularity": -467.6079
   },
   "nodes": [
     {
       "id": 0,
-      "term": "Command And Control",
-      "kind": "taxonomy",
-      "df": 752,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
-    },
-    {
-      "id": 1,
-      "term": "Opponent Modeling",
-      "kind": "taxonomy",
-      "df": 514,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
+      "term": "framework",
+      "kind": "curated",
+      "df": 4034,
+      "degree": 17,
+      "weighted_degree": 1394,
+      "degree_centrality": 0.7083,
+      "pagerank": 0.291329,
+      "betweenness": 27.8187,
+      "clustering": 0.5074
     },
     {
       "id": 2,
+      "term": "benchmark",
+      "kind": "curated",
+      "df": 729,
+      "degree": 11,
+      "weighted_degree": 576,
+      "degree_centrality": 0.4583,
+      "pagerank": 0.114686,
+      "betweenness": 0.9425,
+      "clustering": 0.8727
+    },
+    {
+      "id": 3,
+      "term": "dataset",
+      "kind": "curated",
+      "df": 583,
+      "degree": 13,
+      "weighted_degree": 512,
+      "degree_centrality": 0.5417,
+      "pagerank": 0.105773,
+      "betweenness": 7.1687,
+      "clustering": 0.7051
+    },
+    {
+      "id": 6,
+      "term": "survey",
+      "kind": "curated",
+      "df": 439,
+      "degree": 15,
+      "weighted_degree": 280,
+      "degree_centrality": 0.625,
+      "pagerank": 0.069005,
+      "betweenness": 8.8187,
+      "clustering": 0.6381
+    },
+    {
+      "id": 1,
+      "term": "Command And Control",
+      "kind": "taxonomy",
+      "df": 752,
+      "degree": 12,
+      "weighted_degree": 311,
+      "degree_centrality": 0.5,
+      "pagerank": 0.068653,
+      "betweenness": 3.2079,
+      "clustering": 0.7424
+    },
+    {
+      "id": 4,
+      "term": "Opponent Modeling",
+      "kind": "taxonomy",
+      "df": 514,
+      "degree": 8,
+      "weighted_degree": 212,
+      "degree_centrality": 0.3333,
+      "pagerank": 0.04658,
+      "betweenness": 0.1111,
+      "clustering": 0.9643
+    },
+    {
+      "id": 10,
+      "term": "quantitative",
+      "kind": "curated",
+      "df": 144,
+      "degree": 13,
+      "weighted_degree": 189,
+      "degree_centrality": 0.5417,
+      "pagerank": 0.046518,
+      "betweenness": 3.502,
+      "clustering": 0.7436
+    },
+    {
+      "id": 9,
+      "term": "taxonomy",
+      "kind": "curated",
+      "df": 145,
+      "degree": 10,
+      "weighted_degree": 175,
+      "degree_centrality": 0.4167,
+      "pagerank": 0.04501,
+      "betweenness": 2.2333,
+      "clustering": 0.7778
+    },
+    {
+      "id": 11,
+      "term": "qualitative",
+      "kind": "curated",
+      "df": 115,
+      "degree": 12,
+      "weighted_degree": 157,
+      "degree_centrality": 0.5,
+      "pagerank": 0.041123,
+      "betweenness": 3.2635,
+      "clustering": 0.7273
+    },
+    {
+      "id": 7,
+      "term": "case study",
+      "kind": "curated",
+      "df": 180,
+      "degree": 11,
+      "weighted_degree": 153,
+      "degree_centrality": 0.4583,
+      "pagerank": 0.037154,
+      "betweenness": 1.248,
+      "clustering": 0.8364
+    },
+    {
+      "id": 8,
+      "term": "experiment",
+      "kind": "curated",
+      "df": 160,
+      "degree": 11,
+      "weighted_degree": 115,
+      "degree_centrality": 0.4583,
+      "pagerank": 0.032144,
+      "betweenness": 5.3373,
+      "clustering": 0.7273
+    },
+    {
+      "id": 12,
+      "term": "reproducibility",
+      "kind": "curated",
+      "df": 59,
+      "degree": 9,
+      "weighted_degree": 75,
+      "degree_centrality": 0.375,
+      "pagerank": 0.022147,
+      "betweenness": 0.379,
+      "clustering": 0.9167
+    },
+    {
+      "id": 5,
       "term": "Wargaming",
       "kind": "taxonomy",
       "df": 465,
+      "degree": 9,
+      "weighted_degree": 42,
+      "degree_centrality": 0.375,
+      "pagerank": 0.017381,
+      "betweenness": 2.1444,
+      "clustering": 0.7222
+    },
+    {
+      "id": 13,
+      "term": "literature review",
+      "kind": "curated",
+      "df": 44,
+      "degree": 7,
+      "weighted_degree": 32,
+      "degree_centrality": 0.2917,
+      "pagerank": 0.01552,
+      "betweenness": 0.7,
+      "clustering": 0.8095
+    },
+    {
+      "id": 14,
+      "term": "systematic review",
+      "kind": "curated",
+      "df": 42,
+      "degree": 5,
+      "weighted_degree": 31,
+      "degree_centrality": 0.2083,
+      "pagerank": 0.015377,
+      "betweenness": 0.125,
+      "clustering": 0.9
+    },
+    {
+      "id": 15,
+      "term": "interview",
+      "kind": "curated",
+      "df": 17,
+      "degree": 5,
+      "weighted_degree": 21,
+      "degree_centrality": 0.2083,
+      "pagerank": 0.012509,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 16,
+      "term": "research gap",
+      "kind": "curated",
+      "df": 11,
+      "degree": 2,
+      "weighted_degree": 9,
+      "degree_centrality": 0.0833,
+      "pagerank": 0.010052,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 17,
+      "term": "peer review",
+      "kind": "curated",
+      "df": 10,
+      "degree": 2,
+      "weighted_degree": 4,
+      "degree_centrality": 0.0833,
+      "pagerank": 0.00904,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 18,
+      "term": "mixed methods",
+      "kind": "curated",
+      "df": 3,
       "degree": 0,
       "weighted_degree": 0,
       "degree_centrality": 0.0,
@@ -44,7 +236,31 @@
       "clustering": 0.0
     },
     {
-      "id": 3,
+      "id": 19,
+      "term": "triangulation",
+      "kind": "curated",
+      "df": 3,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 20,
+      "term": "grounded theory",
+      "kind": "curated",
+      "df": 2,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 21,
       "term": "Survey",
       "kind": "taxonomy",
       "df": 0,
@@ -56,7 +272,7 @@
       "clustering": 0.0
     },
     {
-      "id": 4,
+      "id": 22,
       "term": "Method",
       "kind": "taxonomy",
       "df": 0,
@@ -66,16 +282,171 @@
       "pagerank": 0.0,
       "betweenness": 0.0,
       "clustering": 0.0
+    },
+    {
+      "id": 23,
+      "term": "meta analysis",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 24,
+      "term": "open access",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
     }
   ],
-  "communities": [],
+  "communities": [
+    {
+      "size": 18,
+      "members": [
+        "Command And Control",
+        "Opponent Modeling",
+        "Wargaming",
+        "benchmark",
+        "case study",
+        "dataset",
+        "experiment",
+        "framework",
+        "interview",
+        "literature review",
+        "peer review",
+        "qualitative",
+        "quantitative",
+        "reproducibility",
+        "research gap",
+        "survey",
+        "systematic review",
+        "taxonomy"
+      ]
+    }
+  ],
   "top_hubs": [
+    "framework",
+    "benchmark",
+    "dataset",
+    "survey",
     "Command And Control",
     "Opponent Modeling",
-    "Wargaming",
-    "Survey",
-    "Method"
+    "quantitative",
+    "taxonomy",
+    "qualitative",
+    "case study"
   ],
-  "bridge_nodes": [],
-  "bridge_edges": []
+  "bridge_nodes": [
+    "framework",
+    "survey",
+    "dataset",
+    "experiment",
+    "quantitative",
+    "qualitative",
+    "Command And Control",
+    "taxonomy",
+    "Wargaming",
+    "case study"
+  ],
+  "bridge_edges": [
+    {
+      "source": "framework",
+      "target": "research gap",
+      "weight": 7,
+      "edge_betweenness": 11.5
+    },
+    {
+      "source": "framework",
+      "target": "peer review",
+      "weight": 2,
+      "edge_betweenness": 10.5
+    },
+    {
+      "source": "dataset",
+      "target": "peer review",
+      "weight": 2,
+      "edge_betweenness": 6.5
+    },
+    {
+      "source": "framework",
+      "target": "systematic review",
+      "weight": 7,
+      "edge_betweenness": 6.3667
+    },
+    {
+      "source": "framework",
+      "target": "interview",
+      "weight": 7,
+      "edge_betweenness": 5.5833
+    },
+    {
+      "source": "experiment",
+      "target": "research gap",
+      "weight": 2,
+      "edge_betweenness": 5.5
+    },
+    {
+      "source": "framework",
+      "target": "literature review",
+      "weight": 7,
+      "edge_betweenness": 4.95
+    },
+    {
+      "source": "survey",
+      "target": "systematic review",
+      "weight": 11,
+      "edge_betweenness": 4.3667
+    },
+    {
+      "source": "framework",
+      "target": "Opponent Modeling",
+      "weight": 140,
+      "edge_betweenness": 3.9345
+    },
+    {
+      "source": "survey",
+      "target": "interview",
+      "weight": 3,
+      "edge_betweenness": 3.5833
+    },
+    {
+      "source": "framework",
+      "target": "reproducibility",
+      "weight": 35,
+      "edge_betweenness": 3.3706
+    },
+    {
+      "source": "framework",
+      "target": "taxonomy",
+      "weight": 60,
+      "edge_betweenness": 3.2774
+    },
+    {
+      "source": "framework",
+      "target": "Wargaming",
+      "weight": 22,
+      "edge_betweenness": 2.9762
+    },
+    {
+      "source": "framework",
+      "target": "qualitative",
+      "weight": 48,
+      "edge_betweenness": 2.954
+    },
+    {
+      "source": "survey",
+      "target": "literature review",
+      "weight": 12,
+      "edge_betweenness": 2.95
+    }
+  ]
 }
