@@ -1,6 +1,25 @@
 {
-  "count": 5,
+  "count": 25,
   "concepts": [
+    {
+      "term": "framework",
+      "kind": "curated",
+      "seed": true,
+      "df": 4034,
+      "match": {
+        "type": "text",
+        "forms": [
+          "framework"
+        ]
+      },
+      "papers": 4034,
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "human-ai-teaming/development",
+        "autonomous-decision-making/development",
+        "human-ai-teaming/application"
+      ]
+    },
     {
       "term": "Command And Control",
       "kind": "taxonomy",
@@ -18,6 +37,44 @@
         "command-and-control/development"
       ],
       "papers": 752
+    },
+    {
+      "term": "benchmark",
+      "kind": "curated",
+      "seed": true,
+      "df": 729,
+      "match": {
+        "type": "text",
+        "forms": [
+          "benchmark"
+        ]
+      },
+      "papers": 729,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "autonomous-decision-making/application",
+        "human-ai-teaming/application",
+        "deep-reinforcement-learning/development"
+      ]
+    },
+    {
+      "term": "dataset",
+      "kind": "curated",
+      "seed": true,
+      "df": 583,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dataset"
+        ]
+      },
+      "papers": 583,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "sim-to-real/application",
+        "human-ai-teaming/application",
+        "autonomous-decision-making/application"
+      ]
     },
     {
       "term": "Opponent Modeling",
@@ -56,6 +113,286 @@
       "papers": 465
     },
     {
+      "term": "survey",
+      "kind": "curated",
+      "seed": true,
+      "df": 439,
+      "match": {
+        "type": "text",
+        "forms": [
+          "survey"
+        ]
+      },
+      "papers": 439,
+      "top_cells": [
+        "deep-reinforcement-learning/review",
+        "human-ai-teaming/review",
+        "human-ai-teaming/mechanism",
+        "human-ai-teaming/application"
+      ]
+    },
+    {
+      "term": "case study",
+      "kind": "curated",
+      "seed": true,
+      "df": 180,
+      "match": {
+        "type": "text",
+        "forms": [
+          "case study"
+        ]
+      },
+      "papers": 180,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "autonomous-decision-making/application",
+        "decision-support/application",
+        "mathematical-optimization/application"
+      ]
+    },
+    {
+      "term": "experiment",
+      "kind": "curated",
+      "seed": true,
+      "df": 160,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experiment"
+        ]
+      },
+      "papers": 160,
+      "top_cells": [
+        "human-ai-teaming/mechanism",
+        "human-ai-teaming/application",
+        "human-ai-teaming/theory",
+        "human-ai-teaming/systems"
+      ]
+    },
+    {
+      "term": "taxonomy",
+      "kind": "curated",
+      "seed": true,
+      "df": 145,
+      "match": {
+        "type": "text",
+        "forms": [
+          "taxonomy"
+        ]
+      },
+      "papers": 145,
+      "top_cells": [
+        "deep-reinforcement-learning/review",
+        "human-ai-teaming/review",
+        "human-ai-teaming/application",
+        "human-ai-teaming/development"
+      ]
+    },
+    {
+      "term": "quantitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 144,
+      "match": {
+        "type": "text",
+        "forms": [
+          "quantitative"
+        ]
+      },
+      "papers": 144,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "human-ai-teaming/theory",
+        "human-ai-teaming/mechanism"
+      ]
+    },
+    {
+      "term": "qualitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 115,
+      "match": {
+        "type": "text",
+        "forms": [
+          "qualitative"
+        ]
+      },
+      "papers": 115,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "human-ai-teaming/mechanism",
+        "human-ai-teaming/theory"
+      ]
+    },
+    {
+      "term": "reproducibility",
+      "kind": "curated",
+      "seed": true,
+      "df": 59,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reproducibility"
+        ]
+      },
+      "papers": 59,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "sim-to-real/application",
+        "decision-support/application",
+        "deep-reinforcement-learning/application"
+      ]
+    },
+    {
+      "term": "literature review",
+      "kind": "curated",
+      "seed": true,
+      "df": 44,
+      "match": {
+        "type": "text",
+        "forms": [
+          "literature review"
+        ]
+      },
+      "papers": 44,
+      "top_cells": [
+        "human-ai-teaming/review",
+        "human-ai-teaming/systems",
+        "deep-reinforcement-learning/review",
+        "command-and-control/review"
+      ]
+    },
+    {
+      "term": "systematic review",
+      "kind": "curated",
+      "seed": true,
+      "df": 42,
+      "match": {
+        "type": "text",
+        "forms": [
+          "systematic review"
+        ]
+      },
+      "papers": 42,
+      "top_cells": [
+        "human-ai-teaming/review",
+        "deep-reinforcement-learning/review",
+        "military-simulation/review",
+        "autonomous-decision-making/review"
+      ]
+    },
+    {
+      "term": "interview",
+      "kind": "curated",
+      "seed": true,
+      "df": 17,
+      "match": {
+        "type": "text",
+        "forms": [
+          "interview"
+        ]
+      },
+      "papers": 17,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/systems",
+        "human-ai-teaming/mechanism",
+        "human-ai-teaming/theory"
+      ]
+    },
+    {
+      "term": "research gap",
+      "kind": "curated",
+      "seed": true,
+      "df": 11,
+      "match": {
+        "type": "text",
+        "forms": [
+          "research gap"
+        ]
+      },
+      "papers": 11,
+      "top_cells": [
+        "human-ai-teaming/development",
+        "human-ai-teaming/mechanism",
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/theory"
+      ]
+    },
+    {
+      "term": "peer review",
+      "kind": "curated",
+      "seed": true,
+      "df": 10,
+      "match": {
+        "type": "text",
+        "forms": [
+          "peer review"
+        ]
+      },
+      "papers": 10,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "deep-reinforcement-learning/application",
+        "human-ai-teaming/evaluation"
+      ]
+    },
+    {
+      "term": "mixed methods",
+      "kind": "curated",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mixed methods"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "command-and-control/theory",
+        "human-ai-teaming/evaluation",
+        "opponent-modeling/theory"
+      ]
+    },
+    {
+      "term": "triangulation",
+      "kind": "curated",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "triangulation"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "multi-agent-rl/development",
+        "sim-to-real/application",
+        "human-ai-teaming/systems"
+      ]
+    },
+    {
+      "term": "grounded theory",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "grounded theory"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "human-ai-teaming/theory"
+      ]
+    },
+    {
       "term": "Survey",
       "kind": "taxonomy",
       "seed": true,
@@ -80,6 +417,34 @@
       },
       "top_cells": [],
       "papers": 0
+    },
+    {
+      "term": "meta analysis",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "meta analysis"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "open access",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "open access"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
     }
   ]
 }
