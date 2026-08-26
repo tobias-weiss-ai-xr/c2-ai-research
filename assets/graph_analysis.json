@@ -2,51 +2,8 @@
  "categories": [
   {
    "id": "autonomous-decision-making",
-   "name": "Autonomous Decision-Making",
-   "color": "#58a6ff",
+   "name": "autonomous-decision-making",
    "count": 1141,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 231
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 63
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 74
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 285
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 293
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 135
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 25
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 35
-    }
-   ],
    "trajectory": {
     "2019": 1,
     "2021": 13,
@@ -58,7 +15,7 @@
    },
    "momentum": {
     "id": "autonomous-decision-making",
-    "name": "Autonomous Decision-Making",
+    "name": "Autonomous Decision Making",
     "total": 1141,
     "recent": 662,
     "prior": 329,
@@ -69,52 +26,71 @@
    }
   },
   {
+   "id": "command-and-control",
+   "name": "Command And Control",
+   "count": 752,
+   "trajectory": {
+    "1985": 1,
+    "1989": 1,
+    "1997": 1,
+    "1999": 1,
+    "2001": 1,
+    "2002": 2,
+    "2009": 1,
+    "2010": 2,
+    "2012": 1,
+    "2015": 2,
+    "2016": 1,
+    "2018": 3,
+    "2020": 1,
+    "2021": 35,
+    "2022": 107,
+    "2023": 108,
+    "2024": 122,
+    "2025": 166,
+    "2026": 196
+   },
+   "momentum": {
+    "id": "command-and-control",
+    "name": "Command And Control",
+    "total": 752,
+    "recent": 263,
+    "prior": 160,
+    "growth_pct": 64.4,
+    "recent_share": 0.35,
+    "papers_per_month": 21.9,
+    "score": 99.4
+   }
+  },
+  {
+   "id": "decision-support",
+   "name": "decision-support",
+   "count": 801,
+   "trajectory": {
+    "2018": 1,
+    "2021": 18,
+    "2022": 51,
+    "2023": 55,
+    "2024": 81,
+    "2025": 258,
+    "2026": 337
+   },
+   "momentum": {
+    "id": "decision-support",
+    "name": "Decision Support",
+    "total": 801,
+    "recent": 475,
+    "prior": 181,
+    "growth_pct": 162.4,
+    "recent_share": 0.593,
+    "papers_per_month": 39.6,
+    "score": 221.7
+   }
+  },
+  {
    "id": "deep-reinforcement-learning",
-   "name": "Deep Reinforcement Learning",
-   "color": "#3fb950",
+   "name": "deep-reinforcement-learning",
    "count": 1737,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 336
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 106
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 155
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 316
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 400
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 239
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 54
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 131
-    }
-   ],
    "trajectory": {
     "2017": 4,
     "2021": 43,
@@ -137,191 +113,9 @@
    }
   },
   {
-   "id": "multi-agent-rl",
-   "name": "Multi-Agent Reinforcement Learning",
-   "color": "#d29922",
-   "count": 946,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 217
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 54
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 64
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 214
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 258
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 102
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 9
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 28
-    }
-   ],
-   "trajectory": {
-    "2019": 1,
-    "2021": 17,
-    "2022": 61,
-    "2023": 56,
-    "2024": 122,
-    "2025": 312,
-    "2026": 377
-   },
-   "momentum": {
-    "id": "multi-agent-rl",
-    "name": "Multi-Agent Reinforcement Learning",
-    "total": 946,
-    "recent": 522,
-    "prior": 261,
-    "growth_pct": 100.0,
-    "recent_share": 0.552,
-    "papers_per_month": 43.5,
-    "score": 155.2
-   }
-  },
-  {
-   "id": "opponent-modeling",
-   "name": "Opponent & Cognitive Modeling",
-   "color": "#f0883e",
-   "count": 461,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 127
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 39
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 84
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 49
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 87
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 51
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 13
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 11
-    }
-   ],
-   "trajectory": {
-    "2008": 1,
-    "2009": 1,
-    "2014": 1,
-    "2016": 3,
-    "2021": 10,
-    "2022": 53,
-    "2023": 38,
-    "2024": 53,
-    "2025": 150,
-    "2026": 151
-   },
-   "momentum": {
-    "id": "opponent-modeling",
-    "name": "Opponent & Cognitive Modeling",
-    "total": 461,
-    "recent": 218,
-    "prior": 117,
-    "growth_pct": 86.3,
-    "recent_share": 0.473,
-    "papers_per_month": 18.2,
-    "score": 133.6
-   }
-  },
-  {
    "id": "hierarchical-planning",
-   "name": "Hierarchical Planning",
-   "color": "#db6d8a",
+   "name": "hierarchical-planning",
    "count": 453,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 66
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 17
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 61
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 98
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 128
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 70
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 7
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 6
-    }
-   ],
    "trajectory": {
     "2018": 1,
     "2021": 13,
@@ -344,52 +138,58 @@
    }
   },
   {
+   "id": "human-ai-teaming",
+   "name": "human-ai-teaming",
+   "count": 1972,
+   "trajectory": {
+    "2021": 47,
+    "2022": 154,
+    "2023": 247,
+    "2024": 348,
+    "2025": 652,
+    "2026": 524
+   },
+   "momentum": {
+    "id": "human-ai-teaming",
+    "name": "Human Ai Teaming",
+    "total": 1972,
+    "recent": 798,
+    "prior": 520,
+    "growth_pct": 53.5,
+    "recent_share": 0.405,
+    "papers_per_month": 66.5,
+    "score": 94.0
+   }
+  },
+  {
+   "id": "mathematical-optimization",
+   "name": "mathematical-optimization",
+   "count": 578,
+   "trajectory": {
+    "2019": 1,
+    "2021": 11,
+    "2022": 47,
+    "2023": 55,
+    "2024": 77,
+    "2025": 158,
+    "2026": 229
+   },
+   "momentum": {
+    "id": "mathematical-optimization",
+    "name": "Mathematical Optimization",
+    "total": 578,
+    "recent": 308,
+    "prior": 129,
+    "growth_pct": 138.8,
+    "recent_share": 0.533,
+    "papers_per_month": 25.7,
+    "score": 192.1
+   }
+  },
+  {
    "id": "military-simulation",
-   "name": "Military Simulation",
-   "color": "#7ee787",
+   "name": "military-simulation",
    "count": 464,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 60
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 6
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 22
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 276
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 46
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 29
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 5
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 20
-    }
-   ],
    "trajectory": {
     "2020": 1,
     "2021": 22,
@@ -412,52 +212,134 @@
    }
   },
   {
+   "id": "mission-planning",
+   "name": "mission-planning",
+   "count": 490,
+   "trajectory": {
+    "2021": 7,
+    "2022": 29,
+    "2023": 49,
+    "2024": 92,
+    "2025": 226,
+    "2026": 87
+   },
+   "momentum": {
+    "id": "mission-planning",
+    "name": "Mission Planning",
+    "total": 490,
+    "recent": 186,
+    "prior": 182,
+    "growth_pct": 2.2,
+    "recent_share": 0.38,
+    "papers_per_month": 15.5,
+    "score": 40.2
+   }
+  },
+  {
+   "id": "multi-agent-rl",
+   "name": "multi-agent-rl",
+   "count": 946,
+   "trajectory": {
+    "2019": 1,
+    "2021": 17,
+    "2022": 61,
+    "2023": 56,
+    "2024": 122,
+    "2025": 312,
+    "2026": 377
+   },
+   "momentum": {
+    "id": "multi-agent-rl",
+    "name": "Multi Agent Rl",
+    "total": 946,
+    "recent": 522,
+    "prior": 261,
+    "growth_pct": 100.0,
+    "recent_share": 0.552,
+    "papers_per_month": 43.5,
+    "score": 155.2
+   }
+  },
+  {
+   "id": "opponent-modeling",
+   "name": "Opponent Modeling",
+   "count": 514,
+   "trajectory": {
+    "2008": 1,
+    "2009": 1,
+    "2014": 1,
+    "2016": 3,
+    "2021": 10,
+    "2022": 53,
+    "2023": 38,
+    "2024": 53,
+    "2025": 150,
+    "2026": 204
+   },
+   "momentum": {
+    "id": "opponent-modeling",
+    "name": "Opponent Modeling",
+    "total": 514,
+    "recent": 271,
+    "prior": 117,
+    "growth_pct": 131.6,
+    "recent_share": 0.527,
+    "papers_per_month": 22.6,
+    "score": 184.3
+   }
+  },
+  {
+   "id": "probabilistic-uncertainty",
+   "name": "probabilistic-uncertainty",
+   "count": 694,
+   "trajectory": {
+    "2021": 9,
+    "2022": 40,
+    "2023": 43,
+    "2024": 87,
+    "2025": 238,
+    "2026": 277
+   },
+   "momentum": {
+    "id": "probabilistic-uncertainty",
+    "name": "Probabilistic Uncertainty",
+    "total": 694,
+    "recent": 404,
+    "prior": 177,
+    "growth_pct": 128.2,
+    "recent_share": 0.582,
+    "papers_per_month": 33.7,
+    "score": 186.4
+   }
+  },
+  {
+   "id": "sim-to-real",
+   "name": "sim-to-real",
+   "count": 742,
+   "trajectory": {
+    "2021": 10,
+    "2022": 37,
+    "2023": 30,
+    "2024": 84,
+    "2025": 242,
+    "2026": 339
+   },
+   "momentum": {
+    "id": "sim-to-real",
+    "name": "Sim To Real",
+    "total": 742,
+    "recent": 462,
+    "prior": 178,
+    "growth_pct": 159.6,
+    "recent_share": 0.623,
+    "papers_per_month": 38.5,
+    "score": 221.9
+   }
+  },
+  {
    "id": "wargaming",
    "name": "Wargaming",
-   "color": "#a5d6ff",
-   "count": 433,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 48
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 1
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 90
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 254
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 7
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 20
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 1
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 12
-    }
-   ],
+   "count": 466,
    "trajectory": {
     "1978": 2,
     "1999": 1,
@@ -484,545 +366,61 @@
     "2023": 45,
     "2024": 80,
     "2025": 104,
-    "2026": 80
+    "2026": 113
    },
    "momentum": {
     "id": "wargaming",
     "name": "Wargaming",
-    "total": 433,
-    "recent": 109,
+    "total": 466,
+    "recent": 142,
     "prior": 101,
-    "growth_pct": 7.9,
-    "recent_share": 0.252,
-    "papers_per_month": 9.1,
-    "score": 33.1
-   }
-  },
-  {
-   "id": "command-and-control",
-   "name": "Command & Control (C2)",
-   "color": "#79c0ff",
-   "count": 684,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 108
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 50
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 68
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 180
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 101
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 155
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 5
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 17
-    }
-   ],
-   "trajectory": {
-    "1985": 1,
-    "1989": 1,
-    "1997": 1,
-    "1999": 1,
-    "2001": 1,
-    "2002": 2,
-    "2009": 1,
-    "2010": 2,
-    "2012": 1,
-    "2015": 2,
-    "2016": 1,
-    "2018": 3,
-    "2020": 1,
-    "2021": 35,
-    "2022": 107,
-    "2023": 108,
-    "2024": 122,
-    "2025": 166,
-    "2026": 128
-   },
-   "momentum": {
-    "id": "command-and-control",
-    "name": "Command & Control (C2)",
-    "total": 684,
-    "recent": 195,
-    "prior": 160,
-    "growth_pct": 21.9,
-    "recent_share": 0.285,
-    "papers_per_month": 16.2,
-    "score": 50.4
-   }
-  },
-  {
-   "id": "decision-support",
-   "name": "Decision Support",
-   "color": "#ffa657",
-   "count": 801,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 98
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 86
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 52
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 235
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 208
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 89
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 10
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 23
-    }
-   ],
-   "trajectory": {
-    "2018": 1,
-    "2021": 18,
-    "2022": 51,
-    "2023": 55,
-    "2024": 81,
-    "2025": 258,
-    "2026": 337
-   },
-   "momentum": {
-    "id": "decision-support",
-    "name": "Decision Support",
-    "total": 801,
-    "recent": 475,
-    "prior": 181,
-    "growth_pct": 162.4,
-    "recent_share": 0.593,
-    "papers_per_month": 39.6,
-    "score": 221.7
-   }
-  },
-  {
-   "id": "mathematical-optimization",
-   "name": "Mathematical Optimization",
-   "color": "#ff7b72",
-   "count": 578,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 166
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 24
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 71
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 128
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 97
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 72
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 15
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 5
-    }
-   ],
-   "trajectory": {
-    "2019": 1,
-    "2021": 11,
-    "2022": 47,
-    "2023": 55,
-    "2024": 77,
-    "2025": 158,
-    "2026": 229
-   },
-   "momentum": {
-    "id": "mathematical-optimization",
-    "name": "Mathematical Optimization",
-    "total": 578,
-    "recent": 308,
-    "prior": 129,
-    "growth_pct": 138.8,
-    "recent_share": 0.533,
-    "papers_per_month": 25.7,
-    "score": 192.1
-   }
-  },
-  {
-   "id": "probabilistic-uncertainty",
-   "name": "Probabilistic & Uncertainty Reasoning",
-   "color": "#d2a8ff",
-   "count": 694,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 180
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 35
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 42
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 166
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 139
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 101
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 17
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 14
-    }
-   ],
-   "trajectory": {
-    "2021": 9,
-    "2022": 40,
-    "2023": 43,
-    "2024": 87,
-    "2025": 238,
-    "2026": 277
-   },
-   "momentum": {
-    "id": "probabilistic-uncertainty",
-    "name": "Probabilistic & Uncertainty Reasoning",
-    "total": 694,
-    "recent": 404,
-    "prior": 177,
-    "growth_pct": 128.2,
-    "recent_share": 0.582,
-    "papers_per_month": 33.7,
-    "score": 186.4
-   }
-  },
-  {
-   "id": "mission-planning",
-   "name": "Mission Planning",
-   "color": "#56d4dd",
-   "count": 490,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 57
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 9
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 29
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 307
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 45
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 32
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 3
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 8
-    }
-   ],
-   "trajectory": {
-    "2021": 7,
-    "2022": 29,
-    "2023": 49,
-    "2024": 92,
-    "2025": 226,
-    "2026": 87
-   },
-   "momentum": {
-    "id": "mission-planning",
-    "name": "Mission Planning",
-    "total": 490,
-    "recent": 186,
-    "prior": 182,
-    "growth_pct": 2.2,
-    "recent_share": 0.38,
-    "papers_per_month": 15.5,
-    "score": 40.2
-   }
-  },
-  {
-   "id": "human-ai-teaming",
-   "name": "Human\u2013AI Teaming",
-   "color": "#b392f0",
-   "count": 1972,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 279
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 295
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 77
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 502
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 402
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 221
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 31
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 165
-    }
-   ],
-   "trajectory": {
-    "2021": 47,
-    "2022": 154,
-    "2023": 247,
-    "2024": 348,
-    "2025": 652,
-    "2026": 524
-   },
-   "momentum": {
-    "id": "human-ai-teaming",
-    "name": "Human\u2013AI Teaming",
-    "total": 1972,
-    "recent": 798,
-    "prior": 520,
-    "growth_pct": 53.5,
-    "recent_share": 0.405,
-    "papers_per_month": 66.5,
-    "score": 94.0
-   }
-  },
-  {
-   "id": "sim-to-real",
-   "name": "Simulation-to-Reality Transfer",
-   "color": "#ffc680",
-   "count": 742,
-   "subcategories": [
-    {
-     "id": "theory",
-     "name": "Theory",
-     "count": 78
-    },
-    {
-     "id": "mechanism",
-     "name": "Mechanism",
-     "count": 10
-    },
-    {
-     "id": "method",
-     "name": "Method",
-     "count": 31
-    },
-    {
-     "id": "application",
-     "name": "Application",
-     "count": 417
-    },
-    {
-     "id": "development",
-     "name": "Development",
-     "count": 103
-    },
-    {
-     "id": "systems",
-     "name": "Systems & Technology",
-     "count": 79
-    },
-    {
-     "id": "evaluation",
-     "name": "Evaluation & Benchmarks",
-     "count": 7
-    },
-    {
-     "id": "review",
-     "name": "Reviews & Surveys",
-     "count": 17
-    }
-   ],
-   "trajectory": {
-    "2021": 10,
-    "2022": 37,
-    "2023": 30,
-    "2024": 84,
-    "2025": 242,
-    "2026": 339
-   },
-   "momentum": {
-    "id": "sim-to-real",
-    "name": "Simulation-to-Reality Transfer",
-    "total": 742,
-    "recent": 462,
-    "prior": 178,
-    "growth_pct": 159.6,
-    "recent_share": 0.623,
-    "papers_per_month": 38.5,
-    "score": 221.9
+    "growth_pct": 40.6,
+    "recent_share": 0.305,
+    "papers_per_month": 11.8,
+    "score": 71.1
    }
   }
  ],
  "subcategories": [
   {
-   "id": "theory",
-   "name": "Theory",
-   "count": 2051
-  },
-  {
-   "id": "mechanism",
-   "name": "Mechanism",
-   "count": 795
-  },
-  {
-   "id": "method",
-   "name": "Method",
-   "count": 920
-  },
-  {
    "id": "application",
    "name": "Application",
-   "count": 3427
+   "count": 3478
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 2314
-  },
-  {
-   "id": "systems",
-   "name": "Systems & Technology",
-   "count": 1395
+   "count": 2338
   },
   {
    "id": "evaluation",
-   "name": "Evaluation & Benchmarks",
-   "count": 202
+   "name": "evaluation",
+   "count": 204
+  },
+  {
+   "id": "mechanism",
+   "name": "mechanism",
+   "count": 805
+  },
+  {
+   "id": "method",
+   "name": "Method",
+   "count": 947
   },
   {
    "id": "review",
-   "name": "Reviews & Surveys",
-   "count": 492
+   "name": "review",
+   "count": 496
+  },
+  {
+   "id": "systems",
+   "name": "Systems",
+   "count": 1413
+  },
+  {
+   "id": "theory",
+   "name": "Theory",
+   "count": 2069
   }
  ],
  "timeline": [
@@ -41284,7 +40682,7 @@
   [
    "2026-02",
    "command-and-control",
-   "development"
+   "application"
   ],
   [
    "2026-02",
@@ -41305,6 +40703,16 @@
    "2026-02",
    "command-and-control",
    "development"
+  ],
+  [
+   "2026-02",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-02",
+   "command-and-control",
+   "method"
   ],
   [
    "2026-02",
@@ -41339,6 +40747,11 @@
   [
    "2026-02",
    "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "command-and-control",
    "theory"
   ],
   [
@@ -42899,6 +42312,16 @@
   [
    "2026-02",
    "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
    "development"
   ],
   [
@@ -42929,12 +42352,37 @@
   [
    "2026-02",
    "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
    "method"
   ],
   [
    "2026-02",
    "opponent-modeling",
+   "review"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
    "systems"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "opponent-modeling",
+   "theory"
   ],
   [
    "2026-02",
@@ -43704,7 +43152,17 @@
   [
    "2026-03",
    "command-and-control",
-   "development"
+   "application"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "application"
   ],
   [
    "2026-03",
@@ -43745,11 +43203,51 @@
    "2026-03",
    "command-and-control",
    "development"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "mechanism"
   ],
   [
    "2026-03",
    "command-and-control",
    "method"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "command-and-control",
+   "systems"
   ],
   [
    "2026-03",
@@ -45384,6 +44882,36 @@
   [
    "2026-03",
    "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
    "development"
   ],
   [
@@ -45459,6 +44987,21 @@
   [
    "2026-03",
    "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
    "method"
   ],
   [
@@ -45485,6 +45028,21 @@
    "2026-03",
    "opponent-modeling",
    "systems"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "opponent-modeling",
+   "theory"
   ],
   [
    "2026-03",
@@ -45924,6 +45482,36 @@
   [
    "2026-03",
    "wargaming",
+   "application"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-03",
+   "wargaming",
    "method"
   ],
   [
@@ -46234,6 +45822,41 @@
   [
    "2026-04",
    "command-and-control",
+   "application"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
    "development"
   ],
   [
@@ -46275,11 +45898,66 @@
    "2026-04",
    "command-and-control",
    "mechanism"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "review"
   ],
   [
    "2026-04",
    "command-and-control",
    "systems"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "command-and-control",
+   "theory"
   ],
   [
    "2026-04",
@@ -47815,6 +47493,41 @@
    "2026-04",
    "opponent-modeling",
    "development"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-04",
+   "opponent-modeling",
+   "systems"
   ],
   [
    "2026-04",
@@ -48214,6 +47927,36 @@
   [
    "2026-04",
    "wargaming",
+   "application"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-04",
+   "wargaming",
    "development"
   ],
   [
@@ -48699,6 +48442,16 @@
   [
    "2026-05",
    "command-and-control",
+   "application"
+  ],
+  [
+   "2026-05",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-05",
+   "command-and-control",
    "development"
   ],
   [
@@ -48719,7 +48472,17 @@
   [
    "2026-05",
    "command-and-control",
-   "systems"
+   "method"
+  ],
+  [
+   "2026-05",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-05",
+   "command-and-control",
+   "review"
   ],
   [
    "2026-05",
@@ -48745,6 +48508,21 @@
    "2026-05",
    "command-and-control",
    "systems"
+  ],
+  [
+   "2026-05",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "command-and-control",
+   "theory"
   ],
   [
    "2026-05",
@@ -51459,6 +51237,21 @@
   [
    "2026-05",
    "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-05",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-05",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-05",
+   "opponent-modeling",
    "development"
   ],
   [
@@ -51530,6 +51323,26 @@
    "2026-05",
    "opponent-modeling",
    "mechanism"
+  ],
+  [
+   "2026-05",
+   "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-05",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-05",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-05",
+   "opponent-modeling",
+   "method"
   ],
   [
    "2026-05",
@@ -52239,7 +52052,82 @@
   [
    "2026-05",
    "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "wargaming",
    "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "review"
   ],
   [
    "2026-05",
@@ -52704,7 +52592,22 @@
   [
    "2026-06",
    "command-and-control",
-   "development"
+   "application"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "application"
   ],
   [
    "2026-06",
@@ -52720,6 +52623,36 @@
    "2026-06",
    "command-and-control",
    "development"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-06",
+   "command-and-control",
+   "systems"
   ],
   [
    "2026-06",
@@ -54784,6 +54717,36 @@
   [
    "2026-06",
    "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "application"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
    "development"
   ],
   [
@@ -54805,6 +54768,21 @@
    "2026-06",
    "opponent-modeling",
    "evaluation"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "mechanism"
   ],
   [
    "2026-06",
@@ -54835,6 +54813,31 @@
    "2026-06",
    "opponent-modeling",
    "systems"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "opponent-modeling",
+   "theory"
   ],
   [
    "2026-06",
@@ -55569,6 +55572,21 @@
   [
    "2026-06",
    "wargaming",
+   "application"
+  ],
+  [
+   "2026-06",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2026-06",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2026-06",
+   "wargaming",
    "review"
   ],
   [
@@ -55954,6 +55972,21 @@
   [
    "2026-07",
    "command-and-control",
+   "application"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
    "development"
   ],
   [
@@ -55980,6 +56013,46 @@
    "2026-07",
    "command-and-control",
    "mechanism"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "command-and-control",
+   "systems"
   ],
   [
    "2026-07",
@@ -57654,6 +57727,11 @@
   [
    "2026-07",
    "opponent-modeling",
+   "development"
+  ],
+  [
+   "2026-07",
+   "opponent-modeling",
    "evaluation"
   ],
   [
@@ -57674,12 +57752,27 @@
   [
    "2026-07",
    "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-07",
+   "opponent-modeling",
    "systems"
   ],
   [
    "2026-07",
    "opponent-modeling",
    "systems"
+  ],
+  [
+   "2026-07",
+   "opponent-modeling",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "opponent-modeling",
+   "theory"
   ],
   [
    "2026-07",
@@ -58187,6 +58280,16 @@
    "theory"
   ],
   [
+   "2026-07",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-08",
    "autonomous-decision-making",
    "application"
@@ -58330,6 +58433,56 @@
    "2026-08",
    "command-and-control",
    "application"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "application"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "development"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "method"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "command-and-control",
+   "theory"
   ],
   [
    "2026-08",
@@ -58879,6 +59032,16 @@
   [
    "2026-08",
    "opponent-modeling",
+   "mechanism"
+  ],
+  [
+   "2026-08",
+   "opponent-modeling",
+   "method"
+  ],
+  [
+   "2026-08",
+   "opponent-modeling",
    "theory"
   ],
   [
@@ -58990,6 +59153,11 @@
    "2026-08",
    "sim-to-real",
    "theory"
+  ],
+  [
+   "2026-08",
+   "wargaming",
+   "application"
   ],
   [
    "2026-08",
@@ -59009,8 +59177,12 @@
  ],
  "venues": [
   {
-   "name": "arXiv",
-   "papers": 98
+   "name": "arXiv (Cornell University)",
+   "papers": 108
+  },
+  {
+   "name": "Zenodo (CERN European Organization for Nuclear Research)",
+   "papers": 62
   },
   {
    "name": "IEEE Transactions on Vehicular Technology",
@@ -59027,10 +59199,6 @@
   {
    "name": "IEEE Internet of Things Journal",
    "papers": 44
-  },
-  {
-   "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 43
   },
   {
    "name": "IEEE Robotics and Automation Letters",
@@ -59058,7 +59226,7 @@
   },
   {
    "name": "Drones",
-   "papers": 27
+   "papers": 28
   },
   {
    "name": "IEEE Transactions on Mobile Computing",
@@ -59069,116 +59237,111 @@
    "papers": 26
   }
  ],
- "source_breakdown": {
-  "arxiv": 8335,
-  "doi": 3138,
-  "other": 123
- },
  "keyword_bursts": [
   {
-   "keyword": "agentic",
-   "recent": 360,
-   "total": 416,
-   "burst_score": 1.75,
-   "recent_share": 0.0626
-  },
-  {
    "keyword": "benchmark",
-   "recent": 1233,
-   "total": 1624,
-   "burst_score": 1.53,
-   "recent_share": 0.2145
-  },
-  {
-   "keyword": "policy gradient",
-   "recent": 240,
-   "total": 321,
+   "recent": 1234,
+   "total": 1625,
    "burst_score": 1.51,
-   "recent_share": 0.0417
+   "recent_share": 0.209
   },
   {
-   "keyword": "uncertainty",
-   "recent": 581,
-   "total": 832,
-   "burst_score": 1.41,
-   "recent_share": 0.1011
+   "keyword": "framework",
+   "recent": 2921,
+   "total": 4222,
+   "burst_score": 1.38,
+   "recent_share": 0.4948
   },
   {
-   "keyword": "simulator",
-   "recent": 246,
-   "total": 353,
-   "burst_score": 1.41,
-   "recent_share": 0.0428
+   "keyword": "evaluation",
+   "recent": 1009,
+   "total": 1473,
+   "burst_score": 1.36,
+   "recent_share": 0.1709
   },
   {
-   "keyword": "bayesian",
-   "recent": 252,
-   "total": 363,
-   "burst_score": 1.4,
-   "recent_share": 0.0438
+   "keyword": "theory",
+   "recent": 268,
+   "total": 437,
+   "burst_score": 1.22,
+   "recent_share": 0.0454
   },
   {
-   "keyword": "pomdp",
-   "recent": 154,
-   "total": 223,
-   "burst_score": 1.39,
-   "recent_share": 0.0268
+   "keyword": "simulation",
+   "recent": 1002,
+   "total": 1660,
+   "burst_score": 1.2,
+   "recent_share": 0.1697
   },
   {
-   "keyword": "optimization",
-   "recent": 1432,
-   "total": 2140,
-   "burst_score": 1.35,
-   "recent_share": 0.2491
+   "keyword": "modeling",
+   "recent": 540,
+   "total": 893,
+   "burst_score": 1.2,
+   "recent_share": 0.0915
   },
   {
-   "keyword": "constrained",
-   "recent": 571,
-   "total": 853,
-   "burst_score": 1.35,
-   "recent_share": 0.0993
+   "keyword": "neural",
+   "recent": 482,
+   "total": 812,
+   "burst_score": 1.18,
+   "recent_share": 0.0817
   },
   {
-   "keyword": "transfer",
-   "recent": 506,
-   "total": 764,
-   "burst_score": 1.34,
-   "recent_share": 0.088
+   "keyword": "agent",
+   "recent": 2248,
+   "total": 3814,
+   "burst_score": 1.17,
+   "recent_share": 0.3808
   },
   {
-   "keyword": "offline",
-   "recent": 308,
-   "total": 465,
-   "burst_score": 1.34,
-   "recent_share": 0.0536
+   "keyword": "control",
+   "recent": 1693,
+   "total": 2969,
+   "burst_score": 1.14,
+   "recent_share": 0.2868
   },
   {
-   "keyword": "domain randomization",
-   "recent": 108,
-   "total": 163,
-   "burst_score": 1.34,
-   "recent_share": 0.0188
+   "keyword": "multi-agent",
+   "recent": 949,
+   "total": 1719,
+   "burst_score": 1.1,
+   "recent_share": 0.1608
   },
   {
-   "keyword": "imitation",
-   "recent": 692,
-   "total": 1050,
-   "burst_score": 1.33,
-   "recent_share": 0.1204
+   "keyword": "management",
+   "recent": 301,
+   "total": 561,
+   "burst_score": 1.07,
+   "recent_share": 0.051
   },
   {
-   "keyword": "mcts",
-   "recent": 76,
-   "total": 115,
-   "burst_score": 1.33,
-   "recent_share": 0.0132
+   "keyword": "network",
+   "recent": 953,
+   "total": 1816,
+   "burst_score": 1.04,
+   "recent_share": 0.1614
   },
   {
-   "keyword": "adversarial",
-   "recent": 325,
-   "total": 497,
-   "burst_score": 1.32,
-   "recent_share": 0.0565
+   "keyword": "learning",
+   "recent": 3935,
+   "total": 7641,
+   "burst_score": 1.03,
+   "recent_share": 0.6666
+  },
+  {
+   "keyword": "reinforcement",
+   "recent": 3047,
+   "total": 5977,
+   "burst_score": 1.01,
+   "recent_share": 0.5162
+  },
+  {
+   "keyword": "review",
+   "recent": 267,
+   "total": 530,
+   "burst_score": 1.0,
+   "recent_share": 0.0452
   }
  ]
 }
