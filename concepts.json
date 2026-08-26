@@ -98,7 +98,7 @@
       "term": "Wargaming",
       "kind": "taxonomy",
       "seed": true,
-      "df": 465,
+      "df": 466,
       "match": {
         "type": "field",
         "field": "category",
@@ -110,7 +110,7 @@
         "wargaming/theory",
         "wargaming/systems"
       ],
-      "papers": 465
+      "papers": 466
     },
     {
       "term": "survey",
@@ -154,14 +154,14 @@
       "term": "experiment",
       "kind": "curated",
       "seed": true,
-      "df": 160,
+      "df": 161,
       "match": {
         "type": "text",
         "forms": [
           "experiment"
         ]
       },
-      "papers": 160,
+      "papers": 161,
       "top_cells": [
         "human-ai-teaming/mechanism",
         "human-ai-teaming/application",

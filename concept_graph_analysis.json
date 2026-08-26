@@ -4,7 +4,7 @@
     "edges": 86,
     "components": 1,
     "communities": 1,
-    "modularity": -467.6079
+    "modularity": -468.0436
   },
   "nodes": [
     {
@@ -15,7 +15,7 @@
       "degree": 17,
       "weighted_degree": 1394,
       "degree_centrality": 0.7083,
-      "pagerank": 0.291329,
+      "pagerank": 0.291125,
       "betweenness": 27.8187,
       "clustering": 0.5074
     },
@@ -27,7 +27,7 @@
       "degree": 11,
       "weighted_degree": 576,
       "degree_centrality": 0.4583,
-      "pagerank": 0.114686,
+      "pagerank": 0.114625,
       "betweenness": 0.9425,
       "clustering": 0.8727
     },
@@ -39,7 +39,7 @@
       "degree": 13,
       "weighted_degree": 512,
       "degree_centrality": 0.5417,
-      "pagerank": 0.105773,
+      "pagerank": 0.105712,
       "betweenness": 7.1687,
       "clustering": 0.7051
     },
@@ -51,7 +51,7 @@
       "degree": 15,
       "weighted_degree": 280,
       "degree_centrality": 0.625,
-      "pagerank": 0.069005,
+      "pagerank": 0.068963,
       "betweenness": 8.8187,
       "clustering": 0.6381
     },
@@ -63,7 +63,7 @@
       "degree": 12,
       "weighted_degree": 311,
       "degree_centrality": 0.5,
-      "pagerank": 0.068653,
+      "pagerank": 0.068624,
       "betweenness": 3.2079,
       "clustering": 0.7424
     },
@@ -75,7 +75,7 @@
       "degree": 8,
       "weighted_degree": 212,
       "degree_centrality": 0.3333,
-      "pagerank": 0.04658,
+      "pagerank": 0.046557,
       "betweenness": 0.1111,
       "clustering": 0.9643
     },
@@ -87,7 +87,7 @@
       "degree": 13,
       "weighted_degree": 189,
       "degree_centrality": 0.5417,
-      "pagerank": 0.046518,
+      "pagerank": 0.046491,
       "betweenness": 3.502,
       "clustering": 0.7436
     },
@@ -99,7 +99,7 @@
       "degree": 10,
       "weighted_degree": 175,
       "degree_centrality": 0.4167,
-      "pagerank": 0.04501,
+      "pagerank": 0.044987,
       "betweenness": 2.2333,
       "clustering": 0.7778
     },
@@ -111,7 +111,7 @@
       "degree": 12,
       "weighted_degree": 157,
       "degree_centrality": 0.5,
-      "pagerank": 0.041123,
+      "pagerank": 0.041098,
       "betweenness": 3.2635,
       "clustering": 0.7273
     },
@@ -123,7 +123,7 @@
       "degree": 11,
       "weighted_degree": 153,
       "degree_centrality": 0.4583,
-      "pagerank": 0.037154,
+      "pagerank": 0.037131,
       "betweenness": 1.248,
       "clustering": 0.8364
     },
@@ -131,11 +131,11 @@
       "id": 8,
       "term": "experiment",
       "kind": "curated",
-      "df": 160,
+      "df": 161,
       "degree": 11,
-      "weighted_degree": 115,
+      "weighted_degree": 116,
       "degree_centrality": 0.4583,
-      "pagerank": 0.032144,
+      "pagerank": 0.032459,
       "betweenness": 5.3373,
       "clustering": 0.7273
     },
@@ -147,7 +147,7 @@
       "degree": 9,
       "weighted_degree": 75,
       "degree_centrality": 0.375,
-      "pagerank": 0.022147,
+      "pagerank": 0.02214,
       "betweenness": 0.379,
       "clustering": 0.9167
     },
@@ -155,11 +155,11 @@
       "id": 5,
       "term": "Wargaming",
       "kind": "taxonomy",
-      "df": 465,
+      "df": 466,
       "degree": 9,
-      "weighted_degree": 42,
+      "weighted_degree": 43,
       "degree_centrality": 0.375,
-      "pagerank": 0.017381,
+      "pagerank": 0.017616,
       "betweenness": 2.1444,
       "clustering": 0.7222
     },
@@ -171,7 +171,7 @@
       "degree": 7,
       "weighted_degree": 32,
       "degree_centrality": 0.2917,
-      "pagerank": 0.01552,
+      "pagerank": 0.015509,
       "betweenness": 0.7,
       "clustering": 0.8095
     },
@@ -183,7 +183,7 @@
       "degree": 5,
       "weighted_degree": 31,
       "degree_centrality": 0.2083,
-      "pagerank": 0.015377,
+      "pagerank": 0.015366,
       "betweenness": 0.125,
       "clustering": 0.9
     },
@@ -195,7 +195,7 @@
       "degree": 5,
       "weighted_degree": 21,
       "degree_centrality": 0.2083,
-      "pagerank": 0.012509,
+      "pagerank": 0.012506,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -219,7 +219,7 @@
       "degree": 2,
       "weighted_degree": 4,
       "degree_centrality": 0.0833,
-      "pagerank": 0.00904,
+      "pagerank": 0.009039,
       "betweenness": 0.0,
       "clustering": 1.0
     },

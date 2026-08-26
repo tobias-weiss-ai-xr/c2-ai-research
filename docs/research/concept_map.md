@@ -1,6 +1,6 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 25 concepts, 86 relationships from 11749 papers. Edges = co-occurrence (shared papers).
+**Generated:** 25 concepts, 86 relationships from 11750 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
@@ -11,10 +11,10 @@
 | benchmark | curated | 729 |
 | dataset | curated | 583 |
 | Opponent Modeling | taxonomy | 514 |
-| Wargaming | taxonomy | 465 |
+| Wargaming | taxonomy | 466 |
 | survey | curated | 439 |
 | case study | curated | 180 |
-| experiment | curated | 160 |
+| experiment | curated | 161 |
 | taxonomy | curated | 145 |
 | quantitative | curated | 144 |
 | qualitative | curated | 115 |
@@ -92,7 +92,7 @@
 ### Wargaming
 
 - framework — 22 shared paper(s)
-- experiment — 6 shared paper(s)
+- experiment — 7 shared paper(s)
 - qualitative — 2 shared paper(s)
 - dataset — 2 shared paper(s)
 - case study — 2 shared paper(s)
@@ -128,7 +128,7 @@
 - Command And Control — 22 shared paper(s)
 - benchmark — 12 shared paper(s)
 - dataset — 10 shared paper(s)
-- Wargaming — 6 shared paper(s)
+- Wargaming — 7 shared paper(s)
 - quantitative — 5 shared paper(s)
 - case study — 5 shared paper(s)
 - Opponent Modeling — 5 shared paper(s)
