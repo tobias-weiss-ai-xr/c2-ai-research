@@ -7,3 +7,4 @@ venv/
 .vscode/
 *.png
 !assets/visualizations/.gitkeep
+verify-sources-report.json
