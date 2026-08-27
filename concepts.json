@@ -1,5 +1,5 @@
 {
-  "count": 25,
+  "count": 36,
   "concepts": [
     {
       "term": "framework",
@@ -21,6 +21,96 @@
       ]
     },
     {
+      "term": "Human Ai Teaming",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1972,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "human-ai-teaming"
+      },
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "human-ai-teaming/mechanism",
+        "human-ai-teaming/theory"
+      ],
+      "papers": 1972
+    },
+    {
+      "term": "Deep Reinforcement Learning",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1737,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "deep-reinforcement-learning"
+      },
+      "top_cells": [
+        "deep-reinforcement-learning/development",
+        "deep-reinforcement-learning/theory",
+        "deep-reinforcement-learning/application",
+        "deep-reinforcement-learning/systems"
+      ],
+      "papers": 1737
+    },
+    {
+      "term": "Autonomous Decision Making",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1141,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "autonomous-decision-making"
+      },
+      "top_cells": [
+        "autonomous-decision-making/development",
+        "autonomous-decision-making/application",
+        "autonomous-decision-making/theory",
+        "autonomous-decision-making/systems"
+      ],
+      "papers": 1141
+    },
+    {
+      "term": "Multi Agent Rl",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 946,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "multi-agent-rl"
+      },
+      "top_cells": [
+        "multi-agent-rl/development",
+        "multi-agent-rl/theory",
+        "multi-agent-rl/application",
+        "multi-agent-rl/systems"
+      ],
+      "papers": 946
+    },
+    {
+      "term": "Decision Support",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 801,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "decision-support"
+      },
+      "top_cells": [
+        "decision-support/application",
+        "decision-support/development",
+        "decision-support/theory",
+        "decision-support/systems"
+      ],
+      "papers": 801
+    },
+    {
       "term": "Command And Control",
       "kind": "taxonomy",
       "seed": true,
@@ -37,6 +127,24 @@
         "command-and-control/development"
       ],
       "papers": 752
+    },
+    {
+      "term": "Sim To Real",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 742,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "sim-to-real"
+      },
+      "top_cells": [
+        "sim-to-real/application",
+        "sim-to-real/development",
+        "sim-to-real/systems",
+        "sim-to-real/theory"
+      ],
+      "papers": 742
     },
     {
       "term": "benchmark",
@@ -58,6 +166,24 @@
       ]
     },
     {
+      "term": "Probabilistic Uncertainty",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 694,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "probabilistic-uncertainty"
+      },
+      "top_cells": [
+        "probabilistic-uncertainty/theory",
+        "probabilistic-uncertainty/application",
+        "probabilistic-uncertainty/development",
+        "probabilistic-uncertainty/systems"
+      ],
+      "papers": 694
+    },
+    {
       "term": "dataset",
       "kind": "curated",
       "seed": true,
@@ -75,6 +201,24 @@
         "human-ai-teaming/application",
         "autonomous-decision-making/application"
       ]
+    },
+    {
+      "term": "Mathematical Optimization",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 578,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "mathematical-optimization"
+      },
+      "top_cells": [
+        "mathematical-optimization/theory",
+        "mathematical-optimization/application",
+        "mathematical-optimization/development",
+        "mathematical-optimization/systems"
+      ],
+      "papers": 578
     },
     {
       "term": "Opponent Modeling",
@@ -95,6 +239,24 @@
       "papers": 514
     },
     {
+      "term": "Mission Planning",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 490,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "mission-planning"
+      },
+      "top_cells": [
+        "mission-planning/application",
+        "mission-planning/theory",
+        "mission-planning/development",
+        "mission-planning/systems"
+      ],
+      "papers": 490
+    },
+    {
       "term": "Wargaming",
       "kind": "taxonomy",
       "seed": true,
@@ -111,6 +273,42 @@
         "wargaming/systems"
       ],
       "papers": 466
+    },
+    {
+      "term": "Military Simulation",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 464,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "military-simulation"
+      },
+      "top_cells": [
+        "military-simulation/application",
+        "military-simulation/theory",
+        "military-simulation/development",
+        "military-simulation/systems"
+      ],
+      "papers": 464
+    },
+    {
+      "term": "Hierarchical Planning",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 453,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "hierarchical-planning"
+      },
+      "top_cells": [
+        "hierarchical-planning/development",
+        "hierarchical-planning/application",
+        "hierarchical-planning/systems",
+        "hierarchical-planning/theory"
+      ],
+      "papers": 453
     },
     {
       "term": "survey",

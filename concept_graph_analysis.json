@@ -1,10 +1,10 @@
 {
   "stats": {
-    "nodes": 25,
-    "edges": 86,
+    "nodes": 36,
+    "edges": 205,
     "components": 1,
     "communities": 1,
-    "modularity": -468.0436
+    "modularity": -1121.0412
   },
   "nodes": [
     {
@@ -12,219 +12,363 @@
       "term": "framework",
       "kind": "curated",
       "df": 4034,
-      "degree": 17,
-      "weighted_degree": 1394,
-      "degree_centrality": 0.7083,
-      "pagerank": 0.291125,
-      "betweenness": 27.8187,
-      "clustering": 0.5074
-    },
-    {
-      "id": 2,
-      "term": "benchmark",
-      "kind": "curated",
-      "df": 729,
-      "degree": 11,
-      "weighted_degree": 576,
-      "degree_centrality": 0.4583,
-      "pagerank": 0.114625,
-      "betweenness": 0.9425,
-      "clustering": 0.8727
-    },
-    {
-      "id": 3,
-      "term": "dataset",
-      "kind": "curated",
-      "df": 583,
-      "degree": 13,
-      "weighted_degree": 512,
-      "degree_centrality": 0.5417,
-      "pagerank": 0.105712,
-      "betweenness": 7.1687,
-      "clustering": 0.7051
-    },
-    {
-      "id": 6,
-      "term": "survey",
-      "kind": "curated",
-      "df": 439,
-      "degree": 15,
-      "weighted_degree": 280,
-      "degree_centrality": 0.625,
-      "pagerank": 0.068963,
-      "betweenness": 8.8187,
-      "clustering": 0.6381
+      "degree": 28,
+      "weighted_degree": 5107,
+      "degree_centrality": 0.8,
+      "pagerank": 0.272159,
+      "betweenness": 45.1419,
+      "clustering": 0.4656
     },
     {
       "id": 1,
+      "term": "Human Ai Teaming",
+      "kind": "taxonomy",
+      "df": 1972,
+      "degree": 16,
+      "weighted_degree": 1498,
+      "degree_centrality": 0.4571,
+      "pagerank": 0.091976,
+      "betweenness": 39.4862,
+      "clustering": 0.475
+    },
+    {
+      "id": 8,
+      "term": "benchmark",
+      "kind": "curated",
+      "df": 729,
+      "degree": 22,
+      "weighted_degree": 1245,
+      "degree_centrality": 0.6286,
+      "pagerank": 0.06687,
+      "betweenness": 10.9637,
+      "clustering": 0.6147
+    },
+    {
+      "id": 10,
+      "term": "dataset",
+      "kind": "curated",
+      "df": 583,
+      "degree": 24,
+      "weighted_degree": 1042,
+      "degree_centrality": 0.6857,
+      "pagerank": 0.057873,
+      "betweenness": 22.4141,
+      "clustering": 0.5435
+    },
+    {
+      "id": 2,
+      "term": "Deep Reinforcement Learning",
+      "kind": "taxonomy",
+      "df": 1737,
+      "degree": 12,
+      "weighted_degree": 1071,
+      "degree_centrality": 0.3429,
+      "pagerank": 0.056664,
+      "betweenness": 1.7528,
+      "clustering": 0.7424
+    },
+    {
+      "id": 3,
+      "term": "Autonomous Decision Making",
+      "kind": "taxonomy",
+      "df": 1141,
+      "degree": 12,
+      "weighted_degree": 804,
+      "degree_centrality": 0.3429,
+      "pagerank": 0.043769,
+      "betweenness": 3.5917,
+      "clustering": 0.697
+    },
+    {
+      "id": 17,
+      "term": "survey",
+      "kind": "curated",
+      "df": 439,
+      "degree": 26,
+      "weighted_degree": 694,
+      "degree_centrality": 0.7429,
+      "pagerank": 0.041971,
+      "betweenness": 24.4752,
+      "clustering": 0.5262
+    },
+    {
+      "id": 5,
+      "term": "Decision Support",
+      "kind": "taxonomy",
+      "df": 801,
+      "degree": 12,
+      "weighted_degree": 561,
+      "degree_centrality": 0.3429,
+      "pagerank": 0.032146,
+      "betweenness": 1.7528,
+      "clustering": 0.7424
+    },
+    {
+      "id": 4,
+      "term": "Multi Agent Rl",
+      "kind": "taxonomy",
+      "df": 946,
+      "degree": 10,
+      "weighted_degree": 512,
+      "degree_centrality": 0.2857,
+      "pagerank": 0.02897,
+      "betweenness": 0.2417,
+      "clustering": 0.9111
+    },
+    {
+      "id": 7,
+      "term": "Sim To Real",
+      "kind": "taxonomy",
+      "df": 742,
+      "degree": 10,
+      "weighted_degree": 450,
+      "degree_centrality": 0.2857,
+      "pagerank": 0.026167,
+      "betweenness": 0.2417,
+      "clustering": 0.9111
+    },
+    {
+      "id": 21,
+      "term": "quantitative",
+      "kind": "curated",
+      "df": 144,
+      "degree": 24,
+      "weighted_degree": 317,
+      "degree_centrality": 0.6857,
+      "pagerank": 0.02218,
+      "betweenness": 17.4474,
+      "clustering": 0.5543
+    },
+    {
+      "id": 9,
+      "term": "Probabilistic Uncertainty",
+      "kind": "taxonomy",
+      "df": 694,
+      "degree": 9,
+      "weighted_degree": 364,
+      "degree_centrality": 0.2571,
+      "pagerank": 0.022169,
+      "betweenness": 0.1115,
+      "clustering": 0.9444
+    },
+    {
+      "id": 6,
       "term": "Command And Control",
       "kind": "taxonomy",
       "df": 752,
       "degree": 12,
       "weighted_degree": 311,
-      "degree_centrality": 0.5,
-      "pagerank": 0.068624,
-      "betweenness": 3.2079,
+      "degree_centrality": 0.3429,
+      "pagerank": 0.021029,
+      "betweenness": 2.1362,
       "clustering": 0.7424
     },
     {
-      "id": 4,
+      "id": 18,
+      "term": "case study",
+      "kind": "curated",
+      "df": 180,
+      "degree": 22,
+      "weighted_degree": 313,
+      "degree_centrality": 0.6286,
+      "pagerank": 0.021018,
+      "betweenness": 12.5219,
+      "clustering": 0.5714
+    },
+    {
+      "id": 20,
+      "term": "taxonomy",
+      "kind": "curated",
+      "df": 145,
+      "degree": 20,
+      "weighted_degree": 305,
+      "degree_centrality": 0.5714,
+      "pagerank": 0.020977,
+      "betweenness": 11.4664,
+      "clustering": 0.5895
+    },
+    {
+      "id": 22,
+      "term": "qualitative",
+      "kind": "curated",
+      "df": 115,
+      "degree": 22,
+      "weighted_degree": 260,
+      "degree_centrality": 0.6286,
+      "pagerank": 0.019463,
+      "betweenness": 14.7701,
+      "clustering": 0.5584
+    },
+    {
+      "id": 19,
+      "term": "experiment",
+      "kind": "curated",
+      "df": 161,
+      "degree": 22,
+      "weighted_degree": 243,
+      "degree_centrality": 0.6286,
+      "pagerank": 0.018645,
+      "betweenness": 19.88,
+      "clustering": 0.5022
+    },
+    {
+      "id": 11,
+      "term": "Mathematical Optimization",
+      "kind": "taxonomy",
+      "df": 578,
+      "degree": 9,
+      "weighted_degree": 265,
+      "degree_centrality": 0.2571,
+      "pagerank": 0.017424,
+      "betweenness": 0.1891,
+      "clustering": 0.9167
+    },
+    {
+      "id": 13,
+      "term": "Mission Planning",
+      "kind": "taxonomy",
+      "df": 490,
+      "degree": 10,
+      "weighted_degree": 255,
+      "degree_centrality": 0.2857,
+      "pagerank": 0.017151,
+      "betweenness": 0.7726,
+      "clustering": 0.8222
+    },
+    {
+      "id": 12,
       "term": "Opponent Modeling",
       "kind": "taxonomy",
       "df": 514,
       "degree": 8,
       "weighted_degree": 212,
-      "degree_centrality": 0.3333,
-      "pagerank": 0.046557,
-      "betweenness": 0.1111,
+      "degree_centrality": 0.2286,
+      "pagerank": 0.014935,
+      "betweenness": 0.0588,
       "clustering": 0.9643
     },
     {
-      "id": 10,
-      "term": "quantitative",
-      "kind": "curated",
-      "df": 144,
-      "degree": 13,
-      "weighted_degree": 189,
-      "degree_centrality": 0.5417,
-      "pagerank": 0.046491,
-      "betweenness": 3.502,
-      "clustering": 0.7436
+      "id": 16,
+      "term": "Hierarchical Planning",
+      "kind": "taxonomy",
+      "df": 453,
+      "degree": 9,
+      "weighted_degree": 196,
+      "degree_centrality": 0.2571,
+      "pagerank": 0.014167,
+      "betweenness": 0.1115,
+      "clustering": 0.9444
     },
     {
-      "id": 9,
-      "term": "taxonomy",
-      "kind": "curated",
-      "df": 145,
+      "id": 15,
+      "term": "Military Simulation",
+      "kind": "taxonomy",
+      "df": 464,
       "degree": 10,
-      "weighted_degree": 175,
-      "degree_centrality": 0.4167,
-      "pagerank": 0.044987,
-      "betweenness": 2.2333,
-      "clustering": 0.7778
+      "weighted_degree": 152,
+      "degree_centrality": 0.2857,
+      "pagerank": 0.012592,
+      "betweenness": 0.7948,
+      "clustering": 0.8222
     },
     {
-      "id": 11,
-      "term": "qualitative",
-      "kind": "curated",
-      "df": 115,
-      "degree": 12,
-      "weighted_degree": 157,
-      "degree_centrality": 0.5,
-      "pagerank": 0.041098,
-      "betweenness": 3.2635,
-      "clustering": 0.7273
-    },
-    {
-      "id": 7,
-      "term": "case study",
-      "kind": "curated",
-      "df": 180,
-      "degree": 11,
-      "weighted_degree": 153,
-      "degree_centrality": 0.4583,
-      "pagerank": 0.037131,
-      "betweenness": 1.248,
-      "clustering": 0.8364
-    },
-    {
-      "id": 8,
-      "term": "experiment",
-      "kind": "curated",
-      "df": 161,
-      "degree": 11,
-      "weighted_degree": 116,
-      "degree_centrality": 0.4583,
-      "pagerank": 0.032459,
-      "betweenness": 5.3373,
-      "clustering": 0.7273
-    },
-    {
-      "id": 12,
+      "id": 23,
       "term": "reproducibility",
       "kind": "curated",
       "df": 59,
-      "degree": 9,
-      "weighted_degree": 75,
-      "degree_centrality": 0.375,
-      "pagerank": 0.02214,
-      "betweenness": 0.379,
-      "clustering": 0.9167
+      "degree": 17,
+      "weighted_degree": 127,
+      "degree_centrality": 0.4857,
+      "pagerank": 0.011274,
+      "betweenness": 5.9313,
+      "clustering": 0.6471
     },
     {
-      "id": 5,
+      "id": 25,
+      "term": "systematic review",
+      "kind": "curated",
+      "df": 42,
+      "degree": 10,
+      "weighted_degree": 67,
+      "degree_centrality": 0.2857,
+      "pagerank": 0.008797,
+      "betweenness": 2.4846,
+      "clustering": 0.6
+    },
+    {
+      "id": 24,
+      "term": "literature review",
+      "kind": "curated",
+      "df": 44,
+      "degree": 11,
+      "weighted_degree": 67,
+      "degree_centrality": 0.3143,
+      "pagerank": 0.008779,
+      "betweenness": 2.8929,
+      "clustering": 0.6364
+    },
+    {
+      "id": 14,
       "term": "Wargaming",
       "kind": "taxonomy",
       "df": 466,
       "degree": 9,
       "weighted_degree": 43,
-      "degree_centrality": 0.375,
-      "pagerank": 0.017616,
-      "betweenness": 2.1444,
+      "degree_centrality": 0.2571,
+      "pagerank": 0.007457,
+      "betweenness": 1.036,
       "clustering": 0.7222
     },
     {
-      "id": 13,
-      "term": "literature review",
-      "kind": "curated",
-      "df": 44,
-      "degree": 7,
-      "weighted_degree": 32,
-      "degree_centrality": 0.2917,
-      "pagerank": 0.015509,
-      "betweenness": 0.7,
-      "clustering": 0.8095
-    },
-    {
-      "id": 14,
-      "term": "systematic review",
-      "kind": "curated",
-      "df": 42,
-      "degree": 5,
-      "weighted_degree": 31,
-      "degree_centrality": 0.2083,
-      "pagerank": 0.015366,
-      "betweenness": 0.125,
-      "clustering": 0.9
-    },
-    {
-      "id": 15,
+      "id": 26,
       "term": "interview",
       "kind": "curated",
       "df": 17,
-      "degree": 5,
-      "weighted_degree": 21,
-      "degree_centrality": 0.2083,
-      "pagerank": 0.012506,
-      "betweenness": 0.0,
-      "clustering": 1.0
+      "degree": 6,
+      "weighted_degree": 32,
+      "degree_centrality": 0.1714,
+      "pagerank": 0.006714,
+      "betweenness": 0.1667,
+      "clustering": 0.9333
     },
     {
-      "id": 16,
+      "id": 27,
       "term": "research gap",
       "kind": "curated",
       "df": 11,
-      "degree": 2,
-      "weighted_degree": 9,
-      "degree_centrality": 0.0833,
-      "pagerank": 0.010052,
-      "betweenness": 0.0,
-      "clustering": 1.0
+      "degree": 4,
+      "weighted_degree": 18,
+      "degree_centrality": 0.1143,
+      "pagerank": 0.005905,
+      "betweenness": 0.1667,
+      "clustering": 0.8333
     },
     {
-      "id": 17,
+      "id": 28,
       "term": "peer review",
       "kind": "curated",
       "df": 10,
-      "degree": 2,
-      "weighted_degree": 4,
-      "degree_centrality": 0.0833,
-      "pagerank": 0.009039,
+      "degree": 3,
+      "weighted_degree": 13,
+      "degree_centrality": 0.0857,
+      "pagerank": 0.005655,
       "betweenness": 0.0,
       "clustering": 1.0
     },
     {
-      "id": 18,
+      "id": 31,
+      "term": "grounded theory",
+      "kind": "curated",
+      "df": 2,
+      "degree": 1,
+      "weighted_degree": 2,
+      "degree_centrality": 0.0286,
+      "pagerank": 0.005104,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 29,
       "term": "mixed methods",
       "kind": "curated",
       "df": 3,
@@ -236,7 +380,7 @@
       "clustering": 0.0
     },
     {
-      "id": 19,
+      "id": 30,
       "term": "triangulation",
       "kind": "curated",
       "df": 3,
@@ -248,19 +392,7 @@
       "clustering": 0.0
     },
     {
-      "id": 20,
-      "term": "grounded theory",
-      "kind": "curated",
-      "df": 2,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
-    },
-    {
-      "id": 21,
+      "id": 32,
       "term": "Survey",
       "kind": "taxonomy",
       "df": 0,
@@ -272,7 +404,7 @@
       "clustering": 0.0
     },
     {
-      "id": 22,
+      "id": 33,
       "term": "Method",
       "kind": "taxonomy",
       "df": 0,
@@ -284,7 +416,7 @@
       "clustering": 0.0
     },
     {
-      "id": 23,
+      "id": 34,
       "term": "meta analysis",
       "kind": "curated",
       "df": 0,
@@ -296,7 +428,7 @@
       "clustering": 0.0
     },
     {
-      "id": 24,
+      "id": 35,
       "term": "open access",
       "kind": "curated",
       "df": 0,
@@ -310,16 +442,28 @@
   ],
   "communities": [
     {
-      "size": 18,
+      "size": 30,
       "members": [
+        "Autonomous Decision Making",
         "Command And Control",
+        "Decision Support",
+        "Deep Reinforcement Learning",
+        "Hierarchical Planning",
+        "Human Ai Teaming",
+        "Mathematical Optimization",
+        "Military Simulation",
+        "Mission Planning",
+        "Multi Agent Rl",
         "Opponent Modeling",
+        "Probabilistic Uncertainty",
+        "Sim To Real",
         "Wargaming",
         "benchmark",
         "case study",
         "dataset",
         "experiment",
         "framework",
+        "grounded theory",
         "interview",
         "literature review",
         "peer review",
@@ -335,118 +479,118 @@
   ],
   "top_hubs": [
     "framework",
+    "Human Ai Teaming",
     "benchmark",
     "dataset",
+    "Deep Reinforcement Learning",
+    "Autonomous Decision Making",
     "survey",
-    "Command And Control",
-    "Opponent Modeling",
-    "quantitative",
-    "taxonomy",
-    "qualitative",
-    "case study"
+    "Decision Support",
+    "Multi Agent Rl",
+    "Sim To Real"
   ],
   "bridge_nodes": [
     "framework",
+    "Human Ai Teaming",
     "survey",
     "dataset",
     "experiment",
     "quantitative",
     "qualitative",
-    "Command And Control",
+    "case study",
     "taxonomy",
-    "Wargaming",
-    "case study"
+    "benchmark"
   ],
   "bridge_edges": [
     {
-      "source": "framework",
-      "target": "research gap",
-      "weight": 7,
-      "edge_betweenness": 11.5
+      "source": "Human Ai Teaming",
+      "target": "grounded theory",
+      "weight": 2,
+      "edge_betweenness": 29.0
     },
     {
       "source": "framework",
       "target": "peer review",
       "weight": 2,
-      "edge_betweenness": 10.5
+      "edge_betweenness": 12.1667
+    },
+    {
+      "source": "framework",
+      "target": "research gap",
+      "weight": 7,
+      "edge_betweenness": 11.0
     },
     {
       "source": "dataset",
       "target": "peer review",
       "weight": 2,
-      "edge_betweenness": 6.5
-    },
-    {
-      "source": "framework",
-      "target": "systematic review",
-      "weight": 7,
-      "edge_betweenness": 6.3667
-    },
-    {
-      "source": "framework",
-      "target": "interview",
-      "weight": 7,
-      "edge_betweenness": 5.5833
+      "edge_betweenness": 10.1667
     },
     {
       "source": "experiment",
       "target": "research gap",
       "weight": 2,
-      "edge_betweenness": 5.5
+      "edge_betweenness": 8.5
     },
     {
       "source": "framework",
-      "target": "literature review",
+      "target": "interview",
       "weight": 7,
-      "edge_betweenness": 4.95
+      "edge_betweenness": 6.7333
     },
     {
-      "source": "survey",
-      "target": "systematic review",
-      "weight": 11,
-      "edge_betweenness": 4.3667
+      "source": "Human Ai Teaming",
+      "target": "peer review",
+      "weight": 9,
+      "edge_betweenness": 6.6667
+    },
+    {
+      "source": "Human Ai Teaming",
+      "target": "research gap",
+      "weight": 7,
+      "edge_betweenness": 6.1667
     },
     {
       "source": "framework",
-      "target": "Opponent Modeling",
-      "weight": 140,
-      "edge_betweenness": 3.9345
+      "target": "systematic review",
+      "weight": 7,
+      "edge_betweenness": 5.7667
     },
     {
       "source": "survey",
       "target": "interview",
       "weight": 3,
-      "edge_betweenness": 3.5833
+      "edge_betweenness": 5.7333
+    },
+    {
+      "source": "Human Ai Teaming",
+      "target": "case study",
+      "weight": 59,
+      "edge_betweenness": 5.6255
+    },
+    {
+      "source": "Human Ai Teaming",
+      "target": "experiment",
+      "weight": 59,
+      "edge_betweenness": 5.5003
     },
     {
       "source": "framework",
-      "target": "reproducibility",
-      "weight": 35,
-      "edge_betweenness": 3.3706
+      "target": "Opponent Modeling",
+      "weight": 140,
+      "edge_betweenness": 5.4881
     },
     {
-      "source": "framework",
-      "target": "taxonomy",
-      "weight": 60,
-      "edge_betweenness": 3.2774
+      "source": "Human Ai Teaming",
+      "target": "quantitative",
+      "weight": 55,
+      "edge_betweenness": 5.4
     },
     {
-      "source": "framework",
-      "target": "Wargaming",
-      "weight": 22,
-      "edge_betweenness": 2.9762
-    },
-    {
-      "source": "framework",
-      "target": "qualitative",
-      "weight": 48,
-      "edge_betweenness": 2.954
-    },
-    {
-      "source": "survey",
-      "target": "literature review",
-      "weight": 12,
-      "edge_betweenness": 2.95
+      "source": "Human Ai Teaming",
+      "target": "benchmark",
+      "weight": 125,
+      "edge_betweenness": 5.3694
     }
   ]
 }
