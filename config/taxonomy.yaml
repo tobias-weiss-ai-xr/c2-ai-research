@@ -15,6 +15,39 @@ taxonomy:
     display: Survey
   - id: method
     display: Method
+  - id: military-simulation
+    display: Military Simulation
+    description: Auto-added category 'military-simulation' from ingested papers
+  - id: sim-to-real
+    display: Sim To Real
+    description: Auto-added category 'sim-to-real' from ingested papers
+  - id: decision-support
+    display: Decision Support
+    description: Auto-added category 'decision-support' from ingested papers
+  - id: hierarchical-planning
+    display: Hierarchical Planning
+    description: Auto-added category 'hierarchical-planning' from ingested papers
+  - id: mission-planning
+    display: Mission Planning
+    description: Auto-added category 'mission-planning' from ingested papers
+  - id: multi-agent-rl
+    display: Multi Agent Rl
+    description: Auto-added category 'multi-agent-rl' from ingested papers
+  - id: autonomous-decision-making
+    display: Autonomous Decision Making
+    description: Auto-added category 'autonomous-decision-making' from ingested papers
+  - id: human-ai-teaming
+    display: Human Ai Teaming
+    description: Auto-added category 'human-ai-teaming' from ingested papers
+  - id: deep-reinforcement-learning
+    display: Deep Reinforcement Learning
+    description: Auto-added category 'deep-reinforcement-learning' from ingested papers
+  - id: mathematical-optimization
+    display: Mathematical Optimization
+    description: Auto-added category 'mathematical-optimization' from ingested papers
+  - id: probabilistic-uncertainty
+    display: Probabilistic Uncertainty
+    description: Auto-added category 'probabilistic-uncertainty' from ingested papers
   subcategories:
   - id: method
     display: Method
@@ -30,6 +63,18 @@ taxonomy:
     display: Systems
   - id: development
     display: Development
+  - id: evaluation
+    display: Evaluation
+    description: Auto-added subcategory 'evaluation' from ingested papers
+    category: military-simulation
+  - id: review
+    display: Review
+    description: Auto-added subcategory 'review' from ingested papers
+    category: military-simulation
+  - id: mechanism
+    display: Mechanism
+    description: Auto-added subcategory 'mechanism' from ingested papers
+    category: military-simulation
 arxiv_queries:
 - query: abs:"wargaming"
   category: wargaming
