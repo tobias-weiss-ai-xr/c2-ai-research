@@ -5,14 +5,14 @@
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 4034,
+      "df": 4094,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 4034,
+      "papers": 4094,
       "top_cells": [
         "deep-reinforcement-learning/development",
         "human-ai-teaming/development",
@@ -93,6 +93,24 @@
       "papers": 946
     },
     {
+      "term": "Wargaming",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 801,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "wargaming"
+      },
+      "top_cells": [
+        "wargaming/application",
+        "wargaming/theory",
+        "wargaming/method",
+        "wargaming/systems"
+      ],
+      "papers": 801
+    },
+    {
       "term": "Decision Support",
       "kind": "taxonomy",
       "seed": true,
@@ -150,14 +168,14 @@
       "term": "benchmark",
       "kind": "curated",
       "seed": true,
-      "df": 729,
+      "df": 735,
       "match": {
         "type": "text",
         "forms": [
           "benchmark"
         ]
       },
-      "papers": 729,
+      "papers": 735,
       "top_cells": [
         "human-ai-teaming/development",
         "autonomous-decision-making/application",
@@ -187,14 +205,14 @@
       "term": "dataset",
       "kind": "curated",
       "seed": true,
-      "df": 583,
+      "df": 586,
       "match": {
         "type": "text",
         "forms": [
           "dataset"
         ]
       },
-      "papers": 583,
+      "papers": 586,
       "top_cells": [
         "human-ai-teaming/development",
         "sim-to-real/application",
@@ -257,24 +275,6 @@
       "papers": 490
     },
     {
-      "term": "Wargaming",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 466,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "wargaming"
-      },
-      "top_cells": [
-        "wargaming/application",
-        "wargaming/method",
-        "wargaming/theory",
-        "wargaming/systems"
-      ],
-      "papers": 466
-    },
-    {
       "term": "Military Simulation",
       "kind": "taxonomy",
       "seed": true,
@@ -314,14 +314,14 @@
       "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 439,
+      "df": 444,
       "match": {
         "type": "text",
         "forms": [
           "survey"
         ]
       },
-      "papers": 439,
+      "papers": 444,
       "top_cells": [
         "deep-reinforcement-learning/review",
         "human-ai-teaming/review",
@@ -333,14 +333,14 @@
       "term": "case study",
       "kind": "curated",
       "seed": true,
-      "df": 180,
+      "df": 193,
       "match": {
         "type": "text",
         "forms": [
           "case study"
         ]
       },
-      "papers": 180,
+      "papers": 193,
       "top_cells": [
         "human-ai-teaming/application",
         "autonomous-decision-making/application",
@@ -352,19 +352,38 @@
       "term": "experiment",
       "kind": "curated",
       "seed": true,
-      "df": 161,
+      "df": 169,
       "match": {
         "type": "text",
         "forms": [
           "experiment"
         ]
       },
-      "papers": 161,
+      "papers": 169,
       "top_cells": [
         "human-ai-teaming/mechanism",
         "human-ai-teaming/application",
         "human-ai-teaming/theory",
         "human-ai-teaming/systems"
+      ]
+    },
+    {
+      "term": "quantitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 149,
+      "match": {
+        "type": "text",
+        "forms": [
+          "quantitative"
+        ]
+      },
+      "papers": 149,
+      "top_cells": [
+        "human-ai-teaming/application",
+        "human-ai-teaming/development",
+        "human-ai-teaming/theory",
+        "human-ai-teaming/mechanism"
       ]
     },
     {
@@ -387,36 +406,17 @@
       ]
     },
     {
-      "term": "quantitative",
-      "kind": "curated",
-      "seed": true,
-      "df": 144,
-      "match": {
-        "type": "text",
-        "forms": [
-          "quantitative"
-        ]
-      },
-      "papers": 144,
-      "top_cells": [
-        "human-ai-teaming/application",
-        "human-ai-teaming/development",
-        "human-ai-teaming/theory",
-        "human-ai-teaming/mechanism"
-      ]
-    },
-    {
       "term": "qualitative",
       "kind": "curated",
       "seed": true,
-      "df": 115,
+      "df": 123,
       "match": {
         "type": "text",
         "forms": [
           "qualitative"
         ]
       },
-      "papers": 115,
+      "papers": 123,
       "top_cells": [
         "human-ai-teaming/application",
         "human-ai-teaming/development",
@@ -447,14 +447,14 @@
       "term": "literature review",
       "kind": "curated",
       "seed": true,
-      "df": 44,
+      "df": 45,
       "match": {
         "type": "text",
         "forms": [
           "literature review"
         ]
       },
-      "papers": 44,
+      "papers": 45,
       "top_cells": [
         "human-ai-teaming/review",
         "human-ai-teaming/systems",
@@ -466,14 +466,14 @@
       "term": "systematic review",
       "kind": "curated",
       "seed": true,
-      "df": 42,
+      "df": 45,
       "match": {
         "type": "text",
         "forms": [
           "systematic review"
         ]
       },
-      "papers": 42,
+      "papers": 45,
       "top_cells": [
         "human-ai-teaming/review",
         "deep-reinforcement-learning/review",
@@ -485,19 +485,19 @@
       "term": "interview",
       "kind": "curated",
       "seed": true,
-      "df": 17,
+      "df": 21,
       "match": {
         "type": "text",
         "forms": [
           "interview"
         ]
       },
-      "papers": 17,
+      "papers": 21,
       "top_cells": [
+        "wargaming/theory",
         "human-ai-teaming/application",
         "human-ai-teaming/systems",
-        "human-ai-teaming/mechanism",
-        "human-ai-teaming/theory"
+        "human-ai-teaming/mechanism"
       ]
     },
     {
@@ -542,18 +542,19 @@
       "term": "mixed methods",
       "kind": "curated",
       "seed": true,
-      "df": 3,
+      "df": 4,
       "match": {
         "type": "text",
         "forms": [
           "mixed methods"
         ]
       },
-      "papers": 3,
+      "papers": 4,
       "top_cells": [
         "command-and-control/theory",
         "human-ai-teaming/evaluation",
-        "opponent-modeling/theory"
+        "opponent-modeling/theory",
+        "wargaming/method"
       ]
     },
     {
