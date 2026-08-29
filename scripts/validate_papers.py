@@ -10,6 +10,7 @@ Usage:
 """
 
 import argparse
+import ast
 import os
 import re
 import sys
@@ -58,6 +59,41 @@ VANITY_DOMAINS = re.compile(
     r"zenodo\.org/doi|rgdoi\.net)",
     re.IGNORECASE,
 )
+
+# Known non-person / AI-tool artifact author names. These appear as 'authors'
+# on some ingested papers (model or TTS names) and indicate corrupted or
+# AI-generated metadata rather than a real contributor. Flagged as a WARNING so
+# the issue surfaces in CI without blocking ingestion. Matching is exact on a
+# normalized form (lowercase, whitespace-collapsed) to avoid false positives on
+# real surnames like 'Ai', 'Bard' or first names like 'Claude'.
+NON_PERSON_AUTHORS = {
+    "gemini 3.1 (flash)",  # Google Gemini model variant
+    "chatterbox tts",       # text-to-speech model
+}
+
+
+def _normalize_author(name):
+    return re.sub(r"\s+", " ", str(name).strip()).lower()
+
+
+def _parse_authors(value):
+    """Return author names as a list of strings (handles YAML list or a
+    stringified Python list such as the papers.json export uses)."""
+    if not value:
+        return []
+    if isinstance(value, list):
+        return [str(a).strip() for a in value if str(a).strip()]
+    if isinstance(value, str):
+        s = value.strip()
+        if s.startswith("["):
+            try:
+                v = ast.literal_eval(s)
+                if isinstance(v, list):
+                    return [str(a).strip() for a in v if str(a).strip()]
+            except Exception:
+                pass
+        return [a.strip(" '\"") for a in re.findall(r"'([^']+)'|\"([^\"]+)\"", s)]
+    return []
 
 
 def clean_latex_artifacts(text):
@@ -217,6 +253,15 @@ def validate_papers(data, cfg, fix=False, sort=False):
             warnings.append(
                 f"{prefix}URL points to non-peer-reviewed platform — verify venue quality"
             )
+
+        # PROVENANCE: flag known non-person / AI-tool artifact authors
+        for _au in _parse_authors(paper.get("authors")):
+            if _normalize_author(_au) in NON_PERSON_AUTHORS:
+                warnings.append(
+                    f"{prefix}author '{_au}' is a known non-person / AI-tool "
+                    f"artifact (model or TTS name) — verify paper provenance"
+                )
+                break
 
     if sort:
         papers.sort(key=lambda p: (p.get("date", ""), p.get("title", "")), reverse=True)

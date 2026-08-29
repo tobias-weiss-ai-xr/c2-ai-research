@@ -33,8 +33,3 @@ Evidence-based topic: 946 curated papers, 689 in the last 12 months. Bridge sign
 ## Wargaming
 
 Evidence-based topic: 801 curated papers, 385 in the last 12 months. Bridge signal: 0.04; opportunity: 802.8.
-
-
-## Decision Support
-
-Evidence-based topic: 801 curated papers, 595 in the last 12 months. Bridge signal: 0.04; opportunity: 802.79.
