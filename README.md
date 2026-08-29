@@ -1,25 +1,10 @@
-<h1 align="center">
-  <strong>C2-AI Research Corpus</strong>
-</h1>
-<h3 align="center">Autonomous decision-making & deep reinforcement learning for military simulations</h3>
+# C2-AI Research Corpus
 
-### 🔗 Links
+**Evidence base for autonomous decision-making & deep reinforcement learning in
+military simulations** — 11750 papers across 14 categories
+and 8 research aspects.
 
-- **GitHub**: https://github.com/tobias-weiss-ai-xr/c2-ai-research
-- **License**: https://github.com/tobias-weiss-ai-xr/c2-ai-research/blob/main/LICENSE
-- **CI**: https://github.com/tobias-weiss-ai-xr/c2-ai-research/actions/workflows/validate.yml
-- **Decision-Making**: https://github.com/tobias-weiss-ai-xr/dm-research
-- **Robotics**: https://github.com/tobias-weiss-ai-xr/robotics-research
-- **Bayesian Stats**: https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research
-
-
-> 🎯 **C2-AI research corpus:** command & control AI, autonomous decision-making,
-> deep reinforcement learning in military simulations — 14 categories across
-> 8 research aspects. Part of the family of `*-research` corpora.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tobias-weiss-ai-xr/c2-ai-research/main/assets/visualizations/category_distribution.png" alt="Teaser" width="600" />
-</p>
+**Author:** Tobias Weiss · **License:** MIT (tools) / proprietary (corpus)
 
 ---
 
@@ -36,7 +21,7 @@ established `*-research` corpora:
 
 | Metric | Value |
 |--------|-------|
-| **Papers Analyzed** | 11596 |
+| **Papers Analyzed** | 11750 |
 | **Categories** | 14 |
 | **Research Aspects** | 8 |
 | **Taxonomy Cells** | 112 |
@@ -54,28 +39,28 @@ established `*-research` corpora:
 | Autonomous Decision-Making | 1141 |
 | Multi-Agent Reinforcement Learning | 946 |
 | Decision Support | 801 |
+| Command & Control (C2) | 752 |
 | Simulation-to-Reality Transfer | 742 |
 | Probabilistic & Uncertainty Reasoning | 694 |
-| Command & Control (C2) | 684 |
 | Mathematical Optimization | 578 |
+| Opponent & Cognitive Modeling | 514 |
 | Mission Planning | 490 |
+| Wargaming | 466 |
 | Military Simulation | 464 |
-| Opponent & Cognitive Modeling | 461 |
 | Hierarchical Planning | 453 |
-| Wargaming | 433 |
 
 ### Research Aspects (Subcategories)
 
 | Aspect | Papers |
 |--------|-------:|
-| Application | 3427 |
-| Development | 2314 |
-| Theory | 2051 |
-| Systems & Technology | 1395 |
-| Method | 920 |
-| Mechanism | 795 |
-| Reviews & Surveys | 492 |
-| Evaluation & Benchmarks | 202 |
+| Application | 3478 |
+| Development | 2338 |
+| Theory | 2069 |
+| Systems & Technology | 1413 |
+| Method | 947 |
+| Mechanism | 805 |
+| Reviews & Surveys | 496 |
+| Evaluation & Benchmarks | 204 |
 
 ### Distribution by Year
 
@@ -110,20 +95,46 @@ established `*-research` corpora:
 | 2023 | 928 |
 | 2024 | 1650 |
 | 2025 | 3798 |
-| 2026 | 3987 |
+| 2026 | 4141 |
 
 
 ---
 
 ## 🕳️ Research Gaps
 
-Prime opportunities for further investigation — **uncovered categories**:
+The taxonomy is **100% saturated** (112/112 cells), so the open
+questions are no longer *uncovered* topics but *under-examined* ones. The
+`evaluation` research aspect is the thinnest at **204 papers
+(1.7% of the corpus)** — the field builds systems but rarely
+benchmarks them, especially in defense-relevant categories (C2, wargaming,
+mission-planning and military-simulation each have ≤5 evaluation papers).
 
-—
+**Thinnest taxonomy cells**
 
-**Uncovered aspects:**
+| Cell | Papers |
+|------|-------:|
+| `wargaming/mechanism` | 1 |
+| `wargaming/evaluation` | 2 |
+| `mission-planning/evaluation` | 3 |
+| `military-simulation/evaluation` | 5 |
+| `mathematical-optimization/review` | 5 |
+| `command-and-control/evaluation` | 5 |
+| `military-simulation/mechanism` | 6 |
+| `hierarchical-planning/review` | 6 |
 
-—
+**White-space cells** (low volume, fast recent growth — first-mover openings)
+
+| Cell | Total | Recent | 12-m share |
+|------|------:|-------:|-----------:|
+| `probabilistic-uncertainty/evaluation` | 17 | 15 | 88% |
+| `sim-to-real/evaluation` | 7 | 6 | 86% |
+| `military-simulation/evaluation` | 5 | 4 | 80% |
+| `sim-to-real/mechanism` | 10 | 7 | 70% |
+| `mathematical-optimization/mechanism` | 24 | 16 | 67% |
+| `mathematical-optimization/evaluation` | 15 | 10 | 67% |
+
+> Full gap → opportunity analysis:
+> [`docs/research/opportunities.md`](docs/research/opportunities.md)
 
 ---
 
@@ -214,176 +225,6 @@ CI (``.github/workflows/validate.yml`) validates and regenerates on every push.
 - [learning-research](https://github.com/tobias-weiss-ai-xr/learning-research) — agent learning corpus
 
 ---
-## 📊 Corpus Statistics
-
-**11,596 papers** across **14 categories**.  
-Sources: **arXiv** 8,335 (71%) · **DOI** 3,138 (27%) · **Other** 123 (1%).  
-Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/c2-ai-research).
-
-### Top categories
-
-| Category | Papers | Recent | |
-|----------|--------|--------|-|
-| human-ai-teaming | **1,972** | 0 | ████████████ |
-| deep-reinforcement-learning | **1,737** | 0 | ██████████░░ |
-| autonomous-decision-making | **1,141** | 0 | ██████░░░░░░ |
-| multi-agent-rl | **946** | 0 | █████░░░░░░░ |
-| decision-support | **801** | 0 | ████░░░░░░░░ |
-| sim-to-real | **742** | 0 | ████░░░░░░░░ |
-| probabilistic-uncertainty | **694** | 0 | ████░░░░░░░░ |
-| command-and-control | **684** | 0 | ████░░░░░░░░ |
-| mathematical-optimization | **578** | 0 | ███░░░░░░░░░ |
-| mission-planning | **490** | 0 | ██░░░░░░░░░░ |
-| *other* | **1,811** | | |
-
-
-### By year
-
-| Year | Papers | |
-|------|--------|-|
-| 2024 | 1,650 | ████░░░░░░░░ |
-| 2025 | 3,798 | ███████████░ |
-| 2026 | 3,987 | ████████████ |
-
-
-### Momentum (hottest categories)
-
-| Category | Total | Rate | Recent | Score |
-|----------|-------|------|--------|-------|
-| Simulation-to-Reality Transfer | 742 | 38.5/mo | 62% | 222 |
-| Decision Support | 801 | 39.6/mo | 59% | 222 |
-| Deep Reinforcement Learning | 1,737 | 91.2/mo | 63% | 200 |
-| Mathematical Optimization | 578 | 25.7/mo | 53% | 192 |
-| Probabilistic & Uncertainty Reasoning | 694 | 33.7/mo | 58% | 186 |
-
-
-### Trending keywords
-
-| Keyword | Papers | Burst |
-|---------|--------|-------|
-| agentic | 416 | 1.75 |
-| benchmark | 1,624 | 1.53 |
-| policy gradient | 321 | 1.51 |
-| uncertainty | 832 | 1.41 |
-| simulator | 353 | 1.41 |
-| bayesian | 363 | 1.40 |
-| pomdp | 223 | 1.39 |
-| optimization | 2,140 | 1.35 |
-
-
-### Top venues
-
-| Venue | Papers |
-|-------|--------|
-| arXiv | 98 |
-| IEEE Transactions on Vehicular Technology | 61 |
-| IEEE Transactions on Intelligent Transportation Systems | 59 |
-| IEEE Access | 56 |
-| IEEE Internet of Things Journal | 44 |
-| Zenodo (CERN European Organization for Nuclear Research) | 43 |
-| IEEE Robotics and Automation Letters | 41 |
-| Lecture notes in computer science | 38 |
-
-
-### Research gaps (thinnest cells)
-
-| Cell | Papers |
-|------|--------|
-| `wargaming/mechanism` | 1 |
-| `wargaming/evaluation` | 1 |
-| `mission-planning/evaluation` | 3 |
-| `military-simulation/evaluation` | 5 |
-| `mathematical-optimization/review` | 5 |
-
-
-
-*Generated 2026-08 by `scripts/standard_stats.py`.*
-
-## 📊 Corpus Statistics
-
-**11,596 papers** across **14 categories**.  
-Sources: **arXiv** 8,335 (71%) · **DOI** 3,138 (27%) · **Other** 123 (1%).  
-Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/c2-ai-research).
-
-### Top categories
-
-| Category | Papers | Recent | |
-|----------|--------|--------|-|
-| human-ai-teaming | **1,972** | 0 | ████████████ |
-| deep-reinforcement-learning | **1,737** | 0 | ██████████░░ |
-| autonomous-decision-making | **1,141** | 0 | ██████░░░░░░ |
-| multi-agent-rl | **946** | 0 | █████░░░░░░░ |
-| decision-support | **801** | 0 | ████░░░░░░░░ |
-| sim-to-real | **742** | 0 | ████░░░░░░░░ |
-| probabilistic-uncertainty | **694** | 0 | ████░░░░░░░░ |
-| command-and-control | **684** | 0 | ████░░░░░░░░ |
-| mathematical-optimization | **578** | 0 | ███░░░░░░░░░ |
-| mission-planning | **490** | 0 | ██░░░░░░░░░░ |
-| *other* | **1,811** | | |
-
-
-### By year
-
-| Year | Papers | |
-|------|--------|-|
-| 2024 | 1,650 | ████░░░░░░░░ |
-| 2025 | 3,798 | ███████████░ |
-| 2026 | 3,987 | ████████████ |
-
-
-### Momentum (hottest categories)
-
-| Category | Total | Rate | Recent | Score |
-|----------|-------|------|--------|-------|
-| Simulation-to-Reality Transfer | 742 | 38.5/mo | 62% | 222 |
-| Decision Support | 801 | 39.6/mo | 59% | 222 |
-| Deep Reinforcement Learning | 1,737 | 91.2/mo | 63% | 200 |
-| Mathematical Optimization | 578 | 25.7/mo | 53% | 192 |
-| Probabilistic & Uncertainty Reasoning | 694 | 33.7/mo | 58% | 186 |
-
-
-### Trending keywords
-
-| Keyword | Papers | Burst |
-|---------|--------|-------|
-| agentic | 416 | 1.75 |
-| benchmark | 1,624 | 1.53 |
-| policy gradient | 321 | 1.51 |
-| uncertainty | 832 | 1.41 |
-| simulator | 353 | 1.41 |
-| bayesian | 363 | 1.40 |
-| pomdp | 223 | 1.39 |
-| optimization | 2,140 | 1.35 |
-
-
-### Top venues
-
-| Venue | Papers |
-|-------|--------|
-| arXiv | 98 |
-| IEEE Transactions on Vehicular Technology | 61 |
-| IEEE Transactions on Intelligent Transportation Systems | 59 |
-| IEEE Access | 56 |
-| IEEE Internet of Things Journal | 44 |
-| Zenodo (CERN European Organization for Nuclear Research) | 43 |
-| IEEE Robotics and Automation Letters | 41 |
-| Lecture notes in computer science | 38 |
-
-
-### Research gaps (thinnest cells)
-
-| Cell | Papers |
-|------|--------|
-| `wargaming/mechanism` | 1 |
-| `wargaming/evaluation` | 1 |
-| `mission-planning/evaluation` | 3 |
-| `military-simulation/evaluation` | 5 |
-| `mathematical-optimization/review` | 5 |
-
-
-
-*Generated 2026-08 by `scripts/standard_stats.py`.*
-
 
 ## 📄 License
 

@@ -1,51 +1,51 @@
 # Concept Graph Analysis
 
-**Generated:** 36 nodes, 207 edges, 1 components, 1 communities (modularity -1137.674). Edges = co-occurrence.
+**Generated:** 80 nodes, 1886 edges, 1 components, 1 communities (modularity -547.626). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2718, degree 28, df 4094
-- **Human Ai Teaming** — PR 0.0903, degree 16, df 1972
-- **benchmark** — PR 0.0666, degree 23, df 735
-- **dataset** — PR 0.0571, degree 24, df 586
-- **Deep Reinforcement Learning** — PR 0.0558, degree 12, df 1737
-- **Autonomous Decision Making** — PR 0.0431, degree 12, df 1141
-- **survey** — PR 0.0417, degree 26, df 444
-- **Decision Support** — PR 0.0317, degree 12, df 801
-- **Multi Agent Rl** — PR 0.0286, degree 10, df 946
-- **Sim To Real** — PR 0.0258, degree 10, df 742
-- **quantitative** — PR 0.0223, degree 24, df 149
-- **Probabilistic Uncertainty** — PR 0.0219, degree 9, df 694
+- **framework** — PR 0.1127, degree 72, df 4094
+- **large language** — PR 0.0539, degree 70, df 1529
+- **language models** — PR 0.0500, degree 71, df 1384
+- **Human Ai Teaming** — PR 0.0370, degree 60, df 1972
+- **Deep Reinforcement Learning** — PR 0.0358, degree 55, df 1737
+- **Autonomous Decision Making** — PR 0.0284, degree 55, df 1141
+- **policy optimization** — PR 0.0262, degree 65, df 709
+- **benchmark** — PR 0.0240, degree 67, df 735
+- **markov decision** — PR 0.0216, degree 63, df 478
+- **multi-agent reinforcement** — PR 0.0209, degree 66, df 856
+- **Multi Agent Rl** — PR 0.0200, degree 52, df 946
+- **dataset** — PR 0.0190, degree 68, df 586
 
 ## Bridge nodes (high betweenness — connect clusters)
 
-- framework
 - Human Ai Teaming
-- survey
+- framework
+- language models
+- large language
 - dataset
+- survey
+- Autonomous Decision Making
 - experiment
-- quantitative
-- qualitative
-- benchmark
-- case study
-- taxonomy
+- decision making
+- natural language
 
 ## Bridge edges (high edge-betweenness)
 
-- Human Ai Teaming ↔ grounded theory (weight 2, EB 29.0)
-- framework ↔ peer review (weight 2, EB 12.1667)
-- framework ↔ research gap (weight 7, EB 11.0)
-- dataset ↔ peer review (weight 2, EB 10.1667)
-- experiment ↔ research gap (weight 2, EB 8.5)
-- Human Ai Teaming ↔ peer review (weight 9, EB 6.6667)
-- framework ↔ interview (weight 7, EB 6.2619)
-- Human Ai Teaming ↔ research gap (weight 7, EB 6.1667)
-- framework ↔ systematic review (weight 8, EB 5.6694)
-- Human Ai Teaming ↔ case study (weight 59, EB 5.5613)
+- Human Ai Teaming ↔ grounded theory (weight 2, EB 73.0)
+- framework ↔ research gap (weight 7, EB 23.25)
+- framework ↔ peer review (weight 2, EB 19.5833)
+- peer review ↔ language models (weight 2, EB 19.0833)
+- Human Ai Teaming ↔ research gap (weight 7, EB 18.2864)
+- dataset ↔ peer review (weight 2, EB 18.0833)
+- Human Ai Teaming ↔ peer review (weight 9, EB 16.25)
+- experiment ↔ research gap (weight 2, EB 16.0833)
+- Autonomous Decision Making ↔ research gap (weight 2, EB 15.453)
+- framework ↔ interview (weight 7, EB 8.8162)
 
 ## Communities (clusters of related concepts)
 
-### Cluster 1 (30 concepts)
+### Cluster 1 (74 concepts)
 
 Autonomous Decision Making, Command And Control, Decision Support, Deep Reinforcement Learning, Hierarchical Planning, Human Ai Teaming, Mathematical Optimization, Military Simulation, Mission Planning, Multi Agent Rl, Opponent Modeling, Probabilistic Uncertainty
 

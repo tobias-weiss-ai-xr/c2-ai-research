@@ -41,12 +41,20 @@ def render_readme(stats):
         f"| {k} | {v} |\n" for k, v in sorted(by_year.items())
     )
 
-    gap_cats = [domain.CATEGORY_DISPLAY.get(c, c) for c in domain.CATEGORIES
-                if c not in by_cat]
-    gap_subs = [domain.SUBCATEGORY_DISPLAY.get(s, s) for s in domain.SUBCATEGORIES
-                if s not in by_sub]
-    gap_cats_txt = ", ".join(gap_cats) if gap_cats else "—"
-    gap_subs_txt = ", ".join(gap_subs) if gap_subs else "—"
+    # Real gaps from statistics.json. The taxonomy is 100% saturated, so the
+    # open questions are under-examined cells, not uncovered categories.
+    gaps = stats.get("gaps", {})
+    thin = gaps.get("thinnest_cells", [])[:8]
+    white = gaps.get("white_space", [])[:6]
+    eval_total = by_sub.get("evaluation", 0)
+    eval_pct = (100.0 * eval_total / total) if total else 0.0
+    thin_rows = "".join(
+        f"| `{c['cell']}` | {c['papers']} |\n" for c in thin
+    )
+    white_rows = "".join(
+        f"| `{c['cell']}` | {c['total']} | {c['recent']} | {c['recent_share']:.0%} |\n"
+        for c in white
+    )
 
     readme = f"""# C2-AI Research Corpus
 
@@ -100,13 +108,25 @@ established `*-research` corpora:
 
 ## 🕳️ Research Gaps
 
-Prime opportunities for further investigation — **uncovered categories**:
+The taxonomy is **100% saturated** ({filled}/{total_cells} cells), so the open
+questions are no longer *uncovered* topics but *under-examined* ones. The
+`evaluation` research aspect is the thinnest at **{eval_total} papers
+({eval_pct:.1f}% of the corpus)** — the field builds systems but rarely
+benchmarks them, especially in defense-relevant categories (C2, wargaming,
+mission-planning and military-simulation each have ≤5 evaluation papers).
 
-{gap_cats_txt}
+**Thinnest taxonomy cells**
 
-**Uncovered aspects:**
+| Cell | Papers |
+|------|-------:|
+{thin_rows}
+**White-space cells** (low volume, fast recent growth — first-mover openings)
 
-{gap_subs_txt}
+| Cell | Total | Recent | 12-m share |
+|------|------:|-------:|-----------:|
+{white_rows}
+> Full gap → opportunity analysis:
+> [`docs/research/opportunities.md`](docs/research/opportunities.md)
 
 ---
 
