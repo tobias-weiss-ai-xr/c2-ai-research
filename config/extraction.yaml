@@ -1,6 +1,12 @@
-# Concept extraction mode: 'broad' restores a non-trivial concept graph
-# (emergent noun bigrams) — required for relate_concepts.py edges and the
-# topic_planner.py bridge signal. (selective yielded 5 nodes / 0 edges;
-# see issues/0001-concept-graph-empty-edges.md.) Switch back to 'selective'
-# only together with a populated curated concept set (feedback_concepts.py).
-mode: broad
+# Concept extraction mode for this repository.
+#
+# broad     — taxonomy (structural) + curated seeds (config/concepts.yaml)
+#             + emergent noun bigrams mined from title+abstract.
+#             Largest, noisiest graph; good for open discovery.
+#
+# selective — taxonomy (structural) + curated seeds ONLY.
+#             Skips the noisy emergent bigrams, yielding a clean,
+#             high-signal concept graph driven by the curated concept list.
+#             The feedback loop (tools/feedback_concepts.py) keeps growing
+#             the curated set from the graph analysis.
+mode: selective

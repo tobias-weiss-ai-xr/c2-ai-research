@@ -10,23 +10,25 @@
 # selective concept graph (config/extraction.yaml: mode=selective) has a
 # meaningful curated layer on top of the taxonomy backbone.
 concepts:
-  - literature review
-  - systematic review
-  - meta analysis
-  - case study
-  - qualitative
-  - quantitative
-  - mixed methods
-  - experiment
-  - survey
-  - interview
-  - dataset
   - benchmark
-  - reproducibility
-  - research gap
-  - grounded theory
-  - triangulation
+  - case study
+  - dataset
+  - experiment
   - framework
-  - taxonomy
+  - grounded theory
+  - interview
+  - language models
+  - large language
+  - literature review
+  - meta analysis
+  - mixed methods
   - open access
   - peer review
+  - qualitative
+  - quantitative
+  - reproducibility
+  - research gap
+  - survey
+  - systematic review
+  - taxonomy
+  - triangulation

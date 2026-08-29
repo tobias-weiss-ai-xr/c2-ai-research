@@ -17,19 +17,24 @@ Evidence-based topic: 1972 curated papers, 1176 in the last 12 months. Bridge si
 
 ## Deep Reinforcement Learning
 
-Evidence-based topic: 1737 curated papers, 1388 in the last 12 months. Bridge signal: 0.11; opportunity: 1742.1.
+Evidence-based topic: 1737 curated papers, 1388 in the last 12 months. Bridge signal: 0.04; opportunity: 1739.77.
 
 
 ## Autonomous Decision Making
 
-Evidence-based topic: 1141 curated papers, 873 in the last 12 months. Bridge signal: 0.20; opportunity: 1147.95.
+Evidence-based topic: 1141 curated papers, 873 in the last 12 months. Bridge signal: 0.10; opportunity: 1144.98.
 
 
 ## Multi Agent Rl
 
-Evidence-based topic: 946 curated papers, 689 in the last 12 months. Bridge signal: 0.04; opportunity: 948.21.
+Evidence-based topic: 946 curated papers, 689 in the last 12 months. Bridge signal: 0.01; opportunity: 947.01.
+
+
+## Wargaming
+
+Evidence-based topic: 801 curated papers, 385 in the last 12 months. Bridge signal: 0.04; opportunity: 802.8.
 
 
 ## Decision Support
 
-Evidence-based topic: 801 curated papers, 595 in the last 12 months. Bridge signal: 0.09; opportunity: 804.45.
+Evidence-based topic: 801 curated papers, 595 in the last 12 months. Bridge signal: 0.04; opportunity: 802.79.
