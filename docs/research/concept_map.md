@@ -1,20 +1,20 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 38 concepts, 263 relationships from 12085 papers. Edges = co-occurrence (shared papers).
+**Generated:** 38 concepts, 263 relationships from 12079 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| framework | curated | 4094 |
-| Human Ai Teaming | taxonomy | 1972 |
+| framework | curated | 4093 |
+| Human Ai Teaming | taxonomy | 1971 |
 | Deep Reinforcement Learning | taxonomy | 1737 |
 | large language | curated | 1529 |
 | language models | curated | 1384 |
-| Autonomous Decision Making | taxonomy | 1141 |
+| Autonomous Decision Making | taxonomy | 1140 |
 | Multi Agent Rl | taxonomy | 946 |
-| Wargaming | taxonomy | 801 |
 | Decision Support | taxonomy | 801 |
+| Wargaming | taxonomy | 797 |
 | Command And Control | taxonomy | 752 |
 | Sim To Real | taxonomy | 742 |
 | benchmark | curated | 735 |
@@ -124,17 +124,6 @@
 - taxonomy — 10 shared paper(s)
 - case study — 7 shared paper(s)
 
-### Wargaming
-
-- framework — 82 shared paper(s)
-- large language — 37 shared paper(s)
-- language models — 36 shared paper(s)
-- experiment — 15 shared paper(s)
-- case study — 15 shared paper(s)
-- qualitative — 10 shared paper(s)
-- benchmark — 7 shared paper(s)
-- quantitative — 7 shared paper(s)
-
 ### Decision Support
 
 - framework — 332 shared paper(s)
@@ -145,6 +134,17 @@
 - case study — 18 shared paper(s)
 - quantitative — 16 shared paper(s)
 - qualitative — 15 shared paper(s)
+
+### Wargaming
+
+- framework — 81 shared paper(s)
+- large language — 37 shared paper(s)
+- language models — 36 shared paper(s)
+- experiment — 15 shared paper(s)
+- case study — 15 shared paper(s)
+- qualitative — 10 shared paper(s)
+- benchmark — 7 shared paper(s)
+- quantitative — 7 shared paper(s)
 
 ### Command And Control
 

@@ -5,14 +5,14 @@
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 4094,
+      "df": 4093,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 4094,
+      "papers": 4093,
       "top_cells": [
         "deep-reinforcement-learning/development",
         "human-ai-teaming/development",
@@ -24,7 +24,7 @@
       "term": "Human Ai Teaming",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1972,
+      "df": 1971,
       "match": {
         "type": "field",
         "field": "category",
@@ -36,7 +36,7 @@
         "human-ai-teaming/mechanism",
         "human-ai-teaming/theory"
       ],
-      "papers": 1972
+      "papers": 1971
     },
     {
       "term": "Deep Reinforcement Learning",
@@ -98,7 +98,7 @@
       "term": "Autonomous Decision Making",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1141,
+      "df": 1140,
       "match": {
         "type": "field",
         "field": "category",
@@ -110,7 +110,7 @@
         "autonomous-decision-making/theory",
         "autonomous-decision-making/systems"
       ],
-      "papers": 1141
+      "papers": 1140
     },
     {
       "term": "Multi Agent Rl",
@@ -131,24 +131,6 @@
       "papers": 946
     },
     {
-      "term": "Wargaming",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 801,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "wargaming"
-      },
-      "top_cells": [
-        "wargaming/application",
-        "wargaming/theory",
-        "wargaming/method",
-        "wargaming/systems"
-      ],
-      "papers": 801
-    },
-    {
       "term": "Decision Support",
       "kind": "taxonomy",
       "seed": true,
@@ -165,6 +147,24 @@
         "decision-support/systems"
       ],
       "papers": 801
+    },
+    {
+      "term": "Wargaming",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 797,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "wargaming"
+      },
+      "top_cells": [
+        "wargaming/application",
+        "wargaming/theory",
+        "wargaming/method",
+        "wargaming/systems"
+      ],
+      "papers": 797
     },
     {
       "term": "Command And Control",

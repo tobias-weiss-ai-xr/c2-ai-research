@@ -4,13 +4,13 @@
       "id": 0,
       "term": "framework",
       "kind": "curated",
-      "df": 4094
+      "df": 4093
     },
     {
       "id": 1,
       "term": "Human Ai Teaming",
       "kind": "taxonomy",
-      "df": 1972
+      "df": 1971
     },
     {
       "id": 2,
@@ -34,7 +34,7 @@
       "id": 5,
       "term": "Autonomous Decision Making",
       "kind": "taxonomy",
-      "df": 1141
+      "df": 1140
     },
     {
       "id": 6,
@@ -44,15 +44,15 @@
     },
     {
       "id": 7,
-      "term": "Wargaming",
+      "term": "Decision Support",
       "kind": "taxonomy",
       "df": 801
     },
     {
       "id": 8,
-      "term": "Decision Support",
+      "term": "Wargaming",
       "kind": "taxonomy",
-      "df": 801
+      "df": 797
     },
     {
       "id": 9,
@@ -372,51 +372,6 @@
     },
     {
       "source": 0,
-      "target": 9,
-      "weight": 159
-    },
-    {
-      "source": 0,
-      "target": 6,
-      "weight": 386
-    },
-    {
-      "source": 3,
-      "target": 6,
-      "weight": 123
-    },
-    {
-      "source": 4,
-      "target": 6,
-      "weight": 92
-    },
-    {
-      "source": 6,
-      "target": 11,
-      "weight": 52
-    },
-    {
-      "source": 13,
-      "target": 22,
-      "weight": 17
-    },
-    {
-      "source": 0,
-      "target": 8,
-      "weight": 332
-    },
-    {
-      "source": 3,
-      "target": 19,
-      "weight": 113
-    },
-    {
-      "source": 4,
-      "target": 19,
-      "weight": 108
-    },
-    {
-      "source": 0,
       "target": 21,
       "weight": 45
     },
@@ -454,6 +409,51 @@
       "source": 18,
       "target": 21,
       "weight": 4
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "weight": 159
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "weight": 386
+    },
+    {
+      "source": 6,
+      "target": 11,
+      "weight": 52
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "weight": 123
+    },
+    {
+      "source": 13,
+      "target": 22,
+      "weight": 17
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "weight": 332
+    },
+    {
+      "source": 3,
+      "target": 19,
+      "weight": 113
+    },
+    {
+      "source": 4,
+      "target": 19,
+      "weight": 108
+    },
+    {
+      "source": 13,
+      "target": 18,
+      "weight": 11
     },
     {
       "source": 0,
@@ -581,6 +581,11 @@
       "weight": 243
     },
     {
+      "source": 4,
+      "target": 6,
+      "weight": 92
+    },
+    {
       "source": 6,
       "target": 21,
       "weight": 6
@@ -621,14 +626,14 @@
       "weight": 7
     },
     {
-      "source": 6,
-      "target": 22,
-      "weight": 6
-    },
-    {
       "source": 0,
       "target": 1,
       "weight": 690
+    },
+    {
+      "source": 6,
+      "target": 22,
+      "weight": 6
     },
     {
       "source": 6,
@@ -696,23 +701,18 @@
       "weight": 5
     },
     {
-      "source": 13,
-      "target": 18,
-      "weight": 11
-    },
-    {
       "source": 2,
       "target": 20,
       "weight": 10
     },
     {
       "source": 3,
-      "target": 8,
+      "target": 7,
       "weight": 167
     },
     {
       "source": 4,
-      "target": 8,
+      "target": 7,
       "weight": 145
     },
     {
@@ -791,12 +791,12 @@
       "weight": 5
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 11,
       "weight": 66
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 13,
       "weight": 74
     },
@@ -806,12 +806,12 @@
       "weight": 7
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 20,
       "weight": 18
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 22,
       "weight": 16
     },
@@ -821,12 +821,12 @@
       "weight": 6
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 24,
       "weight": 15
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 23,
       "weight": 4
     },
@@ -1037,8 +1037,8 @@
     },
     {
       "source": 0,
-      "target": 7,
-      "weight": 82
+      "target": 8,
+      "weight": 81
     },
     {
       "source": 9,
@@ -1046,7 +1046,7 @@
       "weight": 36
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 19,
       "weight": 15
     },
@@ -1056,7 +1056,7 @@
       "weight": 15
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 25,
       "weight": 6
     },
@@ -1136,14 +1136,14 @@
       "weight": 3
     },
     {
-      "source": 4,
-      "target": 16,
-      "weight": 25
-    },
-    {
       "source": 16,
       "target": 20,
       "weight": 6
+    },
+    {
+      "source": 4,
+      "target": 16,
+      "weight": 25
     },
     {
       "source": 3,
@@ -1196,22 +1196,12 @@
       "weight": 3
     },
     {
-      "source": 3,
-      "target": 7,
-      "weight": 37
-    },
-    {
-      "source": 4,
-      "target": 7,
-      "weight": 36
-    },
-    {
       "source": 18,
       "target": 23,
       "weight": 2
     },
     {
-      "source": 7,
+      "source": 8,
       "target": 21,
       "weight": 15
     },
@@ -1241,7 +1231,7 @@
       "weight": 15
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 21,
       "weight": 10
     },
@@ -1251,9 +1241,14 @@
       "weight": 3
     },
     {
-      "source": 7,
+      "source": 8,
       "target": 20,
       "weight": 15
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "weight": 7
     },
     {
       "source": 13,
@@ -1261,14 +1256,19 @@
       "weight": 3
     },
     {
-      "source": 7,
-      "target": 11,
+      "source": 8,
+      "target": 22,
       "weight": 7
     },
     {
-      "source": 7,
-      "target": 22,
-      "weight": 7
+      "source": 3,
+      "target": 8,
+      "weight": 37
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "weight": 36
     },
     {
       "source": 12,
@@ -1281,7 +1281,7 @@
       "weight": 6
     },
     {
-      "source": 7,
+      "source": 8,
       "target": 24,
       "weight": 10
     },
@@ -1291,12 +1291,12 @@
       "weight": 3
     },
     {
-      "source": 7,
+      "source": 8,
       "target": 19,
       "weight": 7
     },
     {
-      "source": 7,
+      "source": 8,
       "target": 27,
       "weight": 5
     },
@@ -1477,28 +1477,28 @@
     },
     {
       "source": 7,
-      "target": 26,
-      "weight": 3
-    },
-    {
-      "source": 7,
-      "target": 13,
-      "weight": 5
-    },
-    {
-      "source": 7,
-      "target": 28,
-      "weight": 5
-    },
-    {
-      "source": 8,
       "target": 27,
       "weight": 3
     },
     {
-      "source": 8,
+      "source": 7,
       "target": 26,
       "weight": 2
+    },
+    {
+      "source": 8,
+      "target": 26,
+      "weight": 3
+    },
+    {
+      "source": 8,
+      "target": 13,
+      "weight": 5
+    },
+    {
+      "source": 8,
+      "target": 28,
+      "weight": 5
     },
     {
       "source": 9,
@@ -1549,6 +1549,6 @@
   "stats": {
     "concepts": 38,
     "edges": 263,
-    "papers": 12085
+    "papers": 12079
   }
 }
