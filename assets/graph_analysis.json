@@ -2,13 +2,13 @@
  "categories": [
   {
    "id": "autonomous-decision-making",
-   "name": "autonomous-decision-making",
-   "count": 1141,
+   "name": "Autonomous Decision Making",
+   "count": 1140,
    "trajectory": {
     "2019": 1,
     "2021": 13,
     "2022": 50,
-    "2023": 58,
+    "2023": 57,
     "2024": 146,
     "2025": 404,
     "2026": 469
@@ -16,13 +16,13 @@
    "momentum": {
     "id": "autonomous-decision-making",
     "name": "Autonomous Decision Making",
-    "total": 1141,
+    "total": 1140,
     "recent": 662,
     "prior": 329,
     "growth_pct": 101.2,
-    "recent_share": 0.58,
+    "recent_share": 0.581,
     "papers_per_month": 55.2,
-    "score": 159.2
+    "score": 159.3
    }
   },
   {
@@ -64,7 +64,7 @@
   },
   {
    "id": "decision-support",
-   "name": "decision-support",
+   "name": "Decision Support",
    "count": 801,
    "trajectory": {
     "2018": 1,
@@ -89,7 +89,7 @@
   },
   {
    "id": "deep-reinforcement-learning",
-   "name": "deep-reinforcement-learning",
+   "name": "Deep Reinforcement Learning",
    "count": 1737,
    "trajectory": {
     "2017": 4,
@@ -114,7 +114,7 @@
   },
   {
    "id": "hierarchical-planning",
-   "name": "hierarchical-planning",
+   "name": "Hierarchical Planning",
    "count": 453,
    "trajectory": {
     "2018": 1,
@@ -139,31 +139,31 @@
   },
   {
    "id": "human-ai-teaming",
-   "name": "human-ai-teaming",
-   "count": 1972,
+   "name": "Human Ai Teaming",
+   "count": 1971,
    "trajectory": {
     "2021": 47,
     "2022": 154,
     "2023": 247,
     "2024": 348,
-    "2025": 652,
+    "2025": 651,
     "2026": 524
    },
    "momentum": {
     "id": "human-ai-teaming",
     "name": "Human Ai Teaming",
-    "total": 1972,
+    "total": 1971,
     "recent": 798,
-    "prior": 520,
-    "growth_pct": 53.5,
+    "prior": 519,
+    "growth_pct": 53.8,
     "recent_share": 0.405,
     "papers_per_month": 66.5,
-    "score": 94.0
+    "score": 94.3
    }
   },
   {
    "id": "mathematical-optimization",
-   "name": "mathematical-optimization",
+   "name": "Mathematical Optimization",
    "count": 578,
    "trajectory": {
     "2019": 1,
@@ -188,7 +188,7 @@
   },
   {
    "id": "military-simulation",
-   "name": "military-simulation",
+   "name": "Military Simulation",
    "count": 464,
    "trajectory": {
     "2020": 1,
@@ -213,7 +213,7 @@
   },
   {
    "id": "mission-planning",
-   "name": "mission-planning",
+   "name": "Mission Planning",
    "count": 490,
    "trajectory": {
     "2021": 7,
@@ -237,7 +237,7 @@
   },
   {
    "id": "multi-agent-rl",
-   "name": "multi-agent-rl",
+   "name": "Multi Agent Rl",
    "count": 946,
    "trajectory": {
     "2019": 1,
@@ -290,7 +290,7 @@
   },
   {
    "id": "probabilistic-uncertainty",
-   "name": "probabilistic-uncertainty",
+   "name": "Probabilistic Uncertainty",
    "count": 694,
    "trajectory": {
     "2021": 9,
@@ -314,7 +314,7 @@
   },
   {
    "id": "sim-to-real",
-   "name": "sim-to-real",
+   "name": "Sim To Real",
    "count": 742,
    "trajectory": {
     "2021": 10,
@@ -339,7 +339,7 @@
   {
    "id": "wargaming",
    "name": "Wargaming",
-   "count": 466,
+   "count": 797,
    "trajectory": {
     "1978": 2,
     "1999": 1,
@@ -363,21 +363,21 @@
     "2020": 10,
     "2021": 32,
     "2022": 49,
-    "2023": 45,
-    "2024": 80,
-    "2025": 104,
-    "2026": 113
+    "2023": 68,
+    "2024": 221,
+    "2025": 187,
+    "2026": 197
    },
    "momentum": {
     "id": "wargaming",
     "name": "Wargaming",
-    "total": 466,
-    "recent": 142,
-    "prior": 101,
-    "growth_pct": 40.6,
-    "recent_share": 0.305,
-    "papers_per_month": 11.8,
-    "score": 71.1
+    "total": 797,
+    "recent": 262,
+    "prior": 192,
+    "growth_pct": 36.5,
+    "recent_share": 0.329,
+    "papers_per_month": 21.8,
+    "score": 69.4
    }
   }
  ],
@@ -385,42 +385,52 @@
   {
    "id": "application",
    "name": "Application",
-   "count": 3478
+   "count": 3491
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 2338
+   "count": 2345
   },
   {
    "id": "evaluation",
-   "name": "evaluation",
-   "count": 204
+   "name": "Evaluation",
+   "count": 206
+  },
+  {
+   "id": "experiment",
+   "name": "Experiment",
+   "count": 2
   },
   {
    "id": "mechanism",
-   "name": "mechanism",
+   "name": "Mechanism",
    "count": 805
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 947
+   "count": 1057
   },
   {
    "id": "review",
-   "name": "review",
-   "count": 496
+   "name": "Review",
+   "count": 495
+  },
+  {
+   "id": "survey",
+   "name": "Survey",
+   "count": 3
   },
   {
    "id": "systems",
    "name": "Systems",
-   "count": 1413
+   "count": 1428
   },
   {
    "id": "theory",
    "name": "Theory",
-   "count": 2069
+   "count": 2247
   }
  ],
  "timeline": [
@@ -6597,11 +6607,6 @@
   [
    "2023-01",
    "autonomous-decision-making",
-   "application"
-  ],
-  [
-   "2023-01",
-   "autonomous-decision-making",
    "development"
   ],
   [
@@ -7353,11 +7358,6 @@
    "2023-01",
    "wargaming",
    "systems"
-  ],
-  [
-   "2023-01",
-   "wargaming",
-   "theory"
   ],
   [
    "2023-02",
@@ -10130,6 +10130,26 @@
    "application"
   ],
   [
+   "2023-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-09",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2023-10",
    "autonomous-decision-making",
    "application"
@@ -10473,11 +10493,31 @@
    "2023-10",
    "wargaming",
    "application"
+  ],
+  [
+   "2023-10",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-10",
+   "wargaming",
+   "survey"
+  ],
+  [
+   "2023-10",
+   "wargaming",
+   "systems"
   ],
   [
    "2023-10",
    "wargaming",
    "systems"
+  ],
+  [
+   "2023-10",
+   "wargaming",
+   "theory"
   ],
   [
    "2023-11",
@@ -10798,6 +10838,41 @@
    "2023-11",
    "wargaming",
    "method"
+  ],
+  [
+   "2023-11",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-11",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "wargaming",
+   "theory"
   ],
   [
    "2023-12",
@@ -11218,6 +11293,21 @@
    "2023-12",
    "wargaming",
    "application"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "method"
   ],
   [
    "2023-12",
@@ -11228,6 +11318,36 @@
    "2023-12",
    "wargaming",
    "method"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "wargaming",
+   "theory"
   ],
   [
    "2024-01",
@@ -11803,6 +11923,11 @@
    "2024-01",
    "sim-to-real",
    "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
   ],
   [
    "2024-01",
@@ -11878,11 +12003,91 @@
    "2024-01",
    "wargaming",
    "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "experiment"
   ],
   [
    "2024-01",
    "wargaming",
    "mechanism"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "method"
   ],
   [
    "2024-01",
@@ -11903,11 +12108,106 @@
    "2024-01",
    "wargaming",
    "review"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "survey"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "systems"
   ],
   [
    "2024-01",
    "wargaming",
    "systems"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "wargaming",
+   "theory"
   ],
   [
    "2024-01",
@@ -12303,6 +12603,26 @@
    "2024-02",
    "wargaming",
    "application"
+  ],
+  [
+   "2024-02",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-02",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-02",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2024-02",
+   "wargaming",
+   "theory"
   ],
   [
    "2024-03",
@@ -12673,6 +12993,36 @@
    "2024-03",
    "wargaming",
    "development"
+  ],
+  [
+   "2024-03",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-03",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-03",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-03",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2024-03",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "wargaming",
+   "theory"
   ],
   [
    "2024-04",
@@ -13003,8 +13353,53 @@
    "2024-04",
    "wargaming",
    "application"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "wargaming",
+   "theory"
   ],
   [
+   "2024-04",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2024-05",
    "autonomous-decision-making",
    "method"
@@ -13393,46 +13788,116 @@
    "2024-05",
    "probabilistic-uncertainty",
    "theory"
+  ],
+  [
+   "2024-05",
+   "sim-to-real",
+   "application"
+  ],
+  [
+   "2024-05",
+   "sim-to-real",
+   "method"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "experiment"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-05",
+   "wargaming",
+   "method"
   ],
   [
    "2024-05",
-   "sim-to-real",
-   "application"
+   "wargaming",
+   "review"
   ],
   [
    "2024-05",
-   "sim-to-real",
-   "method"
+   "wargaming",
+   "systems"
   ],
   [
    "2024-05",
    "wargaming",
-   "application"
+   "systems"
   ],
   [
    "2024-05",
    "wargaming",
-   "application"
+   "systems"
   ],
   [
    "2024-05",
    "wargaming",
-   "application"
+   "theory"
   ],
   [
    "2024-05",
    "wargaming",
-   "application"
+   "theory"
   ],
   [
    "2024-05",
    "wargaming",
-   "method"
+   "theory"
   ],
   [
    "2024-05",
    "wargaming",
-   "review"
+   "theory"
   ],
   [
    "2024-05",
@@ -13813,6 +14278,11 @@
    "2024-06",
    "sim-to-real",
    "systems"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "application"
   ],
   [
    "2024-06",
@@ -13848,11 +14318,126 @@
    "2024-06",
    "wargaming",
    "application"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "development"
   ],
   [
    "2024-06",
    "wargaming",
    "development"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "wargaming",
+   "theory"
   ],
   [
    "2024-07",
@@ -14223,6 +14808,16 @@
    "2024-07",
    "wargaming",
    "application"
+  ],
+  [
+   "2024-07",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-07",
+   "wargaming",
+   "method"
   ],
   [
    "2024-07",
@@ -14243,6 +14838,16 @@
    "2024-07",
    "wargaming",
    "method"
+  ],
+  [
+   "2024-07",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "wargaming",
+   "theory"
   ],
   [
    "2024-07",
@@ -14708,6 +15313,21 @@
    "2024-08",
    "sim-to-real",
    "systems"
+  ],
+  [
+   "2024-08",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2024-08",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-08",
+   "wargaming",
+   "method"
   ],
   [
    "2024-09",
@@ -15838,8 +16458,53 @@
    "2024-09",
    "wargaming",
    "application"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "method"
   ],
   [
+   "2024-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2024-10",
    "autonomous-decision-making",
    "application"
@@ -17213,6 +17878,16 @@
    "2024-10",
    "wargaming",
    "development"
+  ],
+  [
+   "2024-10",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-10",
+   "wargaming",
+   "method"
   ],
   [
    "2024-10",
@@ -17225,6 +17900,11 @@
    "review"
   ],
   [
+   "2024-10",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2024-11",
    "autonomous-decision-making",
    "application"
@@ -18218,6 +18898,26 @@
    "2024-11",
    "wargaming",
    "application"
+  ],
+  [
+   "2024-11",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-11",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "wargaming",
+   "theory"
   ],
   [
    "2024-12",
@@ -19452,6 +20152,36 @@
   [
    "2024-12",
    "wargaming",
+   "application"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2024-12",
+   "wargaming",
    "method"
   ],
   [
@@ -19478,8 +20208,103 @@
    "2024-12",
    "wargaming",
    "method"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "wargaming",
+   "theory"
   ],
   [
+   "2024-12",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2025-01",
    "autonomous-decision-making",
    "application"
@@ -20983,6 +21808,11 @@
    "2025-01",
    "sim-to-real",
    "systems"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "application"
   ],
   [
    "2025-01",
@@ -21093,6 +21923,26 @@
    "2025-01",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "method"
   ],
   [
    "2025-01",
@@ -21128,11 +21978,21 @@
    "2025-01",
    "wargaming",
    "method"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "systems"
   ],
   [
    "2025-01",
    "wargaming",
    "systems"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-01",
@@ -21140,6 +22000,36 @@
    "theory"
   ],
   [
+   "2025-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2025-02",
    "autonomous-decision-making",
    "application"
@@ -22598,6 +23488,11 @@
    "2025-02",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-02",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-03",
@@ -23318,11 +24213,6 @@
    "2025-03",
    "human-ai-teaming",
    "method"
-  ],
-  [
-   "2025-03",
-   "human-ai-teaming",
-   "review"
   ],
   [
    "2025-03",
@@ -23843,6 +24733,16 @@
    "2025-03",
    "probabilistic-uncertainty",
    "theory"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "application"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "application"
   ],
   [
    "2025-03",
@@ -23888,66 +24788,116 @@
    "2025-03",
    "sim-to-real",
    "application"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "development"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "systems"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "systems"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "sim-to-real",
+   "theory"
   ],
   [
    "2025-03",
    "sim-to-real",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-03",
+   "wargaming",
    "application"
+  ],
+  [
+   "2025-03",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2025-03",
+   "wargaming",
+   "method"
   ],
   [
    "2025-03",
-   "sim-to-real",
-   "application"
+   "wargaming",
+   "method"
   ],
   [
    "2025-03",
-   "sim-to-real",
-   "development"
+   "wargaming",
+   "method"
   ],
   [
    "2025-03",
-   "sim-to-real",
-   "systems"
+   "wargaming",
+   "theory"
   ],
   [
    "2025-03",
-   "sim-to-real",
-   "systems"
+   "wargaming",
+   "theory"
   ],
   [
    "2025-03",
-   "sim-to-real",
+   "wargaming",
    "theory"
   ],
   [
    "2025-03",
-   "sim-to-real",
+   "wargaming",
    "theory"
   ],
   [
    "2025-03",
-   "sim-to-real",
+   "wargaming",
    "theory"
   ],
   [
    "2025-03",
-   "sim-to-real",
+   "wargaming",
    "theory"
   ],
   [
    "2025-03",
    "wargaming",
-   "application"
+   "theory"
   ],
   [
    "2025-03",
    "wargaming",
-   "application"
+   "theory"
   ],
   [
    "2025-03",
    "wargaming",
-   "method"
+   "theory"
   ],
   [
    "2025-04",
@@ -25173,6 +26123,11 @@
    "2025-04",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-04",
+   "wargaming",
+   "evaluation"
   ],
   [
    "2025-04",
@@ -26863,6 +27818,36 @@
    "2025-05",
    "wargaming",
    "method"
+  ],
+  [
+   "2025-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-06",
@@ -28393,6 +29378,26 @@
    "2025-06",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "method"
   ],
   [
    "2025-06",
@@ -28423,6 +29428,26 @@
    "2025-06",
    "wargaming",
    "review"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-06",
@@ -29658,8 +30683,38 @@
    "2025-07",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-07",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-07",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-07",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-07",
+   "wargaming",
+   "method"
   ],
   [
+   "2025-07",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2025-08",
    "autonomous-decision-making",
    "application"
@@ -31023,6 +32078,16 @@
    "2025-08",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-08",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-08",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-08",
@@ -32868,6 +33933,41 @@
    "2025-09",
    "sim-to-real",
    "theory"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "method"
   ],
   [
    "2025-09",
@@ -32893,6 +33993,26 @@
    "2025-09",
    "wargaming",
    "review"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-10",
@@ -34968,6 +36088,11 @@
    "2025-10",
    "wargaming",
    "method"
+  ],
+  [
+   "2025-10",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-10",
@@ -34980,6 +36105,21 @@
    "theory"
   ],
   [
+   "2025-10",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2025-11",
    "autonomous-decision-making",
    "application"
@@ -36708,11 +37848,46 @@
    "2025-11",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-11",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2025-11",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-11",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-11",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-11",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-11",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-11",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-11",
    "wargaming",
-   "method"
+   "theory"
   ],
   [
    "2025-11",
@@ -38418,6 +39593,11 @@
    "2025-12",
    "sim-to-real",
    "theory"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "application"
   ],
   [
    "2025-12",
@@ -38448,6 +39628,36 @@
    "2025-12",
    "wargaming",
    "application"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "method"
   ],
   [
    "2025-12",
@@ -38458,6 +39668,16 @@
    "2025-12",
    "wargaming",
    "method"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "theory"
   ],
   [
    "2025-12",
@@ -38470,6 +39690,21 @@
    "theory"
   ],
   [
+   "2025-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-01",
    "autonomous-decision-making",
    "application"
@@ -40298,6 +41533,11 @@
    "2026-01",
    "sim-to-real",
    "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "application"
   ],
   [
    "2026-01",
@@ -40343,6 +41583,11 @@
    "2026-01",
    "wargaming",
    "application"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "development"
   ],
   [
    "2026-01",
@@ -40353,6 +41598,51 @@
    "2026-01",
    "wargaming",
    "evaluation"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "method"
   ],
   [
    "2026-01",
@@ -40393,6 +41683,16 @@
    "2026-01",
    "wargaming",
    "review"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "systems"
   ],
   [
    "2026-01",
@@ -40440,6 +41740,86 @@
    "theory"
   ],
   [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-02",
    "autonomous-decision-making",
    "application"
@@ -42728,61 +44108,111 @@
    "2026-02",
    "sim-to-real",
    "mechanism"
+  ],
+  [
+   "2026-02",
+   "sim-to-real",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "sim-to-real",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "sim-to-real",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "sim-to-real",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "sim-to-real",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-02",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-02",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-02",
+   "wargaming",
+   "application"
+  ],
+  [
+   "2026-02",
+   "wargaming",
+   "application"
   ],
   [
    "2026-02",
-   "sim-to-real",
-   "systems"
+   "wargaming",
+   "application"
   ],
   [
    "2026-02",
-   "sim-to-real",
-   "systems"
+   "wargaming",
+   "method"
   ],
   [
    "2026-02",
-   "sim-to-real",
-   "theory"
+   "wargaming",
+   "method"
   ],
   [
    "2026-02",
-   "sim-to-real",
-   "theory"
+   "wargaming",
+   "method"
   ],
   [
    "2026-02",
-   "sim-to-real",
-   "theory"
+   "wargaming",
+   "method"
   ],
   [
    "2026-02",
    "wargaming",
-   "application"
+   "method"
   ],
   [
    "2026-02",
    "wargaming",
-   "application"
+   "method"
   ],
   [
    "2026-02",
    "wargaming",
-   "application"
+   "review"
   ],
   [
    "2026-02",
    "wargaming",
-   "application"
+   "theory"
   ],
   [
    "2026-02",
    "wargaming",
-   "application"
+   "theory"
   ],
   [
    "2026-02",
    "wargaming",
-   "review"
+   "theory"
   ],
   [
    "2026-03",
@@ -45508,6 +46938,21 @@
    "2026-03",
    "wargaming",
    "application"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "development"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "method"
   ],
   [
    "2026-03",
@@ -45517,9 +46962,39 @@
   [
    "2026-03",
    "wargaming",
+   "survey"
+  ],
+  [
+   "2026-03",
+   "wargaming",
    "systems"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "wargaming",
+   "theory"
   ],
   [
+   "2026-03",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-04",
    "autonomous-decision-making",
    "application"
@@ -47863,6 +49338,11 @@
    "2026-04",
    "sim-to-real",
    "theory"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "application"
   ],
   [
    "2026-04",
@@ -47958,11 +49438,41 @@
    "2026-04",
    "wargaming",
    "development"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "method"
   ],
   [
    "2026-04",
    "wargaming",
    "review"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "theory"
   ],
   [
    "2026-04",
@@ -47985,6 +49495,21 @@
    "theory"
   ],
   [
+   "2026-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-05",
    "autonomous-decision-making",
    "application"
@@ -52098,11 +53623,46 @@
    "2026-05",
    "wargaming",
    "application"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "evaluation"
   ],
   [
    "2026-05",
    "wargaming",
    "evaluation"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "method"
   ],
   [
    "2026-05",
@@ -52128,6 +53688,11 @@
    "2026-05",
    "wargaming",
    "review"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "systems"
   ],
   [
    "2026-05",
@@ -52138,6 +53703,31 @@
    "2026-05",
    "wargaming",
    "systems"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "theory"
   ],
   [
    "2026-05",
@@ -52145,6 +53735,21 @@
    "theory"
   ],
   [
+   "2026-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-06",
    "autonomous-decision-making",
    "application"
@@ -55583,11 +57188,36 @@
    "2026-06",
    "wargaming",
    "development"
+  ],
+  [
+   "2026-06",
+   "wargaming",
+   "method"
   ],
   [
    "2026-06",
    "wargaming",
    "review"
+  ],
+  [
+   "2026-06",
+   "wargaming",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "wargaming",
+   "theory"
   ],
   [
    "2026-06",
@@ -55595,6 +57225,11 @@
    "theory"
   ],
   [
+   "2026-06",
+   "wargaming",
+   "theory"
+  ],
+  [
    "2026-07",
    "autonomous-decision-making",
    "application"
@@ -58273,6 +59908,11 @@
    "2026-07",
    "wargaming",
    "systems"
+  ],
+  [
+   "2026-07",
+   "wargaming",
+   "theory"
   ],
   [
    "2026-07",
@@ -59163,6 +60803,21 @@
    "2026-08",
    "wargaming",
    "application"
+  ],
+  [
+   "2026-08",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "wargaming",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "wargaming",
+   "theory"
   ],
   [
    "2026-08",
@@ -59178,15 +60833,15 @@
  "venues": [
   {
    "name": "arXiv (Cornell University)",
-   "papers": 108
+   "papers": 114
   },
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 62
+   "papers": 74
   },
   {
    "name": "IEEE Transactions on Vehicular Technology",
-   "papers": 61
+   "papers": 62
   },
   {
    "name": "IEEE Transactions on Intelligent Transportation Systems",
@@ -59194,7 +60849,11 @@
   },
   {
    "name": "IEEE Access",
-   "papers": 56
+   "papers": 57
+  },
+  {
+   "name": "Lecture notes in computer science",
+   "papers": 47
   },
   {
    "name": "IEEE Internet of Things Journal",
@@ -59205,10 +60864,6 @@
    "papers": 41
   },
   {
-   "name": "Lecture notes in computer science",
-   "papers": 38
-  },
-  {
    "name": "Expert Systems with Applications",
    "papers": 37
   },
@@ -59217,131 +60872,131 @@
    "papers": 35
   },
   {
+   "name": "Military Operations Research",
+   "papers": 33
+  },
+  {
    "name": "IEEE Transactions on Neural Networks and Learning Systems",
    "papers": 32
   },
   {
    "name": "Knowledge-Based Systems",
-   "papers": 31
+   "papers": 32
   },
   {
    "name": "Drones",
+   "papers": 29
+  },
+  {
+   "name": "HAL (Le Centre pour la Communication Scientifique Directe)",
    "papers": 28
-  },
-  {
-   "name": "IEEE Transactions on Mobile Computing",
-   "papers": 26
-  },
-  {
-   "name": "Scientific Reports",
-   "papers": 26
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "benchmark",
-   "recent": 1234,
-   "total": 1625,
-   "burst_score": 1.51,
-   "recent_share": 0.209
+   "recent": 1237,
+   "total": 1632,
+   "burst_score": 1.52,
+   "recent_share": 0.2054
   },
   {
    "keyword": "framework",
-   "recent": 2921,
-   "total": 4222,
+   "recent": 2957,
+   "total": 4287,
    "burst_score": 1.38,
-   "recent_share": 0.4948
+   "recent_share": 0.491
   },
   {
    "keyword": "evaluation",
-   "recent": 1009,
-   "total": 1473,
-   "burst_score": 1.36,
-   "recent_share": 0.1709
+   "recent": 1020,
+   "total": 1495,
+   "burst_score": 1.37,
+   "recent_share": 0.1694
   },
   {
    "keyword": "theory",
-   "recent": 268,
-   "total": 437,
+   "recent": 279,
+   "total": 458,
    "burst_score": 1.22,
-   "recent_share": 0.0454
-  },
-  {
-   "keyword": "simulation",
-   "recent": 1002,
-   "total": 1660,
-   "burst_score": 1.2,
-   "recent_share": 0.1697
+   "recent_share": 0.0463
   },
   {
    "keyword": "modeling",
-   "recent": 540,
-   "total": 893,
+   "recent": 560,
+   "total": 929,
+   "burst_score": 1.21,
+   "recent_share": 0.093
+  },
+  {
+   "keyword": "simulation",
+   "recent": 1055,
+   "total": 1761,
    "burst_score": 1.2,
-   "recent_share": 0.0915
+   "recent_share": 0.1752
   },
   {
    "keyword": "neural",
-   "recent": 482,
-   "total": 812,
-   "burst_score": 1.18,
-   "recent_share": 0.0817
+   "recent": 487,
+   "total": 822,
+   "burst_score": 1.19,
+   "recent_share": 0.0809
   },
   {
    "keyword": "agent",
-   "recent": 2248,
-   "total": 3814,
-   "burst_score": 1.17,
-   "recent_share": 0.3808
+   "recent": 2262,
+   "total": 3854,
+   "burst_score": 1.18,
+   "recent_share": 0.3756
   },
   {
    "keyword": "control",
-   "recent": 1693,
-   "total": 2969,
+   "recent": 1703,
+   "total": 2994,
    "burst_score": 1.14,
-   "recent_share": 0.2868
+   "recent_share": 0.2827
   },
   {
    "keyword": "multi-agent",
-   "recent": 949,
-   "total": 1719,
-   "burst_score": 1.1,
-   "recent_share": 0.1608
-  },
-  {
-   "keyword": "management",
-   "recent": 301,
-   "total": 561,
-   "burst_score": 1.07,
-   "recent_share": 0.051
+   "recent": 951,
+   "total": 1725,
+   "burst_score": 1.11,
+   "recent_share": 0.1579
   },
   {
    "keyword": "network",
-   "recent": 953,
-   "total": 1816,
-   "burst_score": 1.04,
-   "recent_share": 0.1614
+   "recent": 968,
+   "total": 1846,
+   "burst_score": 1.05,
+   "recent_share": 0.1607
+  },
+  {
+   "keyword": "management",
+   "recent": 308,
+   "total": 588,
+   "burst_score": 1.05,
+   "recent_share": 0.0511
   },
   {
    "keyword": "learning",
-   "recent": 3935,
-   "total": 7641,
+   "recent": 3963,
+   "total": 7705,
    "burst_score": 1.03,
-   "recent_share": 0.6666
+   "recent_share": 0.658
   },
   {
    "keyword": "reinforcement",
-   "recent": 3047,
-   "total": 5977,
-   "burst_score": 1.01,
-   "recent_share": 0.5162
+   "recent": 3054,
+   "total": 5997,
+   "burst_score": 1.02,
+   "recent_share": 0.5071
   },
   {
    "keyword": "review",
-   "recent": 267,
-   "total": 530,
-   "burst_score": 1.0,
-   "recent_share": 0.0452
+   "recent": 277,
+   "total": 546,
+   "burst_score": 1.02,
+   "recent_share": 0.046
   }
  ]
 }

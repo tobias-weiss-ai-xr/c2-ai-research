@@ -160464,21 +160464,6 @@ papers:
   - Wei Wang
   doi: 10.1109/iccc62609.2024.10942113
   venue: 2024 10th International Conference on Computer and Communications (ICCC)
-- title: Reinforcement Learning in Cyber Wargaming Defense
-  date: 2023-12
-  url: https://doi.org/10.37266/iser.2023v11i1-2.pp60-66
-  category: wargaming
-  subcategory: method
-  authors:
-  - D’Andre Tobias
-  - Joseph Chedzoy
-  - Joseph Miller
-  abstract: In recent decades the necessity for cyber security has grown for both
-    private companies as well as government agencies. This growth is the result of
-    increasing ability for organizations to mount cyber-attacks. As a response, organizations
-    have been developing cyber defense artificial intelligence (A
-  doi: 10.37266/iser.2023v11i1-2.pp60-66
-  venue: Industrial and Systems Engineering Review
 - title: Design of Intelligent Decision Agent for Air-Ground Cooperative Air Defense
     Wargaming Based on Deep Reinforcement Learning
   date: 2026-05
@@ -189804,17 +189789,6 @@ papers:
     over the last decade. Modern transportation is expected to benefit greatly from
     a wise decision-making framework of autonomous ve
   venue: ''
-- title: Leveraging ChatGPT for Real-Time Decision-Making in Autonomous Systems
-  date: 2023-01
-  url: https://doi.org/10.56614/eiprmj.v12i2.407
-  category: autonomous-decision-making
-  subcategory: application
-  authors:
-  - Gurjeet Singh
-  abstract: The advent of autonomous systems has revolutionized industries ranging
-    from transportation to manufacturing. One of the key challenges in autonomous
-    systems is real-time decision-making, which require
-  venue: Eduzone International peer reviewed/refereed academic multidisciplinary journal
 - title: 'Evolutionary Decision-Making and Planning for Autonomous Driving: A Hybrid
     Augmented Intelligence Framework'
   date: 2024-01
@@ -196093,17 +196067,6 @@ papers:
     the broad bibliography of writing about wargames, wargame design, and board game
     design, as they all intersect with board wargame '
   venue: ''
-- title: '“A STRANGE GAME”: WARGAMES AND FANTASY'
-  date: 2023-01
-  url: https://dissertations.umi.com/ku:19281
-  category: wargaming
-  subcategory: theory
-  authors:
-  - Edward Lytle Gidley
-  abstract: 'This thesis uses Lacanian psychoanalysis to interrogate nuclear anxieties
-    and fantasies of control depicted in two sites: the 1983 film War Games, and the
-    United States military’s official reactions t'
-  venue: KU ScholarWorks (The University of Kansas)
 - title: Code Switching in Tabletop Wargaming
   date: 2022-01
   url: https://doi.org/10.1007/978-3-030-96095-7_7
@@ -202208,18 +202171,6 @@ papers:
     engineering, evaluation methodology, and reinforcement-learning safety each produce
     substantial work, but the resulting artifa
   venue: arXiv (Cornell University)
-- title: PYTHON'S PIVOTAL ROLE IN AI AND DATA SCIENCE
-  date: 2025-03
-  url: https://doi.org/10.34218/ijitmis_16_02_105
-  category: human-ai-teaming
-  subcategory: review
-  authors:
-  - Srinivas Sriram Mantrala
-  abstract: Python has established itself as the dominant programming language in
-    Artificial Intelligence (AI) and Data Science, fundamentally transforming how
-    researchers, developers, and organizations address i
-  venue: INTERNATIONAL JOURNAL OF INFORMATION TECHNOLOGY AND MANAGEMENT INFORMATION
-    SYSTEMS
 - title: AI agents
   date: 2025-11
   url: https://doi.org/10.48448/zat6-pn10
@@ -253066,20 +253017,6 @@ papers:
     operational planning by allowing players to explore the extent of operational
     risk that climate change could impose on the joi
   venue: RAND Corporation eBooks
-- title: 'MOP-N: A Hybrid AI Model for Automated Deployment of Guns in Dynamic Wargaming
-    Scenario'
-  date: 2025-03
-  url: https://doi.org/10.14429/20246
-  category: wargaming
-  subcategory: application
-  authors:
-  - Shweta Taneja
-  - Sourabh Jaiswal
-  - Sanjay Bisht
-  abstract: Wargames play a critical role in training of military officers/commanders
-    for operations planning and execution. A typical training wargame may involve
-    a large number of players as part of more than o
-  venue: Defence Science Journal
 - title: 'Témoignage : Le nouvel élan du wargaming en France'
   date: 2024-12
   url: https://doi.org/10.3917/strat.131.0123
@@ -259650,31 +259587,6 @@ papers:
     Air Force bases in PADD 1.
   venue: 'Calhoun: The Naval Postgraduate School Institutional Archive (Naval Postgraduate
     School)'
-- title: 'Strategic Competition and Crisis Wargame: Integrating a Dynamic Reputation
-    Model to Enhance the Strategic Competition and Crisis Wargame for the Center for
-    Army Analysis'
-  date: 2023-12
-  url: https://doi.org/10.37266/iser.2023v11i1-2.pp48-53
-  category: wargaming
-  subcategory: theory
-  authors:
-  - M. B. Bell
-  - Luke Braun
-  - Thomas Lake
-  abstract: 'The Center for Army Analysis (CAA) developed the Strategic Competition
-    and Crisis (SC2) Wargame to address shortcomings in the U.S. Army’s strategic
-    planning during competition and crisis. This capstone enhanced the SC2 Wargame
-    over the course of two years. Last year, the capstone developed a dynamic, perspective-based
-    reputation model designed for integration into SC2. This year, the capstone integrated
-    the model to produce a more efficient, objective-focused wargame that optimizes
-    strategic learning for senior military leaders. Building off the work from the
-    previous year, this capstone combined tools from the Systems Decision Process
-    with the theoretical framework within the Defense and Strategic Studies Department
-    to create and implement an improved product. Analysis of the original framework
-    of the game uncovered three improvement areas that address each component of gameplay:
-    strategy-focused player guidebooks, a realistic negotiations-pairing process,
-    and real-time feedback through a Player Dashboard.'
-  venue: Industrial and Systems Engineering Review
 - title: 'The Future of Space Wargaming: Conflicting or Reasonable With What’s Ahead?'
   date: 2024-07
   url: https://dx.doi.org/10.18278/gsis.4.4.2
